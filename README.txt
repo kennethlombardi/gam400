@@ -1,1 +1,1 @@
-GAM400 DigiPen Project using Moai
+GAM400 DigiPen project using Moai
