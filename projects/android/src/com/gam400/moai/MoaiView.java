@@ -194,14 +194,12 @@ public class MoaiView extends GLSurfaceView {
 		private boolean mRunScriptsExecuted = false;
 
 	    //----------------------------------------------------------------//
-		@Override
 		public void onDrawFrame ( GL10 gl ) {
 
 			Moai.render ();
 		}
 
 	    //----------------------------------------------------------------//
-		@Override
 		public void onSurfaceChanged ( GL10 gl, int width, int height ) {
 
 			MoaiLog.i ( "MoaiRenderer onSurfaceChanged: surface CHANGED" );
@@ -211,7 +209,6 @@ public class MoaiView extends GLSurfaceView {
 		}
         
 	    //----------------------------------------------------------------//
-		@Override
 		public void onSurfaceCreated ( GL10 gl, EGLConfig config ) {
 
 			MoaiLog.i ( "MoaiRenderer onSurfaceCreated: surface CREATED" );
