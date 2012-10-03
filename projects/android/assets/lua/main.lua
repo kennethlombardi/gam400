@@ -3,9 +3,38 @@ screenWidth = MOAIEnvironment.horizontalResolution screenHeight = MOAIEnvironme
 --require "ObjectFactory"
 --a = require "ObjectFactory"
 --a.addObject( nil );
--- debug lines--MOAIDebugLines.setStyle(MOAIDebugLines.PROP_MODEL_BOUNDS) -- screen stuff initializingif screenWidth == nil then screenWidth = 1280 endif screenHeight == nil then screenHeight = 720 endassert (not (screenWidth == nil))
+-- debug lines--MOAIDebugLines.showStyle(false)--(MOAIDebugLines.PROP_MODEL_BOUNDS) -- screen stuff initializingif screenWidth == nil then screenWidth = 1280 endif screenHeight == nil then screenHeight = 720 endassert (not (screenWidth == nil))
 MOAISim.openWindow("WAT",screenWidth,screenHeight)
-viewport = MOAIViewport.new()viewport:setSize(screenWidth,screenHeight)viewport:setScale(screenWidth,screenHeight)layer = MOAILayer2D.new()layer:setViewport(viewport)MOAIRenderMgr.pushRenderPass(layer)--font junklocal font = MOAIFont.new()font:loadFromTTF ( "arial-rounded.ttf", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!", 12, 163 )local textbox = MOAITextBox.new()textbox:setFont(font)textbox:setTextSize(24)textbox:setRect(-200, -200, 200, 200)textbox:setLoc(0,100)textbox:setAlignment(MOAITextBox.CENTER_JUSTIFY)textbox:setYFlip(true)layer:insertProp(textbox)fpscounter = MOAITextBox.new()fpscounter:setFont(font)fpscounter:setTextSize(24)fpscounter:setRect(-50, -50, 50, 50)fpscounter:setLoc(-550, 300)fpscounter:setAlignment(MOAITextBox.LEFT_JUSTIFY)fpscounter:setYFlip(true)layer:insertProp(fpscounter)ballcounter = MOAITextBox.new()ballcounter:setFont(font)ballcounter:setTextSize(24)ballcounter:setRect(-50, -50, 50, 50)ballcounter:setLoc(550, 300)ballcounter:setAlignment(MOAITextBox.LEFT_JUSTIFY)ballcounter:setYFlip(true)layer:insertProp(ballcounter)world = MOAIBox2DWorld.new()world:setGravity(0,-10)world:setUnitsToMeters(1/100)world:setDebugDrawFlags(MOAIBox2DWorld.DebugDrawShapes)world:start()layer:setBox2DWorld(world)ballc = 0--circlefunction MakeCircle(x, y)	dynbody = world:addBody (MOAIBox2DBody.DYNAMIC)	fixture = dynbody:addCircle(0, 0, 5)	dynbody:setTransform(x,y)	fixture:setFriction(0)	fixture:setRestitution(.01)	dynbody:resetMassData()	ballc = ballc + 1--dynbody:applyAngularImpulse(2)	return bodyend--edgesscreen = {	--bottom	-600, -300,	 600, -300,	--right	 600, -300,	 600,  300,	--top	 600,  300,	-600,  300,	--left	-600,  300,	-600, -300,		--goal	-400, 30,	-400, 80,	-400, 80,	-350, 80,	-400, 30,	-350, 30,		300, 300,	300, 250,		300, 30,	350, 30,	}staticbody= world:addBody(MOAIBox2DBody.STATIC)fixture2 = staticbody:addEdges(screen)--image junkslideNum = 1slides = {	"EngineProofWho.png",	"EngineProofWho1.png",	"EngineProofWho2.png",	"EngineProofWho3.png",	"EngineProofWho4.png",	"EngineProofWho5.png",
+viewport = MOAIViewport.new()viewport:setSize(screenWidth,screenHeight)viewport:setScale(screenWidth,screenHeight)layer = MOAILayer2D.new()layer:setViewport(viewport)MOAIRenderMgr.pushRenderPass(layer)--font junklocal font = MOAIFont.new()font:loadFromTTF ( "arial-rounded.ttf", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!", 12, 163 )local textbox = MOAITextBox.new()textbox:setFont(font)textbox:setTextSize(24)textbox:setRect(-200, -200, 200, 200)textbox:setLoc(0,100)textbox:setAlignment(MOAITextBox.CENTER_JUSTIFY)textbox:setYFlip(true)layer:insertProp(textbox)fpscounter = MOAITextBox.new()fpscounter:setFont(font)fpscounter:setTextSize(24)fpscounter:setRect(-50, -50, 50, 50)fpscounter:setLoc(-550, 300)fpscounter:setAlignment(MOAITextBox.LEFT_JUSTIFY)fpscounter:setYFlip(true)layer:insertProp(fpscounter)ballcounter = MOAITextBox.new()ballcounter:setFont(font)ballcounter:setTextSize(24)ballcounter:setRect(-50, -50, 50, 50)ballcounter:setLoc(550, 300)ballcounter:setAlignment(MOAITextBox.LEFT_JUSTIFY)ballcounter:setYFlip(true)layer:insertProp(ballcounter)world = MOAIBox2DWorld.new()world:setGravity(0,-10)world:setUnitsToMeters(1/100)
+world:setDebugDrawEnabled(false)--world:setDebugDrawFlags(MOAIBox2DWorld.DebugDrawShapes)world:start()layer:setBox2DWorld(world)ballc = 0--circle
+function MakeCircle(x, y)	dynbody = world:addBody (MOAIBox2DBody.DYNAMIC)	fixture = dynbody:addCircle(0, 0, 10)	dynbody:setTransform(x,y)	fixture:setFriction(0)	fixture:setRestitution(.01)	dynbody:resetMassData()	ballc = ballc + 1
+  
+  --texture = MOAIGfxQuad2D.new ()
+  --texture:setTexture ( "water.png" )
+  --texture:setRect ( -20, -20, 20, 20 )
+  texture = MOAITileDeck2D.new()
+  texture:setTexture ("waters.png")
+  texture:setSize (2, 2)
+  texture:setRect(-20, -20, 20, 20)
+  
+  sprite = MOAIProp2D.new ()
+  sprite:setDeck ( texture )
+  sprite:setParent ( dynbody )
+  layer:insertProp ( sprite )
+  
+  curve = MOAIAnimCurve.new()
+  curve:reserveKeys ( 4 )
+  curve:setKey ( 1, 0.00, 1, MOAIEaseType.FLAT )
+  curve:setKey ( 2, 0.25, 2, MOAIEaseType.FLAT )
+  curve:setKey ( 3, 0.50, 3, MOAIEaseType.FLAT )
+  curve:setKey ( 4, 0.75, 4, MOAIEaseType.FLAT )
+  --curve:setKey ( 5, 1.00, 1, MOAIEaseType.FLAT )
+ 
+  anim = MOAIAnim:new ()
+  anim:reserveLinks ( 1 )
+  anim:setLink ( 1, curve, sprite, MOAIProp2D.ATTR_INDEX )
+  anim:setMode ( MOAITimer.LOOP )
+  anim:start ()--dynbody:applyAngularImpulse(2)	return bodyend--edgesscreen = {	--bottom	-640, -360,	 640, -360,	--right	 640, -360,	 640,  360,	--top	 640,  360,	-640,  360,	--left	-640,  360,	-640, -360,		--goal	-400, 30,	-400, 80,	-400, 80,	-350, 80,	-400, 30,	-350, 30,		300, 300,	300, 250,		300, 30,	350, 30,	}staticbody= world:addBody(MOAIBox2DBody.STATIC)fixture2 = staticbody:addEdges(screen)--image junkslideNum = 1slides = {	"EngineProofWho.png",	"EngineProofWho1.png",	"EngineProofWho2.png",	"EngineProofWho3.png",	"EngineProofWho4.png",	"EngineProofWho5.png",
   "EngineProofWho6.png",
 	"EngineProofWho7.png",
 	"EngineProofWho8.png",
@@ -41,6 +70,8 @@ screenWidth = MOAIEnvironment.horizontalResolution screenHeight = MOAIEnvironme
       end						lastX, lastY = normalize(lastX, lastY)			gravScale = 100						
       
       if not MOAIInputMgr.device.pointer then	        world:setGravity (lastY * gravScale, -lastX*gravScale)				
+        textbox:setString("Gravity\n" .. "X " .. lastY*10 .. "\nY " .. lastX*10 )
       else
         world:setGravity(lastX * gravScale, lastY*gravScale)
-      end			--dynbody:setAwake(true)						--RotateArrow(currAngle)									textbox:setString("Gravity\n" .. "X " .. lastY*10 .. "\nY " .. lastX*10 )			fpscounter:setString("FPS: " .. MOAISim.getPerformance())			ballcounter:setString("NumBalls: " .. ballc)					end					end)
+        textbox:setString("Gravity\n" .. "X " .. lastX*10 .. "\nY " .. lastY*10 )
+      end			--dynbody:setAwake(true)						--RotateArrow(currAngle)												fpscounter:setString("FPS: " .. MOAISim.getPerformance())			ballcounter:setString("NumBalls: " .. ballc)					end					end)
