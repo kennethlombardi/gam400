@@ -41,4 +41,6 @@ writing to file
 \
 "3"asdf\
 \
+"3"asdf\
+\
 "

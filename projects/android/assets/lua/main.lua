@@ -1,9 +1,10 @@
 screenWidth = MOAIEnvironment.horizontalResolution screenHeight = MOAIEnvironment.verticalResolutionprint("Starting up on:" .. MOAIEnvironment.osBrand  .. " version:" .. MOAIEnvironment.osVersion)
  
---require "ObjectFactory"
---a = require "ObjectFactory"
---a.addObject( nil );
-require "BoxMesh"-- debug lines--MOAIDebugLines.showStyle(false)--(MOAIDebugLines.PROP_MODEL_BOUNDS) -- screen stuff initializingif screenWidth == nil then screenWidth = 1280 endif screenHeight == nil then screenHeight = 720 endassert (not (screenWidth == nil))
+require "BoxMesh"require "Test"
+
+--test
+testAll();
+-- screen stuff initializingif screenWidth == nil then screenWidth = 1280 endif screenHeight == nil then screenHeight = 720 endassert (not (screenWidth == nil))
 MOAISim.openWindow("WAT",screenWidth,screenHeight)
 viewport = MOAIViewport.new()viewport:setSize(screenWidth,screenHeight)viewport:setScale(screenWidth,screenHeight)layer = MOAILayer.new()layer:setViewport(viewport)MOAIRenderMgr.pushRenderPass(layer)
 camera = MOAICamera.new()
