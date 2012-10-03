@@ -61,14 +61,20 @@ lidTop = {
 --fixture3 = staticbody:addEdges(lidTop)
 --fixture3.userdata = "lid"
 --fixture3:setFilter(0x03)
---fixture3:setCollisionHandler(onCollide, MOAIBox2DArbiter.BEGIN + MOAIBox2DArbiter.END, 0x01)--image junkslideNum = 1slides = {	"EngineProofWho.png",	"EngineProofWho1.png",	"EngineProofWho2.png",	"EngineProofWho3.png",	"EngineProofWho4.png",	"EngineProofWho5.png",
+--fixture3:setCollisionHandler(onCollide, MOAIBox2DArbiter.BEGIN + MOAIBox2DArbiter.END, 0x01)--image junkslideNum = 1slides = {	"EngineProofWho1.png",	"EngineProofWho2.png",	"EngineProofWho3.png",	"EngineProofWho4.png",	"EngineProofWho5.png",
   "EngineProofWho6.png",
 	"EngineProofWho7.png",
 	"EngineProofWho8.png",
 	"EngineProofWho9.png",
 	"EngineProofWho10.png",
 	"EngineProofWho11.png",
-  "EngineProofWho12.png"}	image = MOAIGfxQuad2D.new()image:setTexture("EngineProofWho.png")image:setRect(-640,-360,640,360)function ChangeSlide()	image:setTexture(slides[slideNum])endprop = MOAIProp2D.new()prop:setDeck(image)layer:insertProp(prop)slideOver = falsegameOver = falselastX = 0lastY = -10function angle ( x2, y2 )	return math.atan2 ( y2, x2) * ( 180 / math.pi )endfunction RotateArrow(ang)		prop:setRot(ang)endfunction normalize(x, y)	mag = math.sqrt(x*x+y*y)	return x/mag, y/magendmainThread = MOAIThread.new()mainThread:run(	function()						while not slideshowOver do			coroutine.yield()							if MOAIInputMgr.device.pointer then							if MOAIInputMgr.device.mouseLeft:down() then					wx,wy = layer:wndToWorld(MOAIInputMgr.device.pointer:getLoc())					if wx < 0 then						if slideNum > 1 then							slideNum = slideNum - 1						end					else						if slideNum < table.getn(slides) then							slideNum = slideNum + 1						else							slideshowOver = true						end					end					ChangeSlide()				end							else --touch and gyro				MOAIInputMgr.device.touch:setCallback (										function ( eventType, idx, x, y, tapCount )												if eventType == MOAITouchSensor.TOUCH_DOWN then							wx,wy = (layer:wndToWorld(x,y))							if wx < 0 then								if slideNum > 1 then									slideNum = slideNum - 1								end							else								if slideNum < table.getn(slides) then									slideNum = slideNum + 1								else									slideshowOver = true								end							end							ChangeSlide()						end					end				)						end		end		layer:removeProp(prop)		
+  "EngineProofWho12.png",
+  "EngineProofWho13.png",
+	"EngineProofWho14.png",
+	"EngineProofWho15.png",
+	"EngineProofWho16.png",
+	"EngineProofWho17.png",
+	"EngineProofWho18.png"}	image = MOAIGfxQuad2D.new()image:setTexture("EngineProofWho1.png")image:setRect(-640,-360,640,360)function ChangeSlide()	image:setTexture(slides[slideNum])endprop = MOAIProp2D.new()prop:setDeck(image)layer:insertProp(prop)slideOver = falsegameOver = falselastX = 0lastY = -10function angle ( x2, y2 )	return math.atan2 ( y2, x2) * ( 180 / math.pi )endfunction RotateArrow(ang)		prop:setRot(ang)endfunction normalize(x, y)	mag = math.sqrt(x*x+y*y)	return x/mag, y/magendmainThread = MOAIThread.new()mainThread:run(	function()						while not slideshowOver do			coroutine.yield()							if MOAIInputMgr.device.pointer then							if MOAIInputMgr.device.mouseLeft:down() then					wx,wy = layer:wndToWorld(MOAIInputMgr.device.pointer:getLoc())					if wx < 0 then						if slideNum > 1 then							slideNum = slideNum - 1						end					else						if slideNum < table.getn(slides) then							slideNum = slideNum + 1						else							slideshowOver = true						end					end					ChangeSlide()				end							else --touch and gyro				MOAIInputMgr.device.touch:setCallback (										function ( eventType, idx, x, y, tapCount )												if eventType == MOAITouchSensor.TOUCH_DOWN then							wx,wy = (layer:wndToWorld(x,y))							if wx < 0 then								if slideNum > 1 then									slideNum = slideNum - 1								end							else								if slideNum < table.getn(slides) then									slideNum = slideNum + 1								else									slideshowOver = true								end							end							ChangeSlide()						end					end				)						end		end		layer:removeProp(prop)		
     local mesh = makeCube(128, 'goal.png')
     
     prop = MOAIProp.new()

@@ -16,8 +16,8 @@ end
 
 function testSimpleIO()
 	filename = "objects.txt";
-	writeObjectToFile( 3, filename );
-	writeObjectToFile( "asdf\n\n", filename );
+	--writeObjectToFile( 3, filename );
+	--writeObjectToFile( "asdf\n\n", filename );
 end
 
 function testAll()
