@@ -100,3 +100,23 @@ function makeCube ( size, texture )
 	size = size * 0.5
 	return makeBoxMesh ( -size, -size, -size, size, size, size, texture )
 end
+
+
+function onCollide(event, fixtureA, fixtureB, arbiter)
+  if fixtureA.getUserData() == "lid" then
+    lidBody = fixtureA.getBody()
+    waterBody = fixtureB.getBody()
+  else
+    lidBody = fixtureB.getBody()
+    waterBody = fixtureA.getBody()
+  end
+  
+  lidX, lidY = lidBody.getLocalCenter()
+  waterX, waterY = waterBody.getLocalCenter()
+  
+  if (lidY > waterY) then
+    return false
+  else
+    return true
+  end	
+end
