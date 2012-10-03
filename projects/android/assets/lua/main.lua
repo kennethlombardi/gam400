@@ -30,7 +30,7 @@ world:setDebugDrawEnabled(true)world:setDebugDrawFlags(MOAIBox2DWorld.DebugDraw
   texture = MOAITileDeck2D.new()
   texture:setTexture ("waters.png")
   texture:setSize (2, 2)
-  texture:setRect(-20, -20, 20, 20)
+  texture:setRect(-40, -40, 40, 40)
   
   sprite = MOAIProp2D.new ()
   sprite:setDeck ( texture )
@@ -73,12 +73,12 @@ lidTop = {
     prop = MOAIProp.new()
     prop:setDeck(mesh)
     prop:setLoc(-450, -280)
-    prop:moveRot(0, 1080, 0, 60)
+    prop:moveRot(0, 2160, 0, 120)
     prop:setShader ( MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
     prop:setCullMode ( MOAIProp.CULL_BACK )
     layer:insertProp ( prop )
     		while not gameOver do			coroutine.yield()
-      if (ballc < 50) then      
+      if (ballc < 100) then      
         MakeCircle(0, 0)
       end
       
