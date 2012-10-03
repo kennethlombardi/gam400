@@ -1,8 +1,14 @@
 screenWidth = MOAIEnvironment.horizontalResolution screenHeight = MOAIEnvironment.verticalResolutionprint("Starting up on:" .. MOAIEnvironment.osBrand  .. " version:" .. MOAIEnvironment.osVersion)
  
---require "ObjectFactory"
---a = require "ObjectFactory"
---a.addObject( nil );
+--require
+factory = require "ObjectFactory"
+require "Persistence"
+require "Test"
+
+--test
+testAll();
+
+
 -- debug lines--MOAIDebugLines.setStyle(MOAIDebugLines.PROP_MODEL_BOUNDS) -- screen stuff initializingif screenWidth == nil then screenWidth = 1280 endif screenHeight == nil then screenHeight = 720 endassert (not (screenWidth == nil))
 MOAISim.openWindow("WAT",screenWidth,screenHeight)
 viewport = MOAIViewport.new()viewport:setSize(screenWidth,screenHeight)viewport:setScale(screenWidth,screenHeight)layer = MOAILayer2D.new()layer:setViewport(viewport)MOAIRenderMgr.pushRenderPass(layer)--font junklocal font = MOAIFont.new()font:loadFromTTF ( "arial-rounded.ttf", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!", 12, 163 )local textbox = MOAITextBox.new()textbox:setFont(font)textbox:setTextSize(24)textbox:setRect(-200, -200, 200, 200)textbox:setLoc(0,100)textbox:setAlignment(MOAITextBox.CENTER_JUSTIFY)textbox:setYFlip(true)layer:insertProp(textbox)fpscounter = MOAITextBox.new()fpscounter:setFont(font)fpscounter:setTextSize(24)fpscounter:setRect(-50, -50, 50, 50)fpscounter:setLoc(-550, 300)fpscounter:setAlignment(MOAITextBox.LEFT_JUSTIFY)fpscounter:setYFlip(true)layer:insertProp(fpscounter)ballcounter = MOAITextBox.new()ballcounter:setFont(font)ballcounter:setTextSize(24)ballcounter:setRect(-50, -50, 50, 50)ballcounter:setLoc(550, 300)ballcounter:setAlignment(MOAITextBox.LEFT_JUSTIFY)ballcounter:setYFlip(true)layer:insertProp(ballcounter)world = MOAIBox2DWorld.new()world:setGravity(0,-10)world:setUnitsToMeters(1/100)world:setDebugDrawFlags(MOAIBox2DWorld.DebugDrawShapes)world:start()layer:setBox2DWorld(world)ballc = 0--circlefunction MakeCircle(x, y)	dynbody = world:addBody (MOAIBox2DBody.DYNAMIC)	fixture = dynbody:addCircle(0, 0, 5)	dynbody:setTransform(x,y)	fixture:setFriction(0)	fixture:setRestitution(.01)	dynbody:resetMassData()	ballc = ballc + 1--dynbody:applyAngularImpulse(2)	return bodyend--edgesscreen = {	--bottom	-600, -300,	 600, -300,	--right	 600, -300,	 600,  300,	--top	 600,  300,	-600,  300,	--left	-600,  300,	-600, -300,		--goal	-400, 30,	-400, 80,	-400, 80,	-350, 80,	-400, 30,	-350, 30,		300, 300,	300, 250,		300, 30,	350, 30,	}staticbody= world:addBody(MOAIBox2DBody.STATIC)fixture2 = staticbody:addEdges(screen)--image junkslideNum = 1slides = {	"EngineProofWho.png",	"EngineProofWho1.png",	"EngineProofWho2.png",	"EngineProofWho3.png",	"EngineProofWho4.png",	"EngineProofWho5.png",
