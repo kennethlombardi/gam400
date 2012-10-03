@@ -69,10 +69,29 @@ function makeBoxMesh ( xMin, yMin, zMin, xMax, yMax, zMax, texture )
 	vbo:bless ()
 
 	local mesh = MOAIMesh.new ()
+	
+	-- tileText = MOAITileDeck2D.new()
+	-- tileText:setTexture(texture)
+	-- tileText:setSize(2,2)
+	-- tileText:setRect(xMin, yMin, xMax, yMax)
+	
 	mesh:setTexture ( texture )
 	mesh:setVertexBuffer ( vbo )
 	mesh:setPrimType ( MOAIMesh.GL_TRIANGLES )
 	
+	
+	-- curve = MOAIAnimCurve.new()
+	-- curve:reserveKeys(4)
+	-- curve:setKey ( 1, 0.00, 1, MOAIEaseType.FLAT )
+	-- curve:setKey ( 2, 0.25, 2, MOAIEaseType.FLAT )
+	-- curve:setKey ( 3, 0.50, 3, MOAIEaseType.FLAT )
+	-- curve:setKey ( 4, 0.75, 4, MOAIEaseType.FLAT )
+	
+	-- anim = MOAIAnim.new()
+	-- anim:reserveLinks(1)
+	-- anim:setLink(1, curve, mesh, MOAIMesh.ATTR_Index)
+	-- anime:setMode(MOAITimer.LOOP)
+	-- anim:start()
 	return mesh
 end
 
