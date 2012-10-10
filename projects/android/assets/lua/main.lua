@@ -1,6 +1,7 @@
 screenWidth = MOAIEnvironment.horizontalResolution screenHeight = MOAIEnvironment.verticalResolutionprint("Starting up on:" .. MOAIEnvironment.osBrand  .. " version:" .. MOAIEnvironment.osVersion)
  
 require "GameLoop"
+require "TestGameLoop"
 
 -- screen and device size
 if screenWidth == nil then screenWidth = 1280 end
@@ -25,5 +26,10 @@ layer:setCamera(camera);
 MOAISim.pushRenderPass (layer)
 
 -- create and run the game loop thread
+local test = true;
 mainThread = MOAIThread.new();
-mainThread:run(gameLoop);
+if not test then
+  mainThread:run(gameLoop);
+else
+  mainThread:run(testGameLoop);
+end
