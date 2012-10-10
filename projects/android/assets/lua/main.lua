@@ -26,7 +26,7 @@ layer:setCamera(camera);
 MOAISim.pushRenderPass (layer)
 
 -- create and run the game loop thread
-local test = true;
+local test = false;
 mainThread = MOAIThread.new();
 if not test then
   mainThread:run(gameLoop);
