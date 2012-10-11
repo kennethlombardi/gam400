@@ -25,6 +25,9 @@ layer:setCamera(camera);
 -- add layers
 MOAISim.pushRenderPass (layer)
 
+local bg = require "background" --put background in
+bg(layer, screenWidth, screenHeight)
+
 -- create and run the game loop thread
 local test = false;
 mainThread = MOAIThread.new();
