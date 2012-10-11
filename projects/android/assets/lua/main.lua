@@ -1,7 +1,7 @@
 screenWidth = MOAIEnvironment.horizontalResolution screenHeight = MOAIEnvironment.verticalResolutionprint("Starting up on:" .. MOAIEnvironment.osBrand  .. " version:" .. MOAIEnvironment.osVersion)
  
 require "GameLoop"
-require "TestGameLoop"
+local testGameLoop = require "TestGameLoop"
 
 -- screen and device size
 if screenWidth == nil then screenWidth = 1280 end
