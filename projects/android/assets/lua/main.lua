@@ -18,7 +18,7 @@ viewport:setSize (screenWidth, screenHeight)
 local camera = MOAICamera.new()
 camera:setLoc(0,0, camera:getFocalLength(screenWidth))
 
-local layer = MOAILayer2D.new()
+layer = MOAILayer2D.new()
 layer:setViewport (viewport)
 layer:setCamera(camera);
 
@@ -29,7 +29,7 @@ local bg = require "background" --put background in
 bg(layer, screenWidth, screenHeight)
 
 -- create and run the game loop thread
-local test = false;
+local test = true;
 mainThread = MOAIThread.new();
 if not test then
   mainThread:run(gameLoop);
