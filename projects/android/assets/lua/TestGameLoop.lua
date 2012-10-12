@@ -24,16 +24,16 @@ local function moaiMetaBallTest()
   -- create a bunch of metaballs
   local metaballCount = test.metaballCreationCount;
   local successfulMetaballCreation = false;
+  local gfxQuad = MOAIGfxQuad2D.new ()
+  gfxQuad:setTexture ( "moai.png" )
+  gfxQuad:setRect ( -128, -128, 128, 128 )
+  gfxQuad:setUVRect ( 0, 0, 1, 1 )
   for i = 1, metaballCount do
     test.metaballs[i] = MOAIMetaBall.new();
     test.metaballs[i].update = metaBallUpdate;
     test.metaballs[i].index = i;
     
-    -- hook ball up to graphic
-    gfxQuad = MOAIGfxQuad2D.new ()
-    gfxQuad:setTexture ( "moai.png" )
-    gfxQuad:setRect ( -128, -128, 128, 128 )
-    gfxQuad:setUVRect ( 0, 0, 1, 1 )
+    -- hook ball up to graphic    
     test.metaballs[i]:setDeck( gfxQuad );
     test.metaballs[i]:setLoc( math.random(-1080 / 2, 1080 / 2), math.random(-720 / 2, 720 / 2) );
     layer:insertProp ( test.metaballs[i] );
