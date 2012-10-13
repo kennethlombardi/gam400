@@ -12,14 +12,15 @@ local function moaiFooTest()
   MOAIFoo.classHello();
 end
 
-local function metaBallUpdate (dt)
+local function metaBallUpdate (self)
+  --self:setLoc( math.random(-1080 / 2, 1080 / 2), math.random(-720 / 2, 720 / 2) );
 end
 
 local function moaiMetaBallTest()
   local metaBall = MOAIMetaBall.new();
   metaBall:instanceHello();
   MOAIMetaBall.classHello();
-  MOAIMetaBallMgr.singletonHello();
+  --MOAIMetaBallMgr.singletonHello();
   
   -- create a bunch of metaballs
   local metaballCount = test.metaballCreationCount;
@@ -37,7 +38,7 @@ local function moaiMetaBallTest()
     test.metaballs[i]:setDeck( gfxQuad );
     test.metaballs[i]:setLoc( math.random(-1080 / 2, 1080 / 2), math.random(-720 / 2, 720 / 2) );
     layer:insertProp ( test.metaballs[i] );
-    test.metaballs[i]:moveRot ( 360, 1.5 )
+    test.metaballs[i]:moveRot ( 60, 1.5 )
     
     if i == metaballCount then
       successfulMetaballCreation = true;
@@ -93,12 +94,17 @@ local function printAllMoaiExports()
   end
 end
  
-
+local function printAllFunctionsOf(o)
+  for key,value in pairs(getmetatable(o)) do
+    print(key, value);
+  end
+end
 
 local function init()
   moaiFooTest();
   moaiMetaBallTest();
-  printAllMoaiExports();
+  --printAllMoaiExports();
+  --printAllFunctionsOf( MOAIMetaBall.new() );
   
   ---[[ fps counter
   fpscounter = MOAITextBox.new()
@@ -115,7 +121,7 @@ end
 local function update(dt)
     fpscounter:setString("FPS: " .. MOAISim.getPerformance())
     for i = 1, test.metaballCreationCount do
-      test.metaballs[i].update();
+      test.metaballs[i].update(test.metaballs[i]);
     end
 end
 
