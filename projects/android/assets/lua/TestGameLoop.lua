@@ -14,6 +14,7 @@ end
 
 local function metaBallUpdate (self)
   --self:setLoc( math.random(-1080 / 2, 1080 / 2), math.random(-720 / 2, 720 / 2) );
+  --self:moveRot(math.random(0, 360), math.random(0, 360) , math.random(0, 360), math.random(0, 10), MOAIEaseType.LINEAR);
 end
 
 local function moaiMetaBallTest()
@@ -38,7 +39,7 @@ local function moaiMetaBallTest()
     test.metaballs[i]:setDeck( gfxQuad );
     test.metaballs[i]:setLoc( math.random(-1080 / 2, 1080 / 2), math.random(-720 / 2, 720 / 2) );
     layer:insertProp ( test.metaballs[i] );
-    test.metaballs[i]:moveRot ( 60, 1.5 )
+    test.metaballs[i]:moveRot(math.random(0, 360), math.random(0, 360) , math.random(0, 360), math.random(5, 10), MOAIEaseType.LINEAR);
     
     if i == metaballCount then
       successfulMetaballCreation = true;
