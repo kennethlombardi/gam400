@@ -1,6 +1,7 @@
 local test = {};
-test.metaballCreationCount = 100;
+test.metaballCreationCount = 1;
 test.metaballs = {};
+test.time = 0;
 font = MOAIFont.new();
 font:loadFromTTF ( "arial-rounded.ttf", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!", 12, 163 )
 
@@ -121,34 +122,35 @@ local function update(dt)
     for i = 1, test.metaballCreationCount do
       test.metaballs[i].update(test.metaballs[i]);
     end
+    test.time = MOAISim.getElapsedFrames;
 end
 
 local function shaderTest()
-  file = assert ( io.open ( 'shader.vsh', mode ))
+  local file = assert ( io.open ( 'shader.vsh', mode ))
   vsh = file:read ( '*all' )
   file:close ()
 
-  file = assert ( io.open ( 'shader.fsh', mode ))
+  local file = assert ( io.open ( 'shader.fsh', mode ))
   fsh = file:read ( '*all' )
   file:close ()
 
-  gfxQuad = MOAIGfxQuad2D.new ()
+  local gfxQuad = MOAIGfxQuad2D.new ()
   gfxQuad:setTexture ( "moai.png" )
   gfxQuad:setRect ( -64, -64, 64, 64 )
   gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
   -- create metaball to hook shader to
-  metaball = MOAIMetaBall.new();
+  local metaball = MOAIMetaBall.new();
   metaball:setDeck(gfxQuad);
   metaball:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
   layer:insertProp(metaball);
   
-  color = MOAIColor.new ()
+  local color = MOAIColor.new ()
   color:setColor ( 0, 0, 1, 0 )
   color:seekColor(1, 1, 1, 1, 5, MOAIEaseType.LINEAR);
   --color:moveColor(1, 1, 1, 0, 1 );
 
-  shader = MOAIShader.new ()
+  local shader = MOAIShader.new ()
   shader:reserveUniforms ( 1 )
   shader:declareUniform ( 1, 'maskColor', MOAIShader.UNIFORM_COLOR )
 
@@ -162,12 +164,53 @@ local function shaderTest()
   gfxQuad:setShader ( shader )
 end
 
+local function kenShaderTest()
+  -- load the shader
+  local file = assert( io.open("ken.vsh", "r") );
+  vertexShaderString = file:read("*all");
+  file:close();
+  
+  file = assert( io.open("ken.fsh", "r") );
+  fragmentShaderString = file:read("*all");
+  file:close();
+  
+  local shader = MOAIShader.new();
+  shader:load( vertexShaderString, fragmentShaderString );
+  
+  -- initialize the shader attribute bindings
+  shader:reserveUniforms( 1 );
+  shader:declareUniform( 1, "timeUniform", MOAIShader.UNIFORM_FLOAT );
+  shader:seekAttr(1, 255, 1, MOAIEaseType.LINEAR);
+  shader:setAttr(1, .5);
+  --shader:setAttrLink( 1, test.time );
+  
+  -- create the geometry
+  local quad = MOAIGfxQuad2D.new();
+  quad:setTexture("moai.png");
+  quad:setRect(-64, -64, 64, 64);
+  quad:setUVRect(0, 1, 1, 0); -- Window style coordinates
+  
+  -- attach shader to geometry
+  quad:setShader(shader);
+  
+  -- create the prop and attach geometry
+  local prop = MOAIMetaBall.new();
+  prop:setDeck( quad );
+  
+  -- set the prop into scene
+  layer:insertProp(prop);
+  prop:setLoc(300, 300);
+  
+  
+end
+
 local function runTests()
   moaiFooTest();
   moaiMetaBallTest();
   --printAllMoaiExports();
   --printAllFunctionsOf( MOAIMetaBall.new() );
   shaderTest();
+  kenShaderTest();
 end
 
 local done = false;
