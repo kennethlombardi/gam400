@@ -102,10 +102,7 @@ local function printAllFunctionsOf(o)
 end
 
 local function init()
-  moaiFooTest();
-  moaiMetaBallTest();
-  --printAllMoaiExports();
-  --printAllFunctionsOf( MOAIMetaBall.new() );
+  
   
   ---[[ fps counter
   fpscounter = MOAITextBox.new()
@@ -126,10 +123,57 @@ local function update(dt)
     end
 end
 
+local function shaderTest()
+  file = assert ( io.open ( 'shader.vsh', mode ))
+  vsh = file:read ( '*all' )
+  file:close ()
+
+  file = assert ( io.open ( 'shader.fsh', mode ))
+  fsh = file:read ( '*all' )
+  file:close ()
+
+  gfxQuad = MOAIGfxQuad2D.new ()
+  gfxQuad:setTexture ( "moai.png" )
+  gfxQuad:setRect ( -64, -64, 64, 64 )
+  gfxQuad:setUVRect ( 0, 1, 1, 0 )
+
+  -- create metaball to hook shader to
+  metaball = MOAIMetaBall.new();
+  metaball:setDeck(gfxQuad);
+  metaball:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
+  layer:insertProp(metaball);
+  
+  color = MOAIColor.new ()
+  color:setColor ( 0, 0, 1, 0 )
+  color:seekColor(1, 1, 1, 1, 5, MOAIEaseType.LINEAR);
+  --color:moveColor(1, 1, 1, 0, 1 );
+
+  shader = MOAIShader.new ()
+  shader:reserveUniforms ( 1 )
+  shader:declareUniform ( 1, 'maskColor', MOAIShader.UNIFORM_COLOR )
+
+  shader:setAttrLink ( 1, color, MOAIColor.COLOR_TRAIT )
+
+  shader:setVertexAttribute ( 1, 'position' )
+  shader:setVertexAttribute ( 2, 'uv' )
+  shader:setVertexAttribute ( 3, 'color' )
+  shader:load ( vsh, fsh )
+
+  gfxQuad:setShader ( shader )
+end
+
+local function runTests()
+  moaiFooTest();
+  moaiMetaBallTest();
+  --printAllMoaiExports();
+  --printAllFunctionsOf( MOAIMetaBall.new() );
+  shaderTest();
+end
+
 local done = false;
 function testGameLoop ()
   init();
-
+  runTests();
 	while not done do
     update();
     coroutine.yield()
