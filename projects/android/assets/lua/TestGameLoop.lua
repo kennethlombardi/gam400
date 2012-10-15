@@ -165,28 +165,55 @@ local function shaderTest()
 end
 
 local function kenShaderTest()
-  -- load the shader
+  -- load the shaders
   local file = assert( io.open("ken.vsh", "r") );
   vertexShaderString = file:read("*all");
   file:close();
   
-  file = assert( io.open("ken.fsh", "r") );
+  local file = assert( io.open("ken.fsh", "r") );
   fragmentShaderString = file:read("*all");
   file:close();
   
   local shader = MOAIShader.new();
   shader:load( vertexShaderString, fragmentShaderString );
   
+  -- create a color node to link shader attribute
+  local color = MOAIColor.new();
+  color:setColor(0, 0, 0, 0);
+  color:seekColor(10, 0, 0, 0, 30, MOAIEaseType.LINEAR);
+  
+  -- create a timer node to link shader attribute
+  function createTimer (span)
+    local timer = MOAITimer.new ()
+    timer:setSpan ( span )
+    timer:setMode ( MOAITimer.LOOP )
+    timer:setListener ( MOAITimer.EVENT_TIMER_LOOP,
+      function ()
+        print ( "Loop Callback" )
+      end
+    )
+    timer:start ()
+    print ( "Timer started." )
+    return timer;
+  end
+  
   -- initialize the shader attribute bindings
-  shader:reserveUniforms( 1 );
-  shader:declareUniform( 1, "timeUniform", MOAIShader.UNIFORM_FLOAT );
-  shader:seekAttr(1, 255, 1, MOAIEaseType.LINEAR);
-  shader:setAttr(1, .5);
-  --shader:setAttrLink( 1, test.time );
+  shader:reserveUniforms(1);
+  shader:declareUniform(1, "timeUniform", MOAIShader.UNIFORM_FLOAT );
+  shader:setAttrLink(1, createTimer(20), MOAITimer.ATTR_TIME);
+  shader:setVertexAttribute(1, 'position');
+  shader:setVertexAttribute(2, 'uv');
+  shader:setVertexAttribute(3, 'color');
+  
+  -- create the texture
+  local texture = MOAITexture.new();
+  texture:load("moai.png");
+  texture:setWrap(true);
+  texture:setFilter(MOAITexture.GL_LINEAR_MIPMAP_LINEAR);
   
   -- create the geometry
   local quad = MOAIGfxQuad2D.new();
-  quad:setTexture("moai.png");
+  quad:setTexture(texture);
   quad:setRect(-64, -64, 64, 64);
   quad:setUVRect(0, 1, 1, 0); -- Window style coordinates
   
@@ -209,7 +236,7 @@ local function runTests()
   moaiMetaBallTest();
   --printAllMoaiExports();
   --printAllFunctionsOf( MOAIMetaBall.new() );
-  shaderTest();
+  --shaderTest();
   kenShaderTest();
 end
 
