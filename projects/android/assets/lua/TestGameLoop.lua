@@ -236,7 +236,7 @@ local function runTests()
   moaiMetaBallTest();
   --printAllMoaiExports();
   --printAllFunctionsOf( MOAIMetaBall.new() );
-  --shaderTest();
+  shaderTest();
   kenShaderTest();
 end
 
