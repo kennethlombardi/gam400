@@ -6,6 +6,7 @@
 	android:versionCode="1" 
 	android:versionName="1.0" 
 	package="com.gam400.moai">
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"></uses-feature>
 	
 	<application 
 		android:icon="@drawable/icon" 

@@ -1,5 +1,5 @@
 local test = {};
-test.metaballCreationCount = 1;
+test.metaballCreationCount = 3;
 test.metaballs = {};
 test.time = 0;
 font = MOAIFont.new();
@@ -166,21 +166,16 @@ end
 
 local function kenShaderTest()
   -- load the shaders
-  local file = assert( io.open("ken.vsh", "r") );
+  local file = nil;
+  file = assert( io.open("ken.vsh", "r") );
   vertexShaderString = file:read("*all");
   file:close();
   
-  local file = assert( io.open("ken.fsh", "r") );
+  file = assert( io.open("ken.fsh", "r") );
   fragmentShaderString = file:read("*all");
   file:close();
   
   local shader = MOAIShader.new();
-  shader:load( vertexShaderString, fragmentShaderString );
-  
-  -- create a color node to link shader attribute
-  local color = MOAIColor.new();
-  color:setColor(0, 0, 0, 0);
-  color:seekColor(10, 0, 0, 0, 30, MOAIEaseType.LINEAR);
   
   -- create a timer node to link shader attribute
   function createTimer (span)
@@ -197,13 +192,15 @@ local function kenShaderTest()
     return timer;
   end
   
-  -- initialize the shader attribute bindings
+    -- initialize the shader attribute bindings
   shader:reserveUniforms(1);
   shader:declareUniform(1, "timeUniform", MOAIShader.UNIFORM_FLOAT );
   shader:setAttrLink(1, createTimer(20), MOAITimer.ATTR_TIME);
   shader:setVertexAttribute(1, 'position');
   shader:setVertexAttribute(2, 'uv');
   shader:setVertexAttribute(3, 'color');
+  
+  shader:load( vertexShaderString, fragmentShaderString );
   
   -- create the texture
   local texture = MOAITexture.new();
@@ -236,7 +233,7 @@ local function runTests()
   moaiMetaBallTest();
   --printAllMoaiExports();
   --printAllFunctionsOf( MOAIMetaBall.new() );
-  shaderTest();
+  --shaderTest();
   kenShaderTest();
 end
 
