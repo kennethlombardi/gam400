@@ -110,7 +110,7 @@ local function init()
   fpscounter:setFont(font)
   fpscounter:setTextSize(24)
   fpscounter:setRect(-50, -50, 50, 50)
-  fpscounter:setLoc(-550, 300)
+  fpscounter:setLoc(0, 0)
   fpscounter:setAlignment(MOAITextBox.LEFT_JUSTIFY)
   fpscounter:setYFlip(true)
   layer:insertProp(fpscounter)
@@ -223,7 +223,7 @@ local function kenShaderTest()
   
   -- set the prop into scene
   layer:insertProp(prop);
-  prop:setLoc(300, 300);
+  prop:setLoc(100, 100);
   
   
 end
