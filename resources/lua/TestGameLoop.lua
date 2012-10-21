@@ -28,7 +28,7 @@ local function moaiMetaBallTest()
   local metaballCount = test.metaballCreationCount;
   local successfulMetaballCreation = false;
   local gfxQuad = MOAIGfxQuad2D.new ()
-  gfxQuad:setTexture ( "../moai.png" )
+  gfxQuad:setTexture ( "../textures/moai.png" )
   gfxQuad:setRect ( -128, -128, 128, 128 )
   gfxQuad:setUVRect ( 0, 0, 1, 1 )
   for i = 1, metaballCount do
@@ -135,7 +135,7 @@ local function shaderTest()
   file:close ()
 
   local gfxQuad = MOAIGfxQuad2D.new ()
-  gfxQuad:setTexture ( "../moai.png" )
+  gfxQuad:setTexture ( "../textures/moai.png" )
   gfxQuad:setRect ( -64, -64, 64, 64 )
   gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
@@ -204,7 +204,7 @@ local function kenShaderTest()
   
   -- create the texture
   local texture = MOAITexture.new();
-  texture:load("../moai.png");
+  texture:load("../textures/moai.png");
   texture:setWrap(true);
   texture:setFilter(MOAITexture.GL_LINEAR_MIPMAP_LINEAR);
   
