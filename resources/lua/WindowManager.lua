@@ -1,7 +1,7 @@
 local WindowManager = {}
 
-local screenWidth = MOAIEnvironment.horizontalResolution 
-local screenHeight = MOAIEnvironment.verticalResolution
+local screenWidth = MOAIEnvironment.horizontalResolution;
+local screenHeight = MOAIEnvironment.verticalResolution;
 local windowIsOpen = false;
 
 if screenWidth == nil then 
