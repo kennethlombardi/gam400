@@ -2,7 +2,7 @@ screenWidth = MOAIEnvironment.horizontalResolution screenHeight = MOAIEnvironme
  
 require "GameLoop"
 local testGameLoop = require "TestGameLoop"
-
+local drawingGameLoop = require "DrawingTestLoop"
 -- screen and device size
 if screenWidth == nil then screenWidth = 1280 end
 if screenHeight == nil then screenHeight = 720 end
@@ -26,7 +26,7 @@ layer:setCamera(camera);
 MOAISim.pushRenderPass (layer)
 
 local bg = require "background" --put background in
-bg(layer, screenWidth, screenHeight)
+--bg(layer, screenWidth, screenHeight)
 
 -- create and run the game loop thread
 local test = true;
@@ -34,5 +34,5 @@ mainThread = MOAIThread.new();
 if not test then
   mainThread:run(gameLoop);
 else
-  mainThread:run(testGameLoop);
+  mainThread:run(drawingGameLoop);
 end
