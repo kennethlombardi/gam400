@@ -34,7 +34,7 @@
 		<link>
 			<name>assets</name>
 			<type>2</type>
-			<location>C:/cygwin/home/Kenneth/github/gam400/resources</location>
+			<locationURI>PARENT-2-PROJECT_LOC/resources</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
