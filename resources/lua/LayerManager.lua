@@ -15,15 +15,13 @@ local function createCameraInLayer(layerIndex)
 
 	-- if there is already a camera on the layer
 	-- -- TODO destroy old camera
-	local windowManager = require "windowManager";
+	local windowManager = require "WindowManager";
 	local screenWidth = windowManager.screenWidth;
 	local newCamera = createCamera();
 	newCamera:setLoc(0, 0, newCamera:getFocalLength(screenWidth));
 
-	layers[layerIndex]["camera"] = newCamera;
+	layers[layerIndex].camera = newCamera;
 	layers[layerIndex]:setCamera(newCamera);
-
-
 end
 
 -- Creates and returns a new viewport
