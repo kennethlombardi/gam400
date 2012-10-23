@@ -14,3 +14,4 @@ if not test then
 else
   mainThread:run(gamesLoop);
 end
+
