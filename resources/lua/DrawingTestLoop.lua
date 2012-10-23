@@ -1,25 +1,10 @@
 objects = {}
 
-function drawCircle ( x, y, radius )
-        local function circle()
-                MOAIGfxDevice.setPenColor ( 0.4, 1, 0, 1 )
-                MOAIDraw.fillCircle ( x, y, radius )
-
-        end
-        scriptDeck = MOAIScriptDeck.new ()
-        scriptDeck:setRect ( -radius, -radius, radius, radius )
-        scriptDeck:setDrawCallback ( circle )
-     
-        prop = MOAIProp2D.new ()
-        prop:setDeck ( scriptDeck )
-        layer:insertProp ( prop )
-
-end
 
 
 local function draw()
   for k, v in pairs(objects) do
-
+    v:instanceHello();
   end
 	
 end
@@ -30,17 +15,22 @@ end
 
 local function init()
   objects[1] = MOAIFoo.new();
-  objects[1].draw = draw;
-	drawCircle(33, 33, 50)
-	drawCircle(33, -33, 5)
-	drawCircle(-33, -33, 5)
+  local prop = MOAIProp2D.new();
+  local gfxQuad = MOAIGfxQuad2D.new ()
+  gfxQuad:setTexture ( "../textures/moai.png" )
+  gfxQuad:setRect ( -64, -64, 64, 64 )
+  gfxQuad:setUVRect ( 0, 1, 1, 0 )
+  
+  prop:setDeck( gfxQuad );
+  
+  layer:insertProp( prop );
 end
 
 local done = false;
 function testGameLoop ()
-  init();
+	init();
 	while not done do
-    update();
+		update();
     coroutine.yield()
 	end
 end
