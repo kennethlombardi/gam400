@@ -1,13 +1,11 @@
 local WindowManager = {}
 
-
 local screenWidth = MOAIEnvironment.horizontalResolution;
 local screenHeight = MOAIEnvironment.verticalResolution;
+local windowIsOpen = false;
+
 WindowManager.screenWidth = screenWidth;
 WindowManager.screenHeight = screenHeight;
-
-
-local windowIsOpen = false;
 
 if screenWidth == nil then 
   screenWidth = 1280;
@@ -23,6 +21,7 @@ assert (not (WindowManager.screenWidth == nil))
 
 -- opens a new window for the application to run in
 -- must only be called once
+-- must be called before the main thread can run the game loop
 local function openWindow(windowName)
 	if windowIsOpen then 
 		print("CreateWindow can only be called once");
