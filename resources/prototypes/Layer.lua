@@ -3,6 +3,10 @@ local LayerBase = {
 	hidden = false;
 }
 
+function LayerBase:getName()
+	return self.name;
+end
+
 function LayerBase:hide()
 	self.hidden = true;
 	print("Hiding layer");
@@ -17,10 +21,12 @@ end
 
 
 -- Layer --
-local Layer = LayerBase:new();
+local Layer = LayerBase:new { 
+	name = "Layer";
+}
 
-function LayerBase:getname()
-	return self.name;
+function Layer:hide()
+	print("Hiding derived layer");
 end
 
 return Layer;

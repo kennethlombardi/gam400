@@ -74,6 +74,8 @@ local function initHack()
 	shaderTest();
 
 	layer = require "Layer";
+	print(layer:getName());
+	print(layer:hide());
 end
 
 local function initialize()
