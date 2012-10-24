@@ -12,7 +12,7 @@ function Layer:hide()
     print("Hiding layer");
 end
 
-local function hackLayer()
+local function hackLayer(self)
 	-- layer viewport
 	local windowManager = require "WindowManager";
     local screenWidth = windowManager.screenWidth;
@@ -29,15 +29,22 @@ local function hackLayer()
     layer:setViewport(newViewport);
     layer:setCamera(newCamera);
 
-    return layer;
+    self.layer = layer;
+    self.camera = newCamera;
+    self.viewport = newViewport;
 end
 
 function Layer:new(object)
     object = object or {};
     setmetatable(object, self);
     self.__index = self;
-    self.layer = hackLayer();
+    hackLayer(object);
     return object;
+end
+
+function Layer:setPosition(x, y)
+	local windowManager = require "WindowManager";
+	self.camera:setLoc(x, y, self.camera:getFocalLength(windowManager.screenWidth));
 end
 
 return Layer;

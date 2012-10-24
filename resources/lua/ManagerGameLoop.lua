@@ -17,6 +17,9 @@ local function initHack()
 	local foregroundLayerIndex = layerManager:createLayer();
 	local foregroundLayer = layerManager:getLayerAtIndex(foregroundLayerIndex);
 	MOAISim.pushRenderPass(foregroundLayer.layer);
+
+	foregroundLayer:setPosition(-200, 0);
+	backgroundLayer:setPosition(200, 200);
 	
 	local function shaderTest()
 		local file = assert ( io.open ( 'shader.vsh', mode ))
