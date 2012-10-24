@@ -4,4 +4,4 @@
 -- http://getmoai.com
 ----------------------------------------------------------------
 
-package.path = package.path .. ';../../../src/lua-modules/?.lua'
+package.path = package.path .. ';../../resources/lua/?.lua'

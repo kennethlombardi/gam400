@@ -7,21 +7,17 @@
 @echo off
 
 :: verify paths
-echo Bin = %MOAI_BIN%
-echo Config = %MOAI_CONFIG%
-
-if not exist "%MOAI_BIN%\moai.exe" (
+if not exist "hosts\win32\moai.exe" (
 	echo.
 	echo --------------------------------------------------------------------------------
 	echo ERROR: The MOAI_BIN environment variable either doesn't exist or it's pointing
 	echo to an invalid path. Please point it at a folder containing moai.exe.
 	echo --------------------------------------------------------------------------------
 	echo.
-	
 	goto end
 )
 
-if not exist "%MOAI_CONFIG%" (
+if not exist "hosts\win32\config.lua" (
 	echo.
 	echo -------------------------------------------------------------------------------
 	echo WARNING: The MOAI_CONFIG environment variable either doesn't exist or it's 
@@ -31,7 +27,8 @@ if not exist "%MOAI_CONFIG%" (
 )
 
 :: run moai
-"%MOAI_BIN%/moai" "%MOAI_CONFIG%/config.lua" "%MOAI_SOURCE%/main.lua"
+cd hosts\win32\
+"moai" "config.lua" "..\..\resources\lua\main.lua"
 
 :end
 pause
