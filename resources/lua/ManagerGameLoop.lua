@@ -1,22 +1,3 @@
---[[
-print("Starting up on:" .. MOAIEnvironment.osBrand  .. " version:" .. MOAIEnvironment.osVersion)
-
-windowManager = require "WindowManager";
-
--- the main game window
-MOAISim.openWindow ("W.A.T.", windowManager.screenWidth, windowManager.screenHeight)
-
--- create layers
-layerManager = require "LayerManager"
-layer = layerManager.getLayerAtIndex(layerManager.createLayer());
-
--- add layers
-MOAISim.pushRenderPass (layer)
-
-local bg = require "background" --put background in
-bg(layer, windowManager.screenWidth, windowManager.screenHeight)
-
---]]
 local function preInitialize()
 	-- require managers to perform singleton initialization
 	require "WindowManager";
@@ -27,10 +8,11 @@ end
 local function initHack()
 	local layerManager = require "LayerManager"
 	local windowManager = require "WindowManager";
-	local layer = layerManager.getLayerAtIndex(layerManager.createLayer());
-	MOAISim.pushRenderPass(layer);
+	local layerIndex = layerManager:createLayer();
+	local layer = layerManager:getLayerAtIndex(layerIndex);
+	MOAISim.pushRenderPass(layer.layer);
 	local bg = require "background";
-	bg(layer, windowManager.screenWidth, windowManager.screenHeight);
+	bg(layer.layer, windowManager.screenWidth, windowManager.screenHeight);
 
 	local function shaderTest()
 		local file = assert ( io.open ( 'shader.vsh', mode ))
@@ -50,7 +32,7 @@ local function initHack()
 		local metaball = MOAIMetaBall.new();
 		metaball:setDeck(gfxQuad);
 		metaball:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
-		layer:insertProp(metaball);
+		layer.layer:insertProp(metaball);
 
 		local color = MOAIColor.new ()
 		color:setColor ( 0, 0, 1, 0 )
@@ -72,10 +54,6 @@ local function initHack()
 	end
 
 	shaderTest();
-
-	layer = require "Layer";
-	print(layer:getName());
-	print(layer:hide());
 end
 
 local function initialize()
