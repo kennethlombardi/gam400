@@ -8,12 +8,16 @@ end
 local function initHack()
 	local layerManager = require "LayerManager"
 	local windowManager = require "WindowManager";
-	local layerIndex = layerManager:createLayer();
-	local layer = layerManager:getLayerAtIndex(layerIndex);
-	MOAISim.pushRenderPass(layer.layer);
+	local backgroundLayerIndex = layerManager:createLayer();
+	local backgroundLayer = layerManager:getLayerAtIndex(backgroundLayerIndex);
+	MOAISim.pushRenderPass(backgroundLayer.layer);
 	local bg = require "background";
-	bg(layer.layer, windowManager.screenWidth, windowManager.screenHeight);
+	bg(backgroundLayer.layer, windowManager.screenWidth, windowManager.screenHeight);
 
+	local foregroundLayerIndex = layerManager:createLayer();
+	local foregroundLayer = layerManager:getLayerAtIndex(foregroundLayerIndex);
+	MOAISim.pushRenderPass(foregroundLayer.layer);
+	
 	local function shaderTest()
 		local file = assert ( io.open ( 'shader.vsh', mode ))
 		vsh = file:read ( '*all' )
@@ -32,7 +36,7 @@ local function initHack()
 		local metaball = MOAIMetaBall.new();
 		metaball:setDeck(gfxQuad);
 		metaball:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
-		layer.layer:insertProp(metaball);
+		foregroundLayer.layer:insertProp(metaball);
 
 		local color = MOAIColor.new ()
 		color:setColor ( 0, 0, 1, 0 )
@@ -58,7 +62,6 @@ end
 
 local function initialize()
 	initHack();
-  
   	print("Initialized");
 end
 
@@ -69,7 +72,6 @@ function gamesLoop ()
 
 	while not done do
 		coroutine.yield()
-
 	end
 end
 
