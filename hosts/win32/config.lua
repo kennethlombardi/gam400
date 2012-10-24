@@ -1,7 +1,3 @@
-----------------------------------------------------------------
--- Copyright (c) 2010-2011 Zipline Games, Inc. 
--- All Rights Reserved. 
--- http://getmoai.com
-----------------------------------------------------------------
+-- package path is relative to the working directory (where main.lua is)
+package.path = package.path .. ';../prototypes/?.lua'
 
-package.path = package.path .. ';../../resources/lua/?.lua'
