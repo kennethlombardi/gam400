@@ -19,15 +19,10 @@ function LayerBase:new(object)
 	return object;
 end
 
-
 -- Layer --
 local Layer = LayerBase:new { 
 	name = "Layer";
 }
-
-function Layer:hide()
-	print("Hiding derived layer");
-end
 
 return Layer;
 
