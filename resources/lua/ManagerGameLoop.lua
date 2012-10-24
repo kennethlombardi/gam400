@@ -72,6 +72,8 @@ local function initHack()
 	end
 
 	shaderTest();
+
+	layer = require "Layer";
 end
 
 local function initialize()
