@@ -42,8 +42,8 @@ function Layer:new(object)
     object = object or {};
     setmetatable(object, self);
     self.__index = self;
-    --hackLayer(object);
-    serializeLayer();
+    hackLayer(object);
+    --serializeLayer();
     return object;
 end
 
