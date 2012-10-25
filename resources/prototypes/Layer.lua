@@ -1,14 +1,14 @@
 local Layer = {
-    name = "Layer";
-    hidden = false;
+    ["name"] = "Layer",
+    ["hidden"] = false
 }
 
 function Layer:getName()
-    return self.name;
+    return self["name"];
 end
 
 function Layer:hide()
-    self.hidden = true;
+    self["hidden"] = true;
     print("Hiding layer");
 end
 
@@ -29,9 +29,9 @@ local function createHackLayer(self)
     layer:setViewport(newViewport);
     layer:setCamera(newCamera);
 
-    self.layer = layer;
-    self.camera = newCamera;
-    self.viewport = newViewport;
+    self["layer"] = layer;
+    self["camera"] = newCamera;
+    self["viewport"] = newViewport;
 end
 
 local function deserializeLayer(self)
@@ -41,9 +41,9 @@ local function deserializeLayer(self)
         function deserialize(arg1, pickle)
             print(arg1);
             up = unpickleMe( pickle );
-            print(up.name);
-            for k,prop in pairs(up.props) do
-                print(prop.name);
+            print(up["name"]);
+            for k,prop in pairs(up["props"]) do
+                print(prop["name"]);
             end
         end
         dofile("../layers/pickleFile.lua");
@@ -106,6 +106,8 @@ local function deserializeLayer(self)
         shader:load ( vsh, fsh )
 
         gfxQuad:setShader ( shader )
+            Factory = require "Factory";
+            Factory:create("Layer", {name = "Layer mofo"});
         return metaball;
     end
 

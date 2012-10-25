@@ -62,6 +62,8 @@ local function initHack()
 	end
 
 	shaderTest();
+
+	Factory = require "Factory";
 end
 
 local function initialize()
