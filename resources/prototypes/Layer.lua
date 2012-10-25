@@ -34,11 +34,16 @@ local function hackLayer(self)
     self.viewport = newViewport;
 end
 
+local function serializeLayer(self)
+    
+end
+
 function Layer:new(object)
     object = object or {};
     setmetatable(object, self);
     self.__index = self;
-    hackLayer(object);
+    --hackLayer(object);
+    serializeLayer();
     return object;
 end
 
