@@ -8,20 +8,21 @@ end
 local function initHack()
 	local layerManager = require "LayerManager"
 	local windowManager = require "WindowManager";
-	local backgroundLayerIndex = layerManager:createLayer();
-	local backgroundLayer = layerManager:getLayerAtIndex(backgroundLayerIndex);
-	MOAISim.pushRenderPass(backgroundLayer.layer);
-	local bg = require "background";
-	bg(backgroundLayer.layer, windowManager.screenWidth, windowManager.screenHeight);
+	--local backgroundLayerIndex = layerManager:createLayer();
+	--local backgroundLayer = layerManager:getLayerAtIndex(backgroundLayerIndex);
+	--MOAISim.pushRenderPass(backgroundLayer.layer);
+	--local bg = require "background";
+	--bg(backgroundLayer.layer, windowManager.screenWidth, windowManager.screenHeight);
 
 	local foregroundLayerIndex = layerManager:createLayer();
 	local foregroundLayer = layerManager:getLayerAtIndex(foregroundLayerIndex);
 	MOAISim.pushRenderPass(foregroundLayer.layer);
 
 	foregroundLayer:setPosition(-200, 0);
-	backgroundLayer:setPosition(200, 200);
+	--backgroundLayer:setPosition(200, 200);
 	
 	local function shaderTest()
+		if 1 then return end;
 		local file = assert ( io.open ( 'shader.vsh', mode ))
 		vsh = file:read ( '*all' )
 		file:close ()
