@@ -27,7 +27,7 @@ end
 -- LayerCreator
 function LayerCreator:create(properties)
 	properties = properties or "nil";
-	print("Created layer with properties: "..properties.name);
+	print("Created layer with properties: "..properties["name"]);
 	return MOAILayer.new();
 end
 --

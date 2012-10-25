@@ -41,9 +41,9 @@ local function deserializeLayer(self)
         function deserialize(arg1, pickle)
             print(arg1);
             up = unpickleMe( pickle );
-            print(up["name"]);
-            for k,prop in pairs(up["props"]) do
-                print(prop["name"]);
+            print(up.name);
+            for k,prop in pairs(up.props) do
+                print(prop.name);
             end
         end
         dofile("../layers/pickleFile.lua");
@@ -106,8 +106,7 @@ local function deserializeLayer(self)
         shader:load ( vsh, fsh )
 
         gfxQuad:setShader ( shader )
-            Factory = require "Factory";
-            Factory:create("Layer", {name = "Layer mofo"});
+
         return metaball;
     end
 
