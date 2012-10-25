@@ -3,11 +3,12 @@ local LayerManager = {
 	currentLayerIndex = 1,
 }
 
+local Factory = require "Factory";
+
 -- Creates a layer at new index
 -- Adds a camera to layer
-function LayerManager:createLayer()
-	local layerPrototype = require "Layer";
-	self.layers[self.currentLayerIndex] = layerPrototype:new();
+function LayerManager:createLayerFromFile(layerFileName)
+	self.layers[self.currentLayerIndex] = Factory:create("Layer", layerFileName);
 	local layerIndex = self.currentLayerIndex;
 	self.currentLayerIndex = self.currentLayerIndex + 1;
 	return layerIndex;
