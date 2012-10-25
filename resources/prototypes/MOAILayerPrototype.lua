@@ -4,10 +4,6 @@ MOAILayerPrototype = Layer:new();
 
 local windowManager = require "WindowManager";
 
-function MOAILayerPrototype:getUnderlyingType()
-	return self["underlyingType"];
-end
-
 function MOAILayerPrototype:insertProp(prop)
 	table.insert(self["props"], prop);
 	if self["underlyingType"] == nil then print("Trying to insert prop into MOAILayerPrototype without underlying type"); return; end;

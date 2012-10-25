@@ -62,7 +62,7 @@ function MOAIPropCreator:create(properties)
 end
 
 function MOAIPropCreator:createFromFile(fileName)
-	print("Trying to create prop from file");
+	print("Trying to create prop from file? Maybe soon.");
 end
 --
 

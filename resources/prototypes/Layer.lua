@@ -23,6 +23,10 @@ function Layer:new(object)
     return object;
 end
 
+function Layer:getUnderlyingType()
+    return self["underlyingType"];
+end
+
 function Layer:setUnderlyingType(newObjectReference)
     self["underlyingType"] = newObjectReference;
 end
