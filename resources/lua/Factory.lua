@@ -17,83 +17,6 @@ local PropPrototypeCreator = Creator:new();
 local MOAIPropPrototypeCreator = Creator:new();
 --
 
--- PropContainerCreator
-function PropContainerCreator:create(properties)
-	propContainerPrototype = require "PropContainerPrototype";
-	return propContainerPrototype:new();
-end
---
-
--- PropPrototypeCreator
-function PropPrototypeCreator:create(properties)
-	local propPrototype = require "PropPrototype";
-	local newObject = propPrototype:new();
-	newObject:setName(properties.name);
-	newObject:setType(properties.type);
-	return newObject;
-end
---
-
--- MOAIPropPrototypeCreator
-function MOAIPropPrototypeCreator:create(properties)
-	local propPrototype = require "MOAIPropPrototype";
-	local newObject = propPrototype:new();
-	newObject:setName(properties.name);
-	newObject:setType(properties.type);
-	newObject:setUnderlyingType(MOAIProp.new());
-	return newObject;
-end
---
-
--- MOAIPropCreator
-function MOAIPropCreator:create(properties)
-	local file = assert ( io.open ( 'shader.vsh', mode ))
-	vsh = file:read ( '*all' )
-	file:close ()
-
-	local file = assert ( io.open ( 'shader.fsh', mode ))
-	fsh = file:read ( '*all' )
-	file:close ()
-
-	local gfxQuad = MOAIGfxQuad2D.new ()
-	gfxQuad:setTexture ( "../textures/moai.png" )
-	gfxQuad:setRect ( -64, -64, 64, 64 )
-	gfxQuad:setUVRect ( 0, 1, 1, 0 )
-
-	-- create metaball to hook shader to
-	--local prop = MOAIProp.new();
-	--prop:setDeck(gfxQuad);
-	--prop:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
-	
-	local propPrototype = Factory:create("MOAIPropPrototype", properties);
-	--propPrototype:setUnderlyingType(prop);
-	propPrototype:setPosition(math.random(-300, 300), math.random(-300, 300), 0);
-	propPrototype:getUnderlyingType():setDeck(gfxQuad);
-	propPrototype:getUnderlyingType():moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
-
-	local color = MOAIColor.new ()
-	color:setColor ( 0, 0, 1, 0 )
-	color:seekColor(1, 1, 1, 1, 5, MOAIEaseType.LINEAR);
-
-	local shader = MOAIShader.new ()
-	shader:reserveUniforms ( 1 )
-	shader:declareUniform ( 1, 'maskColor', MOAIShader.UNIFORM_COLOR )
-	shader:setAttrLink ( 1, color, MOAIColor.COLOR_TRAIT )
-	shader:setVertexAttribute ( 1, 'position' )
-	shader:setVertexAttribute ( 2, 'uv' )
-	shader:setVertexAttribute ( 3, 'color' )
-	shader:load ( vsh, fsh )
-
-	gfxQuad:setShader ( shader )
-
-	return propPrototype;
-end
-
-function MOAIPropCreator:createFromFile(fileName)
-	print("Trying to create prop from file? Maybe soon.");
-end
---
-
 -- LayerCreator
 function MOAILayerCreator:create(properties)
 	print("Creating: "..properties.name);
@@ -120,7 +43,9 @@ function MOAILayerCreator:create(properties)
 
     -- camera
     local newCamera = MOAICamera.new();
-    newCamera:setLoc(0, 0, newCamera:getFocalLength(screenWidth));
+    newLayer:setCamera(newCamera);
+    newLayer:setLoc(properties.position.x, properties.position.y, newCamera:getFocalLength(screenWidth));
+    print("NEW LAYER POSITION = {"..properties.position.x..","..properties.position.y.."}");
 
     -- initialize the layer
     newLayer:setViewport(newViewport);
@@ -147,6 +72,80 @@ function MOAILayerCreator:createFromFile(fileName)
 	return newObjects[1];
 end
 --
+
+-- MOAIPropCreator
+function MOAIPropCreator:create(properties)
+	local file = assert ( io.open ( 'shader.vsh', mode ))
+	vsh = file:read ( '*all' )
+	file:close ()
+
+	local file = assert ( io.open ( 'shader.fsh', mode ))
+	fsh = file:read ( '*all' )
+	file:close ()
+
+	local gfxQuad = MOAIGfxQuad2D.new ()
+	gfxQuad:setTexture ( "../textures/moai.png" )
+	gfxQuad:setRect ( -64, -64, 64, 64 )
+	gfxQuad:setUVRect ( 0, 1, 1, 0 )
+
+	-- create prop to hook shader to	
+	local propPrototype = Factory:create("MOAIPropPrototype", properties);
+	propPrototype:setLoc(math.random(-300, 300), math.random(-300, 300), 0);
+	propPrototype:getUnderlyingType():setDeck(gfxQuad);
+	propPrototype:getUnderlyingType():moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
+
+	local color = MOAIColor.new ()
+	color:setColor ( 0, 0, 1, 0 )
+	color:seekColor(1, 1, 1, 1, 5, MOAIEaseType.LINEAR);
+
+	local shader = MOAIShader.new ()
+	shader:reserveUniforms ( 1 )
+	shader:declareUniform ( 1, 'maskColor', MOAIShader.UNIFORM_COLOR )
+	shader:setAttrLink ( 1, color, MOAIColor.COLOR_TRAIT )
+	shader:setVertexAttribute ( 1, 'position' )
+	shader:setVertexAttribute ( 2, 'uv' )
+	shader:setVertexAttribute ( 3, 'color' )
+	shader:load ( vsh, fsh )
+
+	gfxQuad:setShader ( shader )
+
+	return propPrototype;
+end
+
+function MOAIPropCreator:createFromFile(fileName)
+	print("Trying to create prop from file? Maybe soon.");
+end
+--
+
+-- MOAIPropPrototypeCreator
+function MOAIPropPrototypeCreator:create(properties)
+	local propPrototype = require "MOAIPropPrototype";
+	local newObject = propPrototype:new();
+	newObject:setName(properties.name);
+	newObject:setType(properties.type);
+	newObject:setUnderlyingType(MOAIProp.new());
+	return newObject;
+end
+--
+
+-- PropContainerCreator
+function PropContainerCreator:create(properties)
+	propContainerPrototype = require "PropContainerPrototype";
+	return propContainerPrototype:new();
+end
+--
+
+-- PropPrototypeCreator
+function PropPrototypeCreator:create(properties)
+	local propPrototype = require "PropPrototype";
+	local newObject = propPrototype:new();
+	newObject:setName(properties.name);
+	newObject:setType(properties.type);
+	return newObject;
+end
+--
+
+
 
 -- Factory methods
 function Factory:createFromFile(objectType, fileName)

@@ -1,10 +1,10 @@
 deserialize ("Layer",
 {
 	{--Entry Number: {1}
+		["visible"]="true",
 		["type"]="Layer",
 		["name"]="Layer1",
 		["propContainer"]={2},
-		["hidden"]="false",
 		["position"]={3},
 	},
 
@@ -22,8 +22,9 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
-		["y"]=0,
-		["x"]=0,
+		["y"]=42,
+		["x"]=24,
+		["z"]=1108.5125732422,
 	},
 
 	{--Entry Number: {4}

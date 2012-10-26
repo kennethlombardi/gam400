@@ -1,7 +1,7 @@
 local Layer = {
     ["type"] = "Layer",
     ["name"] = "DefaultLayerName",
-    ["hidden"] = "false",
+    ["visible"] = "true",
     ["underlyingType"] = "nil",
     ["propContainer"] = nil,
     ["position"] = {x = 0, y = 0},
@@ -12,7 +12,7 @@ function Layer:getName()
 end
 
 function Layer:hide()
-    self["hidden"] = "true";
+    self.visible = "true";
     print("Hiding layer");
 end
 
@@ -29,11 +29,11 @@ end
 
 function Layer:serialize(properties)
     properties = properties or {};
-    properties["type"] = self["type"];
-    properties["name"] = self["name"];
-    properties["hidden"] = self["hidden"];
+    properties["type"] = self.type;
+    properties["name"] = self.name;
+    properties["visible"] = self.visible;
     properties["propContainer"] = self["propContainer"]:serialize();
-    properties["position"] = {x = self.position.x, y = self.position.y};
+    properties["position"] = self.position;
     return properties;
 end
 
@@ -53,7 +53,7 @@ function Layer:setName(name)
     self.name = name;
 end
 
-function Layer:setPosition(x, y)
+function Layer:setLoc(x, y)
     self.position.x = x;
     self.position.y = y;
 end
