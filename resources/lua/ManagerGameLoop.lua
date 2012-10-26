@@ -28,10 +28,7 @@ function gamesLoop ()
 		local x = (1 - t) * 400 + t * -400;
 		local y = (1 - t) * 0 + t * 0;
 		local z = (1 - t) * 1100 + t * 5000;
-		layer1:setLoc(0 , y, z);
-		print("x = "..x);
-		print("y = "..y);
-		print("z = "..z);
+		layer1:setLoc(0 , y, z);	-- globally access the layer from init
 		t = t + timeStep;
 		if (t >= 1) then
 			timeStep = timeStep * -1;
