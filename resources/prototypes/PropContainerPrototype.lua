@@ -20,6 +20,7 @@ function PropContainerPrototype:serialize(properties)
 		local prop = {
 			name = v.name, 
 			type = v.type;
+			position = v.position;
 		};
 		table.insert(properties, prop);
 	end

@@ -1,10 +1,10 @@
 local Layer = {
     ["type"] = "Layer",
     ["name"] = "DefaultLayerName",
-    ["visible"] = "true",
+    ["visible"] = "false",  -- This should start at false to allow a push to the render pass
     ["underlyingType"] = "nil",
     ["propContainer"] = nil,
-    ["position"] = {x = 0, y = 0},
+    ["position"] = {x = 0, y = 0, z = 0},
 }
 
 function Layer:getName()

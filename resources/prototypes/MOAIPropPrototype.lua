@@ -9,7 +9,7 @@ end
 --]]
 
 function MOAIPropPrototype:setLoc(newX, newY, newZ)
-	self.position = {x = newX, y = newY}
+	self.position = {x = newX, y = newY, z = newZ}
 	self.underlyingType:setLoc(newX or 0, newY or 0, newZ or 0);
 end
 

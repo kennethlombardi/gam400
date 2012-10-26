@@ -17,7 +17,7 @@ local PropPrototypeCreator = Creator:new();
 local MOAIPropPrototypeCreator = Creator:new();
 --
 
--- LayerCreator
+-- MOAILayerCreator
 function MOAILayerCreator:create(properties)
 	print("Creating: "..properties.name);
 	print("Type: "..properties.type);
@@ -43,15 +43,14 @@ function MOAILayerCreator:create(properties)
 
     -- camera
     local newCamera = MOAICamera.new();
-    newLayer:setCamera(newCamera);
-    newLayer:setLoc(properties.position.x, properties.position.y, newCamera:getFocalLength(screenWidth));
-    print("NEW LAYER POSITION = {"..properties.position.x..","..properties.position.y.."}");
-
+    
     -- initialize the layer
     newLayer:setViewport(newViewport);
-    newLayer:setCamera(camera);
+    newLayer:setCamera(newCamera);
     newLayer:setName(properties.name);
     newLayer:setType(properties.type);
+    newLayer:setVisible(properties.visible == "true");
+	newLayer:setLoc(properties.position.x, properties.position.y, newCamera:getFocalLength(screenWidth));
 
 	return newLayer;
 end
@@ -90,9 +89,9 @@ function MOAIPropCreator:create(properties)
 
 	-- create prop to hook shader to	
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
-	propPrototype:setLoc(math.random(-300, 300), math.random(-300, 300), 0);
+	propPrototype:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	propPrototype:getUnderlyingType():setDeck(gfxQuad);
-	propPrototype:getUnderlyingType():moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
+	propPrototype:getUnderlyingType():moveRot(0, 0, 1500, 30, MOAIEaseType.LINEAR);
 
 	local color = MOAIColor.new ()
 	color:setColor ( 0, 0, 1, 0 )

@@ -22,59 +22,129 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
-		["y"]=42,
-		["x"]=24,
+		["y"]=400,
+		["x"]=0,
 		["z"]=1108.5125732422,
 	},
 
 	{--Entry Number: {4}
-		["name"]="Prop7",
 		["type"]="Prop",
+		["name"]="Prop7",
+		["position"]={14},
 	},
 
 	{--Entry Number: {5}
-		["name"]="Prop1",
 		["type"]="Prop",
+		["name"]="Prop1",
+		["position"]={15},
 	},
 
 	{--Entry Number: {6}
-		["name"]="Prop2",
 		["type"]="Prop",
+		["name"]="Prop2",
+		["position"]={16},
 	},
 
 	{--Entry Number: {7}
-		["name"]="Prop4",
 		["type"]="Prop",
+		["name"]="Prop4",
+		["position"]={17},
 	},
 
 	{--Entry Number: {8}
-		["name"]="Prop8",
 		["type"]="Prop",
+		["name"]="Prop8",
+		["position"]={18},
 	},
 
 	{--Entry Number: {9}
-		["name"]="Prop9",
 		["type"]="Prop",
+		["name"]="Prop9",
+		["position"]={19},
 	},
 
 	{--Entry Number: {10}
-		["name"]="Prop5",
 		["type"]="Prop",
+		["name"]="Prop5",
+		["position"]={20},
 	},
 
 	{--Entry Number: {11}
-		["name"]="Prop10",
 		["type"]="Prop",
+		["name"]="Prop10",
+		["position"]={21},
 	},
 
 	{--Entry Number: {12}
-		["name"]="Prop3",
 		["type"]="Prop",
+		["name"]="Prop3",
+		["position"]={22},
 	},
 
 	{--Entry Number: {13}
-		["name"]="Prop6",
 		["type"]="Prop",
+		["name"]="Prop6",
+		["position"]={23},
+	},
+
+	{--Entry Number: {14}
+		["y"]=210,
+		["x"]=-210,
+		["z"]=0,
+	},
+
+	{--Entry Number: {15}
+		["y"]=30,
+		["x"]=-30,
+		["z"]=0,
+	},
+
+	{--Entry Number: {16}
+		["y"]=-60,
+		["x"]=60,
+		["z"]=0,
+	},
+
+	{--Entry Number: {17}
+		["y"]=-120,
+		["x"]=120,
+		["z"]=0,
+	},
+
+	{--Entry Number: {18}
+		["y"]=-240,
+		["x"]=240,
+		["z"]=0,
+	},
+
+	{--Entry Number: {19}
+		["y"]=270,
+		["x"]=-270,
+		["z"]=0,
+	},
+
+	{--Entry Number: {20}
+		["y"]=150,
+		["x"]=-150,
+		["z"]=0,
+	},
+
+	{--Entry Number: {21}
+		["y"]=-300,
+		["x"]=300,
+		["z"]=0,
+	},
+
+	{--Entry Number: {22}
+		["y"]=90,
+		["x"]=-90,
+		["z"]=0,
+	},
+
+	{--Entry Number: {23}
+		["y"]=-180,
+		["x"]=180,
+		["z"]=0,
 	},
 })
 
