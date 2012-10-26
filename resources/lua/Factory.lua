@@ -15,7 +15,15 @@ end
 
 -- custom creators
 local MOAIPropCreator = Creator:new();
+local PropContainerCreator = Creator:new();
 local MOAILayerCreator = Creator:new();
+--
+
+-- PropContainerCreator
+function PropContainerCreator:create(properties)
+	propContainerPrototype = require "PropContainerPrototype";
+	return propContainerPrototype:new();
+end
 --
 
 -- PropCreator
@@ -92,6 +100,9 @@ function MOAILayerCreator:create(properties)
     -- initialize the layer
     newLayer:setViewport(newViewport);
     newLayer:setCamera(camera);
+    newLayer:setName(properties.name);
+    newLayer:setType(properties.type);
+    newLayer:setPropContainer( Factory:create("PropContainer") );
 
 	return newLayer;
 end
@@ -129,6 +140,7 @@ end
 
 local function initialize()
 	Factory:register("Prop", MOAIPropCreator:new());
+	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
 end
 

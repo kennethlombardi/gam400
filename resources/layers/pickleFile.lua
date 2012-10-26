@@ -2,7 +2,7 @@ deserialize ("Layer",
 {
 	{--Entry Number: {1}
 		["type"]="Layer",
-		["name"]="Layer1",
+		["name"]="Layer1FromFile",
 		["props"]={2},
 	},
 

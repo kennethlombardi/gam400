@@ -41,7 +41,7 @@ function Pickle:value_(v)
   if     vtype == "string" then return string.format("%q", v)
   elseif vtype == "number" then return v
   elseif vtype == "table" then return "{"..self:ref_(v).."}"
-  else print( "error, can't pickle" );--error("pickle a "..type(v).." is not supported")
+  else print( "error, can't pickle a "..type(v).." is not supported");
   end  
 end
 
