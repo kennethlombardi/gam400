@@ -6,7 +6,6 @@ local windowManager = require "WindowManager";
 
 function MOAILayerPrototype:insertProp(prop)
 	if self["underlyingType"] == nil then print("Trying to insert prop into MOAILayerPrototype without underlying type"); return; end;
-	--table.insert(self["props"], prop);
 	self["underlyingType"]:insertProp(prop);
 end
 
@@ -23,11 +22,18 @@ function MOAILayerPrototype:setPosition(x, y)
 	end
 end
 
+function MOAILayerPrototype:setPropContainer(propContainer)
+	self.propContainer = propContainer;
+	print("Setting prop container in layer");
+	for i,prop in pairs(propContainer.props) do
+		self:insertProp(prop);
+		print("inserting prop into layer")
+	end
+end
+
 function MOAILayerPrototype:setViewport(viewport)
 	if self["underlyingType"] == nil then print("Trying to insert viewport into MOAILayerPrototype without underlying type"); return; end;
 	self["underlyingType"]:setViewport(viewport);
 end
-
-
 
 return MOAILayerPrototype;

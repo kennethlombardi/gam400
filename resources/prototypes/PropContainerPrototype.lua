@@ -2,6 +2,13 @@ local PropContainer = {
 	props = {};
 }
 
+local count = 1;
+function PropContainer:insertProp(prop)
+	self.props[count] = prop;
+	print("Inserting prop into prop container at position:"..count);
+	count = count + 1;
+end
+
 function PropContainer:new(object)
 	object = object or {};
 	setmetatable(object, self);
@@ -11,8 +18,12 @@ end
 
 function PropContainer:serialize(properties)
 	properties = properties or {};
-	for i = 1, 10 do
-		properties[i] = {type = "SERIALIZED PROP TYPE", name = "PROP NUMBER"..i}
+	for i,v in pairs(self.props) do
+		local prop = {
+			name = "Storage Prop Number:"..i, 
+			type = "Storage Prop Type Test"
+		};
+		table.insert(properties, prop);
 	end
 	return properties;
 end

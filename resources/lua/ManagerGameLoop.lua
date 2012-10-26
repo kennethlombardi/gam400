@@ -7,13 +7,12 @@ end
 
 local function initialize()
 	local Factory = require "Factory"
-	local layer =  Factory:createFromFile("Layer", "pickleFile.lua");
-	layer:setPosition(42, 24);
-	local properties = {};
-	layer:serialize(properties);
-	require "Pickle";
-	print( pickle(properties) );
+	--local layer =  Factory:createFromFile("Layer", "pickleFile.lua");
+	--layer:serializeToFile("../layers/pickleFileDiff.lua");
+	--MOAISim.pushRenderPass(layer:getUnderlyingType());
+	local layer = Factory:createFromFile("Layer", "pickleFileDiff.lua");
 	MOAISim.pushRenderPass(layer:getUnderlyingType());
+	--layer:serializeToFile("../layers/pickleFileDiffDiff.lua");
   	print("Initialized");
 end
 

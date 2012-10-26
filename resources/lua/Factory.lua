@@ -1,9 +1,5 @@
-local Factory = {
-	
-};
-
-objectCreators = {}
-
+local Factory = {};
+local objectCreators = {}
 local Creator = {}
 
 function Creator:new(object)
@@ -80,10 +76,18 @@ function MOAILayerCreator:create(properties)
 	print("Type: "..properties.type);
 	local layer = require "MOAILayerPrototype";
 	local newLayer = layer:new();
-	newLayer:setUnderlyingType(MOAILayer.new());
+	newLayer:setUnderlyingType( MOAILayer.new() );
+	local propContainer = Factory:create("PropContainer");
+	
+	print("Creating a new prop container with properties");
+	print(pickle(properties.propContainer));
+
 	for k,v in pairs(properties.propContainer) do 
-		newLayer:insertProp( Factory:create(v.type, v) );
+		local newProp = Factory:create(v.type, v);
+		require "Pickle";
+		propContainer:insertProp( newProp );
 	end
+	newLayer:setPropContainer( propContainer );
 
 	-- viewport
     local windowManager = require "WindowManager";
@@ -102,7 +106,6 @@ function MOAILayerCreator:create(properties)
     newLayer:setCamera(camera);
     newLayer:setName(properties.name);
     newLayer:setType(properties.type);
-    newLayer:setPropContainer( Factory:create("PropContainer") );
 
 	return newLayer;
 end
@@ -130,6 +133,7 @@ function Factory:createFromFile(objectType, fileName)
 end
 
 function Factory:create(objectType, properties)
+	print("Factory:create("..objectType..")");
 	return objectCreators[objectType]:create(properties);
 end
 
@@ -142,6 +146,7 @@ local function initialize()
 	Factory:register("Prop", MOAIPropCreator:new());
 	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
+	Factory:register("Storage Prop Type Test", MOAIPropCreator:new());
 end
 
 initialize();
