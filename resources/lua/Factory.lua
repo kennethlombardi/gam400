@@ -14,6 +14,7 @@ local MOAIPropCreator = Creator:new();
 local PropContainerCreator = Creator:new();
 local MOAILayerCreator = Creator:new();
 local PropPrototypeCreator = Creator:new();
+local MOAIPropPrototypeCreator = Creator:new();
 --
 
 -- PropContainerCreator
@@ -29,6 +30,17 @@ function PropPrototypeCreator:create(properties)
 	local newObject = propPrototype:new();
 	newObject:setName(properties.name);
 	newObject:setType(properties.type);
+	return newObject;
+end
+--
+
+-- MOAIPropPrototypeCreator
+function MOAIPropPrototypeCreator:create(properties)
+	local propPrototype = require "MOAIPropPrototype";
+	local newObject = propPrototype:new();
+	newObject:setName(properties.name);
+	newObject:setType(properties.type);
+	newObject:setUnderlyingType(MOAIProp.new());
 	return newObject;
 end
 --
@@ -49,12 +61,15 @@ function MOAIPropCreator:create(properties)
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
 	-- create metaball to hook shader to
-	local prop = MOAIMetaBall.new();
-	prop:setDeck(gfxQuad);
-	prop:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
-	prop:setLoc(math.random(-200, 200), math.random(-200, 200), 0);
-	local propPrototype = Factory:create("PropPrototype", properties);
-	propPrototype:setUnderlyingType(prop);
+	--local prop = MOAIProp.new();
+	--prop:setDeck(gfxQuad);
+	--prop:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
+	
+	local propPrototype = Factory:create("MOAIPropPrototype", properties);
+	--propPrototype:setUnderlyingType(prop);
+	propPrototype:setPosition(math.random(-300, 300), math.random(-300, 300), 0);
+	propPrototype:getUnderlyingType():setDeck(gfxQuad);
+	propPrototype:getUnderlyingType():moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
 
 	local color = MOAIColor.new ()
 	color:setColor ( 0, 0, 1, 0 )
@@ -153,6 +168,7 @@ local function initialize()
 	Factory:register("Prop", MOAIPropCreator:new());
 	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
+	Factory:register("MOAIPropPrototype", MOAIPropPrototypeCreator:new());
 end
 
 initialize();

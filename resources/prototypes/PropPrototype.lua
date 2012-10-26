@@ -16,6 +16,7 @@ function PropPrototype:getUnderlyingType()
 end
 
 function PropPrototype:setName(name)
+	print("Called PropPrototype:setName");
 	self.name = name;
 end
 

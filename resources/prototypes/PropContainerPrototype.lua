@@ -18,8 +18,8 @@ function PropContainerPrototype:serialize(properties)
 	properties = properties or {};
 	for i,v in pairs(self.props) do
 		local prop = {
-			name = "Prop number:"..i, 
-			type = "asdf";
+			name = v.name, 
+			type = v.type;
 		};
 		table.insert(properties, prop);
 	end
