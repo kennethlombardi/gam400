@@ -4,6 +4,10 @@ MOAILayerPrototype = Layer:new();
 
 local windowManager = require "WindowManager";
 
+function MOAILayerPrototype:getLoc()
+	return self.position;
+end
+
 function MOAILayerPrototype:insertProp(prop)
 	if self["underlyingType"] == nil then 
 		print("Trying to insert prop into MOAILayerPrototype without underlying type"); 
@@ -25,11 +29,7 @@ function MOAILayerPrototype:setLoc(newX, newY, newZ)
 	self.position = {x = newX, y = newY, z = newZ}
 	if self.camera ~= nil then
 		self.camera:setLoc(newX, newY, newZ);
-		print(newX);
-		print(newY);
-		print(newZ);
 	else
-
 	end
 end
 
