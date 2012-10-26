@@ -17,8 +17,10 @@ function MOAILayerPrototype:setCamera(camera)
 end
 
 function MOAILayerPrototype:setPosition(x, y)
-	self.position = {x,y};
-	self.camera:setLoc(x, y, self.camera:getFocalLength(windowManager.screenWidth));
+	getmetatable(self):setPosition(x, y);
+	if self.camera ~= nil then
+		self.camera:setLoc(x, y, self.camera:getFocalLength(windowManager.screenWidth));
+	end
 end
 
 function MOAILayerPrototype:setViewport(viewport)

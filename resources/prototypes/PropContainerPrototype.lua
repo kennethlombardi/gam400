@@ -11,8 +11,9 @@ end
 
 function PropContainer:serialize(properties)
 	properties = properties or {};
-	properties.type = "SERIALIZED PROP";
-	properties.name = "SERIALIZED PROP NAME";
+	for i = 1, 10 do
+		properties[i] = {type = "SERIALIZED PROP TYPE", name = "PROP NUMBER"..i}
+	end
 	return properties;
 end
 

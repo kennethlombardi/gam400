@@ -81,7 +81,7 @@ function MOAILayerCreator:create(properties)
 	local layer = require "MOAILayerPrototype";
 	local newLayer = layer:new();
 	newLayer:setUnderlyingType(MOAILayer.new());
-	for k,v in pairs(properties.props) do 
+	for k,v in pairs(properties.propContainer) do 
 		newLayer:insertProp( Factory:create(v.type, v) );
 	end
 
