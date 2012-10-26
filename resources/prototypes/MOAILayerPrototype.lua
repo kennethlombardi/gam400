@@ -6,7 +6,7 @@ local windowManager = require "WindowManager";
 
 function MOAILayerPrototype:insertProp(prop)
 	if self["underlyingType"] == nil then print("Trying to insert prop into MOAILayerPrototype without underlying type"); return; end;
-	self["underlyingType"]:insertProp(prop);
+	self["underlyingType"]:insertProp(prop:getUnderlyingType());
 end
 
 function MOAILayerPrototype:setCamera(camera)
@@ -24,10 +24,8 @@ end
 
 function MOAILayerPrototype:setPropContainer(propContainer)
 	self.propContainer = propContainer;
-	print("Setting prop container in layer");
 	for i,prop in pairs(propContainer.props) do
 		self:insertProp(prop);
-		print("inserting prop into layer")
 	end
 end
 

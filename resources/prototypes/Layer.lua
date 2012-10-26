@@ -39,11 +39,11 @@ end
 
 function Layer:serializeToFile(filename)
     require "Pickle";
-    pickle = pickle( self:serialize() );
+    p = pickle( self:serialize() );
     file = assert( io.open(filename, "wt") );
     s = "deserialize (\"Layer\",\n";
     file:write(s);
-    file:write(pickle);
+    file:write(p);
     s = ")\n\n";
     file:write(s);
     file:close();

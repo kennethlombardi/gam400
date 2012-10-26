@@ -13,6 +13,7 @@ end
 local MOAIPropCreator = Creator:new();
 local PropContainerCreator = Creator:new();
 local MOAILayerCreator = Creator:new();
+local PropPrototypeCreator = Creator:new();
 --
 
 -- PropContainerCreator
@@ -22,7 +23,17 @@ function PropContainerCreator:create(properties)
 end
 --
 
--- PropCreator
+-- PropPrototypeCreator
+function PropPrototypeCreator:create(properties)
+	local propPrototype = require "PropPrototype";
+	local newObject = propPrototype:new();
+	newObject:setName(properties.name);
+	newObject:setType(properties.type);
+	return newObject;
+end
+--
+
+-- MOAIPropCreator
 function MOAIPropCreator:create(properties)
 	local file = assert ( io.open ( 'shader.vsh', mode ))
 	vsh = file:read ( '*all' )
@@ -38,10 +49,12 @@ function MOAIPropCreator:create(properties)
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
 	-- create metaball to hook shader to
-	local metaball = MOAIMetaBall.new();
-	metaball:setDeck(gfxQuad);
-	metaball:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
-	metaball:setLoc(math.random(-200, 200), math.random(-200, 200), 0);
+	local prop = MOAIMetaBall.new();
+	prop:setDeck(gfxQuad);
+	prop:moveRot(0, 0, 360, 5, MOAIEaseType.LINEAR);
+	prop:setLoc(math.random(-200, 200), math.random(-200, 200), 0);
+	local propPrototype = Factory:create("PropPrototype", properties);
+	propPrototype:setUnderlyingType(prop);
 
 	local color = MOAIColor.new ()
 	color:setColor ( 0, 0, 1, 0 )
@@ -50,9 +63,7 @@ function MOAIPropCreator:create(properties)
 	local shader = MOAIShader.new ()
 	shader:reserveUniforms ( 1 )
 	shader:declareUniform ( 1, 'maskColor', MOAIShader.UNIFORM_COLOR )
-
 	shader:setAttrLink ( 1, color, MOAIColor.COLOR_TRAIT )
-
 	shader:setVertexAttribute ( 1, 'position' )
 	shader:setVertexAttribute ( 2, 'uv' )
 	shader:setVertexAttribute ( 3, 'color' )
@@ -60,9 +71,7 @@ function MOAIPropCreator:create(properties)
 
 	gfxQuad:setShader ( shader )
 
-	print("Creating prop: "..properties.name);
-
-	return metaball;
+	return propPrototype;
 end
 
 function MOAIPropCreator:createFromFile(fileName)
@@ -78,13 +87,10 @@ function MOAILayerCreator:create(properties)
 	local newLayer = layer:new();
 	newLayer:setUnderlyingType( MOAILayer.new() );
 	local propContainer = Factory:create("PropContainer");
-	
-	print("Creating a new prop container with properties");
-	print(pickle(properties.propContainer));
 
+	-- fill the prop container then insert into layer
 	for k,v in pairs(properties.propContainer) do 
 		local newProp = Factory:create(v.type, v);
-		require "Pickle";
 		propContainer:insertProp( newProp );
 	end
 	newLayer:setPropContainer( propContainer );
@@ -143,10 +149,10 @@ end
 --
 
 local function initialize()
+	Factory:register("PropPrototype", PropPrototypeCreator:new());
 	Factory:register("Prop", MOAIPropCreator:new());
 	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
-	Factory:register("Storage Prop Type Test", MOAIPropCreator:new());
 end
 
 initialize();

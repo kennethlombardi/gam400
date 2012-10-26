@@ -1,31 +1,29 @@
-local PropContainer = {
-	props = {};
+local PropContainerPrototype = {
+	props = nil;
 }
 
-local count = 1;
-function PropContainer:insertProp(prop)
-	self.props[count] = prop;
-	print("Inserting prop into prop container at position:"..count);
-	count = count + 1;
+function PropContainerPrototype:insertProp(prop)
+	table.insert(self.props, prop);
 end
 
-function PropContainer:new(object)
+function PropContainerPrototype:new(object)
 	object = object or {};
 	setmetatable(object, self);
 	self.__index = self;
+	object.props = {};
 	return object;
 end
 
-function PropContainer:serialize(properties)
+function PropContainerPrototype:serialize(properties)
 	properties = properties or {};
 	for i,v in pairs(self.props) do
 		local prop = {
-			name = "Storage Prop Number:"..i, 
-			type = "Storage Prop Type Test"
+			name = "Prop number:"..i, 
+			type = "asdf";
 		};
 		table.insert(properties, prop);
 	end
 	return properties;
 end
 
-return PropContainer;
+return PropContainerPrototype;

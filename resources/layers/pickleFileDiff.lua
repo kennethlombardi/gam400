@@ -27,53 +27,53 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {4}
-		["name"]="Storage Prop Number:1",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:1",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {5}
-		["name"]="Storage Prop Number:2",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:2",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {6}
-		["name"]="Storage Prop Number:3",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:3",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {7}
-		["name"]="Storage Prop Number:4",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:4",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {8}
-		["name"]="Storage Prop Number:5",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:5",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {9}
-		["name"]="Storage Prop Number:6",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:6",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {10}
-		["name"]="Storage Prop Number:7",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:7",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {11}
-		["name"]="Storage Prop Number:8",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:8",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {12}
-		["name"]="Storage Prop Number:9",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:9",
+		["type"]="asdf",
 	},
 
 	{--Entry Number: {13}
-		["name"]="Storage Prop Number:10",
-		["type"]="Storage Prop Type Test",
+		["name"]="Prop number:10",
+		["type"]="asdf",
 	},
 })
 
