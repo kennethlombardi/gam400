@@ -8,12 +8,7 @@ end
 local function initialize()
 	-- the hack world
 	local Factory = require "Factory"
-	if MOAIInputMgr.device.pointer then			
-		Mouse = require "MouseInput";
-	end
-	if MOAIInputMgr.device.keyboard then
-		Keyboard = require "KeyboardInput";
-	end
+	Input = require "InputManager"
 	layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
 	layer1:serializeToFile("../layers/pickleFileDiff.lua");
 
@@ -36,21 +31,20 @@ function gamesLoop ()
 		--(1 - t) * 400 + t * -400;
 		-- (1 - t) * 0 + t * 0;
 		local z = (1 - t) * 1100 + t * 5000;
-		if Keyboard:IsKeyPressed("a") then
+		if Input.Keyboard:IsKeyPressed("a") then
 			x = x - 10;			
 		end
-		if Keyboard:IsKeyPressed("d") then
+		if Input.Keyboard:IsKeyPressed("d") then
 			x = x + 10;
 		end
-		if Keyboard:IsKeyPressed("s") then
+		if Input.Keyboard:IsKeyPressed("s") then
 			y = y - 10;			
 		end
-		if Keyboard:IsKeyPressed("w") then
+		if Input.Keyboard:IsKeyPressed("w") then
 			y = y + 10;
 		end
-		layer1:setLoc(x , y, z);	-- globally access the layer from init
-		Mouse.Update(layer1);
-		layer1.camera:setRot((360 - Mouse.windowY)/30, (640 - Mouse.windowX)/30, 0);
+		layer1:setLoc(x , y, z);	-- globally access the layer from init		
+		layer1.camera:setRot((360 - Input.Mouse.windowY)/30, (640 - Input.Mouse.windowX)/30, 0);
 		t = t + timeStep;
 		if (t >= 1) then
 			timeStep = timeStep * -1;
