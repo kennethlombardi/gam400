@@ -7,10 +7,6 @@ local Layer = {
     ["position"] = {x = 0, y = 0, z = 0},
 }
 
-function Layer:childCall()
-
-end
-
 function Layer:getName()
     return self["name"];
 end

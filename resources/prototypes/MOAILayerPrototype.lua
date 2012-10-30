@@ -52,9 +52,9 @@ function MOAILayerPrototype:serialize(properties)
 end
 
 function MOAILayerPrototype:setViewport(viewport)
-	if self["underlyingType"] == nil then 
+	if self["underlyingType"] == nil then
 		print("Trying to insert viewport into MOAILayerPrototype without underlying type"); 
-		return; 
+		return;
 	end;
 	self["underlyingType"]:setViewport(viewport);
 end
@@ -64,12 +64,12 @@ function MOAILayerPrototype:setVisible(visible)
 		if self.visible == "false" then
 			MOAIRenderMgr.pushRenderPass(self:getUnderlyingType());
 			self.visible = "true";
-		end		
+		end
 	else
 		if self.visible == "true" then
 			MOAIRenderMgr.removeRenderPass(self:getUnderlyingType());
 			self.visible = "false";
-		end		
+		end
 	end
 end
 
