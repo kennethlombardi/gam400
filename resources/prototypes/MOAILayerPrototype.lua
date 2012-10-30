@@ -1,6 +1,6 @@
 local Layer = require "Layer";
 
-MOAILayerPrototype = Layer:new{eyesOnly = "eyesOnly"};
+MOAILayerPrototype = Layer:new();
 
 local windowManager = require "WindowManager";
 
@@ -47,7 +47,7 @@ end
 
 function MOAILayerPrototype:serialize(properties)
 	properties = properties or {}
-	self:serializeBase(properties);
+	self:serializeBase(properties);	--Serialize the parent data
 	return properties;
 end
 
