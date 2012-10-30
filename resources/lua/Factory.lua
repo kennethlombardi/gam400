@@ -15,6 +15,7 @@ local PropContainerCreator = Creator:new();
 local MOAILayerCreator = Creator:new();
 local PropPrototypeCreator = Creator:new();
 local MOAIPropPrototypeCreator = Creator:new();
+local MOAIPropCubeCreator = Creator:new();
 --
 
 -- MOAILayerCreator
@@ -59,8 +60,8 @@ function MOAILayerCreator:createFromFile(fileName)
 	dofile "Pickle.lua";
 	local newObjects = {};
 	local objectIndex = 1;
-	function deserialize(className, args)
-		cucumber = unpickle(args);
+	function deserialize(className, properties)
+		cucumber = unpickle(properties);
 		newObjects[objectIndex] = self:create(cucumber)
 		objectIndex = objectIndex + 1;
 		print(cucumber.name);
@@ -118,6 +119,33 @@ function MOAIPropCreator:createFromFile(fileName)
 end
 --
 
+-- MOAIPropCubeCreator
+function MOAIPropCubeCreator:create(properties)
+	return Factory:createFromFile(properties.type, properties.modelFileName);
+end
+
+function MOAIPropCubeCreator:createFromFile(filename)
+	local cucumbers = {};
+	local count = 1;
+	local function deserialize(objectType, properties)
+		local cucumber = unpickle(properties);
+		cucumbers[count] = cucumber;
+		count = count + 1;
+	end
+	local path = "../layers/"..filename;
+	dofile ("Pickle.lua");
+	dofile(path);
+	if count > 1 then
+		print(filename.."HAS TOO MANY CUBES");
+	end	
+	local BoxCreator = require "BoxMesh";
+	local box = BoxCreator.makeCube();
+	local PropPrototype = require "PropPrototype";
+	
+	return box;
+end
+--
+
 -- MOAIPropPrototypeCreator
 function MOAIPropPrototypeCreator:create(properties)
 	local propPrototype = require "MOAIPropPrototype";
@@ -167,6 +195,7 @@ local function initialize()
 	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
 	Factory:register("MOAIPropPrototype", MOAIPropPrototypeCreator:new());
+	Factory:register("MOAIPropCube", MOAIPropCubeCreator:new());
 end
 
 initialize();

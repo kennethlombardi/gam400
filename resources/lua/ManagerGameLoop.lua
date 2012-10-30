@@ -9,10 +9,30 @@ local function initialize()
 	-- the hack world
 	local Factory = require "Factory"
 	Input = require "InputManager"
+
 	Editor = require "LevelEditor"
-	layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
-	layer1:serializeToFile("../layers/pickleFileDiff.lua");
+--	layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
+--	layer1:serializeToFile("../layers/pickleFileDiff.lua");
 	initialCamPos = layer1:getLoc();
+	--layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
+	layer1 = Factory:createFromFile("Layer", "pickleFileDiff.lua");
+	--[[
+	for i = 0, 9 do
+		local x = math.random(0, 300);
+		local y = math.random(0, 300);
+		local z = math.random(0, 300);
+		properties = {
+			name = "Prop"..i,
+			type = "Prop",
+			position = {
+				x = x, y = y, z = z,
+			}
+		}
+		layer1:insertPropPersistent(Factory:create("Prop", properties));
+	end
+	--]]
+	--layer1:serializeToFile("../layers/pickleFileDiff.lua");
+
 	-- simulation state
 	MOAIGfxDevice.setClearDepth ( true );
 	

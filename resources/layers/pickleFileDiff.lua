@@ -19,6 +19,7 @@ deserialize ("Layer",
 		[8]={11},
 		[9]={12},
 		[10]={13},
+		[11]={14},
 	},
 
 	{--Entry Number: {3}
@@ -29,122 +30,134 @@ deserialize ("Layer",
 
 	{--Entry Number: {4}
 		["type"]="Prop",
-		["name"]="Prop7",
-		["position"]={14},
-	},
-
-	{--Entry Number: {5}
-		["type"]="Prop",
 		["name"]="Prop1",
 		["position"]={15},
 	},
 
+	{--Entry Number: {5}
+		["type"]="Prop",
+		["name"]="Prop0",
+		["position"]={16},
+	},
+
 	{--Entry Number: {6}
 		["type"]="Prop",
-		["name"]="Prop2",
-		["position"]={16},
+		["name"]="Prop1",
+		["position"]={17},
 	},
 
 	{--Entry Number: {7}
 		["type"]="Prop",
-		["name"]="Prop4",
-		["position"]={17},
+		["name"]="Prop2",
+		["position"]={18},
 	},
 
 	{--Entry Number: {8}
 		["type"]="Prop",
-		["name"]="Prop8",
-		["position"]={18},
+		["name"]="Prop3",
+		["position"]={19},
 	},
 
 	{--Entry Number: {9}
 		["type"]="Prop",
-		["name"]="Prop9",
-		["position"]={19},
+		["name"]="Prop4",
+		["position"]={20},
 	},
 
 	{--Entry Number: {10}
 		["type"]="Prop",
 		["name"]="Prop5",
-		["position"]={20},
+		["position"]={21},
 	},
 
 	{--Entry Number: {11}
 		["type"]="Prop",
-		["name"]="Prop10",
-		["position"]={21},
+		["name"]="Prop6",
+		["position"]={22},
 	},
 
 	{--Entry Number: {12}
 		["type"]="Prop",
-		["name"]="Prop3",
-		["position"]={22},
+		["name"]="Prop7",
+		["position"]={23},
 	},
 
 	{--Entry Number: {13}
 		["type"]="Prop",
-		["name"]="Prop6",
-		["position"]={23},
+		["name"]="Prop8",
+		["position"]={24},
 	},
 
 	{--Entry Number: {14}
-		["y"]=210,
-		["x"]=-210,
-		["z"]=2980,
+		["type"]="Prop",
+		["name"]="Prop9",
+		["position"]={25},
 	},
 
 	{--Entry Number: {15}
-		["y"]=30,
-		["x"]=-30,
-		["z"]=2239,
+		["y"]=1077.0828605541,
+		["x"]=691.58695151122,
+		["z"]=-1778,
 	},
 
 	{--Entry Number: {16}
-		["y"]=-60,
-		["x"]=60,
-		["z"]=1000,
+		["y"]=235,
+		["x"]=213,
+		["z"]=176,
 	},
 
 	{--Entry Number: {17}
-		["y"]=-120,
-		["x"]=120,
-		["z"]=545,
+		["y"]=89,
+		["x"]=219,
+		["z"]=40,
 	},
 
 	{--Entry Number: {18}
-		["y"]=-240,
-		["x"]=240,
-		["z"]=2253,
+		["y"]=56,
+		["x"]=283,
+		["z"]=13,
 	},
 
 	{--Entry Number: {19}
-		["y"]=270,
-		["x"]=-270,
-		["z"]=927,
+		["y"]=235,
+		["x"]=125,
+		["z"]=231,
 	},
 
 	{--Entry Number: {20}
-		["y"]=150,
-		["x"]=-150,
-		["z"]=2828,
+		["y"]=80,
+		["x"]=138,
+		["z"]=81,
 	},
 
 	{--Entry Number: {21}
-		["y"]=-300,
-		["x"]=300,
-		["z"]=616,
+		["y"]=224,
+		["x"]=84,
+		["z"]=194,
 	},
 
 	{--Entry Number: {22}
-		["y"]=90,
-		["x"]=-90,
-		["z"]=1083,
+		["y"]=150,
+		["x"]=74,
+		["z"]=59,
 	},
 
 	{--Entry Number: {23}
-		["y"]=-180,
-		["x"]=180,
-		["z"]=827,
+		["y"]=261,
+		["x"]=103,
+		["z"]=262,
+	},
+
+	{--Entry Number: {24}
+		["y"]=176,
+		["x"]=56,
+		["z"]=271,
+	},
+
+	{--Entry Number: {25}
+		["y"]=290,
+		["x"]=88,
+		["z"]=90,
 	},
 })
 

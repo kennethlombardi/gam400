@@ -16,6 +16,11 @@ function MOAILayerPrototype:insertProp(prop)
 	self.underlyingType:insertProp(prop:getUnderlyingType());
 end
 
+function MOAILayerPrototype:insertPropPersistent(prop)
+	self:insertProp(prop);
+	self.propContainer:insertProp(prop);
+end
+
 function MOAILayerPrototype:setCamera(camera)
 	if self["underlyingType"] == nil then 
 		print("Trying to insert camera into MOAILayerPrototype without underlying type"); 
