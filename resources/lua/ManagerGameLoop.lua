@@ -11,27 +11,8 @@ local function initialize()
 	Input = require "InputManager"
 
 	Editor = require "LevelEditor"
---	layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
---	layer1:serializeToFile("../layers/pickleFileDiff.lua");
-	initialCamPos = layer1:getLoc();
-	--layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
 	layer1 = Factory:createFromFile("Layer", "pickleFileDiff.lua");
-	--[[
-	for i = 0, 9 do
-		local x = math.random(0, 300);
-		local y = math.random(0, 300);
-		local z = math.random(0, 300);
-		properties = {
-			name = "Prop"..i,
-			type = "Prop",
-			position = {
-				x = x, y = y, z = z,
-			}
-		}
-		layer1:insertPropPersistent(Factory:create("Prop", properties));
-	end
-	--]]
-	--layer1:serializeToFile("../layers/pickleFileDiff.lua");
+	initialCamPos = layer1:getLoc();
 
 	-- simulation state
 	MOAIGfxDevice.setClearDepth ( true );
@@ -53,9 +34,6 @@ function gamesLoop ()
 		if Input:IsKeyTriggered(Input.Key["esc"]) then --escape
 			done = not done;
 		end		
-		---[[
-		--(1 - t) * 400 + t * -400;
-		-- (1 - t) * 0 + t * 0;
 		
 		if Input:IsKeyTriggered(Input.Key["e"]) then
 			editMode = not editMode;
