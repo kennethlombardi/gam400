@@ -29,67 +29,67 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {4}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop1",
 		["position"]={15},
 	},
 
 	{--Entry Number: {5}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop0",
 		["position"]={16},
 	},
 
 	{--Entry Number: {6}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop1",
 		["position"]={17},
 	},
 
 	{--Entry Number: {7}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop2",
 		["position"]={18},
 	},
 
 	{--Entry Number: {8}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop3",
 		["position"]={19},
 	},
 
 	{--Entry Number: {9}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop4",
 		["position"]={20},
 	},
 
 	{--Entry Number: {10}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop5",
 		["position"]={21},
 	},
 
 	{--Entry Number: {11}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop6",
 		["position"]={22},
 	},
 
 	{--Entry Number: {12}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop7",
 		["position"]={23},
 	},
 
 	{--Entry Number: {13}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop8",
 		["position"]={24},
 	},
 
 	{--Entry Number: {14}
-		["type"]="Prop",
+		["type"]="MOAIPropCube",
 		["name"]="Prop9",
 		["position"]={25},
 	},

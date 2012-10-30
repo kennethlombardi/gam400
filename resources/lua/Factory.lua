@@ -121,28 +121,15 @@ end
 
 -- MOAIPropCubeCreator
 function MOAIPropCubeCreator:create(properties)
-	return Factory:createFromFile(properties.type, properties.modelFileName);
+	local BoxMesh = require "BoxMesh";
+	local cubeMesh = BoxMesh.makeCube(50, "../textures/moai.png");
+	local prop = Factory:create("Prop", properties);
+	prop:getUnderlyingType():setDeck(cubeMesh);
+	return prop;
 end
 
 function MOAIPropCubeCreator:createFromFile(filename)
-	local cucumbers = {};
-	local count = 1;
-	local function deserialize(objectType, properties)
-		local cucumber = unpickle(properties);
-		cucumbers[count] = cucumber;
-		count = count + 1;
-	end
-	local path = "../layers/"..filename;
-	dofile ("Pickle.lua");
-	dofile(path);
-	if count > 1 then
-		print(filename.."HAS TOO MANY CUBES");
-	end	
-	local BoxCreator = require "BoxMesh";
-	local box = BoxCreator.makeCube();
-	local PropPrototype = require "PropPrototype";
 	
-	return box;
 end
 --
 
