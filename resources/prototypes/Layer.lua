@@ -40,7 +40,7 @@ end
 function Layer:serializeToFile(filename)
     require "Pickle";
     p = pickle( self:serialize() );
-    file = assert( io.open(filename, "wt") );
+    file = assert( io.open("../layers/"..filename, "wt") );
     s = "deserialize (\"Layer\",\n";
     file:write(s);
     file:write(p);

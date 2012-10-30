@@ -12,6 +12,7 @@ local function initialize()
 
 	Editor = require "LevelEditor"
 	layer1 = Factory:createFromFile("Layer", "pickleFileDiff.lua");
+	layer1:serializeToFile("pickleFileDiff.lua");
 	initialCamPos = layer1:getLoc();
 
 	-- simulation state
