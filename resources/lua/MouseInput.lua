@@ -11,8 +11,8 @@ Mouse.key[1] = {false, false, false}
 
 local function PushBack(key, pressed)
 	Mouse.key[key][1] = true;
-	Mouse.key[key][2] = pressed;
 	Mouse.key[key][3] = Mouse.key[key][2];
+	Mouse.key[key][2] = pressed;	
 end
 
 local function SetKey(key, pressed)
@@ -49,23 +49,18 @@ function Mouse:IsKeyTriggered(key)
 	return false;
 end
 
-local keyCallback = function ( key, down )
+function Mouse:Update()
 	for i = 0, 1, 1 do
-		
-	end
-	if down then 
-		PressKey(key);
-	else
-		RaiseKey(key);
-	end
+		if Mouse.key[i][1] == false then
+			PushBack(i, Mouse.key[i][2]);
+		end
+		Mouse.key[i][1] = false;	
+	end	
 end
 
+
 MOAIInputMgr.device.pointer:setCallback(
-	function()
-		if Mouse.key[0][1] == false then
-			PushBack(0, Mouse.key[0][2]);
-		end
-		Mouse.key[0][1] = false;
+	function()		
 		local lastX = Mouse.windowX;
 		local lastY = Mouse.windowY;	
 		Mouse.windowX, Mouse.windowY = MOAIInputMgr.device.pointer:getLoc();
