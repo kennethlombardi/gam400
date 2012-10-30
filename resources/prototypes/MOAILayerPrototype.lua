@@ -1,6 +1,6 @@
 local Layer = require "Layer";
 
-MOAILayerPrototype = Layer:new();
+MOAILayerPrototype = Layer:new{eyesOnly = "eyesOnly"};
 
 local windowManager = require "WindowManager";
 
@@ -43,6 +43,12 @@ function MOAILayerPrototype:setPropContainer(propContainer)
 	for i,prop in pairs(propContainer.props) do
 		self:insertProp(prop);
 	end
+end
+
+function MOAILayerPrototype:serialize(properties)
+	properties = properties or {}
+	self:serializeBase(properties);
+	return properties;
 end
 
 function MOAILayerPrototype:setViewport(viewport)

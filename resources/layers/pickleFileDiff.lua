@@ -19,7 +19,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {4}
-		["type"]="MOAIPropCube",
+		["type"]="Prop",
 		["name"]="Prop1",
 		["position"]={5},
 	},

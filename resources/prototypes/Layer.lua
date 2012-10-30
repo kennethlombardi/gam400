@@ -7,6 +7,10 @@ local Layer = {
     ["position"] = {x = 0, y = 0, z = 0},
 }
 
+function Layer:childCall()
+
+end
+
 function Layer:getName()
     return self["name"];
 end
@@ -28,13 +32,18 @@ function Layer:getUnderlyingType()
 end
 
 function Layer:serialize(properties)
-    properties = properties or {};
+   properties = properties or {};
+   return self:serializeBase(properties);
+end
+
+function Layer:serializeBase(properties)
+    properties = properties or {}
     properties["type"] = self.type;
     properties["name"] = self.name;
     properties["visible"] = self.visible;
     properties["propContainer"] = self["propContainer"]:serialize();
     properties["position"] = self.position;
-    return properties;
+    return properties;   
 end
 
 function Layer:serializeToFile(filename)
