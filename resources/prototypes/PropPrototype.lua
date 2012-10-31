@@ -2,12 +2,14 @@ local PropPrototype = {
 	underlyingType = nil,
 	name = "PropPrototypeName",
 	type = "PropPrototypeType",
+	position = nil,
 }
 
 function PropPrototype:new(object)
 	object = object or {};
 	setmetatable(object, self);
 	self.__index = self;
+	position = {};
 	return object;
 end
 
@@ -25,6 +27,11 @@ end
 
 function PropPrototype:setUnderlyingType(newObjectReference)
 	self.underlyingType = newObjectReference;
+end
+
+function PropPrototype:contains(x, y, z)
+	print("PropPrototype:contains is UNIMPLEMENTED");
+	return 0;
 end
 
 return PropPrototype;

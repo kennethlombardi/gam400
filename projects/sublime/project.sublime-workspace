@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"type",
+				"typeName"
+			],
+			[
+				"tex",
+				"textureBuffer"
+			],
+			[
+				"MO",
+				"MOAILayerPrototype"
+			],
+			[
+				"MOAIPropCub",
+				"MOAIPropCubeCreator"
+			],
+			[
+				"insert",
+				"insertProp"
+			],
+			[
+				"MOAIPropCu",
+				"MOAIPropCubeCreator"
+			],
+			[
 				"output",
 				"outputAllScoresMyScore"
 			],
@@ -50,10 +74,6 @@
 			[
 				"underlyi",
 				"underlyingType"
-			],
-			[
-				"MO",
-				"MOAIRenderMgr"
 			],
 			[
 				"MOAIPropPro",
@@ -111,23 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
-			"settings":
-			{
-				"buffer_size": 424,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "{\n	\"cmd\": [\"make\"]\n}\n",
-			"settings":
-			{
-				"buffer_size": 21,
-				"line_ending": "Windows",
-				"name": "untitled.sublime-build"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -153,18 +156,28 @@
 	},
 	"file_history":
 	[
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/BoxMesh.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ManagerGameLoop.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/InputManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Layer.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/EngineProofGameLoop.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
 		"/C/Users/Kenneth/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/cygwin/home/Kenneth/github/gam400/projects/sublime/MoaiWindows.sublime-build",
 		"/C/cygwin/home/Kenneth/github/gam400/projects/sublime/sublime.sublime-project",
 		"/C/cygwin/home/Kenneth/github/gam400/projects/sublime/sublime.sublime-workspace",
 		"/C/cygwin/home/Kenneth/github/gam400/MoaiWindows.sublime-build",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/controllers/user.js",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/app.js",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/post.js",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/static/index.html",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ManagerGameLoop.lua",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/static/index_ajax.html",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/static/index.html",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/static/comet_push.html",
@@ -174,12 +187,6 @@
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/app.js",
 		"/C/cygwin/home/Kenneth/github/1791080/app.js",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/public/index.html",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayerPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Layer.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/pickleFileDiff.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/pickleFile.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/backup.lua",
@@ -226,61 +233,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
-					"settings":
-					{
-						"buffer_size": 424,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								245,
-								245
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 21,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"default_dir": "C:\\Users\\Kenneth\\AppData\\Roaming\\Sublime Text 2\\Packages\\User",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

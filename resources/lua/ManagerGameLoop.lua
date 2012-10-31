@@ -34,6 +34,11 @@ local function initialize()
   	print("Initialized");
 end
 
+local function update(dt)
+	Input:Update();
+	layer1:update();
+end
+
 local done = false;
 t = 0;
 timeStep = .01;
@@ -46,7 +51,8 @@ function gamesLoop ()
 	local z = initialCamPos.z;
 	while not done do
 		bg:setLoc(x, y, z-5000);
-		Input:Update();
+		--Input:Update();
+		update();
 		if Input:IsKeyTriggered(Input.Key["esc"]) then --escape
 			done = not done;
 		end		
@@ -72,7 +78,7 @@ function gamesLoop ()
 				newproperties.position.x = math.random(-500, 500);
 				newproperties.position.y = math.random(-500, 500);
 				newproperties.position.z = z - 6000;
-				layer1:insertProp(Factory:create("MOAIPropCube", newproperties));
+				layer1:insertPropPersistent(Factory:create("MOAIPropCube", newproperties));
 				t = 0;				
 			end
 			--if (t <= 0) then
