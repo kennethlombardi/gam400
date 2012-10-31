@@ -74,7 +74,7 @@ end
 --
 
 local ResourceManager = require("ResourceManager");
-local texture = ResourceManager:load("Texture", "space.png");
+local texture = ResourceManager:load("Texture", "spacebox/space_front5.png");
 
 
 -- MOAIPropCreator
