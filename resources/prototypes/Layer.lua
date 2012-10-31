@@ -84,7 +84,7 @@ end
 
 function Layer:update(dt)    
     for k,v in pairs(self.propContainer.props) do
-        if within(v.position, self.position, 100) then
+        if within(v.position, self.position, 900) then
             os.exit(1);
         end
     end    
