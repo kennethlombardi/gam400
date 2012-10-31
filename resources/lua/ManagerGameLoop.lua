@@ -11,7 +11,7 @@ local function initialize()
 	Input = require "InputManager"
 
 	Editor = require "LevelEditor"
-	layer1 = Factory:createFromFile("Layer", "pickleFileDiff.lua");
+	layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
 	
 	local bgprop = {};
 	bgprop.position = {};
