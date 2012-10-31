@@ -83,8 +83,11 @@ function MOAIPropCreator:create(properties)
 	fsh = file:read ( '*all' )
 	file:close ()
 
+	local ResourceManager = require("ResourceManager");
+	local texture = ResourceManager:load("Texture", "moai.png");
 	local gfxQuad = MOAIGfxQuad2D.new ()
-	gfxQuad:setTexture ( "../textures/moai.png" )
+	--gfxQuad:setTexture ( "../textures/moai.png" )
+	gfxQuad:setTexture(texture);
 	gfxQuad:setRect ( -64, -64, 64, 64 )
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
