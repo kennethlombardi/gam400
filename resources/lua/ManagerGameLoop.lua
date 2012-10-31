@@ -11,16 +11,19 @@ local function initialize()
 	Input = require "InputManager"
 
 	Editor = require "LevelEditor"
-	layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
+	layer1 = Factory:createFromFile("Layer", "pickleFileDiff.lua");
 	
 	local bgprop = {};
 	bgprop.position = {};
 	bgprop.position.x = 0;
 	bgprop.position.y = 0;
 	bgprop.position.z = -2000;
+	bgprop.scale = {};
+	bgprop.scale.x = 5000;
+	bgprop.scale.y = 5000;
+	bgprop.bg = 1;
 	bg = Factory:create("Prop", bgprop)
-	layer1:insertProp(bg);
-	
+	layer1:insertProp(bg);	
 	
 	initialCamPos = layer1:getLoc();
 	initialCamPos.z = 5000;

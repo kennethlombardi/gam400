@@ -84,12 +84,14 @@ function MOAIPropCreator:create(properties)
 	file:close ()
 
 	local ResourceManager = require("ResourceManager");
-	local texture = ResourceManager:load("Texture", "moai.png");
+	local texture = ResourceManager:load("Texture", "space.png");
 	local gfxQuad = MOAIGfxQuad2D.new ()
 
 	gfxQuad:setTexture(texture);
 	gfxQuad:setRect ( -64, -64, 64, 64 )
-
+	if properties.scale then
+		gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
+	end
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
 	-- create prop to hook shader to	
@@ -110,10 +112,13 @@ function MOAIPropCreator:create(properties)
 	shader:setAttrLink ( 1, color, MOAIColor.COLOR_TRAIT )
 	shader:setVertexAttribute ( 1, 'position' )
 	shader:setVertexAttribute ( 2, 'uv' )
-	shader:setVertexAttribute ( 3, 'color' )
+	shader:setVertexAttribute ( 3, 'color' )	
 	shader:load ( vsh, fsh )
+	
 
-	gfxQuad:setShader ( shader )
+	if not properties.bg then
+		gfxQuad:setShader ( shader )
+	end
 
 	return propPrototype;
 end
