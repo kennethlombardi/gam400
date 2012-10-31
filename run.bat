@@ -27,8 +27,8 @@ if not exist "hosts\win32\config.lua" (
 )
 
 :: run moai
-cd hosts\win32\
-"moai" "config.lua" "..\..\resources\lua\main.lua"
+cd ./resources/lua/
+"../../hosts/win32/moai.exe" "../../hosts/win32/config.lua" main.lua
 
 :end
 pause
