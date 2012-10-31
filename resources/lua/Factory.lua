@@ -73,6 +73,10 @@ function MOAILayerCreator:createFromFile(fileName)
 end
 --
 
+local ResourceManager = require("ResourceManager");
+local texture = ResourceManager:load("Texture", "space.png");
+
+
 -- MOAIPropCreator
 function MOAIPropCreator:create(properties)
 	local file = assert ( io.open ( 'shader.vsh', mode ))
@@ -83,10 +87,7 @@ function MOAIPropCreator:create(properties)
 	fsh = file:read ( '*all' )
 	file:close ()
 
-	local ResourceManager = require("ResourceManager");
-	local texture = ResourceManager:load("Texture", "space.png");
 	local gfxQuad = MOAIGfxQuad2D.new ()
-
 	gfxQuad:setTexture(texture);
 	gfxQuad:setRect ( -64, -64, 64, 64 )
 	if properties.scale then

@@ -77,7 +77,8 @@ function makeBoxMesh ( xMin, yMin, zMin, xMax, yMax, zMax, texture )
 	-- tileText:setSize(2,2)
 	-- tileText:setRect(xMin, yMin, xMax, yMax)
 	
-	mesh:setTexture ( texture )
+	local ResourceManager = require("ResourceManager");
+	mesh:setTexture ( ResourceManager:load("Texture", texture ) );
 	mesh:setVertexBuffer ( vbo )
 	mesh:setPrimType ( MOAIMesh.GL_TRIANGLES )
 	
