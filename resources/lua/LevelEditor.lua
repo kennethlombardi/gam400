@@ -9,6 +9,9 @@ local state = 1; --1 no object highlighted, control camera; 2 object created, co
 local shift = 1;
 function Editor:Update(layer)	
 	local newPosition;
+	if Input:IsKeyTriggered(Input.Key["CTRL+S"]) then
+		layer:serializeToFile("NewFile.lua");
+	end
 	if Input:IsKeyTriggered(Input.Key["c"]) then
 		if shift > 1 then
 			shift = shift - 1;
@@ -48,13 +51,14 @@ function Editor:Update(layer)
 	else
 		if Input:IsButtonTriggered(0) then			
 			local properties = {};
-			properties.type = "Prop";
+			properties.type = "MOAIPropCube";
 			properties.name = "NewProp";
 			local position = layer:getLoc();
 			position.z = position.z - 500;
 			properties.position = position;
 			
-			newprop = Factory:create("Prop", properties);
+			newprop = Factory:create("MOAIPropCube", properties);
+			layer:insertPropPersistent(newprop);
 			newObjList[newObjListCount] = newprop;
 			newObjListCount = newObjListCount + 1;
 			layer:insertProp(newprop);
@@ -87,8 +91,7 @@ function Editor:Update(layer)
 --				newObjList[newObjListCount] = nil;
 --			end
 		end
-	end
-	--newprop.setLoc
+	end	
 end
 
 return Editor;

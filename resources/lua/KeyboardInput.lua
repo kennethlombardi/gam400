@@ -61,7 +61,7 @@ local keyCallback = function ( key, down )
 	if down then 
 		PressKey(key);
 		print(key);
-	else
+	else		
 		RaiseKey(key);
 	end
 end

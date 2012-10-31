@@ -22,168 +22,181 @@ deserialize ("Layer",
 		[11]={14},
 		[12]={15},
 		[13]={16},
+		[14]={17},
 	},
 
 	{--Entry Number: {3}
 		["y"]=0,
 		["x"]=0,
-		["z"]=8000,
+		["z"]=1692,
 	},
 
 	{--Entry Number: {4}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#5",
-		["position"]={17},
+		["name"]="MOAIPropCube#0",
+		["position"]={18},
 	},
 
 	{--Entry Number: {5}
 		["type"]="MOAIPropCube",
-		["name"]="Prop1",
-		["position"]={18},
+		["name"]="MOAIPropCube#3",
+		["position"]={19},
 	},
 
 	{--Entry Number: {6}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#0",
-		["position"]={19},
+		["name"]="MOAIPropCube#5",
+		["position"]={20},
 	},
 
 	{--Entry Number: {7}
-		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#2",
-		["position"]={20},
+		["type"]="Prop",
+		["name"]="Prop1",
+		["position"]={21},
 	},
 
 	{--Entry Number: {8}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#6",
-		["position"]={21},
+		["name"]="MOAIPropCube#2",
+		["position"]={22},
 	},
 
 	{--Entry Number: {9}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#7",
-		["position"]={22},
+		["name"]="MOAIPropCube#8",
+		["position"]={23},
 	},
 
 	{--Entry Number: {10}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#3",
-		["position"]={23},
+		["name"]="MOAIPropCube#1",
+		["position"]={24},
 	},
 
 	{--Entry Number: {11}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#8",
-		["position"]={24},
-	},
-
-	{--Entry Number: {12}
-		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#1",
+		["name"]="MOAIPropCube#6",
 		["position"]={25},
 	},
 
-	{--Entry Number: {13}
+	{--Entry Number: {12}
 		["type"]="MOAIPropCube",
 		["name"]="MOAIPropCube#4",
 		["position"]={26},
 	},
 
+	{--Entry Number: {13}
+		["type"]="MOAIPropCube",
+		["name"]="MOAIPropCube#0",
+		["position"]={27},
+	},
+
 	{--Entry Number: {14}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#10",
-		["position"]={27},
+		["name"]="MOAIPropCube#7",
+		["position"]={28},
 	},
 
 	{--Entry Number: {15}
 		["type"]="MOAIPropCube",
 		["name"]="MOAIPropCube#9",
-		["position"]={28},
+		["position"]={29},
 	},
 
 	{--Entry Number: {16}
 		["type"]="MOAIPropCube",
-		["name"]="MOAIPropCube#0",
-		["position"]={29},
+		["name"]="MOAIPropCube#10",
+		["position"]={30},
 	},
 
 	{--Entry Number: {17}
-		["y"]=-460,
-		["x"]=492,
-		["z"]=1000,
+		["type"]="MOAIPropCube",
+		["name"]="NewProp",
+		["position"]={31},
 	},
 
 	{--Entry Number: {18}
-		["y"]=577.0828605541,
-		["x"]=191.58695151122,
-		["z"]=-2000,
-	},
-
-	{--Entry Number: {19}
-		["y"]=238,
-		["x"]=-478,
-		["z"]=1500,
-	},
-
-	{--Entry Number: {20}
-		["y"]=-570,
-		["x"]=-249,
-		["z"]=500,
-	},
-
-	{--Entry Number: {21}
-		["y"]=-157,
-		["x"]=160,
+		["y"]=530,
+		["x"]=182,
 		["z"]=0,
 	},
 
+	{--Entry Number: {19}
+		["y"]=668,
+		["x"]=422,
+		["z"]=0,
+	},
+
+	{--Entry Number: {20}
+		["y"]=60,
+		["x"]=992,
+		["z"]=0,
+	},
+
+	{--Entry Number: {21}
+		["y"]=1077.0828605541,
+		["x"]=691.58695151122,
+		["z"]=-1778,
+	},
+
 	{--Entry Number: {22}
-		["y"]=411,
-		["x"]=249,
-		["z"]=-500,
+		["y"]=70,
+		["x"]=349,
+		["z"]=0,
 	},
 
 	{--Entry Number: {23}
-		["y"]=168,
-		["x"]=-122,
-		["z"]=-1000,
+		["y"]=962,
+		["x"]=559,
+		["z"]=0,
 	},
 
 	{--Entry Number: {24}
-		["y"]=462,
-		["x"]=59,
-		["z"]=-1500,
+		["y"]=475,
+		["x"]=844,
+		["z"]=0,
 	},
 
 	{--Entry Number: {25}
-		["y"]=75,
-		["x"]=344,
-		["z"]=2000,
+		["y"]=457,
+		["x"]=660,
+		["z"]=0,
 	},
 
 	{--Entry Number: {26}
-		["y"]=30,
-		["x"]=482,
+		["y"]=530,
+		["x"]=982,
 		["z"]=0,
 	},
 
 	{--Entry Number: {27}
-		["y"]=-384,
-		["x"]=-265,
+		["y"]=738,
+		["x"]=178,
 		["z"]=0,
 	},
 
 	{--Entry Number: {28}
-		["y"]=125,
-		["x"]=458,
+		["y"]=911,
+		["x"]=749,
 		["z"]=0,
 	},
 
 	{--Entry Number: {29}
-		["y"]=30,
-		["x"]=182,
+		["y"]=125,
+		["x"]=958,
 		["z"]=0,
+	},
+
+	{--Entry Number: {30}
+		["y"]=284,
+		["x"]=365,
+		["z"]=0,
+	},
+
+	{--Entry Number: {31}
+		["y"]=130,
+		["x"]=140,
+		["z"]=1512,
 	},
 })
 
