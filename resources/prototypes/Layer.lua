@@ -76,18 +76,4 @@ function Layer:setUnderlyingType(newObjectReference)
     self["underlyingType"] = newObjectReference;
 end
 
-local function within(position1, position2, distance)
-    local difference = {x = position1.x - position2.x, y = position1.y - position2.y, z = position1.z - position2.z };
-    local mDistance = difference.x * difference.x + difference.y * difference.y + difference.z * difference.z; 
-    return mDistance < distance;
-end
-
-function Layer:update(dt)    
-    for k,v in pairs(self.propContainer.props) do
-        if within(v.position, self.position, 900) then
-            os.exit(1);
-        end
-    end    
-end
-
 return Layer;

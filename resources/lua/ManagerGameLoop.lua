@@ -18,7 +18,7 @@ local function initialize()
 	bgprop.position.x = 0;
 	bgprop.position.y = 0;
 	bgprop.position.z = -2000;
-	bgprop.scale = {};
+	bgprop.scale =  {};
 	bgprop.scale.x = 5000;
 	bgprop.scale.y = 5000;
 	bgprop.bg = 1;
@@ -36,7 +36,6 @@ end
 
 local function update(dt)
 	Input:Update();
-	layer1:update();
 end
 
 local done = false;
@@ -50,8 +49,7 @@ function gamesLoop ()
 	local y = initialCamPos.y;
 	local z = initialCamPos.z;
 	while not done do
-		bg:setLoc(x, y, z-5000);
-		--Input:Update();
+		bg:setLoc(x, y, z - 5000);
 		update();
 		if Input:IsKeyTriggered(Input.Key["esc"]) then --escape
 			done = not done;
@@ -64,13 +62,12 @@ function gamesLoop ()
 		if Input:IsKeyTriggered(Input.Key["r"]) then
 			x = initialCamPos.x; 
 			y = initialCamPos.y;
-			z = initialCamPos.z;	-- globally access the layer from init		
+			z = initialCamPos.z;	
 		end
 		
 		if not editMode then
 			t = t + timeStep;
 			if (t >= 1) then
-			--	timeStep = timeStep * -1;
 				local newproperties = {};
 				newproperties.type = "MOAIPropCube";
 				newproperties.name = "NewProp";
@@ -81,11 +78,7 @@ function gamesLoop ()
 				layer1:insertPropPersistent(Factory:create("MOAIPropCube", newproperties));
 				t = 0;				
 			end
-			--if (t <= 0) then
-			--	timeStep = timeStep * -1;
-			--end
-			
-			--local z = (1-t) * 1100 + t * 5000;
+		
 			if Input:IsKeyPressed(Input.Key["SPACE"]) then
 				z = z - 10
 			end
@@ -102,14 +95,13 @@ function gamesLoop ()
 			if Input:IsKeyPressed(Input.Key["w"]) then
 				y = y + 10;
 			end
-			layer1:setLoc(x, y, z);	-- globally access the layer from init		
+			layer1:setLoc(x, y, z);
 			layer1.camera:setRot((360 - Input.Mouse.windowY)/30, (640 - Input.Mouse.windowX)/30, 0);
 			
 			
 		else
 			Editor:Update(layer1);			
 		end		
-		--]]
 		
 		coroutine.yield()
 	end
