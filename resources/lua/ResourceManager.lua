@@ -52,7 +52,10 @@ function MOAIConfigurationHandler:load(fileName)
 	function deserialize(args)
 		configuration = args;
 	end
-	dofile("../configurations/"..fileName);
+	local fullPath = "../configurations/"..fileName;
+	if require("FileSystem"):checkFileExists(fullPath) then
+		dofile(fullPath);
+	end
 	return configuration;
 end
 --
