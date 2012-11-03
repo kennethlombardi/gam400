@@ -13,6 +13,7 @@ local function initialize()
 
 	Editor = require "LevelEditor"
 	layer1 = Factory:createFromFile("Layer", "pickleFile0.lua");
+	layer2 = Factory:createFromFile("Layer", "pickleFile1.lua");
 	
 	local bgprop = {};
 	bgprop.position = {};
