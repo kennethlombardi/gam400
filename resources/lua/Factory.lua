@@ -90,7 +90,7 @@ function MOAIPropCreator:create(properties)
 	local gfxQuad = MOAIGfxQuad2D.new ()
 	gfxQuad:setTexture(texture);
 	gfxQuad:setRect ( -64, -64, 64, 64 )
-	if properties.scale then
+	if type(properties.scale) == 'table' then
 		gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
 	end
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
@@ -130,10 +130,16 @@ end
 -- MOAIPropCubeCreator
 function MOAIPropCubeCreator:create(properties)
 	local BoxMesh = require "BoxMesh";
-	local cubeMesh = BoxMesh.makeCube(50, "../textures/moai.png");
-	local prop = Factory:create("Prop", properties);
-	prop:getUnderlyingType():setDeck(cubeMesh);
-	return prop;
+	local cubeMesh = BoxMesh.makeCube(1 * properties.scale.x, "../textures/moai.png");
+
+	local propPrototype = Factory:create("MOAIPropPrototype", properties);
+	--propPrototype:setLoc(properties.position.x, properties.position.y, properties.position.z);
+	propPrototype:getUnderlyingType():setDeck(cubeMesh);
+	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
+
+	cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
+	propPrototype:getUnderlyingType():setDeck(cubeMesh);
+	return propPrototype;
 end
 
 function MOAIPropCubeCreator:createFromFile(filename)
@@ -144,10 +150,13 @@ end
 -- MOAIPropPrototypeCreator
 function MOAIPropPrototypeCreator:create(properties)
 	local propPrototype = require "MOAIPropPrototype";
-	local newObject = propPrototype:new();
+	local newObject = propPrototype:allocate();
+	newObject:setUnderlyingType(MOAIProp.new());
 	newObject:setName(properties.name);
 	newObject:setType(properties.type);
-	newObject:setUnderlyingType(MOAIProp.new());
+	newObject:setScale(properties.scale.x, properties.scale.y, properties.scale.z);
+	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
+	
 	return newObject;
 end
 --
@@ -186,11 +195,11 @@ end
 
 local function initialize()
 	Factory:register("PropPrototype", PropPrototypeCreator:new());
+	Factory:register("MOAIPropPrototype", MOAIPropPrototypeCreator:new());
 	Factory:register("Prop", MOAIPropCreator:new());
 	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
-	Factory:register("MOAIPropPrototype", MOAIPropPrototypeCreator:new());
-	Factory:register("MOAIPropCube", MOAIPropCubeCreator:new());
+	Factory:register("PropCube", MOAIPropCubeCreator:new());
 end
 
 initialize();

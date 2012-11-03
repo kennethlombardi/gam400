@@ -12,6 +12,10 @@ function Layer:baseFree()
     self.propContainer:free();
 end
 
+function Layer:baseUpdate(dt)
+    self.propContainer:update(dt);
+end
+
 function Layer:free() 
     self:baseFree();
 end
@@ -83,6 +87,10 @@ end
 
 function Layer:setUnderlyingType(newObjectReference)
     self["underlyingType"] = newObjectReference;
+end
+
+function Layer:update(dt)
+    self:baseUpdate(dt);
 end
 
 return Layer;

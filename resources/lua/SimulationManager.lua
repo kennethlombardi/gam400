@@ -77,6 +77,10 @@ function MOAISimulationCore:reportHistogram()
 	MOAISim.reportHistogram();
 end
 
+function MOAISimulationCore:reportLeaks()
+	MOAISim.reportLeaks();
+end
+
 function MOAISimulationCore:setHistogramEnabled(bool)
 	MOAISim.setHistogramEnabled(bool);
 end

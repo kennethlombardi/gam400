@@ -10,24 +10,51 @@ deserialize ("Layer",
 
 	{--Entry Number: {2}
 		[1]={4},
+		[2]={5},
 	},
 
 	{--Entry Number: {3}
-		["y"]=42,
-		["x"]=24,
+		["y"]=0,
+		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {4}
-		["type"]="MOAIPropCube",
+		["scale"]={6},
+		["type"]="PropCube",
 		["name"]="Prop1",
-		["position"]={5},
+		["position"]={7},
 	},
 
 	{--Entry Number: {5}
-		["y"]=1077.0828605541,
-		["x"]=691.58695151122,
-		["z"]=86,
+		["scale"]={8},
+		["type"]="PropCube",
+		["name"]="Prop2",
+		["position"]={9},
+	},
+
+	{--Entry Number: {6}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {7}
+		["y"]=0,
+		["x"]=0,
+		["z"]=300,
+	},
+
+	{--Entry Number: {8}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {9}
+		["y"]=0,
+		["x"]=0,
+		["z"]=300,
 	},
 })
 

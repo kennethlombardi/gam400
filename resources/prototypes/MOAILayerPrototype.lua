@@ -81,4 +81,8 @@ function MOAILayerPrototype:setVisible(visible)
 	end
 end
 
+function MOAILayerPrototype:update(dt)
+	self:baseUpdate(dt);
+end
+
 return MOAILayerPrototype;

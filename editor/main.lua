@@ -5,20 +5,25 @@ layer1 = {
 	name = "Layer1",
 	visible = "true",
 	propContainer = {},
-	position = {x = 24, y = 42, z = 0};
+	position = {x = 0, y = 0, z = 0};
 };
 
 width = 1280;
 height = 720;
-objectCount = 1;
+objectCount = 2;
 for i = 1, objectCount do
 	prop = {
-		type = "MOAIPropCube",
+		type = "PropCube",
 		["name"] = "Prop"..i,
 		position = {
-			x = math.cos(i) * i * width / objectCount,
-			y = math.sin(i) * i * width / objectCount,
-			z = math.random(-5000, 1500),
+			x = 0,
+			y = 0,
+			z = 300,
+		},
+		scale = {
+			x = 10, 
+			y = 10, 
+			z = 10,
 		}
 	}
 	table.insert(layer1.propContainer, prop);

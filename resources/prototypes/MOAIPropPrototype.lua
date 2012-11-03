@@ -2,6 +2,13 @@ local PropPrototype = require "PropPrototype";
 
 local MOAIPropPrototype = PropPrototype:new();
 
+function MOAIPropPrototype:allocate()
+	object = MOAIPropPrototype:new{
+		position = {x = 0, y = 0, z = 0},
+	}
+	return object;
+end
+
 function MOAIPropPrototype:contains(x, y, z)
 	return self.underlyingType:inside(x, y, z);
 end
@@ -11,8 +18,12 @@ function MOAIPropPrototype:setName(name)
 end
 
 function MOAIPropPrototype:setLoc(newX, newY, newZ)
-	self.position = {x = newX, y = newY, z = newZ}
-	self.underlyingType:setLoc(newX or 0, newY or 0, newZ or 0);
+	self:baseSetLoc(newX, newY, newZ);
+	self.underlyingType:setLoc(newX, newY, newZ);
+end
+
+function MOAIPropPrototype:update(dt)
+	self:baseUpdate(dt);
 end
 
 return MOAIPropPrototype;

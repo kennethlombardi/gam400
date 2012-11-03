@@ -22,15 +22,19 @@ local function initialize()
 end
 
 local function preShutdown()
+	require("LayerManager"):getAtIndex(layer1):serializeToFile("pickleFileDiff.lua");
 	require("LayerManager"):shutdown();
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
+
+	require("SimulationManager"):reportHistogram();
+	require("SimulationManager"):reportLeaks();
 	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):shutdown();
 end
 
 local function shutdown()
-	MOAISim.reportLeaks(true);
+
 
 end
 

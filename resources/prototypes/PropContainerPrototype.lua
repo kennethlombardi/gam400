@@ -29,10 +29,17 @@ function PropContainerPrototype:serialize(properties)
 			name = v.name, 
 			type = v.type;
 			position = v.position;
+			--print(v.position.x..v.position.y..v.position.z);
 		};
 		table.insert(properties, prop);
 	end
 	return properties;
+end
+
+function PropContainerPrototype:update(dt)
+	for k,v in pairs(self.props) do
+		v:update(dt);
+	end
 end
 
 return PropContainerPrototype;
