@@ -21,6 +21,15 @@ function PropPrototype:baseFree()
 	self.underlyingType = nil;
 end
 
+function PropPrototype:baseSerialize(properties)
+	properties = properties or {};
+	properties.name = self.name;
+	properties.position = self.position;
+	properties.type = self.type;
+	properties.scale = self.scale;
+	return properties;
+end
+
 function PropPrototype:baseSetLoc(x, y, z)
 	self.position.x = x;
 	self.position.y = y;
@@ -52,6 +61,10 @@ end
 
 function PropPrototype:setName(name)
 	self.name = name;
+end
+
+function PropPrototype:serialize(properties)
+	return self:baseSerialize(properties);
 end
 
 function PropPrototype:setScale(x, y, z)

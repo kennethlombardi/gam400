@@ -25,12 +25,7 @@ end
 function PropContainerPrototype:serialize(properties)
 	properties = properties or {};
 	for i,v in pairs(self.props) do
-		local prop = {
-			name = v.name, 
-			type = v.type;
-			position = v.position;
-		};
-		table.insert(properties, prop);
+		table.insert(properties, v:serialize());
 	end
 	return properties;
 end

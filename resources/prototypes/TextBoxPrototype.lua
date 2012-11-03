@@ -3,6 +3,13 @@ local TextBox = require("PropPrototype"):new {
 	string = "MyText",
 };
 
+function TextBox:baseSerialize_(properties)
+	properties = properties or {};
+	self:baseSerialize(properties);
+	properties.string = self.string;
+	return properties;
+end
+
 function TextBox:baseSetFont(font)
 	self.font = font;
 end
@@ -14,6 +21,10 @@ end
 function TextBox:free()
 	self:baseFree();
 	self.font = nil;
+end
+
+function TextBox:serialize(properties)
+	return self:baseSerialize_(properties);
 end
 
 function TextBox:setFont(font)
