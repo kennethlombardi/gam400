@@ -26,16 +26,6 @@ end
 
 local function pickleThis()
 	file = io.open("pickleFile.lua", "wt");
-	--[[
-	for _,layer in pairs(layer1.props) do
-		s = "deserialize (\"Layer\",\n";
-		file:write(s);
-		s = pickle(layer);
-		file:write(s);
-		s = ")\n\n";
-		file:write(s);
-	end
-	--]]
 	s = "deserialize (\"Layer\",\n";
 	file:write(s);
 	s = pickle(layer1);

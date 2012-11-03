@@ -13,6 +13,14 @@ function PropPrototype:new(object)
 	return object;
 end
 
+function PropPrototype:baseFree()
+	self.underlyingType = nil;
+end
+
+function PropPrototype:free()
+	self:baseFree();
+end
+
 function PropPrototype:getUnderlyingType()
 	return self.underlyingType;
 end

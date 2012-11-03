@@ -22,7 +22,7 @@ assert (not (WindowManager.screenWidth == nil))
 -- opens a new window for the application to run in
 -- must only be called once
 -- must be called before the main thread can run the game loop
-local function openWindow(windowName)
+function WindowManager:openWindow(windowName)
 	if windowIsOpen then 
 		print("CreateWindow can only be called once");
 		return 
@@ -34,6 +34,7 @@ local function openWindow(windowName)
 	windowIsOpen = true;
 end
 
-WindowManager.openWindow = openWindow;
+function WindowManager:shutdown()
+end
 
 return WindowManager;

@@ -1,8 +1,16 @@
 local Layer = require "Layer";
 
-MOAILayerPrototype = Layer:new();
+MOAILayerPrototype = Layer:new{
+	camera = nil;
+};
 
 local windowManager = require "WindowManager";
+
+function MOAILayerPrototype:free()
+	self:setVisible(false);
+	self:baseFree();
+	self.camera = nil;
+end
 
 function MOAILayerPrototype:getLoc()
 	return self.position;

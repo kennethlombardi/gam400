@@ -2,6 +2,14 @@ local PropContainerPrototype = {
 	props = nil;
 }
 
+function PropContainerPrototype:free()
+	for k,v in pairs(self.props) do 
+		v:free();
+		self.props[k] = nil;
+	end
+	self.props = nil;
+end
+
 function PropContainerPrototype:insertProp(prop)
 	table.insert(self.props, prop);
 end

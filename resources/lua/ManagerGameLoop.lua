@@ -6,6 +6,7 @@ local function preInitialize()
 end
 
 local function initialize()
+		MOAISim.setLeakTrackingEnabled(true);
 	-- the hack world
 	Factory = require "Factory"
 	Input = require "InputManager"
@@ -105,6 +106,8 @@ function gamesLoop ()
 		
 		coroutine.yield()
 	end
+
+	 	MOAISim.reportLeaks(true);
 	os.exit();
 end
 

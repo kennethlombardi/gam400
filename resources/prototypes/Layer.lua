@@ -7,6 +7,11 @@ local Layer = {
     ["position"] = {x = 0, y = 0, z = 0},
 }
 
+function Layer:baseFree()
+    self.underlyingType = nil;
+    self.propContainer:free();
+end
+
 function Layer:getName()
     return self["name"];
 end
@@ -21,6 +26,10 @@ function Layer:new(object)
     setmetatable(object, self);
     self.__index = self;
     return object;
+end
+
+function Layer:free() 
+    self:baseFree();
 end
 
 function Layer:getUnderlyingType()

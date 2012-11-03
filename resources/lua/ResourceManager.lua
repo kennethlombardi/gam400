@@ -19,6 +19,10 @@ end
 function ResourceManager:register(typeName, handler) 
 	self.handlers[typeName] = handler;
 end
+
+function ResourceManager:shutdown()
+	self.cache = nil;
+end
 --
 
 -- Creator

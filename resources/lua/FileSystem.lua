@@ -26,7 +26,6 @@ end
 function FileSystem:checkFileExists(fullPath)
 	return self.core:checkFileExists(fullPath);
 end
-
 --
 
 -- FileSystemCore

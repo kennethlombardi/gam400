@@ -1,8 +1,8 @@
-local windowManager = require "WindowManager";
+local WindowManager = require "WindowManager";
 local ConfigurationManager = require "ConfigurationManager";
 
 -- window must exist before main thread can run
-windowManager.openWindow("W.A.T.");
+WindowManager:openWindow("W.A.T.");
 
 -- create and run the game loop thread
 mainThread = MOAIThread.new();
