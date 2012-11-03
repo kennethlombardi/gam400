@@ -12,7 +12,7 @@ local function initialize()
 	Input = require "InputManager"
 
 	Editor = require "LevelEditor"
-	layer1 = Factory:createFromFile("Layer", "pickleFile.lua");
+	layer1 = Factory:createFromFile("Layer", "pickleFile0.lua");
 	
 	local bgprop = {};
 	bgprop.position = {};
@@ -70,13 +70,14 @@ function gamesLoop ()
 			t = t + timeStep;
 			if (t >= 1) then
 				local newproperties = {};
-				newproperties.type = "MOAIPropCube";
+				newproperties.type = "PropCube";
 				newproperties.name = "NewProp";
 				newproperties.position = {};
 				newproperties.position.x = math.random(-500, 500);
 				newproperties.position.y = math.random(-500, 500);
 				newproperties.position.z = z - 6000;
-				layer1:insertPropPersistent(Factory:create("MOAIPropCube", newproperties));
+				newproperties.scale = {x = 100, y = 100, z = 100};
+				layer1:insertPropPersistent(Factory:create("PropCube", newproperties));
 				t = 0;				
 			end
 		

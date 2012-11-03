@@ -19,22 +19,23 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {4}
-		["scale"]={5},
 		["type"]="TextBox",
 		["name"]="TextBox#1",
-		["position"]={6},
+		["position"]={5},
+		["scale"]={6},
+		["string"]="This is text in a level file",
 	},
 
 	{--Entry Number: {5}
-		["y"]=1,
-		["x"]=1,
-		["z"]=1,
-	},
-
-	{--Entry Number: {6}
 		["y"]=0,
 		["x"]=0,
 		["z"]=0,
+	},
+
+	{--Entry Number: {6}
+		["y"]=1,
+		["x"]=1,
+		["z"]=1,
 	},
 })
 

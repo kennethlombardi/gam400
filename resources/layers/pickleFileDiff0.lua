@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="Layer",
-		["name"]="Layer1",
+		["name"]="Layer0",
 		["propContainer"]={2},
 		["position"]={3},
 	},

@@ -48,7 +48,8 @@ for i = 1, objectCount do
 			x = 1, 
 			y = 1, 
 			z = 1,
-		}
+		},
+		string = "This is text in a level file",
 	}
 	table.insert(layer2.propContainer, prop);
 end

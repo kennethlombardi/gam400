@@ -26,6 +26,7 @@ local function preShutdown()
 	require("LayerManager"):getAtIndex(layer0):serializeToFile("pickleFileDiff0.lua");
 	require("LayerManager"):getAtIndex(layer1):serializeToFile("pickleFileDiff1.lua");
 	require("LayerManager"):shutdown();
+	
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
 
