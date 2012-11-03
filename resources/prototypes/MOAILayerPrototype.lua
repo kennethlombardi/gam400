@@ -1,10 +1,18 @@
 local Layer = require "Layer";
 
-MOAILayerPrototype = Layer:new{
-	camera = nil;
-};
+MOAILayerPrototype = Layer:new();
 
 local windowManager = require "WindowManager";
+
+function MOAILayerPrototype:allocate()
+    local object = MOAILayerPrototype:new {
+        propContainer = {},
+        position = {x = 0, y = 0, z = 0},
+        underlyingType = nil,
+        camera = nil;
+    }
+    return object;
+end
 
 function MOAILayerPrototype:free()
 	self:setVisible(false);

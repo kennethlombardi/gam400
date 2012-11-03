@@ -24,7 +24,7 @@ function MOAILayerCreator:create(properties)
 	print("Creating: "..properties.name);
 	print("Type: "..properties.type);
 	local layer = require "MOAILayerPrototype";
-	local newLayer = layer:new();
+	local newLayer = layer:allocate();
 	newLayer:setUnderlyingType( MOAILayer.new() );
 	local propContainer = Factory:create("PropContainer");
 
