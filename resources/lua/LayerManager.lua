@@ -29,4 +29,10 @@ function LayerManager:getAtIndex(layerIndex)
 	return self.layers[layerIndex];
 end
 
+function LayerManager:update(dt)
+	for k,v in pairs(self.layers) do
+		v:update();
+	end
+end
+
 return LayerManager;

@@ -12,8 +12,16 @@ function Layer:baseFree()
     self.propContainer:free();
 end
 
+function Layer:free() 
+    self:baseFree();
+end
+
 function Layer:getName()
     return self["name"];
+end
+
+function Layer:getUnderlyingType()
+    return self["underlyingType"];
 end
 
 function Layer:hide()
@@ -26,14 +34,6 @@ function Layer:new(object)
     setmetatable(object, self);
     self.__index = self;
     return object;
-end
-
-function Layer:free() 
-    self:baseFree();
-end
-
-function Layer:getUnderlyingType()
-    return self["underlyingType"];
 end
 
 function Layer:serialize(properties)

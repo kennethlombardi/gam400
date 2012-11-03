@@ -10,13 +10,10 @@ end
 
 local function initialize()
 	require("SimulationManager"):setLeakTrackingEnabled(true);
+	require("SimulationManager"):setHistogramEnabled(true);
 
 	-- the hack world
-	for i = 1, 30 do
-		layer1 = require("LayerManager"):createFromFile("pickleFile.lua");
-	end
-	
-	
+	layer1 = require("LayerManager"):createFromFile("pickleFile.lua");
 
 	-- simulation state
 	MOAIGfxDevice.setClearDepth ( true );
@@ -34,10 +31,12 @@ end
 
 local function shutdown()
 	MOAISim.reportLeaks(true);
+
 end
 
 local function update(dt)
 	require("InputManager"):Update();
+	require("LayerManager"):update();
 end
 
 

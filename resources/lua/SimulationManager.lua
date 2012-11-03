@@ -11,16 +11,24 @@ function SimulationCore:new(object)
 	return object;
 end
 
+function SimulationCore:forceGarbageCollection()
+	print("SimulationCore:forceGarbageCollection is UNIMPLEMENTED");
+end
+
+function SimulationCore:reportHistogram()
+	print("SimulationCore:reportHistogram is UNIMPLEMENTED");
+end
+
+function SimulationCore:reportLeaks()
+	print("SimulationCore:reportLeaks is UNIMPLEMENTED");
+end
+
 function SimulationCore:setHistogramEnabled(bool)
 	print("SimulationCore:setHistogramEnabled is UNIMPLEMENTED");
 end
 
 function SimulationCore:setLeakTrackingEnabled(bool) 
 	print("SimulationCore:setLeakTrackingEnabled is UNIMPLEMENTED");
-end
-
-function SimulationCore:forceGarbageCollection()
-	print("SimulationCore:forceGarbageCollection is UNIMPLEMENTED");
 end
 
 function SimulationCore:shutdown() 
@@ -30,6 +38,14 @@ end
 -- SimulationManager
 function SimulationManager:forceGarbageCollection()
 	self.core:forceGarbageCollection();
+end
+
+function SimulationManager:reportHistogram()
+	self.core:reportHistogram();
+end
+
+function SimulationManager:reportLeaks()
+	self.core:reportLeaks();
 end
 
 function SimulationManager:registerCore(core)
@@ -57,6 +73,10 @@ function MOAISimulationCore:forceGarbageCollection()
 	MOAISim.forceGarbageCollection();
 end
 
+function MOAISimulationCore:reportHistogram()
+	MOAISim.reportHistogram();
+end
+
 function MOAISimulationCore:setHistogramEnabled(bool)
 	MOAISim.setHistogramEnabled(bool);
 end
@@ -67,7 +87,6 @@ end
 
 function MOAISimulationCore:shutdown()
 end
-
 
 --
 

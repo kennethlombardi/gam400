@@ -98,9 +98,7 @@ function MOAIPropCreator:create(properties)
 	-- create prop to hook shader to	
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
 	propPrototype:setLoc(properties.position.x, properties.position.y, properties.position.z);
-	--hack initialize prop without mirroring and hiding internal functionality of underlying type
 	propPrototype:getUnderlyingType():setDeck(gfxQuad);
-	--propPrototype:getUnderlyingType():moveRot(0, 0, 1500, 30, MOAIEaseType.LINEAR);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
 
 	local color = MOAIColor.new ()
