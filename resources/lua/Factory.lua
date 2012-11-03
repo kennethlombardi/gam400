@@ -178,7 +178,7 @@ function MOAITextBoxCreator:create(properties)
 	newObject:getUnderlyingType():setRect(-50, -50, 50, 50)
 	newObject:getUnderlyingType():setAlignment(MOAITextBox.LEFT_JUSTIFY)
 	newObject:getUnderlyingType():setYFlip(true)
-	newObject:getUnderlyingType():setString(properties.string);
+	newObject:setText(properties.string);
 
 	return newObject;
 end

@@ -23,7 +23,7 @@ deserialize ("Layer",
 		["name"]="TextBox#1",
 		["position"]={5},
 		["scale"]={6},
-		["string"]="MOAITextBoxPrototype Text",
+		["string"]="This is text in a level file",
 	},
 
 	{--Entry Number: {5}
