@@ -13,7 +13,8 @@ local function initialize()
 	require("SimulationManager"):setHistogramEnabled(true);
 
 	-- the hack world
-	layer1 = require("LayerManager"):createFromFile("pickleFile.lua");
+	layer0 = require("LayerManager"):createFromFile("pickleFile0.lua");
+	layer1 = require("LayerManager"):createFromFile("PickleFile1.lua");
 
 	-- simulation state
 	MOAIGfxDevice.setClearDepth ( true );
@@ -22,7 +23,8 @@ local function initialize()
 end
 
 local function preShutdown()
-	require("LayerManager"):getAtIndex(layer1):serializeToFile("pickleFileDiff.lua");
+	require("LayerManager"):getAtIndex(layer0):serializeToFile("pickleFileDiff0.lua");
+	require("LayerManager"):getAtIndex(layer1):serializeToFile("pickleFileDiff1.lua");
 	require("LayerManager"):shutdown();
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
@@ -34,8 +36,6 @@ local function preShutdown()
 end
 
 local function shutdown()
-
-
 end
 
 local function update(dt)

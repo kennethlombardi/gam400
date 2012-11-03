@@ -29,7 +29,6 @@ function PropContainerPrototype:serialize(properties)
 			name = v.name, 
 			type = v.type;
 			position = v.position;
-			--print(v.position.x..v.position.y..v.position.z);
 		};
 		table.insert(properties, prop);
 	end

@@ -7,6 +7,14 @@ local Layer = {
     ["position"] = {x = 0, y = 0, z = 0},
 }
 
+function Layer:allocate()
+    local object = Layer:new {
+        propContainer = {},
+        position = {x = 0, y = 0, z = 0},
+        underlyingType = nil,
+    }
+end
+
 function Layer:baseFree()
     self.underlyingType = nil;
     self.propContainer:free();

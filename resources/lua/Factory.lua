@@ -16,6 +16,7 @@ local MOAILayerCreator = Creator:new();
 local PropPrototypeCreator = Creator:new();
 local MOAIPropPrototypeCreator = Creator:new();
 local MOAIPropCubeCreator = Creator:new();
+local MOAITextBoxCreator = Creator:new();
 --
 
 -- MOAILayerCreator
@@ -161,6 +162,21 @@ function MOAIPropPrototypeCreator:create(properties)
 end
 --
 
+-- MOAITextBoxCreator
+function MOAITextBoxCreator:create(properties)
+	local MOAITextBoxPrototype = require("MOAITextBoxPrototype");
+	local newObject = MOAITextBoxPrototype:allocate();
+	
+	newObject:setUnderlyingType(MOAITextBox.new());
+	newObject:setName(properties.name);
+	newObject:setType(properties.type);
+	newObject:setScale(properties.scale.x, properties.scale.y, properties.scale.z);
+	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
+	newObject:setFont(require("ResourceManager"):load("Font", properties.fileName));
+	return newObject;
+end
+--
+
 -- PropContainerCreator
 function PropContainerCreator:create(properties)
 	propContainerPrototype = require "PropContainerPrototype";
@@ -200,6 +216,7 @@ local function initialize()
 	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
 	Factory:register("PropCube", MOAIPropCubeCreator:new());
+	Factory:register("TextBox", MOAITextBoxCreator:new());
 end
 
 initialize();

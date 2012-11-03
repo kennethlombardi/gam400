@@ -39,6 +39,7 @@ end
 -- Creators
 local MOAITextureCreator = Creator:new(); 
 local MOAIFileCreator = Creator:new();
+local MOAIFontCreator = Creator:new();
 --
 
 -- Handler
@@ -67,6 +68,24 @@ end
 -- MOAIFileHandler
 function MOAIFileHandler:load(fullPath) 
 
+end
+--
+
+-- MOAIFontCreator
+function MOAIFontCreator:createFromFile(fileName)
+	properties = {
+		name = "arial-rounded.ttf",
+		characterSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!",
+		points = 12,
+		dpi = 144,
+	}
+	local font = MOAIFont.new();
+	font:loadFromTTF(properties.name, properties.characterSet, properties.points, properties.dpi);
+	return font;
+end
+
+function MOAIFontCreator:load(fileName)
+	return self:createFromFile("fileName");
 end
 --
 
@@ -100,6 +119,7 @@ end
 local function init()
 	ResourceManager:register("Texture", MOAITextureCreator:new());
 	ResourceManager:register("Configuration", MOAIConfigurationHandler:new());
+	ResourceManager:register("Font", MOAIFontCreator:new());
 end
 
 init();
