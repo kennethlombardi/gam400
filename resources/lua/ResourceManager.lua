@@ -98,7 +98,6 @@ function MOAITextureCreator:load(fileName)
 		texture = MOAITexture.new();
 		texture:load(path);
 		ResourceManager:addToCache(path, texture);
-		print("Not in cache");
 	end
 	--TODO: If texture loading failes from file, create new MOAIImage with some garbage
 	--		to ensure that at least something is registered correctly.
