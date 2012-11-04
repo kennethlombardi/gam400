@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"register",
+				"registerScript"
+			],
+			[
+				"Moai",
+				"MOAISimulationCore"
+			],
+			[
+				"repor",
+				"reportLeaks"
+			],
+			[
+				"MOa",
+				"MOAISimulationCore"
+			],
+			[
+				"Layer",
+				"LayerManager"
+			],
+			[
+				"MOAI",
+				"MOAISimulationCore"
+			],
+			[
+				"set",
+				"setLeakTrackingEnabled"
+			],
+			[
+				"SImula",
+				"SimulationCore"
+			],
+			[
+				"Configu",
+				"ConfigurationManager"
+			],
+			[
+				"file",
+				"fileOpenModes"
+			],
+			[
+				"rea",
+				"READ"
+			],
+			[
+				"REA",
+				"READ"
+			],
+			[
+				"read_w",
+				"READ_WRITE_NEW"
+			],
+			[
+				"READ",
+				"READ_WRITE_AFFIRM"
+			],
+			[
+				"File",
+				"FileSystem"
+			],
+			[
+				"prop",
+				"propContainer"
+			],
+			[
 				"type",
 				"typeName"
 			],
@@ -100,10 +164,6 @@
 				"newObjectReference"
 			],
 			[
-				"file",
-				"fileName"
-			],
-			[
 				"object",
 				"objectCreatorMap"
 			],
@@ -157,18 +217,33 @@
 	"file_history":
 	[
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/BoxMesh.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ManagerGameLoop.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/InputManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/PropMovement.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SimulationManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/PerformanceCounter.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/TextBoxPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MoaiTextBoxPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ConfigurationManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/LayerMovement.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayerPrototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Layer.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/Hud.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/FileSystem.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/KeyboardInput.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/MouseInput.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/InputManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/EngineProofGameLoop.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ManagerGameLoop.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/fac",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/WindowManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/GameLoop.lua",
 		"/C/Users/Kenneth/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/cygwin/home/Kenneth/github/gam400/projects/sublime/MoaiWindows.sublime-build",
 		"/C/cygwin/home/Kenneth/github/gam400/projects/sublime/sublime.sublime-project",
@@ -194,10 +269,7 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/shader.vsh",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayer.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ObjectFactory.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/background.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/WindowManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/GameLoop.lua"
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/background.lua"
 	],
 	"find":
 	{
@@ -215,6 +287,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"resourcemanager",
+			"\"texture",
+			"moaitextboxcreator",
+			"MOAIPropPrototype",
+			"self:",
+			"MOAIViewport",
+			"MOailayer",
+			"register",
+			"text",
+			"moaipropprototype",
+			"propPrototype",
+			"scale",
+			"shutdown",
+			"camera",
 			"asf"
 		],
 		"highlight": true,

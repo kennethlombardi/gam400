@@ -51,13 +51,13 @@ function Editor:Update(layer)
 	else
 		if Input:IsButtonTriggered(0) then			
 			local properties = {};
-			properties.type = "MOAIPropCube";
+			properties.type = "PropCube";
 			properties.name = "NewProp";
 			local position = layer:getLoc();
 			position.z = position.z - 500;
 			properties.position = position;
 			
-			newprop = Factory:create("MOAIPropCube", properties);
+			newprop = Factory:create("PropCube", properties);
 			layer:insertPropPersistent(newprop);
 			newObjList[newObjListCount] = newprop;
 			newObjListCount = newObjListCount + 1;

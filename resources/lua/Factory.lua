@@ -125,7 +125,7 @@ function MOAIPropCreator:create(properties)
 	shader:load ( vsh, fsh )
 	
 	-- scripts
-	for k,scriptName in pairs(properties.scripts) do
+	for k,scriptName in pairs(properties.scripts or {}) do
 		propPrototype:registerScript(Factory:createFromFile("Script", scriptName));
 	end
 
@@ -143,15 +143,14 @@ end
 
 -- MOAIPropCubeCreator
 function MOAIPropCubeCreator:create(properties)
-	local BoxMesh = require "BoxMesh";
-	local cubeMesh = BoxMesh.makeCube(1 * properties.scale.x, "../textures/moai.png");
-
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
-	propPrototype:getUnderlyingType():setDeck(cubeMesh);
-	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
+	local BoxMesh = require "BoxMesh";
 
+	properties.scale = properties.scale or propPrototype.scale;
+	local cubeMesh = BoxMesh.makeCube(1 * properties.scale.x, "../textures/moai.png");
 	cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
+	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
 
 	return propPrototype;
 end
@@ -168,11 +167,12 @@ function MOAIPropPrototypeCreator:create(properties)
 	newObject:setUnderlyingType(MOAIProp.new());
 	newObject:setName(properties.name);
 	newObject:setType(properties.type);
+	properties.scale = properties.scale or newObject.scale;
 	newObject:setScale(properties.scale.x, properties.scale.y, properties.scale.z);
 	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	
 	-- register scripts
-	for k,scriptName in pairs(properties.scripts) do
+	for k,scriptName in pairs(properties.scripts or {}) do
 		newObject:registerScript(Factory:createFromFile("Script", scriptName));
 	end
 
