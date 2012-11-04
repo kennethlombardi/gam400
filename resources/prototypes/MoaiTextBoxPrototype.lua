@@ -17,6 +17,11 @@ function MOAITextBoxPrototype:setFont(font)
 	self.underlyingType:setFont(font);
 end
 
+function MOAITextBoxPrototype:setLoc(x, y, z)
+	self:baseSetLoc(x, y, z);
+	self.underlyingType:setLoc(x, y , z);
+end
+
 function MOAITextBoxPrototype:setText(string)
 	self:baseSetText(string);
 	self.underlyingType:setString(string);

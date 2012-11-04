@@ -11,9 +11,9 @@ layer1 = {
 
 width = 1280;
 height = 720;
-objectCount = 2;
+objectCount = 1000;
 for i = 1, objectCount do
-	position = {x = 0, y = 0, z = -1000};
+	position = {x = math.random(-300, 300), y = math.random(-300, 300), z = -1000};
 	scale = {x = 10, y = 10, z = 10};
 	if i == 2 then position.x = 300; 
 		scale = {x = 100, y = 100, z = 100}
@@ -52,10 +52,10 @@ for i = 1, objectCount do
 			y = 1, 
 			z = 1,
 		},
-		textSize = 14,
-		rectangle = {x1 = -50, y1 = -50, x2 = 50, y2 = 50},
+		textSize = 24,
+		rectangle = {x1 = -50, y1 = -100, x2 = 300, y2 = 100},
 		string = "This is text in a level file",
-		scripts = {"PropMovement.lua"};
+		scripts = {"PerformanceCounter.lua"};
 	}
 	table.insert(layer2.propContainer, prop);
 end

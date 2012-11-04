@@ -2,7 +2,8 @@ local TextBox = require("PropPrototype"):new {
 	font = nil,
 	string = "MyText",
 	textSize = 12,
-	rectangle = {x1 = -50, y1 = -50, x2 = 50, y2 = 50}
+	rectangle = {x1 = -50, y1 = -50, x2 = 50, y2 = 50},
+	scripts = {},
 };
 
 function TextBox:baseSerialize_(properties)
@@ -11,6 +12,10 @@ function TextBox:baseSerialize_(properties)
 	properties.string = self.string;
 	properties.textSize = self.textSize;
 	properties.rectangle = self.rectangle;
+	properties.scripts = {};
+	for k,v in pairs(self.scripts) do
+		table.insert(properties.scripts, v.name);
+	end
 	return properties;
 end
 
@@ -36,6 +41,10 @@ end
 function TextBox:free()
 	self:baseFree();
 	self.font = nil;
+end
+
+function TextBox:registerScript(script)
+	table.insert(self.scripts, script);
 end
 
 function TextBox:serialize(properties)
@@ -67,6 +76,12 @@ end
 
 function TextBox:setTextSize(size)
 	self:baseSetTextSize(size);
+end
+
+function TextBox:update(dt)
+	for k,script in pairs(self.scripts) do
+		script.update(self, dt);
+	end
 end
 
 return TextBox;

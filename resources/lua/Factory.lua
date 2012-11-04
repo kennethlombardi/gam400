@@ -212,6 +212,10 @@ function MOAITextBoxCreator:create(properties)
 	newObject:getUnderlyingType():setYFlip(true)
 	newObject:setText(properties.string);
 
+	for k,scriptName in pairs(properties.scripts) do
+		newObject:registerScript(Factory:createFromFile("Script", scriptName));
+	end
+
 	return newObject;
 end
 --

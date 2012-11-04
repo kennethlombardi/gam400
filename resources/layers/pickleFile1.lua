@@ -30,12 +30,12 @@ deserialize ("Layer",
 		["position"]={7},
 		["scale"]={8},
 		["string"]="This is text in a level file",
-		["textSize"]=14,
+		["textSize"]=24,
 		["rectangle"]={9},
 	},
 
 	{--Entry Number: {6}
-		[1]="PropMovement.lua",
+		[1]="PerformanceCounter.lua",
 	},
 
 	{--Entry Number: {7}
@@ -51,9 +51,9 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {9}
-		["x2"]=50,
-		["y2"]=50,
-		["y1"]=-50,
+		["x2"]=300,
+		["y2"]=100,
+		["y1"]=-100,
 		["x1"]=-50,
 	},
 })

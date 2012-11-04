@@ -15,6 +15,10 @@ function SimulationCore:forceGarbageCollection()
 	print("SimulationCore:forceGarbageCollection is UNIMPLEMENTED");
 end
 
+function SimulationCore:getPerformance()
+	print ("SimulationCore:getPerformanceCount is UNIMPLEMENTED");
+end
+
 function SimulationCore:getStep()
 	print("SimulationCore:getStep is UNIMPLEMENTED");
 end
@@ -40,6 +44,10 @@ end
 --
 
 -- SimulationManager
+function SimulationManager:getPerformance()
+	return self.core:getPerformance();
+end
+
 function SimulationManager:getStep()
 	return self.core:getStep();
 end
@@ -79,6 +87,10 @@ end
 local MOAISimulationCore = SimulationCore:new();
 function MOAISimulationCore:forceGarbageCollection()
 	MOAISim.forceGarbageCollection();
+end
+
+function MOAISimulationCore:getPerformance()
+	return MOAISim.getPerformance();
 end
 
 function MOAISimulationCore:getStep()
