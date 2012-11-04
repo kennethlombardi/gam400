@@ -49,6 +49,8 @@ for i = 1, objectCount do
 			y = 1, 
 			z = 1,
 		},
+		textSize = 14,
+		rectangle = {x1 = -50, y1 = -50, x2 = 50, y2 = 50},
 		string = "This is text in a level file",
 	}
 	table.insert(layer2.propContainer, prop);

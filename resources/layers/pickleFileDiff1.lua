@@ -24,6 +24,8 @@ deserialize ("Layer",
 		["position"]={5},
 		["scale"]={6},
 		["string"]="This is text in a level file",
+		["textSize"]=42,
+		["rectangle"]={7},
 	},
 
 	{--Entry Number: {5}
@@ -36,6 +38,13 @@ deserialize ("Layer",
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
+	},
+
+	{--Entry Number: {7}
+		["x2"]=100,
+		["y2"]=100,
+		["y1"]=-100,
+		["x1"]=-100,
 	},
 })
 

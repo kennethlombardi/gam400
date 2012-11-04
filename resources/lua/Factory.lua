@@ -174,8 +174,11 @@ function MOAITextBoxCreator:create(properties)
 	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	newObject:setFont(require("ResourceManager"):load("Font", properties.fileName));
 
-	newObject:getUnderlyingType():setTextSize(24)
-	newObject:getUnderlyingType():setRect(-50, -50, 50, 50)
+	newObject:setTextSize(properties.textSize);
+	newObject:setRect( 	properties.rectangle.x1, 
+						properties.rectangle.y1, 
+						properties.rectangle.x2, 
+						properties.rectangle.y2 );
 	newObject:getUnderlyingType():setAlignment(MOAITextBox.LEFT_JUSTIFY)
 	newObject:getUnderlyingType():setYFlip(true)
 	newObject:setText(properties.string);
