@@ -47,6 +47,10 @@ function PropPrototype:contains(x, y, z)
 	return 0;
 end
 
+function PropPrototype:getLoc()
+	return self.position;
+end
+
 function PropPrototype:free()
 	self:baseFree();
 end

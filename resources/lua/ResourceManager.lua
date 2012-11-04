@@ -124,10 +124,7 @@ function MOAIScriptHandler:load(fileName)
 	if script ~= nil then print("Script was already cached"); return script end;
 
 	-- If the script didn't exist in the cache
-	print("Attempting resource grab of "..fullPath);
 	if require("FileSystem"):checkFileExists(fullPath) then
-		print("Script file existed but not in cache");
-
 		script = dofile(fullPath);
 		ResourceManager:addToCache(fullPath, script);	
 	else

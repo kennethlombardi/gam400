@@ -25,41 +25,51 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {5}
-		["scale"]={7},
 		["type"]="PropCube",
 		["name"]="Prop1",
-		["position"]={8},
+		["position"]={7},
+		["scale"]={8},
+		["scripts"]={9},
 	},
 
 	{--Entry Number: {6}
-		["scale"]={9},
 		["type"]="PropCube",
 		["name"]="Prop2",
 		["position"]={10},
+		["scale"]={11},
+		["scripts"]={12},
 	},
 
 	{--Entry Number: {7}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {8}
 		["y"]=0,
 		["x"]=0,
 		["z"]=-1000,
 	},
 
+	{--Entry Number: {8}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
 	{--Entry Number: {9}
-		["y"]=100,
-		["x"]=100,
-		["z"]=100,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {10}
 		["y"]=0,
 		["x"]=300,
 		["z"]=-1000,
+	},
+
+	{--Entry Number: {11}
+		["y"]=100,
+		["x"]=100,
+		["z"]=100,
+	},
+
+	{--Entry Number: {12}
+		[1]="PropMovement.lua",
 	},
 })
 

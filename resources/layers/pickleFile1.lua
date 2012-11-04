@@ -1,4 +1,4 @@
-deserialize ("LayerDD",
+deserialize ("Layer",
 {
 	{--Entry Number: {1}
 		["visible"]="true",
@@ -24,28 +24,33 @@ deserialize ("LayerDD",
 	},
 
 	{--Entry Number: {5}
+		["scripts"]={6},
 		["type"]="TextBox",
 		["name"]="TextBox#1",
-		["position"]={6},
-		["scale"]={7},
+		["position"]={7},
+		["scale"]={8},
 		["string"]="This is text in a level file",
 		["textSize"]=14,
-		["rectangle"]={8},
+		["rectangle"]={9},
 	},
 
 	{--Entry Number: {6}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {7}
 		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
-	{--Entry Number: {7}
+	{--Entry Number: {8}
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
 	},
 
-	{--Entry Number: {8}
+	{--Entry Number: {9}
 		["x2"]=50,
 		["y2"]=50,
 		["y1"]=-50,

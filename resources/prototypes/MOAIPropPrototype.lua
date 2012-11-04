@@ -5,13 +5,28 @@ local MOAIPropPrototype = PropPrototype:new();
 function MOAIPropPrototype:allocate()
 	object = MOAIPropPrototype:new{
 		position = {x = 0, y = 0, z = 0},
-		scale = {x = 1, y = 1, z = 1}
+		scale = {x = 1, y = 1, z = 1},
+		scripts = {},
 	}
 	return object;
 end
 
 function MOAIPropPrototype:contains(x, y, z)
 	return self.underlyingType:inside(x, y, z);
+end
+
+function MOAIPropPrototype:registerScript(script)
+	table.insert(self.scripts, script);
+end
+
+function MOAIPropPrototype:serialize(properties)
+	properties = properties or {};
+	self:baseSerialize(properties);
+	properties.scripts = {};
+	for k,script in pairs(self.scripts) do
+		table.insert(properties.scripts, script.name)
+	end
+	return properties;
 end
 
 function MOAIPropPrototype:setName(name)
@@ -25,6 +40,9 @@ end
 
 function MOAIPropPrototype:update(dt)
 	self:baseUpdate(dt);
+	for k,script in pairs(self.scripts) do
+		script.update(self, dt);
+	end
 end
 
 return MOAIPropPrototype;

@@ -23,18 +23,19 @@ for i = 1, objectCount do
 		["name"] = "Prop"..i,
 		position = position,
 		scale = scale;
+		scripts = {"PropMovement.lua"};
 	}
 	table.insert(layer1.propContainer, prop);
 end
 
 objectCount = 1;
 layer2 = {
-	type = "Layer",
+	type = "LayerDD",
 	name = "Layer1",
 	visible = "true",
 	propContainer = {},
 	position = {x = 0, y = 0, z = 0},
-	scripts = {"LayerMovement.lua"},
+	scripts = {"Hud.lua"},
 };
 
 for i = 1, objectCount do
@@ -54,6 +55,7 @@ for i = 1, objectCount do
 		textSize = 14,
 		rectangle = {x1 = -50, y1 = -50, x2 = 50, y2 = 50},
 		string = "This is text in a level file",
+		scripts = {"PropMovement.lua"};
 	}
 	table.insert(layer2.propContainer, prop);
 end

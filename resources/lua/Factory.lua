@@ -32,8 +32,6 @@ end
 
 -- MOAILayerCreator
 function MOAILayerCreator:create(properties)
-	print("Creating: "..properties.name);
-	print("Type: "..properties.type);
 	local layer = require "MOAILayerPrototype";
 	local newLayer = layer:allocate();
 	newLayer:setUnderlyingType( MOAILayer.new() );
@@ -81,7 +79,6 @@ function MOAILayerCreator:createFromFile(fileName)
 		cucumber = unpickle(properties);
 		newObjects[objectIndex] = Factory:create(cucumber.type, cucumber)
 		objectIndex = objectIndex + 1;
-		print(cucumber.name);
 	end
 	local path = "../layers/"..fileName;
 	dofile (path)
@@ -127,6 +124,10 @@ function MOAIPropCreator:create(properties)
 	shader:setVertexAttribute ( 3, 'color' )	
 	shader:load ( vsh, fsh )
 	
+	-- scripts
+	for k,scriptName in pairs(properties.scripts) do
+		propPrototype:registerScript(Factory:createFromFile("Script", scriptName));
+	end
 
 	if not properties.bg then
 		gfxQuad:setShader ( shader )
@@ -152,6 +153,7 @@ function MOAIPropCubeCreator:create(properties)
 
 	cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
+
 	return propPrototype;
 end
 
@@ -170,6 +172,11 @@ function MOAIPropPrototypeCreator:create(properties)
 	newObject:setScale(properties.scale.x, properties.scale.y, properties.scale.z);
 	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	
+	-- register scripts
+	for k,scriptName in pairs(properties.scripts) do
+		newObject:registerScript(Factory:createFromFile("Script", scriptName));
+	end
+
 	return newObject;
 end
 --
@@ -232,7 +239,6 @@ function Factory:createFromFile(objectType, fileName)
 end
 
 function Factory:create(objectType, properties)
-	print("Factory:create("..objectType..")");
 	return objectCreators[objectType]:create(properties);
 end
 

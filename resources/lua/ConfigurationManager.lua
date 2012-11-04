@@ -21,9 +21,6 @@ function init()
 	for k,v in pairs(userSettings) do 
 		ConfigurationManager:set(k, v);
 	end
-	require("Pickle");
-	print(pickle(globalSettings));
-	print(pickle(userSettings));
 end
 
 init();
