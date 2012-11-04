@@ -169,8 +169,8 @@ function MOAIScriptCreator:create(properties)
 	print("MOAIScriptCreator:create is UNIMPLEMENTED");
 end
 
-function MOAIScriptCreator:createFromFile(filename)
-	return require("ResourceManager"):load("Script", filename);
+function MOAIScriptCreator:createFromFile(fileName)
+	return require("ResourceManager"):load("Script", fileName);
 end
 --
 

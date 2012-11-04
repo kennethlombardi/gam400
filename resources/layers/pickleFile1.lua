@@ -19,8 +19,8 @@ deserialize ("Layer",
 
 	{--Entry Number: {4}
 		["y"]=0,
-		["x"]=0,
-		["z"]=0,
+		["x"]=41,
+		["z"]=1108.5125732422,
 	},
 
 	{--Entry Number: {5}

@@ -14,11 +14,12 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
+		[1]="LayerMovement.lua",
 	},
 
 	{--Entry Number: {4}
 		["y"]=0,
-		["x"]=0,
+		["x"]=92,
 		["z"]=1108.5125732422,
 	},
 

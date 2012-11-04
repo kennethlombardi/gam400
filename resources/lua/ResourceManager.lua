@@ -132,7 +132,7 @@ function MOAIScriptHandler:load(fileName)
 		ResourceManager:addToCache(fullPath, script);	
 	else
 		-- script is a do nothing anonymous function
-		script = {update = function() end };
+		script = {update = function() end, name = "AnonymousScript"};
 		print("Script is an anonymous do nothing");
 	end
 	return script;
