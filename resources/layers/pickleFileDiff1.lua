@@ -13,9 +13,9 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
-		["y"]=0,
-		["x"]=0,
-		["z"]=1108.5125732422,
+		["y"]=51.6,
+		["x"]=51.6,
+		["z"]=6320.1125732422,
 	},
 
 	{--Entry Number: {4}
@@ -24,7 +24,7 @@ deserialize ("Layer",
 		["position"]={5},
 		["scale"]={6},
 		["string"]="This is text in a level file",
-		["textSize"]=42,
+		["textSize"]=14,
 		["rectangle"]={7},
 	},
 
@@ -41,10 +41,10 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {7}
-		["x2"]=100,
-		["y2"]=100,
-		["y1"]=-100,
-		["x1"]=-100,
+		["x2"]=50,
+		["y2"]=50,
+		["y1"]=-50,
+		["x1"]=-50,
 	},
 })
 

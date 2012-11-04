@@ -17,6 +17,7 @@ local PropPrototypeCreator = Creator:new();
 local MOAIPropPrototypeCreator = Creator:new();
 local MOAIPropCubeCreator = Creator:new();
 local MOAITextBoxCreator = Creator:new();
+local MOAIScriptCreator = Creator:new();
 --
 
 -- MOAILayerCreator
@@ -55,15 +56,10 @@ function MOAILayerCreator:create(properties)
 	newLayer:setLoc(properties.position.x, properties.position.y, newCamera:getFocalLength(screenWidth));
 
 	-- scripts
-	local script = {
-		name = "GenericScriptName",
-	}
-	function script.update(asdf, dt)
-		local location = asdf:getLoc();
-		local step = .1;
-		asdf:setLoc(location.x + step, location.y + step, location.z);
+	for k,scriptName in pairs(properties.scripts) do
+		newLayer:registerScript(Factory:createFromFile("Script", scriptName))
 	end
-	newLayer:registerScript(script);
+
 	return newLayer;
 end
 
@@ -168,6 +164,16 @@ function MOAIPropPrototypeCreator:create(properties)
 end
 --
 
+-- MOAIScriptCreator
+function MOAIScriptCreator:create(properties)
+	print("MOAIScriptCreator:create is UNIMPLEMENTED");
+end
+
+function MOAIScriptCreator:createFromFile(filename)
+	return require("ResourceManager"):load("Script", filename);
+end
+--
+
 -- MOAITextBoxCreator
 function MOAITextBoxCreator:create(properties)
 	local MOAITextBoxPrototype = require("MOAITextBoxPrototype");
@@ -233,6 +239,7 @@ local function initialize()
 	Factory:register("Layer", MOAILayerCreator:new());
 	Factory:register("PropCube", MOAIPropCubeCreator:new());
 	Factory:register("TextBox", MOAITextBoxCreator:new());
+	Factory:register("Script", MOAIScriptCreator:new());
 end
 
 initialize();

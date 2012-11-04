@@ -33,7 +33,7 @@ function Layer:getUnderlyingType()
 end
 
 function Layer:hide()
-    self.visible = "true";
+    self.visible = "false";
     print("Hiding layer");
 end
 

@@ -49,6 +49,7 @@ local Handler = Creator:new();
 -- Handlers
 local MOAIFileHandler = Handler:new();
 local MOAIConfigurationHandler = Handler:new();
+local MOAIScriptHandler = Handler:new();
 --
 
 -- MOAIConfigurationHandler
@@ -116,10 +117,33 @@ function MOAITextureCreator:load(fileName)
 end
 --
 
+-- MOAIScriptHandler
+function MOAIScriptHandler:load(fileName)	
+	local fullPath = "../scripts/"..fileName;
+	local script = ResourceManager:getFromCache(fullPath);
+	if script ~= nil then print("Script was already cached"); return script end;
+
+	-- If the script didn't exist in the cache
+	print("Attempting resource grab of "..fullPath);
+	if require("FileSystem"):checkFileExists(fullPath) then
+		print("Script file existed but not in cache");
+
+		script = dofile(fullPath);
+		ResourceManager:addToCache(fullPath, script);	
+	else
+		-- script is a do nothing anonymous function
+		script = {update = function() end };
+		print("Script is an anonymous do nothing");
+	end
+	return script;
+end
+--
+
 local function init()
 	ResourceManager:register("Texture", MOAITextureCreator:new());
 	ResourceManager:register("Configuration", MOAIConfigurationHandler:new());
 	ResourceManager:register("Font", MOAIFontCreator:new());
+	ResourceManager:register("Script", MOAIScriptHandler:new());
 end
 
 init();

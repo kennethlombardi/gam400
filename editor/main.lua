@@ -5,7 +5,8 @@ layer1 = {
 	name = "Layer0",
 	visible = "true",
 	propContainer = {},
-	position = {x = 0, y = 0, z = 0};
+	position = {x = 0, y = 0, z = 0},
+	scripts = {"LayerMovement"}
 };
 
 width = 1280;
@@ -32,7 +33,8 @@ layer2 = {
 	name = "Layer1",
 	visible = "true",
 	propContainer = {},
-	position = {x = 0, y = 0, z = 0};
+	position = {x = 0, y = 0, z = 0},
+	scripts = {"LayerMovement"},
 };
 
 for i = 1, objectCount do

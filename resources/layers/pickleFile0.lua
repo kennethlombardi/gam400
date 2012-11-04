@@ -5,53 +5,58 @@ deserialize ("Layer",
 		["type"]="Layer",
 		["name"]="Layer0",
 		["propContainer"]={2},
-		["position"]={3},
+		["scripts"]={3},
+		["position"]={4},
 	},
 
 	{--Entry Number: {2}
-		[1]={4},
-		[2]={5},
+		[1]={5},
+		[2]={6},
 	},
 
 	{--Entry Number: {3}
+		[1]="LayerMovement.lua",
+	},
+
+	{--Entry Number: {4}
 		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
-	{--Entry Number: {4}
-		["scale"]={6},
+	{--Entry Number: {5}
+		["scale"]={7},
 		["type"]="PropCube",
 		["name"]="Prop1",
-		["position"]={7},
-	},
-
-	{--Entry Number: {5}
-		["scale"]={8},
-		["type"]="PropCube",
-		["name"]="Prop2",
-		["position"]={9},
+		["position"]={8},
 	},
 
 	{--Entry Number: {6}
+		["scale"]={9},
+		["type"]="PropCube",
+		["name"]="Prop2",
+		["position"]={10},
+	},
+
+	{--Entry Number: {7}
 		["y"]=10,
 		["x"]=10,
 		["z"]=10,
 	},
 
-	{--Entry Number: {7}
+	{--Entry Number: {8}
 		["y"]=0,
 		["x"]=0,
 		["z"]=300,
 	},
 
-	{--Entry Number: {8}
+	{--Entry Number: {9}
 		["y"]=100,
 		["x"]=100,
 		["z"]=100,
 	},
 
-	{--Entry Number: {9}
+	{--Entry Number: {10}
 		["y"]=0,
 		["x"]=300,
 		["z"]=300,
