@@ -10,6 +10,7 @@ function MOAILayerPrototype:allocate()
         position = {x = 0, y = 0, z = 0},
         underlyingType = nil,
         camera = nil;
+        scripts = {};
     }
     return object;
 end
@@ -27,7 +28,7 @@ end
 function MOAILayerPrototype:insertProp(prop)
 	if self["underlyingType"] == nil then 
 		print("Trying to insert prop into MOAILayerPrototype without underlying type"); 
-		return; 
+		return;
 	end;
 	self.underlyingType:insertProp(prop:getUnderlyingType());
 end

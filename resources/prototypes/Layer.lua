@@ -1,10 +1,11 @@
 local Layer = {
-    ["type"] = "Layer",
-    ["name"] = "DefaultLayerName",
-    ["visible"] = "false",  -- This should start at false to allow a push to the render pass
-    ["underlyingType"] = "nil",
-    ["propContainer"] = nil,
-    ["position"] = {x = 0, y = 0, z = 0},
+    type = "Layer",
+    name = "DefaultLayerName",
+    visible = "false",  -- This should start at false to allow a push to the render pass
+    underlyingType = "nil",
+    propContainer = nil,
+    position = {x = 0, y = 0, z = 0},
+    scripts = {};
 }
 
 function Layer:baseFree()
@@ -12,7 +13,10 @@ function Layer:baseFree()
     self.propContainer:free();
 end
 
-function Layer:baseUpdate(dt)
+function Layer:baseUpdate(dt) 
+    for k,v in pairs(self.scripts) do
+        v.update(self, dt);
+    end
     self.propContainer:update(dt);
 end
 
@@ -38,6 +42,10 @@ function Layer:new(object)
     setmetatable(object, self);
     self.__index = self;
     return object;
+end
+
+function Layer:registerScript(script)
+    table.insert(self.scripts, script);
 end
 
 function Layer:serialize(properties)

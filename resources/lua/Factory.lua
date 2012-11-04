@@ -54,6 +54,16 @@ function MOAILayerCreator:create(properties)
     newLayer:setVisible(properties.visible == "true");
 	newLayer:setLoc(properties.position.x, properties.position.y, newCamera:getFocalLength(screenWidth));
 
+	-- scripts
+	local script = {
+		name = "GenericScriptName",
+	}
+	function script:update(self, dt)
+		local location = self:getLoc();
+		local step = .1;
+		self:setLoc(location.x + step, location.y + step, location.z);
+	end
+	newLayer:registerScript(script);
 	return newLayer;
 end
 
