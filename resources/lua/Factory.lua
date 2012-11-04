@@ -147,7 +147,6 @@ function MOAIPropCubeCreator:create(properties)
 	local cubeMesh = BoxMesh.makeCube(1 * properties.scale.x, "../textures/moai.png");
 
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
-	--propPrototype:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
 

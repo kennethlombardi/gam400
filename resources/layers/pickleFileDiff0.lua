@@ -510,506 +510,6 @@ deserialize ("Layer",
 		[498]={502},
 		[499]={503},
 		[500]={504},
-		[501]={505},
-		[502]={506},
-		[503]={507},
-		[504]={508},
-		[505]={509},
-		[506]={510},
-		[507]={511},
-		[508]={512},
-		[509]={513},
-		[510]={514},
-		[511]={515},
-		[512]={516},
-		[513]={517},
-		[514]={518},
-		[515]={519},
-		[516]={520},
-		[517]={521},
-		[518]={522},
-		[519]={523},
-		[520]={524},
-		[521]={525},
-		[522]={526},
-		[523]={527},
-		[524]={528},
-		[525]={529},
-		[526]={530},
-		[527]={531},
-		[528]={532},
-		[529]={533},
-		[530]={534},
-		[531]={535},
-		[532]={536},
-		[533]={537},
-		[534]={538},
-		[535]={539},
-		[536]={540},
-		[537]={541},
-		[538]={542},
-		[539]={543},
-		[540]={544},
-		[541]={545},
-		[542]={546},
-		[543]={547},
-		[544]={548},
-		[545]={549},
-		[546]={550},
-		[547]={551},
-		[548]={552},
-		[549]={553},
-		[550]={554},
-		[551]={555},
-		[552]={556},
-		[553]={557},
-		[554]={558},
-		[555]={559},
-		[556]={560},
-		[557]={561},
-		[558]={562},
-		[559]={563},
-		[560]={564},
-		[561]={565},
-		[562]={566},
-		[563]={567},
-		[564]={568},
-		[565]={569},
-		[566]={570},
-		[567]={571},
-		[568]={572},
-		[569]={573},
-		[570]={574},
-		[571]={575},
-		[572]={576},
-		[573]={577},
-		[574]={578},
-		[575]={579},
-		[576]={580},
-		[577]={581},
-		[578]={582},
-		[579]={583},
-		[580]={584},
-		[581]={585},
-		[582]={586},
-		[583]={587},
-		[584]={588},
-		[585]={589},
-		[586]={590},
-		[587]={591},
-		[588]={592},
-		[589]={593},
-		[590]={594},
-		[591]={595},
-		[592]={596},
-		[593]={597},
-		[594]={598},
-		[595]={599},
-		[596]={600},
-		[597]={601},
-		[598]={602},
-		[599]={603},
-		[600]={604},
-		[601]={605},
-		[602]={606},
-		[603]={607},
-		[604]={608},
-		[605]={609},
-		[606]={610},
-		[607]={611},
-		[608]={612},
-		[609]={613},
-		[610]={614},
-		[611]={615},
-		[612]={616},
-		[613]={617},
-		[614]={618},
-		[615]={619},
-		[616]={620},
-		[617]={621},
-		[618]={622},
-		[619]={623},
-		[620]={624},
-		[621]={625},
-		[622]={626},
-		[623]={627},
-		[624]={628},
-		[625]={629},
-		[626]={630},
-		[627]={631},
-		[628]={632},
-		[629]={633},
-		[630]={634},
-		[631]={635},
-		[632]={636},
-		[633]={637},
-		[634]={638},
-		[635]={639},
-		[636]={640},
-		[637]={641},
-		[638]={642},
-		[639]={643},
-		[640]={644},
-		[641]={645},
-		[642]={646},
-		[643]={647},
-		[644]={648},
-		[645]={649},
-		[646]={650},
-		[647]={651},
-		[648]={652},
-		[649]={653},
-		[650]={654},
-		[651]={655},
-		[652]={656},
-		[653]={657},
-		[654]={658},
-		[655]={659},
-		[656]={660},
-		[657]={661},
-		[658]={662},
-		[659]={663},
-		[660]={664},
-		[661]={665},
-		[662]={666},
-		[663]={667},
-		[664]={668},
-		[665]={669},
-		[666]={670},
-		[667]={671},
-		[668]={672},
-		[669]={673},
-		[670]={674},
-		[671]={675},
-		[672]={676},
-		[673]={677},
-		[674]={678},
-		[675]={679},
-		[676]={680},
-		[677]={681},
-		[678]={682},
-		[679]={683},
-		[680]={684},
-		[681]={685},
-		[682]={686},
-		[683]={687},
-		[684]={688},
-		[685]={689},
-		[686]={690},
-		[687]={691},
-		[688]={692},
-		[689]={693},
-		[690]={694},
-		[691]={695},
-		[692]={696},
-		[693]={697},
-		[694]={698},
-		[695]={699},
-		[696]={700},
-		[697]={701},
-		[698]={702},
-		[699]={703},
-		[700]={704},
-		[701]={705},
-		[702]={706},
-		[703]={707},
-		[704]={708},
-		[705]={709},
-		[706]={710},
-		[707]={711},
-		[708]={712},
-		[709]={713},
-		[710]={714},
-		[711]={715},
-		[712]={716},
-		[713]={717},
-		[714]={718},
-		[715]={719},
-		[716]={720},
-		[717]={721},
-		[718]={722},
-		[719]={723},
-		[720]={724},
-		[721]={725},
-		[722]={726},
-		[723]={727},
-		[724]={728},
-		[725]={729},
-		[726]={730},
-		[727]={731},
-		[728]={732},
-		[729]={733},
-		[730]={734},
-		[731]={735},
-		[732]={736},
-		[733]={737},
-		[734]={738},
-		[735]={739},
-		[736]={740},
-		[737]={741},
-		[738]={742},
-		[739]={743},
-		[740]={744},
-		[741]={745},
-		[742]={746},
-		[743]={747},
-		[744]={748},
-		[745]={749},
-		[746]={750},
-		[747]={751},
-		[748]={752},
-		[749]={753},
-		[750]={754},
-		[751]={755},
-		[752]={756},
-		[753]={757},
-		[754]={758},
-		[755]={759},
-		[756]={760},
-		[757]={761},
-		[758]={762},
-		[759]={763},
-		[760]={764},
-		[761]={765},
-		[762]={766},
-		[763]={767},
-		[764]={768},
-		[765]={769},
-		[766]={770},
-		[767]={771},
-		[768]={772},
-		[769]={773},
-		[770]={774},
-		[771]={775},
-		[772]={776},
-		[773]={777},
-		[774]={778},
-		[775]={779},
-		[776]={780},
-		[777]={781},
-		[778]={782},
-		[779]={783},
-		[780]={784},
-		[781]={785},
-		[782]={786},
-		[783]={787},
-		[784]={788},
-		[785]={789},
-		[786]={790},
-		[787]={791},
-		[788]={792},
-		[789]={793},
-		[790]={794},
-		[791]={795},
-		[792]={796},
-		[793]={797},
-		[794]={798},
-		[795]={799},
-		[796]={800},
-		[797]={801},
-		[798]={802},
-		[799]={803},
-		[800]={804},
-		[801]={805},
-		[802]={806},
-		[803]={807},
-		[804]={808},
-		[805]={809},
-		[806]={810},
-		[807]={811},
-		[808]={812},
-		[809]={813},
-		[810]={814},
-		[811]={815},
-		[812]={816},
-		[813]={817},
-		[814]={818},
-		[815]={819},
-		[816]={820},
-		[817]={821},
-		[818]={822},
-		[819]={823},
-		[820]={824},
-		[821]={825},
-		[822]={826},
-		[823]={827},
-		[824]={828},
-		[825]={829},
-		[826]={830},
-		[827]={831},
-		[828]={832},
-		[829]={833},
-		[830]={834},
-		[831]={835},
-		[832]={836},
-		[833]={837},
-		[834]={838},
-		[835]={839},
-		[836]={840},
-		[837]={841},
-		[838]={842},
-		[839]={843},
-		[840]={844},
-		[841]={845},
-		[842]={846},
-		[843]={847},
-		[844]={848},
-		[845]={849},
-		[846]={850},
-		[847]={851},
-		[848]={852},
-		[849]={853},
-		[850]={854},
-		[851]={855},
-		[852]={856},
-		[853]={857},
-		[854]={858},
-		[855]={859},
-		[856]={860},
-		[857]={861},
-		[858]={862},
-		[859]={863},
-		[860]={864},
-		[861]={865},
-		[862]={866},
-		[863]={867},
-		[864]={868},
-		[865]={869},
-		[866]={870},
-		[867]={871},
-		[868]={872},
-		[869]={873},
-		[870]={874},
-		[871]={875},
-		[872]={876},
-		[873]={877},
-		[874]={878},
-		[875]={879},
-		[876]={880},
-		[877]={881},
-		[878]={882},
-		[879]={883},
-		[880]={884},
-		[881]={885},
-		[882]={886},
-		[883]={887},
-		[884]={888},
-		[885]={889},
-		[886]={890},
-		[887]={891},
-		[888]={892},
-		[889]={893},
-		[890]={894},
-		[891]={895},
-		[892]={896},
-		[893]={897},
-		[894]={898},
-		[895]={899},
-		[896]={900},
-		[897]={901},
-		[898]={902},
-		[899]={903},
-		[900]={904},
-		[901]={905},
-		[902]={906},
-		[903]={907},
-		[904]={908},
-		[905]={909},
-		[906]={910},
-		[907]={911},
-		[908]={912},
-		[909]={913},
-		[910]={914},
-		[911]={915},
-		[912]={916},
-		[913]={917},
-		[914]={918},
-		[915]={919},
-		[916]={920},
-		[917]={921},
-		[918]={922},
-		[919]={923},
-		[920]={924},
-		[921]={925},
-		[922]={926},
-		[923]={927},
-		[924]={928},
-		[925]={929},
-		[926]={930},
-		[927]={931},
-		[928]={932},
-		[929]={933},
-		[930]={934},
-		[931]={935},
-		[932]={936},
-		[933]={937},
-		[934]={938},
-		[935]={939},
-		[936]={940},
-		[937]={941},
-		[938]={942},
-		[939]={943},
-		[940]={944},
-		[941]={945},
-		[942]={946},
-		[943]={947},
-		[944]={948},
-		[945]={949},
-		[946]={950},
-		[947]={951},
-		[948]={952},
-		[949]={953},
-		[950]={954},
-		[951]={955},
-		[952]={956},
-		[953]={957},
-		[954]={958},
-		[955]={959},
-		[956]={960},
-		[957]={961},
-		[958]={962},
-		[959]={963},
-		[960]={964},
-		[961]={965},
-		[962]={966},
-		[963]={967},
-		[964]={968},
-		[965]={969},
-		[966]={970},
-		[967]={971},
-		[968]={972},
-		[969]={973},
-		[970]={974},
-		[971]={975},
-		[972]={976},
-		[973]={977},
-		[974]={978},
-		[975]={979},
-		[976]={980},
-		[977]={981},
-		[978]={982},
-		[979]={983},
-		[980]={984},
-		[981]={985},
-		[982]={986},
-		[983]={987},
-		[984]={988},
-		[985]={989},
-		[986]={990},
-		[987]={991},
-		[988]={992},
-		[989]={993},
-		[990]={994},
-		[991]={995},
-		[992]={996},
-		[993]={997},
-		[994]={998},
-		[995]={999},
-		[996]={1000},
-		[997]={1001},
-		[998]={1002},
-		[999]={1003},
-		[1000]={1004},
 	},
 
 	{--Entry Number: {3}
@@ -1024,24001 +524,12001 @@ deserialize ("Layer",
 
 	{--Entry Number: {5}
 		["type"]="PropCube",
-		["name"]="Prop1",
-		["position"]={1005},
-		["scale"]={1006},
-		["scripts"]={1007},
+		["name"]="Prop127",
+		["position"]={505},
+		["scale"]={506},
+		["scripts"]={507},
 	},
 
 	{--Entry Number: {6}
 		["type"]="PropCube",
-		["name"]="Prop2",
-		["position"]={1008},
-		["scale"]={1009},
-		["scripts"]={1010},
+		["name"]="Prop158",
+		["position"]={508},
+		["scale"]={509},
+		["scripts"]={510},
 	},
 
 	{--Entry Number: {7}
 		["type"]="PropCube",
-		["name"]="Prop4",
-		["position"]={1011},
-		["scale"]={1012},
-		["scripts"]={1013},
+		["name"]="Prop190",
+		["position"]={511},
+		["scale"]={512},
+		["scripts"]={513},
 	},
 
 	{--Entry Number: {8}
 		["type"]="PropCube",
-		["name"]="Prop8",
-		["position"]={1014},
-		["scale"]={1015},
-		["scripts"]={1016},
+		["name"]="Prop222",
+		["position"]={514},
+		["scale"]={515},
+		["scripts"]={516},
 	},
 
 	{--Entry Number: {9}
 		["type"]="PropCube",
-		["name"]="Prop16",
-		["position"]={1017},
-		["scale"]={1018},
-		["scripts"]={1019},
+		["name"]="Prop1",
+		["position"]={517},
+		["scale"]={518},
+		["scripts"]={519},
 	},
 
 	{--Entry Number: {10}
 		["type"]="PropCube",
-		["name"]="Prop32",
-		["position"]={1020},
-		["scale"]={1021},
-		["scripts"]={1022},
+		["name"]="Prop316",
+		["position"]={520},
+		["scale"]={521},
+		["scripts"]={522},
 	},
 
 	{--Entry Number: {11}
 		["type"]="PropCube",
-		["name"]="Prop64",
-		["position"]={1023},
-		["scale"]={1024},
-		["scripts"]={1025},
+		["name"]="Prop380",
+		["position"]={523},
+		["scale"]={524},
+		["scripts"]={525},
 	},
 
 	{--Entry Number: {12}
 		["type"]="PropCube",
-		["name"]="Prop128",
-		["position"]={1026},
-		["scale"]={1027},
-		["scripts"]={1028},
+		["name"]="Prop444",
+		["position"]={526},
+		["scale"]={527},
+		["scripts"]={528},
 	},
 
 	{--Entry Number: {13}
 		["type"]="PropCube",
-		["name"]="Prop256",
-		["position"]={1029},
-		["scale"]={1030},
-		["scripts"]={1031},
+		["name"]="Prop2",
+		["position"]={529},
+		["scale"]={530},
+		["scripts"]={531},
 	},
 
 	{--Entry Number: {14}
 		["type"]="PropCube",
-		["name"]="Prop512",
-		["position"]={1032},
-		["scale"]={1033},
-		["scripts"]={1034},
+		["name"]="Prop3",
+		["position"]={532},
+		["scale"]={533},
+		["scripts"]={534},
 	},
 
 	{--Entry Number: {15}
 		["type"]="PropCube",
-		["name"]="Prop513",
-		["position"]={1035},
-		["scale"]={1036},
-		["scripts"]={1037},
+		["name"]="Prop4",
+		["position"]={535},
+		["scale"]={536},
+		["scripts"]={537},
 	},
 
 	{--Entry Number: {16}
 		["type"]="PropCube",
-		["name"]="Prop257",
-		["position"]={1038},
-		["scale"]={1039},
-		["scripts"]={1040},
+		["name"]="Prop5",
+		["position"]={538},
+		["scale"]={539},
+		["scripts"]={540},
 	},
 
 	{--Entry Number: {17}
 		["type"]="PropCube",
-		["name"]="Prop514",
-		["position"]={1041},
-		["scale"]={1042},
-		["scripts"]={1043},
+		["name"]="Prop6",
+		["position"]={541},
+		["scale"]={542},
+		["scripts"]={543},
 	},
 
 	{--Entry Number: {18}
 		["type"]="PropCube",
-		["name"]="Prop129",
-		["position"]={1044},
-		["scale"]={1045},
-		["scripts"]={1046},
+		["name"]="Prop7",
+		["position"]={544},
+		["scale"]={545},
+		["scripts"]={546},
 	},
 
 	{--Entry Number: {19}
 		["type"]="PropCube",
-		["name"]="Prop258",
-		["position"]={1047},
-		["scale"]={1048},
-		["scripts"]={1049},
+		["name"]="Prop8",
+		["position"]={547},
+		["scale"]={548},
+		["scripts"]={549},
 	},
 
 	{--Entry Number: {20}
 		["type"]="PropCube",
-		["name"]="Prop516",
-		["position"]={1050},
-		["scale"]={1051},
-		["scripts"]={1052},
+		["name"]="Prop10",
+		["position"]={550},
+		["scale"]={551},
+		["scripts"]={552},
 	},
 
 	{--Entry Number: {21}
 		["type"]="PropCube",
-		["name"]="Prop517",
-		["position"]={1053},
-		["scale"]={1054},
-		["scripts"]={1055},
+		["name"]="Prop12",
+		["position"]={553},
+		["scale"]={554},
+		["scripts"]={555},
 	},
 
 	{--Entry Number: {22}
 		["type"]="PropCube",
-		["name"]="Prop259",
-		["position"]={1056},
-		["scale"]={1057},
-		["scripts"]={1058},
+		["name"]="Prop14",
+		["position"]={556},
+		["scale"]={557},
+		["scripts"]={558},
 	},
 
 	{--Entry Number: {23}
 		["type"]="PropCube",
-		["name"]="Prop518",
-		["position"]={1059},
-		["scale"]={1060},
-		["scripts"]={1061},
+		["name"]="Prop16",
+		["position"]={559},
+		["scale"]={560},
+		["scripts"]={561},
 	},
 
 	{--Entry Number: {24}
 		["type"]="PropCube",
-		["name"]="Prop65",
-		["position"]={1062},
-		["scale"]={1063},
-		["scripts"]={1064},
+		["name"]="Prop20",
+		["position"]={562},
+		["scale"]={563},
+		["scripts"]={564},
 	},
 
 	{--Entry Number: {25}
 		["type"]="PropCube",
-		["name"]="Prop130",
-		["position"]={1065},
-		["scale"]={1066},
-		["scripts"]={1067},
+		["name"]="Prop24",
+		["position"]={565},
+		["scale"]={566},
+		["scripts"]={567},
 	},
 
 	{--Entry Number: {26}
 		["type"]="PropCube",
-		["name"]="Prop260",
-		["position"]={1068},
-		["scale"]={1069},
-		["scripts"]={1070},
+		["name"]="Prop28",
+		["position"]={568},
+		["scale"]={569},
+		["scripts"]={570},
 	},
 
 	{--Entry Number: {27}
 		["type"]="PropCube",
-		["name"]="Prop520",
-		["position"]={1071},
-		["scale"]={1072},
-		["scripts"]={1073},
+		["name"]="Prop32",
+		["position"]={571},
+		["scale"]={572},
+		["scripts"]={573},
 	},
 
 	{--Entry Number: {28}
 		["type"]="PropCube",
-		["name"]="Prop521",
-		["position"]={1074},
-		["scale"]={1075},
-		["scripts"]={1076},
+		["name"]="Prop40",
+		["position"]={574},
+		["scale"]={575},
+		["scripts"]={576},
 	},
 
 	{--Entry Number: {29}
 		["type"]="PropCube",
-		["name"]="Prop261",
-		["position"]={1077},
-		["scale"]={1078},
-		["scripts"]={1079},
+		["name"]="Prop48",
+		["position"]={577},
+		["scale"]={578},
+		["scripts"]={579},
 	},
 
 	{--Entry Number: {30}
 		["type"]="PropCube",
-		["name"]="Prop522",
-		["position"]={1080},
-		["scale"]={1081},
-		["scripts"]={1082},
+		["name"]="Prop56",
+		["position"]={580},
+		["scale"]={581},
+		["scripts"]={582},
 	},
 
 	{--Entry Number: {31}
 		["type"]="PropCube",
-		["name"]="Prop131",
-		["position"]={1083},
-		["scale"]={1084},
-		["scripts"]={1085},
+		["name"]="Prop64",
+		["position"]={583},
+		["scale"]={584},
+		["scripts"]={585},
 	},
 
 	{--Entry Number: {32}
 		["type"]="PropCube",
-		["name"]="Prop262",
-		["position"]={1086},
-		["scale"]={1087},
-		["scripts"]={1088},
+		["name"]="Prop80",
+		["position"]={586},
+		["scale"]={587},
+		["scripts"]={588},
 	},
 
 	{--Entry Number: {33}
 		["type"]="PropCube",
-		["name"]="Prop524",
-		["position"]={1089},
-		["scale"]={1090},
-		["scripts"]={1091},
+		["name"]="Prop96",
+		["position"]={589},
+		["scale"]={590},
+		["scripts"]={591},
 	},
 
 	{--Entry Number: {34}
 		["type"]="PropCube",
-		["name"]="Prop525",
-		["position"]={1092},
-		["scale"]={1093},
-		["scripts"]={1094},
+		["name"]="Prop112",
+		["position"]={592},
+		["scale"]={593},
+		["scripts"]={594},
 	},
 
 	{--Entry Number: {35}
 		["type"]="PropCube",
-		["name"]="Prop263",
-		["position"]={1095},
-		["scale"]={1096},
-		["scripts"]={1097},
+		["name"]="Prop128",
+		["position"]={595},
+		["scale"]={596},
+		["scripts"]={597},
 	},
 
 	{--Entry Number: {36}
 		["type"]="PropCube",
-		["name"]="Prop33",
-		["position"]={1098},
-		["scale"]={1099},
-		["scripts"]={1100},
+		["name"]="Prop160",
+		["position"]={598},
+		["scale"]={599},
+		["scripts"]={600},
 	},
 
 	{--Entry Number: {37}
 		["type"]="PropCube",
-		["name"]="Prop66",
-		["position"]={1101},
-		["scale"]={1102},
-		["scripts"]={1103},
+		["name"]="Prop192",
+		["position"]={601},
+		["scale"]={602},
+		["scripts"]={603},
 	},
 
 	{--Entry Number: {38}
 		["type"]="PropCube",
-		["name"]="Prop132",
-		["position"]={1104},
-		["scale"]={1105},
-		["scripts"]={1106},
+		["name"]="Prop224",
+		["position"]={604},
+		["scale"]={605},
+		["scripts"]={606},
 	},
 
 	{--Entry Number: {39}
 		["type"]="PropCube",
-		["name"]="Prop264",
-		["position"]={1107},
-		["scale"]={1108},
-		["scripts"]={1109},
+		["name"]="Prop256",
+		["position"]={607},
+		["scale"]={608},
+		["scripts"]={609},
 	},
 
 	{--Entry Number: {40}
 		["type"]="PropCube",
-		["name"]="Prop528",
-		["position"]={1110},
-		["scale"]={1111},
-		["scripts"]={1112},
+		["name"]="Prop320",
+		["position"]={610},
+		["scale"]={611},
+		["scripts"]={612},
 	},
 
 	{--Entry Number: {41}
 		["type"]="PropCube",
-		["name"]="Prop529",
-		["position"]={1113},
-		["scale"]={1114},
-		["scripts"]={1115},
+		["name"]="Prop384",
+		["position"]={613},
+		["scale"]={614},
+		["scripts"]={615},
 	},
 
 	{--Entry Number: {42}
 		["type"]="PropCube",
-		["name"]="Prop265",
-		["position"]={1116},
-		["scale"]={1117},
-		["scripts"]={1118},
+		["name"]="Prop448",
+		["position"]={616},
+		["scale"]={617},
+		["scripts"]={618},
 	},
 
 	{--Entry Number: {43}
 		["type"]="PropCube",
-		["name"]="Prop530",
-		["position"]={1119},
-		["scale"]={1120},
-		["scripts"]={1121},
+		["name"]="Prop257",
+		["position"]={619},
+		["scale"]={620},
+		["scripts"]={621},
 	},
 
 	{--Entry Number: {44}
 		["type"]="PropCube",
-		["name"]="Prop133",
-		["position"]={1122},
-		["scale"]={1123},
-		["scripts"]={1124},
+		["name"]="Prop321",
+		["position"]={622},
+		["scale"]={623},
+		["scripts"]={624},
 	},
 
 	{--Entry Number: {45}
 		["type"]="PropCube",
-		["name"]="Prop266",
-		["position"]={1125},
-		["scale"]={1126},
-		["scripts"]={1127},
+		["name"]="Prop385",
+		["position"]={625},
+		["scale"]={626},
+		["scripts"]={627},
 	},
 
 	{--Entry Number: {46}
 		["type"]="PropCube",
-		["name"]="Prop532",
-		["position"]={1128},
-		["scale"]={1129},
-		["scripts"]={1130},
+		["name"]="Prop449",
+		["position"]={628},
+		["scale"]={629},
+		["scripts"]={630},
 	},
 
 	{--Entry Number: {47}
 		["type"]="PropCube",
-		["name"]="Prop533",
-		["position"]={1131},
-		["scale"]={1132},
-		["scripts"]={1133},
+		["name"]="Prop129",
+		["position"]={631},
+		["scale"]={632},
+		["scripts"]={633},
 	},
 
 	{--Entry Number: {48}
 		["type"]="PropCube",
-		["name"]="Prop267",
-		["position"]={1134},
-		["scale"]={1135},
-		["scripts"]={1136},
+		["name"]="Prop161",
+		["position"]={634},
+		["scale"]={635},
+		["scripts"]={636},
 	},
 
 	{--Entry Number: {49}
 		["type"]="PropCube",
-		["name"]="Prop534",
-		["position"]={1137},
-		["scale"]={1138},
-		["scripts"]={1139},
+		["name"]="Prop193",
+		["position"]={637},
+		["scale"]={638},
+		["scripts"]={639},
 	},
 
 	{--Entry Number: {50}
 		["type"]="PropCube",
-		["name"]="Prop67",
-		["position"]={1140},
-		["scale"]={1141},
-		["scripts"]={1142},
+		["name"]="Prop225",
+		["position"]={640},
+		["scale"]={641},
+		["scripts"]={642},
 	},
 
 	{--Entry Number: {51}
 		["type"]="PropCube",
-		["name"]="Prop134",
-		["position"]={1143},
-		["scale"]={1144},
-		["scripts"]={1145},
+		["name"]="Prop258",
+		["position"]={643},
+		["scale"]={644},
+		["scripts"]={645},
 	},
 
 	{--Entry Number: {52}
 		["type"]="PropCube",
-		["name"]="Prop268",
-		["position"]={1146},
-		["scale"]={1147},
-		["scripts"]={1148},
+		["name"]="Prop322",
+		["position"]={646},
+		["scale"]={647},
+		["scripts"]={648},
 	},
 
 	{--Entry Number: {53}
 		["type"]="PropCube",
-		["name"]="Prop536",
-		["position"]={1149},
-		["scale"]={1150},
-		["scripts"]={1151},
+		["name"]="Prop386",
+		["position"]={649},
+		["scale"]={650},
+		["scripts"]={651},
 	},
 
 	{--Entry Number: {54}
 		["type"]="PropCube",
-		["name"]="Prop537",
-		["position"]={1152},
-		["scale"]={1153},
-		["scripts"]={1154},
+		["name"]="Prop450",
+		["position"]={652},
+		["scale"]={653},
+		["scripts"]={654},
 	},
 
 	{--Entry Number: {55}
 		["type"]="PropCube",
-		["name"]="Prop269",
-		["position"]={1155},
-		["scale"]={1156},
-		["scripts"]={1157},
+		["name"]="Prop65",
+		["position"]={655},
+		["scale"]={656},
+		["scripts"]={657},
 	},
 
 	{--Entry Number: {56}
 		["type"]="PropCube",
-		["name"]="Prop538",
-		["position"]={1158},
-		["scale"]={1159},
-		["scripts"]={1160},
+		["name"]="Prop81",
+		["position"]={658},
+		["scale"]={659},
+		["scripts"]={660},
 	},
 
 	{--Entry Number: {57}
 		["type"]="PropCube",
-		["name"]="Prop135",
-		["position"]={1161},
-		["scale"]={1162},
-		["scripts"]={1163},
+		["name"]="Prop97",
+		["position"]={661},
+		["scale"]={662},
+		["scripts"]={663},
 	},
 
 	{--Entry Number: {58}
 		["type"]="PropCube",
-		["name"]="Prop270",
-		["position"]={1164},
-		["scale"]={1165},
-		["scripts"]={1166},
+		["name"]="Prop113",
+		["position"]={664},
+		["scale"]={665},
+		["scripts"]={666},
 	},
 
 	{--Entry Number: {59}
 		["type"]="PropCube",
-		["name"]="Prop540",
-		["position"]={1167},
-		["scale"]={1168},
-		["scripts"]={1169},
+		["name"]="Prop130",
+		["position"]={667},
+		["scale"]={668},
+		["scripts"]={669},
 	},
 
 	{--Entry Number: {60}
 		["type"]="PropCube",
-		["name"]="Prop541",
-		["position"]={1170},
-		["scale"]={1171},
-		["scripts"]={1172},
+		["name"]="Prop162",
+		["position"]={670},
+		["scale"]={671},
+		["scripts"]={672},
 	},
 
 	{--Entry Number: {61}
 		["type"]="PropCube",
-		["name"]="Prop17",
-		["position"]={1173},
-		["scale"]={1174},
-		["scripts"]={1175},
+		["name"]="Prop194",
+		["position"]={673},
+		["scale"]={674},
+		["scripts"]={675},
 	},
 
 	{--Entry Number: {62}
 		["type"]="PropCube",
-		["name"]="Prop34",
-		["position"]={1176},
-		["scale"]={1177},
-		["scripts"]={1178},
+		["name"]="Prop226",
+		["position"]={676},
+		["scale"]={677},
+		["scripts"]={678},
 	},
 
 	{--Entry Number: {63}
 		["type"]="PropCube",
-		["name"]="Prop68",
-		["position"]={1179},
-		["scale"]={1180},
-		["scripts"]={1181},
+		["name"]="Prop260",
+		["position"]={679},
+		["scale"]={680},
+		["scripts"]={681},
 	},
 
 	{--Entry Number: {64}
 		["type"]="PropCube",
-		["name"]="Prop136",
-		["position"]={1182},
-		["scale"]={1183},
-		["scripts"]={1184},
+		["name"]="Prop324",
+		["position"]={682},
+		["scale"]={683},
+		["scripts"]={684},
 	},
 
 	{--Entry Number: {65}
 		["type"]="PropCube",
-		["name"]="Prop272",
-		["position"]={1185},
-		["scale"]={1186},
-		["scripts"]={1187},
+		["name"]="Prop388",
+		["position"]={685},
+		["scale"]={686},
+		["scripts"]={687},
 	},
 
 	{--Entry Number: {66}
 		["type"]="PropCube",
-		["name"]="Prop544",
-		["position"]={1188},
-		["scale"]={1189},
-		["scripts"]={1190},
+		["name"]="Prop452",
+		["position"]={688},
+		["scale"]={689},
+		["scripts"]={690},
 	},
 
 	{--Entry Number: {67}
 		["type"]="PropCube",
-		["name"]="Prop545",
-		["position"]={1191},
-		["scale"]={1192},
-		["scripts"]={1193},
+		["name"]="Prop318",
+		["position"]={691},
+		["scale"]={692},
+		["scripts"]={693},
 	},
 
 	{--Entry Number: {68}
 		["type"]="PropCube",
-		["name"]="Prop273",
-		["position"]={1194},
-		["scale"]={1195},
-		["scripts"]={1196},
+		["name"]="Prop499",
+		["position"]={694},
+		["scale"]={695},
+		["scripts"]={696},
 	},
 
 	{--Entry Number: {69}
 		["type"]="PropCube",
-		["name"]="Prop546",
-		["position"]={1197},
-		["scale"]={1198},
-		["scripts"]={1199},
+		["name"]="Prop261",
+		["position"]={697},
+		["scale"]={698},
+		["scripts"]={699},
 	},
 
 	{--Entry Number: {70}
 		["type"]="PropCube",
-		["name"]="Prop137",
-		["position"]={1200},
-		["scale"]={1201},
-		["scripts"]={1202},
+		["name"]="Prop325",
+		["position"]={700},
+		["scale"]={701},
+		["scripts"]={702},
 	},
 
 	{--Entry Number: {71}
 		["type"]="PropCube",
-		["name"]="Prop274",
-		["position"]={1203},
-		["scale"]={1204},
-		["scripts"]={1205},
+		["name"]="Prop389",
+		["position"]={703},
+		["scale"]={704},
+		["scripts"]={705},
 	},
 
 	{--Entry Number: {72}
 		["type"]="PropCube",
-		["name"]="Prop548",
-		["position"]={1206},
-		["scale"]={1207},
-		["scripts"]={1208},
+		["name"]="Prop453",
+		["position"]={706},
+		["scale"]={707},
+		["scripts"]={708},
 	},
 
 	{--Entry Number: {73}
 		["type"]="PropCube",
-		["name"]="Prop549",
-		["position"]={1209},
-		["scale"]={1210},
-		["scripts"]={1211},
+		["name"]="Prop131",
+		["position"]={709},
+		["scale"]={710},
+		["scripts"]={711},
 	},
 
 	{--Entry Number: {74}
 		["type"]="PropCube",
-		["name"]="Prop275",
-		["position"]={1212},
-		["scale"]={1213},
-		["scripts"]={1214},
+		["name"]="Prop163",
+		["position"]={712},
+		["scale"]={713},
+		["scripts"]={714},
 	},
 
 	{--Entry Number: {75}
 		["type"]="PropCube",
-		["name"]="Prop550",
-		["position"]={1215},
-		["scale"]={1216},
-		["scripts"]={1217},
+		["name"]="Prop195",
+		["position"]={715},
+		["scale"]={716},
+		["scripts"]={717},
 	},
 
 	{--Entry Number: {76}
 		["type"]="PropCube",
-		["name"]="Prop69",
-		["position"]={1218},
-		["scale"]={1219},
-		["scripts"]={1220},
+		["name"]="Prop227",
+		["position"]={718},
+		["scale"]={719},
+		["scripts"]={720},
 	},
 
 	{--Entry Number: {77}
 		["type"]="PropCube",
-		["name"]="Prop138",
-		["position"]={1221},
-		["scale"]={1222},
-		["scripts"]={1223},
+		["name"]="Prop262",
+		["position"]={721},
+		["scale"]={722},
+		["scripts"]={723},
 	},
 
 	{--Entry Number: {78}
 		["type"]="PropCube",
-		["name"]="Prop276",
-		["position"]={1224},
-		["scale"]={1225},
-		["scripts"]={1226},
+		["name"]="Prop326",
+		["position"]={724},
+		["scale"]={725},
+		["scripts"]={726},
 	},
 
 	{--Entry Number: {79}
 		["type"]="PropCube",
-		["name"]="Prop552",
-		["position"]={1227},
-		["scale"]={1228},
-		["scripts"]={1229},
+		["name"]="Prop390",
+		["position"]={727},
+		["scale"]={728},
+		["scripts"]={729},
 	},
 
 	{--Entry Number: {80}
 		["type"]="PropCube",
-		["name"]="Prop553",
-		["position"]={1230},
-		["scale"]={1231},
-		["scripts"]={1232},
+		["name"]="Prop454",
+		["position"]={730},
+		["scale"]={731},
+		["scripts"]={732},
 	},
 
 	{--Entry Number: {81}
 		["type"]="PropCube",
-		["name"]="Prop277",
-		["position"]={1233},
-		["scale"]={1234},
-		["scripts"]={1235},
+		["name"]="Prop33",
+		["position"]={733},
+		["scale"]={734},
+		["scripts"]={735},
 	},
 
 	{--Entry Number: {82}
 		["type"]="PropCube",
-		["name"]="Prop554",
-		["position"]={1236},
-		["scale"]={1237},
-		["scripts"]={1238},
+		["name"]="Prop41",
+		["position"]={736},
+		["scale"]={737},
+		["scripts"]={738},
 	},
 
 	{--Entry Number: {83}
 		["type"]="PropCube",
-		["name"]="Prop139",
-		["position"]={1239},
-		["scale"]={1240},
-		["scripts"]={1241},
+		["name"]="Prop49",
+		["position"]={739},
+		["scale"]={740},
+		["scripts"]={741},
 	},
 
 	{--Entry Number: {84}
 		["type"]="PropCube",
-		["name"]="Prop278",
-		["position"]={1242},
-		["scale"]={1243},
-		["scripts"]={1244},
+		["name"]="Prop57",
+		["position"]={742},
+		["scale"]={743},
+		["scripts"]={744},
 	},
 
 	{--Entry Number: {85}
 		["type"]="PropCube",
-		["name"]="Prop556",
-		["position"]={1245},
-		["scale"]={1246},
-		["scripts"]={1247},
+		["name"]="Prop66",
+		["position"]={745},
+		["scale"]={746},
+		["scripts"]={747},
 	},
 
 	{--Entry Number: {86}
 		["type"]="PropCube",
-		["name"]="Prop557",
-		["position"]={1248},
-		["scale"]={1249},
-		["scripts"]={1250},
+		["name"]="Prop82",
+		["position"]={748},
+		["scale"]={749},
+		["scripts"]={750},
 	},
 
 	{--Entry Number: {87}
 		["type"]="PropCube",
-		["name"]="Prop279",
-		["position"]={1251},
-		["scale"]={1252},
-		["scripts"]={1253},
+		["name"]="Prop98",
+		["position"]={751},
+		["scale"]={752},
+		["scripts"]={753},
 	},
 
 	{--Entry Number: {88}
 		["type"]="PropCube",
-		["name"]="Prop35",
-		["position"]={1254},
-		["scale"]={1255},
-		["scripts"]={1256},
+		["name"]="Prop114",
+		["position"]={754},
+		["scale"]={755},
+		["scripts"]={756},
 	},
 
 	{--Entry Number: {89}
 		["type"]="PropCube",
-		["name"]="Prop70",
-		["position"]={1257},
-		["scale"]={1258},
-		["scripts"]={1259},
+		["name"]="Prop132",
+		["position"]={757},
+		["scale"]={758},
+		["scripts"]={759},
 	},
 
 	{--Entry Number: {90}
 		["type"]="PropCube",
-		["name"]="Prop140",
-		["position"]={1260},
-		["scale"]={1261},
-		["scripts"]={1262},
+		["name"]="Prop164",
+		["position"]={760},
+		["scale"]={761},
+		["scripts"]={762},
 	},
 
 	{--Entry Number: {91}
 		["type"]="PropCube",
-		["name"]="Prop280",
-		["position"]={1263},
-		["scale"]={1264},
-		["scripts"]={1265},
+		["name"]="Prop196",
+		["position"]={763},
+		["scale"]={764},
+		["scripts"]={765},
 	},
 
 	{--Entry Number: {92}
 		["type"]="PropCube",
-		["name"]="Prop560",
-		["position"]={1266},
-		["scale"]={1267},
-		["scripts"]={1268},
+		["name"]="Prop228",
+		["position"]={766},
+		["scale"]={767},
+		["scripts"]={768},
 	},
 
 	{--Entry Number: {93}
 		["type"]="PropCube",
-		["name"]="Prop561",
-		["position"]={1269},
-		["scale"]={1270},
-		["scripts"]={1271},
+		["name"]="Prop264",
+		["position"]={769},
+		["scale"]={770},
+		["scripts"]={771},
 	},
 
 	{--Entry Number: {94}
 		["type"]="PropCube",
-		["name"]="Prop281",
-		["position"]={1272},
-		["scale"]={1273},
-		["scripts"]={1274},
+		["name"]="Prop328",
+		["position"]={772},
+		["scale"]={773},
+		["scripts"]={774},
 	},
 
 	{--Entry Number: {95}
 		["type"]="PropCube",
-		["name"]="Prop562",
-		["position"]={1275},
-		["scale"]={1276},
-		["scripts"]={1277},
+		["name"]="Prop392",
+		["position"]={775},
+		["scale"]={776},
+		["scripts"]={777},
 	},
 
 	{--Entry Number: {96}
 		["type"]="PropCube",
-		["name"]="Prop141",
-		["position"]={1278},
-		["scale"]={1279},
-		["scripts"]={1280},
+		["name"]="Prop456",
+		["position"]={778},
+		["scale"]={779},
+		["scripts"]={780},
 	},
 
 	{--Entry Number: {97}
 		["type"]="PropCube",
-		["name"]="Prop282",
-		["position"]={1281},
-		["scale"]={1282},
-		["scripts"]={1283},
+		["name"]="Prop339",
+		["position"]={781},
+		["scale"]={782},
+		["scripts"]={783},
 	},
 
 	{--Entry Number: {98}
 		["type"]="PropCube",
-		["name"]="Prop564",
-		["position"]={1284},
-		["scale"]={1285},
-		["scripts"]={1286},
+		["name"]="Prop350",
+		["position"]={784},
+		["scale"]={785},
+		["scripts"]={786},
 	},
 
 	{--Entry Number: {99}
 		["type"]="PropCube",
-		["name"]="Prop565",
-		["position"]={1287},
-		["scale"]={1288},
-		["scripts"]={1289},
+		["name"]="Prop355",
+		["position"]={787},
+		["scale"]={788},
+		["scripts"]={789},
 	},
 
 	{--Entry Number: {100}
 		["type"]="PropCube",
-		["name"]="Prop283",
-		["position"]={1290},
-		["scale"]={1291},
-		["scripts"]={1292},
+		["name"]="Prop495",
+		["position"]={790},
+		["scale"]={791},
+		["scripts"]={792},
 	},
 
 	{--Entry Number: {101}
 		["type"]="PropCube",
-		["name"]="Prop566",
-		["position"]={1293},
-		["scale"]={1294},
-		["scripts"]={1295},
+		["name"]="Prop265",
+		["position"]={793},
+		["scale"]={794},
+		["scripts"]={795},
 	},
 
 	{--Entry Number: {102}
 		["type"]="PropCube",
-		["name"]="Prop71",
-		["position"]={1296},
-		["scale"]={1297},
-		["scripts"]={1298},
+		["name"]="Prop329",
+		["position"]={796},
+		["scale"]={797},
+		["scripts"]={798},
 	},
 
 	{--Entry Number: {103}
 		["type"]="PropCube",
-		["name"]="Prop142",
-		["position"]={1299},
-		["scale"]={1300},
-		["scripts"]={1301},
+		["name"]="Prop393",
+		["position"]={799},
+		["scale"]={800},
+		["scripts"]={801},
 	},
 
 	{--Entry Number: {104}
 		["type"]="PropCube",
-		["name"]="Prop284",
-		["position"]={1302},
-		["scale"]={1303},
-		["scripts"]={1304},
+		["name"]="Prop457",
+		["position"]={802},
+		["scale"]={803},
+		["scripts"]={804},
 	},
 
 	{--Entry Number: {105}
 		["type"]="PropCube",
-		["name"]="Prop568",
-		["position"]={1305},
-		["scale"]={1306},
-		["scripts"]={1307},
+		["name"]="Prop133",
+		["position"]={805},
+		["scale"]={806},
+		["scripts"]={807},
 	},
 
 	{--Entry Number: {106}
 		["type"]="PropCube",
-		["name"]="Prop569",
-		["position"]={1308},
-		["scale"]={1309},
-		["scripts"]={1310},
+		["name"]="Prop165",
+		["position"]={808},
+		["scale"]={809},
+		["scripts"]={810},
 	},
 
 	{--Entry Number: {107}
 		["type"]="PropCube",
-		["name"]="Prop285",
-		["position"]={1311},
-		["scale"]={1312},
-		["scripts"]={1313},
+		["name"]="Prop197",
+		["position"]={811},
+		["scale"]={812},
+		["scripts"]={813},
 	},
 
 	{--Entry Number: {108}
 		["type"]="PropCube",
-		["name"]="Prop570",
-		["position"]={1314},
-		["scale"]={1315},
-		["scripts"]={1316},
+		["name"]="Prop229",
+		["position"]={814},
+		["scale"]={815},
+		["scripts"]={816},
 	},
 
 	{--Entry Number: {109}
 		["type"]="PropCube",
-		["name"]="Prop143",
-		["position"]={1317},
-		["scale"]={1318},
-		["scripts"]={1319},
+		["name"]="Prop266",
+		["position"]={817},
+		["scale"]={818},
+		["scripts"]={819},
 	},
 
 	{--Entry Number: {110}
 		["type"]="PropCube",
-		["name"]="Prop286",
-		["position"]={1320},
-		["scale"]={1321},
-		["scripts"]={1322},
+		["name"]="Prop330",
+		["position"]={820},
+		["scale"]={821},
+		["scripts"]={822},
 	},
 
 	{--Entry Number: {111}
 		["type"]="PropCube",
-		["name"]="Prop572",
-		["position"]={1323},
-		["scale"]={1324},
-		["scripts"]={1325},
+		["name"]="Prop394",
+		["position"]={823},
+		["scale"]={824},
+		["scripts"]={825},
 	},
 
 	{--Entry Number: {112}
 		["type"]="PropCube",
-		["name"]="Prop9",
-		["position"]={1326},
-		["scale"]={1327},
-		["scripts"]={1328},
+		["name"]="Prop458",
+		["position"]={826},
+		["scale"]={827},
+		["scripts"]={828},
 	},
 
 	{--Entry Number: {113}
 		["type"]="PropCube",
-		["name"]="Prop18",
-		["position"]={1329},
-		["scale"]={1330},
-		["scripts"]={1331},
+		["name"]="Prop494",
+		["position"]={829},
+		["scale"]={830},
+		["scripts"]={831},
 	},
 
 	{--Entry Number: {114}
 		["type"]="PropCube",
-		["name"]="Prop36",
-		["position"]={1332},
-		["scale"]={1333},
-		["scripts"]={1334},
+		["name"]="Prop371",
+		["position"]={832},
+		["scale"]={833},
+		["scripts"]={834},
 	},
 
 	{--Entry Number: {115}
 		["type"]="PropCube",
-		["name"]="Prop72",
-		["position"]={1335},
-		["scale"]={1336},
-		["scripts"]={1337},
+		["name"]="Prop267",
+		["position"]={835},
+		["scale"]={836},
+		["scripts"]={837},
 	},
 
 	{--Entry Number: {116}
 		["type"]="PropCube",
-		["name"]="Prop144",
-		["position"]={1338},
-		["scale"]={1339},
-		["scripts"]={1340},
+		["name"]="Prop491",
+		["position"]={838},
+		["scale"]={839},
+		["scripts"]={840},
 	},
 
 	{--Entry Number: {117}
 		["type"]="PropCube",
-		["name"]="Prop288",
-		["position"]={1341},
-		["scale"]={1342},
-		["scripts"]={1343},
+		["name"]="Prop67",
+		["position"]={841},
+		["scale"]={842},
+		["scripts"]={843},
 	},
 
 	{--Entry Number: {118}
 		["type"]="PropCube",
-		["name"]="Prop576",
-		["position"]={1344},
-		["scale"]={1345},
-		["scripts"]={1346},
+		["name"]="Prop83",
+		["position"]={844},
+		["scale"]={845},
+		["scripts"]={846},
 	},
 
 	{--Entry Number: {119}
 		["type"]="PropCube",
-		["name"]="Prop527",
-		["position"]={1347},
-		["scale"]={1348},
-		["scripts"]={1349},
+		["name"]="Prop99",
+		["position"]={847},
+		["scale"]={848},
+		["scripts"]={849},
 	},
 
 	{--Entry Number: {120}
 		["type"]="PropCube",
-		["name"]="Prop577",
-		["position"]={1350},
-		["scale"]={1351},
-		["scripts"]={1352},
+		["name"]="Prop115",
+		["position"]={850},
+		["scale"]={851},
+		["scripts"]={852},
 	},
 
 	{--Entry Number: {121}
 		["type"]="PropCube",
-		["name"]="Prop289",
-		["position"]={1353},
-		["scale"]={1354},
-		["scripts"]={1355},
+		["name"]="Prop134",
+		["position"]={853},
+		["scale"]={854},
+		["scripts"]={855},
 	},
 
 	{--Entry Number: {122}
 		["type"]="PropCube",
-		["name"]="Prop578",
-		["position"]={1356},
-		["scale"]={1357},
-		["scripts"]={1358},
+		["name"]="Prop166",
+		["position"]={856},
+		["scale"]={857},
+		["scripts"]={858},
 	},
 
 	{--Entry Number: {123}
 		["type"]="PropCube",
-		["name"]="Prop999",
-		["position"]={1359},
-		["scale"]={1360},
-		["scripts"]={1361},
+		["name"]="Prop198",
+		["position"]={859},
+		["scale"]={860},
+		["scripts"]={861},
 	},
 
 	{--Entry Number: {124}
 		["type"]="PropCube",
-		["name"]="Prop145",
-		["position"]={1362},
-		["scale"]={1363},
-		["scripts"]={1364},
+		["name"]="Prop230",
+		["position"]={862},
+		["scale"]={863},
+		["scripts"]={864},
 	},
 
 	{--Entry Number: {125}
 		["type"]="PropCube",
-		["name"]="Prop290",
-		["position"]={1365},
-		["scale"]={1366},
-		["scripts"]={1367},
+		["name"]="Prop268",
+		["position"]={865},
+		["scale"]={866},
+		["scripts"]={867},
 	},
 
 	{--Entry Number: {126}
 		["type"]="PropCube",
-		["name"]="Prop580",
-		["position"]={1368},
-		["scale"]={1369},
-		["scripts"]={1370},
+		["name"]="Prop332",
+		["position"]={868},
+		["scale"]={869},
+		["scripts"]={870},
 	},
 
 	{--Entry Number: {127}
 		["type"]="PropCube",
-		["name"]="Prop531",
-		["position"]={1371},
-		["scale"]={1372},
-		["scripts"]={1373},
+		["name"]="Prop396",
+		["position"]={871},
+		["scale"]={872},
+		["scripts"]={873},
 	},
 
 	{--Entry Number: {128}
 		["type"]="PropCube",
-		["name"]="Prop581",
-		["position"]={1374},
-		["scale"]={1375},
-		["scripts"]={1376},
+		["name"]="Prop460",
+		["position"]={874},
+		["scale"]={875},
+		["scripts"]={876},
 	},
 
 	{--Entry Number: {129}
 		["type"]="PropCube",
-		["name"]="Prop291",
-		["position"]={1377},
-		["scale"]={1378},
-		["scripts"]={1379},
+		["name"]="Prop387",
+		["position"]={877},
+		["scale"]={878},
+		["scripts"]={879},
 	},
 
 	{--Entry Number: {130}
 		["type"]="PropCube",
-		["name"]="Prop582",
-		["position"]={1380},
-		["scale"]={1381},
-		["scripts"]={1382},
+		["name"]="Prop395",
+		["position"]={880},
+		["scale"]={881},
+		["scripts"]={882},
 	},
 
 	{--Entry Number: {131}
 		["type"]="PropCube",
-		["name"]="Prop73",
-		["position"]={1383},
-		["scale"]={1384},
-		["scripts"]={1385},
+		["name"]="Prop414",
+		["position"]={883},
+		["scale"]={884},
+		["scripts"]={885},
 	},
 
 	{--Entry Number: {132}
 		["type"]="PropCube",
-		["name"]="Prop146",
-		["position"]={1386},
-		["scale"]={1387},
-		["scripts"]={1388},
+		["name"]="Prop487",
+		["position"]={886},
+		["scale"]={887},
+		["scripts"]={888},
 	},
 
 	{--Entry Number: {133}
 		["type"]="PropCube",
-		["name"]="Prop292",
-		["position"]={1389},
-		["scale"]={1390},
-		["scripts"]={1391},
+		["name"]="Prop269",
+		["position"]={889},
+		["scale"]={890},
+		["scripts"]={891},
 	},
 
 	{--Entry Number: {134}
 		["type"]="PropCube",
-		["name"]="Prop584",
-		["position"]={1392},
-		["scale"]={1393},
-		["scripts"]={1394},
+		["name"]="Prop333",
+		["position"]={892},
+		["scale"]={893},
+		["scripts"]={894},
 	},
 
 	{--Entry Number: {135}
 		["type"]="PropCube",
-		["name"]="Prop535",
-		["position"]={1395},
-		["scale"]={1396},
-		["scripts"]={1397},
+		["name"]="Prop397",
+		["position"]={895},
+		["scale"]={896},
+		["scripts"]={897},
 	},
 
 	{--Entry Number: {136}
 		["type"]="PropCube",
-		["name"]="Prop585",
-		["position"]={1398},
-		["scale"]={1399},
-		["scripts"]={1400},
+		["name"]="Prop461",
+		["position"]={898},
+		["scale"]={899},
+		["scripts"]={900},
 	},
 
 	{--Entry Number: {137}
 		["type"]="PropCube",
-		["name"]="Prop293",
-		["position"]={1401},
-		["scale"]={1402},
-		["scripts"]={1403},
+		["name"]="Prop135",
+		["position"]={901},
+		["scale"]={902},
+		["scripts"]={903},
 	},
 
 	{--Entry Number: {138}
 		["type"]="PropCube",
-		["name"]="Prop586",
-		["position"]={1404},
-		["scale"]={1405},
-		["scripts"]={1406},
+		["name"]="Prop167",
+		["position"]={904},
+		["scale"]={905},
+		["scripts"]={906},
 	},
 
 	{--Entry Number: {139}
 		["type"]="PropCube",
-		["name"]="Prop542",
-		["position"]={1407},
-		["scale"]={1408},
-		["scripts"]={1409},
+		["name"]="Prop199",
+		["position"]={907},
+		["scale"]={908},
+		["scripts"]={909},
 	},
 
 	{--Entry Number: {140}
 		["type"]="PropCube",
-		["name"]="Prop147",
-		["position"]={1410},
-		["scale"]={1411},
-		["scripts"]={1412},
+		["name"]="Prop231",
+		["position"]={910},
+		["scale"]={911},
+		["scripts"]={912},
 	},
 
 	{--Entry Number: {141}
 		["type"]="PropCube",
-		["name"]="Prop294",
-		["position"]={1413},
-		["scale"]={1414},
-		["scripts"]={1415},
+		["name"]="Prop17",
+		["position"]={913},
+		["scale"]={914},
+		["scripts"]={915},
 	},
 
 	{--Entry Number: {142}
 		["type"]="PropCube",
-		["name"]="Prop588",
-		["position"]={1416},
-		["scale"]={1417},
-		["scripts"]={1418},
+		["name"]="Prop21",
+		["position"]={916},
+		["scale"]={917},
+		["scripts"]={918},
 	},
 
 	{--Entry Number: {143}
 		["type"]="PropCube",
-		["name"]="Prop995",
-		["position"]={1419},
-		["scale"]={1420},
-		["scripts"]={1421},
+		["name"]="Prop25",
+		["position"]={919},
+		["scale"]={920},
+		["scripts"]={921},
 	},
 
 	{--Entry Number: {144}
 		["type"]="PropCube",
-		["name"]="Prop589",
-		["position"]={1422},
-		["scale"]={1423},
-		["scripts"]={1424},
+		["name"]="Prop29",
+		["position"]={922},
+		["scale"]={923},
+		["scripts"]={924},
 	},
 
 	{--Entry Number: {145}
 		["type"]="PropCube",
-		["name"]="Prop295",
-		["position"]={1425},
-		["scale"]={1426},
-		["scripts"]={1427},
+		["name"]="Prop34",
+		["position"]={925},
+		["scale"]={926},
+		["scripts"]={927},
 	},
 
 	{--Entry Number: {146}
 		["type"]="PropCube",
-		["name"]="Prop37",
-		["position"]={1428},
-		["scale"]={1429},
-		["scripts"]={1430},
+		["name"]="Prop42",
+		["position"]={928},
+		["scale"]={929},
+		["scripts"]={930},
 	},
 
 	{--Entry Number: {147}
 		["type"]="PropCube",
-		["name"]="Prop74",
-		["position"]={1431},
-		["scale"]={1432},
-		["scripts"]={1433},
+		["name"]="Prop50",
+		["position"]={931},
+		["scale"]={932},
+		["scripts"]={933},
 	},
 
 	{--Entry Number: {148}
 		["type"]="PropCube",
-		["name"]="Prop148",
-		["position"]={1434},
-		["scale"]={1435},
-		["scripts"]={1436},
+		["name"]="Prop58",
+		["position"]={934},
+		["scale"]={935},
+		["scripts"]={936},
 	},
 
 	{--Entry Number: {149}
 		["type"]="PropCube",
-		["name"]="Prop296",
-		["position"]={1437},
-		["scale"]={1438},
-		["scripts"]={1439},
+		["name"]="Prop68",
+		["position"]={937},
+		["scale"]={938},
+		["scripts"]={939},
 	},
 
 	{--Entry Number: {150}
 		["type"]="PropCube",
-		["name"]="Prop592",
-		["position"]={1440},
-		["scale"]={1441},
-		["scripts"]={1442},
+		["name"]="Prop84",
+		["position"]={940},
+		["scale"]={941},
+		["scripts"]={942},
 	},
 
 	{--Entry Number: {151}
 		["type"]="PropCube",
-		["name"]="Prop547",
-		["position"]={1443},
-		["scale"]={1444},
-		["scripts"]={1445},
+		["name"]="Prop100",
+		["position"]={943},
+		["scale"]={944},
+		["scripts"]={945},
 	},
 
 	{--Entry Number: {152}
 		["type"]="PropCube",
-		["name"]="Prop593",
-		["position"]={1446},
-		["scale"]={1447},
-		["scripts"]={1448},
+		["name"]="Prop116",
+		["position"]={946},
+		["scale"]={947},
+		["scripts"]={948},
 	},
 
 	{--Entry Number: {153}
 		["type"]="PropCube",
-		["name"]="Prop297",
-		["position"]={1449},
-		["scale"]={1450},
-		["scripts"]={1451},
+		["name"]="Prop136",
+		["position"]={949},
+		["scale"]={950},
+		["scripts"]={951},
 	},
 
 	{--Entry Number: {154}
 		["type"]="PropCube",
-		["name"]="Prop594",
-		["position"]={1452},
-		["scale"]={1453},
-		["scripts"]={1454},
+		["name"]="Prop168",
+		["position"]={952},
+		["scale"]={953},
+		["scripts"]={954},
 	},
 
 	{--Entry Number: {155}
 		["type"]="PropCube",
-		["name"]="Prop551",
-		["position"]={1455},
-		["scale"]={1456},
-		["scripts"]={1457},
+		["name"]="Prop200",
+		["position"]={955},
+		["scale"]={956},
+		["scripts"]={957},
 	},
 
 	{--Entry Number: {156}
 		["type"]="PropCube",
-		["name"]="Prop149",
-		["position"]={1458},
-		["scale"]={1459},
-		["scripts"]={1460},
+		["name"]="Prop232",
+		["position"]={958},
+		["scale"]={959},
+		["scripts"]={960},
 	},
 
 	{--Entry Number: {157}
 		["type"]="PropCube",
-		["name"]="Prop298",
-		["position"]={1461},
-		["scale"]={1462},
-		["scripts"]={1463},
+		["name"]="Prop272",
+		["position"]={961},
+		["scale"]={962},
+		["scripts"]={963},
 	},
 
 	{--Entry Number: {158}
 		["type"]="PropCube",
-		["name"]="Prop596",
-		["position"]={1464},
-		["scale"]={1465},
-		["scripts"]={1466},
+		["name"]="Prop336",
+		["position"]={964},
+		["scale"]={965},
+		["scripts"]={966},
 	},
 
 	{--Entry Number: {159}
 		["type"]="PropCube",
-		["name"]="Prop558",
-		["position"]={1467},
-		["scale"]={1468},
-		["scripts"]={1469},
+		["name"]="Prop400",
+		["position"]={967},
+		["scale"]={968},
+		["scripts"]={969},
 	},
 
 	{--Entry Number: {160}
 		["type"]="PropCube",
-		["name"]="Prop597",
-		["position"]={1470},
-		["scale"]={1471},
-		["scripts"]={1472},
+		["name"]="Prop464",
+		["position"]={970},
+		["scale"]={971},
+		["scripts"]={972},
 	},
 
 	{--Entry Number: {161}
 		["type"]="PropCube",
-		["name"]="Prop299",
-		["position"]={1473},
-		["scale"]={1474},
-		["scripts"]={1475},
+		["name"]="Prop419",
+		["position"]={973},
+		["scale"]={974},
+		["scripts"]={975},
 	},
 
 	{--Entry Number: {162}
 		["type"]="PropCube",
-		["name"]="Prop598",
-		["position"]={1476},
-		["scale"]={1477},
-		["scripts"]={1478},
+		["name"]="Prop423",
+		["position"]={976},
+		["scale"]={977},
+		["scripts"]={978},
 	},
 
 	{--Entry Number: {163}
 		["type"]="PropCube",
-		["name"]="Prop75",
-		["position"]={1479},
-		["scale"]={1480},
-		["scripts"]={1481},
+		["name"]="Prop254",
+		["position"]={979},
+		["scale"]={980},
+		["scripts"]={981},
 	},
 
 	{--Entry Number: {164}
 		["type"]="PropCube",
-		["name"]="Prop150",
-		["position"]={1482},
-		["scale"]={1483},
-		["scripts"]={1484},
+		["name"]="Prop483",
+		["position"]={982},
+		["scale"]={983},
+		["scripts"]={984},
 	},
 
 	{--Entry Number: {165}
 		["type"]="PropCube",
-		["name"]="Prop300",
-		["position"]={1485},
-		["scale"]={1486},
-		["scripts"]={1487},
+		["name"]="Prop273",
+		["position"]={985},
+		["scale"]={986},
+		["scripts"]={987},
 	},
 
 	{--Entry Number: {166}
 		["type"]="PropCube",
-		["name"]="Prop600",
-		["position"]={1488},
-		["scale"]={1489},
-		["scripts"]={1490},
+		["name"]="Prop337",
+		["position"]={988},
+		["scale"]={989},
+		["scripts"]={990},
 	},
 
 	{--Entry Number: {167}
 		["type"]="PropCube",
-		["name"]="Prop991",
-		["position"]={1491},
-		["scale"]={1492},
-		["scripts"]={1493},
+		["name"]="Prop401",
+		["position"]={991},
+		["scale"]={992},
+		["scripts"]={993},
 	},
 
 	{--Entry Number: {168}
 		["type"]="PropCube",
-		["name"]="Prop601",
-		["position"]={1494},
-		["scale"]={1495},
-		["scripts"]={1496},
+		["name"]="Prop465",
+		["position"]={994},
+		["scale"]={995},
+		["scripts"]={996},
 	},
 
 	{--Entry Number: {169}
 		["type"]="PropCube",
-		["name"]="Prop301",
-		["position"]={1497},
-		["scale"]={1498},
-		["scripts"]={1499},
+		["name"]="Prop137",
+		["position"]={997},
+		["scale"]={998},
+		["scripts"]={999},
 	},
 
 	{--Entry Number: {170}
 		["type"]="PropCube",
-		["name"]="Prop602",
-		["position"]={1500},
-		["scale"]={1501},
-		["scripts"]={1502},
+		["name"]="Prop169",
+		["position"]={1000},
+		["scale"]={1001},
+		["scripts"]={1002},
 	},
 
 	{--Entry Number: {171}
 		["type"]="PropCube",
-		["name"]="Prop990",
-		["position"]={1503},
-		["scale"]={1504},
-		["scripts"]={1505},
+		["name"]="Prop201",
+		["position"]={1003},
+		["scale"]={1004},
+		["scripts"]={1005},
 	},
 
 	{--Entry Number: {172}
 		["type"]="PropCube",
-		["name"]="Prop151",
-		["position"]={1506},
-		["scale"]={1507},
-		["scripts"]={1508},
+		["name"]="Prop233",
+		["position"]={1006},
+		["scale"]={1007},
+		["scripts"]={1008},
 	},
 
 	{--Entry Number: {173}
 		["type"]="PropCube",
-		["name"]="Prop302",
-		["position"]={1509},
-		["scale"]={1510},
-		["scripts"]={1511},
+		["name"]="Prop274",
+		["position"]={1009},
+		["scale"]={1010},
+		["scripts"]={1011},
 	},
 
 	{--Entry Number: {174}
 		["type"]="PropCube",
-		["name"]="Prop604",
-		["position"]={1512},
-		["scale"]={1513},
-		["scripts"]={1514},
+		["name"]="Prop338",
+		["position"]={1012},
+		["scale"]={1013},
+		["scripts"]={1014},
 	},
 
 	{--Entry Number: {175}
 		["type"]="PropCube",
-		["name"]="Prop559",
-		["position"]={1515},
-		["scale"]={1516},
-		["scripts"]={1517},
+		["name"]="Prop402",
+		["position"]={1015},
+		["scale"]={1016},
+		["scripts"]={1017},
 	},
 
 	{--Entry Number: {176}
 		["type"]="PropCube",
-		["name"]="Prop605",
-		["position"]={1518},
-		["scale"]={1519},
-		["scripts"]={1520},
+		["name"]="Prop466",
+		["position"]={1018},
+		["scale"]={1019},
+		["scripts"]={1020},
 	},
 
 	{--Entry Number: {177}
 		["type"]="PropCube",
-		["name"]="Prop19",
-		["position"]={1521},
-		["scale"]={1522},
-		["scripts"]={1523},
+		["name"]="Prop351",
+		["position"]={1021},
+		["scale"]={1022},
+		["scripts"]={1023},
 	},
 
 	{--Entry Number: {178}
 		["type"]="PropCube",
-		["name"]="Prop38",
-		["position"]={1524},
-		["scale"]={1525},
-		["scripts"]={1526},
+		["name"]="Prop343",
+		["position"]={1024},
+		["scale"]={1025},
+		["scripts"]={1026},
 	},
 
 	{--Entry Number: {179}
 		["type"]="PropCube",
-		["name"]="Prop76",
-		["position"]={1527},
-		["scale"]={1528},
-		["scripts"]={1529},
+		["name"]="Prop439",
+		["position"]={1027},
+		["scale"]={1028},
+		["scripts"]={1029},
 	},
 
 	{--Entry Number: {180}
 		["type"]="PropCube",
-		["name"]="Prop152",
-		["position"]={1530},
-		["scale"]={1531},
-		["scripts"]={1532},
+		["name"]="Prop479",
+		["position"]={1030},
+		["scale"]={1031},
+		["scripts"]={1032},
 	},
 
 	{--Entry Number: {181}
 		["type"]="PropCube",
-		["name"]="Prop304",
-		["position"]={1533},
-		["scale"]={1534},
-		["scripts"]={1535},
+		["name"]="Prop69",
+		["position"]={1033},
+		["scale"]={1034},
+		["scripts"]={1035},
 	},
 
 	{--Entry Number: {182}
 		["type"]="PropCube",
-		["name"]="Prop608",
-		["position"]={1536},
-		["scale"]={1537},
-		["scripts"]={1538},
+		["name"]="Prop85",
+		["position"]={1036},
+		["scale"]={1037},
+		["scripts"]={1038},
 	},
 
 	{--Entry Number: {183}
 		["type"]="PropCube",
-		["name"]="Prop567",
-		["position"]={1539},
-		["scale"]={1540},
-		["scripts"]={1541},
+		["name"]="Prop101",
+		["position"]={1039},
+		["scale"]={1040},
+		["scripts"]={1041},
 	},
 
 	{--Entry Number: {184}
 		["type"]="PropCube",
-		["name"]="Prop609",
-		["position"]={1542},
-		["scale"]={1543},
-		["scripts"]={1544},
+		["name"]="Prop117",
+		["position"]={1042},
+		["scale"]={1043},
+		["scripts"]={1044},
 	},
 
 	{--Entry Number: {185}
 		["type"]="PropCube",
-		["name"]="Prop305",
-		["position"]={1545},
-		["scale"]={1546},
-		["scripts"]={1547},
+		["name"]="Prop138",
+		["position"]={1045},
+		["scale"]={1046},
+		["scripts"]={1047},
 	},
 
 	{--Entry Number: {186}
 		["type"]="PropCube",
-		["name"]="Prop610",
-		["position"]={1548},
-		["scale"]={1549},
-		["scripts"]={1550},
+		["name"]="Prop170",
+		["position"]={1048},
+		["scale"]={1049},
+		["scripts"]={1050},
 	},
 
 	{--Entry Number: {187}
 		["type"]="PropCube",
-		["name"]="Prop987",
-		["position"]={1551},
-		["scale"]={1552},
-		["scripts"]={1553},
+		["name"]="Prop202",
+		["position"]={1051},
+		["scale"]={1052},
+		["scripts"]={1053},
 	},
 
 	{--Entry Number: {188}
 		["type"]="PropCube",
-		["name"]="Prop153",
-		["position"]={1554},
-		["scale"]={1555},
-		["scripts"]={1556},
+		["name"]="Prop234",
+		["position"]={1054},
+		["scale"]={1055},
+		["scripts"]={1056},
 	},
 
 	{--Entry Number: {189}
 		["type"]="PropCube",
-		["name"]="Prop306",
-		["position"]={1557},
-		["scale"]={1558},
-		["scripts"]={1559},
+		["name"]="Prop276",
+		["position"]={1057},
+		["scale"]={1058},
+		["scripts"]={1059},
 	},
 
 	{--Entry Number: {190}
 		["type"]="PropCube",
-		["name"]="Prop612",
-		["position"]={1560},
-		["scale"]={1561},
-		["scripts"]={1562},
+		["name"]="Prop340",
+		["position"]={1060},
+		["scale"]={1061},
+		["scripts"]={1062},
 	},
 
 	{--Entry Number: {191}
 		["type"]="PropCube",
-		["name"]="Prop573",
-		["position"]={1563},
-		["scale"]={1564},
-		["scripts"]={1565},
+		["name"]="Prop404",
+		["position"]={1063},
+		["scale"]={1064},
+		["scripts"]={1065},
 	},
 
 	{--Entry Number: {192}
 		["type"]="PropCube",
-		["name"]="Prop613",
-		["position"]={1566},
-		["scale"]={1567},
-		["scripts"]={1568},
+		["name"]="Prop468",
+		["position"]={1066},
+		["scale"]={1067},
+		["scripts"]={1068},
 	},
 
 	{--Entry Number: {193}
 		["type"]="PropCube",
-		["name"]="Prop307",
-		["position"]={1569},
-		["scale"]={1570},
-		["scripts"]={1571},
+		["name"]="Prop478",
+		["position"]={1069},
+		["scale"]={1070},
+		["scripts"]={1071},
 	},
 
 	{--Entry Number: {194}
 		["type"]="PropCube",
-		["name"]="Prop614",
-		["position"]={1572},
-		["scale"]={1573},
-		["scripts"]={1574},
+		["name"]="Prop287",
+		["position"]={1072},
+		["scale"]={1073},
+		["scripts"]={1074},
 	},
 
 	{--Entry Number: {195}
 		["type"]="PropCube",
-		["name"]="Prop77",
-		["position"]={1575},
-		["scale"]={1576},
-		["scripts"]={1577},
+		["name"]="Prop446",
+		["position"]={1075},
+		["scale"]={1076},
+		["scripts"]={1077},
 	},
 
 	{--Entry Number: {196}
 		["type"]="PropCube",
-		["name"]="Prop154",
-		["position"]={1578},
-		["scale"]={1579},
-		["scripts"]={1580},
+		["name"]="Prop475",
+		["position"]={1078},
+		["scale"]={1079},
+		["scripts"]={1080},
 	},
 
 	{--Entry Number: {197}
 		["type"]="PropCube",
-		["name"]="Prop308",
-		["position"]={1581},
-		["scale"]={1582},
-		["scripts"]={1583},
+		["name"]="Prop277",
+		["position"]={1081},
+		["scale"]={1082},
+		["scripts"]={1083},
 	},
 
 	{--Entry Number: {198}
 		["type"]="PropCube",
-		["name"]="Prop616",
-		["position"]={1584},
-		["scale"]={1585},
-		["scripts"]={1586},
+		["name"]="Prop341",
+		["position"]={1084},
+		["scale"]={1085},
+		["scripts"]={1086},
 	},
 
 	{--Entry Number: {199}
 		["type"]="PropCube",
-		["name"]="Prop574",
-		["position"]={1587},
-		["scale"]={1588},
-		["scripts"]={1589},
+		["name"]="Prop405",
+		["position"]={1087},
+		["scale"]={1088},
+		["scripts"]={1089},
 	},
 
 	{--Entry Number: {200}
 		["type"]="PropCube",
-		["name"]="Prop617",
-		["position"]={1590},
-		["scale"]={1591},
-		["scripts"]={1592},
+		["name"]="Prop469",
+		["position"]={1090},
+		["scale"]={1091},
+		["scripts"]={1092},
 	},
 
 	{--Entry Number: {201}
 		["type"]="PropCube",
-		["name"]="Prop309",
-		["position"]={1593},
-		["scale"]={1594},
-		["scripts"]={1595},
+		["name"]="Prop139",
+		["position"]={1093},
+		["scale"]={1094},
+		["scripts"]={1095},
 	},
 
 	{--Entry Number: {202}
 		["type"]="PropCube",
-		["name"]="Prop618",
-		["position"]={1596},
-		["scale"]={1597},
-		["scripts"]={1598},
+		["name"]="Prop171",
+		["position"]={1096},
+		["scale"]={1097},
+		["scripts"]={1098},
 	},
 
 	{--Entry Number: {203}
 		["type"]="PropCube",
-		["name"]="Prop579",
-		["position"]={1599},
-		["scale"]={1600},
-		["scripts"]={1601},
+		["name"]="Prop203",
+		["position"]={1099},
+		["scale"]={1100},
+		["scripts"]={1101},
 	},
 
 	{--Entry Number: {204}
 		["type"]="PropCube",
-		["name"]="Prop155",
-		["position"]={1602},
-		["scale"]={1603},
-		["scripts"]={1604},
+		["name"]="Prop235",
+		["position"]={1102},
+		["scale"]={1103},
+		["scripts"]={1104},
 	},
 
 	{--Entry Number: {205}
 		["type"]="PropCube",
-		["name"]="Prop310",
-		["position"]={1605},
-		["scale"]={1606},
-		["scripts"]={1607},
+		["name"]="Prop278",
+		["position"]={1105},
+		["scale"]={1106},
+		["scripts"]={1107},
 	},
 
 	{--Entry Number: {206}
 		["type"]="PropCube",
-		["name"]="Prop620",
-		["position"]={1608},
-		["scale"]={1609},
-		["scripts"]={1610},
+		["name"]="Prop342",
+		["position"]={1108},
+		["scale"]={1109},
+		["scripts"]={1110},
 	},
 
 	{--Entry Number: {207}
 		["type"]="PropCube",
-		["name"]="Prop983",
-		["position"]={1611},
-		["scale"]={1612},
-		["scripts"]={1613},
+		["name"]="Prop406",
+		["position"]={1111},
+		["scale"]={1112},
+		["scripts"]={1113},
 	},
 
 	{--Entry Number: {208}
 		["type"]="PropCube",
-		["name"]="Prop621",
-		["position"]={1614},
-		["scale"]={1615},
-		["scripts"]={1616},
+		["name"]="Prop470",
+		["position"]={1114},
+		["scale"]={1115},
+		["scripts"]={1116},
 	},
 
 	{--Entry Number: {209}
 		["type"]="PropCube",
-		["name"]="Prop311",
-		["position"]={1617},
-		["scale"]={1618},
-		["scripts"]={1619},
+		["name"]="Prop35",
+		["position"]={1117},
+		["scale"]={1118},
+		["scripts"]={1119},
 	},
 
 	{--Entry Number: {210}
 		["type"]="PropCube",
-		["name"]="Prop39",
-		["position"]={1620},
-		["scale"]={1621},
-		["scripts"]={1622},
+		["name"]="Prop43",
+		["position"]={1120},
+		["scale"]={1121},
+		["scripts"]={1122},
 	},
 
 	{--Entry Number: {211}
 		["type"]="PropCube",
-		["name"]="Prop78",
-		["position"]={1623},
-		["scale"]={1624},
-		["scripts"]={1625},
+		["name"]="Prop51",
+		["position"]={1123},
+		["scale"]={1124},
+		["scripts"]={1125},
 	},
 
 	{--Entry Number: {212}
 		["type"]="PropCube",
-		["name"]="Prop156",
-		["position"]={1626},
-		["scale"]={1627},
-		["scripts"]={1628},
+		["name"]="Prop59",
+		["position"]={1126},
+		["scale"]={1127},
+		["scripts"]={1128},
 	},
 
 	{--Entry Number: {213}
 		["type"]="PropCube",
-		["name"]="Prop312",
-		["position"]={1629},
-		["scale"]={1630},
-		["scripts"]={1631},
+		["name"]="Prop70",
+		["position"]={1129},
+		["scale"]={1130},
+		["scripts"]={1131},
 	},
 
 	{--Entry Number: {214}
 		["type"]="PropCube",
-		["name"]="Prop624",
-		["position"]={1632},
-		["scale"]={1633},
-		["scripts"]={1634},
+		["name"]="Prop86",
+		["position"]={1132},
+		["scale"]={1133},
+		["scripts"]={1134},
 	},
 
 	{--Entry Number: {215}
 		["type"]="PropCube",
-		["name"]="Prop583",
-		["position"]={1635},
-		["scale"]={1636},
-		["scripts"]={1637},
+		["name"]="Prop102",
+		["position"]={1135},
+		["scale"]={1136},
+		["scripts"]={1137},
 	},
 
 	{--Entry Number: {216}
 		["type"]="PropCube",
-		["name"]="Prop625",
-		["position"]={1638},
-		["scale"]={1639},
-		["scripts"]={1640},
+		["name"]="Prop118",
+		["position"]={1138},
+		["scale"]={1139},
+		["scripts"]={1140},
 	},
 
 	{--Entry Number: {217}
 		["type"]="PropCube",
-		["name"]="Prop313",
-		["position"]={1641},
-		["scale"]={1642},
-		["scripts"]={1643},
+		["name"]="Prop140",
+		["position"]={1141},
+		["scale"]={1142},
+		["scripts"]={1143},
 	},
 
 	{--Entry Number: {218}
 		["type"]="PropCube",
-		["name"]="Prop626",
-		["position"]={1644},
-		["scale"]={1645},
-		["scripts"]={1646},
+		["name"]="Prop172",
+		["position"]={1144},
+		["scale"]={1145},
+		["scripts"]={1146},
 	},
 
 	{--Entry Number: {219}
 		["type"]="PropCube",
-		["name"]="Prop587",
-		["position"]={1647},
-		["scale"]={1648},
-		["scripts"]={1649},
+		["name"]="Prop204",
+		["position"]={1147},
+		["scale"]={1148},
+		["scripts"]={1149},
 	},
 
 	{--Entry Number: {220}
 		["type"]="PropCube",
-		["name"]="Prop157",
-		["position"]={1650},
-		["scale"]={1651},
-		["scripts"]={1652},
+		["name"]="Prop236",
+		["position"]={1150},
+		["scale"]={1151},
+		["scripts"]={1152},
 	},
 
 	{--Entry Number: {221}
 		["type"]="PropCube",
-		["name"]="Prop314",
-		["position"]={1653},
-		["scale"]={1654},
-		["scripts"]={1655},
+		["name"]="Prop280",
+		["position"]={1153},
+		["scale"]={1154},
+		["scripts"]={1155},
 	},
 
 	{--Entry Number: {222}
 		["type"]="PropCube",
-		["name"]="Prop628",
-		["position"]={1656},
-		["scale"]={1657},
-		["scripts"]={1658},
+		["name"]="Prop344",
+		["position"]={1156},
+		["scale"]={1157},
+		["scripts"]={1158},
 	},
 
 	{--Entry Number: {223}
 		["type"]="PropCube",
-		["name"]="Prop591",
-		["position"]={1659},
-		["scale"]={1660},
-		["scripts"]={1661},
+		["name"]="Prop408",
+		["position"]={1159},
+		["scale"]={1160},
+		["scripts"]={1161},
 	},
 
 	{--Entry Number: {224}
 		["type"]="PropCube",
-		["name"]="Prop629",
-		["position"]={1662},
-		["scale"]={1663},
-		["scripts"]={1664},
+		["name"]="Prop472",
+		["position"]={1162},
+		["scale"]={1163},
+		["scripts"]={1164},
 	},
 
 	{--Entry Number: {225}
 		["type"]="PropCube",
-		["name"]="Prop315",
-		["position"]={1665},
-		["scale"]={1666},
-		["scripts"]={1667},
+		["name"]="Prop462",
+		["position"]={1165},
+		["scale"]={1166},
+		["scripts"]={1167},
 	},
 
 	{--Entry Number: {226}
 		["type"]="PropCube",
-		["name"]="Prop630",
-		["position"]={1668},
-		["scale"]={1669},
-		["scripts"]={1670},
+		["name"]="Prop463",
+		["position"]={1168},
+		["scale"]={1169},
+		["scripts"]={1170},
 	},
 
 	{--Entry Number: {227}
 		["type"]="PropCube",
-		["name"]="Prop79",
-		["position"]={1671},
-		["scale"]={1672},
-		["scripts"]={1673},
+		["name"]="Prop471",
+		["position"]={1171},
+		["scale"]={1172},
+		["scripts"]={1173},
 	},
 
 	{--Entry Number: {228}
 		["type"]="PropCube",
-		["name"]="Prop158",
-		["position"]={1674},
-		["scale"]={1675},
-		["scripts"]={1676},
+		["name"]="Prop467",
+		["position"]={1174},
+		["scale"]={1175},
+		["scripts"]={1176},
 	},
 
 	{--Entry Number: {229}
 		["type"]="PropCube",
-		["name"]="Prop316",
-		["position"]={1677},
-		["scale"]={1678},
-		["scripts"]={1679},
+		["name"]="Prop281",
+		["position"]={1177},
+		["scale"]={1178},
+		["scripts"]={1179},
 	},
 
 	{--Entry Number: {230}
 		["type"]="PropCube",
-		["name"]="Prop632",
-		["position"]={1680},
-		["scale"]={1681},
-		["scripts"]={1682},
+		["name"]="Prop345",
+		["position"]={1180},
+		["scale"]={1181},
+		["scripts"]={1182},
 	},
 
 	{--Entry Number: {231}
 		["type"]="PropCube",
-		["name"]="Prop979",
-		["position"]={1683},
-		["scale"]={1684},
-		["scripts"]={1685},
+		["name"]="Prop409",
+		["position"]={1183},
+		["scale"]={1184},
+		["scripts"]={1185},
 	},
 
 	{--Entry Number: {232}
 		["type"]="PropCube",
-		["name"]="Prop633",
-		["position"]={1686},
-		["scale"]={1687},
-		["scripts"]={1688},
+		["name"]="Prop473",
+		["position"]={1186},
+		["scale"]={1187},
+		["scripts"]={1188},
 	},
 
 	{--Entry Number: {233}
 		["type"]="PropCube",
-		["name"]="Prop317",
-		["position"]={1689},
-		["scale"]={1690},
-		["scripts"]={1691},
+		["name"]="Prop141",
+		["position"]={1189},
+		["scale"]={1190},
+		["scripts"]={1191},
 	},
 
 	{--Entry Number: {234}
 		["type"]="PropCube",
-		["name"]="Prop634",
-		["position"]={1692},
-		["scale"]={1693},
-		["scripts"]={1694},
+		["name"]="Prop173",
+		["position"]={1192},
+		["scale"]={1193},
+		["scripts"]={1194},
 	},
 
 	{--Entry Number: {235}
 		["type"]="PropCube",
-		["name"]="Prop599",
-		["position"]={1695},
-		["scale"]={1696},
-		["scripts"]={1697},
+		["name"]="Prop205",
+		["position"]={1195},
+		["scale"]={1196},
+		["scripts"]={1197},
 	},
 
 	{--Entry Number: {236}
 		["type"]="PropCube",
-		["name"]="Prop159",
-		["position"]={1698},
-		["scale"]={1699},
-		["scripts"]={1700},
+		["name"]="Prop237",
+		["position"]={1198},
+		["scale"]={1199},
+		["scripts"]={1200},
 	},
 
 	{--Entry Number: {237}
 		["type"]="PropCube",
-		["name"]="Prop318",
-		["position"]={1701},
-		["scale"]={1702},
-		["scripts"]={1703},
+		["name"]="Prop282",
+		["position"]={1201},
+		["scale"]={1202},
+		["scripts"]={1203},
 	},
 
 	{--Entry Number: {238}
 		["type"]="PropCube",
-		["name"]="Prop636",
-		["position"]={1704},
-		["scale"]={1705},
-		["scripts"]={1706},
+		["name"]="Prop346",
+		["position"]={1204},
+		["scale"]={1205},
+		["scripts"]={1206},
 	},
 
 	{--Entry Number: {239}
 		["type"]="PropCube",
-		["name"]="Prop5",
-		["position"]={1707},
-		["scale"]={1708},
-		["scripts"]={1709},
+		["name"]="Prop410",
+		["position"]={1207},
+		["scale"]={1208},
+		["scripts"]={1209},
 	},
 
 	{--Entry Number: {240}
 		["type"]="PropCube",
-		["name"]="Prop10",
-		["position"]={1710},
-		["scale"]={1711},
-		["scripts"]={1712},
+		["name"]="Prop474",
+		["position"]={1210},
+		["scale"]={1211},
+		["scripts"]={1212},
 	},
 
 	{--Entry Number: {241}
 		["type"]="PropCube",
-		["name"]="Prop20",
-		["position"]={1713},
-		["scale"]={1714},
-		["scripts"]={1715},
+		["name"]="Prop459",
+		["position"]={1213},
+		["scale"]={1214},
+		["scripts"]={1215},
 	},
 
 	{--Entry Number: {242}
 		["type"]="PropCube",
-		["name"]="Prop40",
-		["position"]={1716},
-		["scale"]={1717},
-		["scripts"]={1718},
+		["name"]="Prop455",
+		["position"]={1216},
+		["scale"]={1217},
+		["scripts"]={1218},
 	},
 
 	{--Entry Number: {243}
 		["type"]="PropCube",
-		["name"]="Prop80",
-		["position"]={1719},
-		["scale"]={1720},
-		["scripts"]={1721},
+		["name"]="Prop451",
+		["position"]={1219},
+		["scale"]={1220},
+		["scripts"]={1221},
 	},
 
 	{--Entry Number: {244}
 		["type"]="PropCube",
-		["name"]="Prop160",
-		["position"]={1722},
-		["scale"]={1723},
-		["scripts"]={1724},
+		["name"]="Prop447",
+		["position"]={1222},
+		["scale"]={1223},
+		["scripts"]={1224},
 	},
 
 	{--Entry Number: {245}
 		["type"]="PropCube",
-		["name"]="Prop320",
-		["position"]={1725},
-		["scale"]={1726},
-		["scripts"]={1727},
+		["name"]="Prop71",
+		["position"]={1225},
+		["scale"]={1226},
+		["scripts"]={1227},
 	},
 
 	{--Entry Number: {246}
 		["type"]="PropCube",
-		["name"]="Prop640",
-		["position"]={1728},
-		["scale"]={1729},
-		["scripts"]={1730},
+		["name"]="Prop87",
+		["position"]={1228},
+		["scale"]={1229},
+		["scripts"]={1230},
 	},
 
 	{--Entry Number: {247}
 		["type"]="PropCube",
-		["name"]="Prop603",
-		["position"]={1731},
-		["scale"]={1732},
-		["scripts"]={1733},
+		["name"]="Prop103",
+		["position"]={1231},
+		["scale"]={1232},
+		["scripts"]={1233},
 	},
 
 	{--Entry Number: {248}
 		["type"]="PropCube",
-		["name"]="Prop641",
-		["position"]={1734},
-		["scale"]={1735},
-		["scripts"]={1736},
+		["name"]="Prop119",
+		["position"]={1234},
+		["scale"]={1235},
+		["scripts"]={1236},
 	},
 
 	{--Entry Number: {249}
 		["type"]="PropCube",
-		["name"]="Prop321",
-		["position"]={1737},
-		["scale"]={1738},
-		["scripts"]={1739},
+		["name"]="Prop142",
+		["position"]={1237},
+		["scale"]={1238},
+		["scripts"]={1239},
 	},
 
 	{--Entry Number: {250}
 		["type"]="PropCube",
-		["name"]="Prop642",
-		["position"]={1740},
-		["scale"]={1741},
-		["scripts"]={1742},
+		["name"]="Prop174",
+		["position"]={1240},
+		["scale"]={1241},
+		["scripts"]={1242},
 	},
 
 	{--Entry Number: {251}
 		["type"]="PropCube",
-		["name"]="Prop607",
-		["position"]={1743},
-		["scale"]={1744},
-		["scripts"]={1745},
+		["name"]="Prop206",
+		["position"]={1243},
+		["scale"]={1244},
+		["scripts"]={1245},
 	},
 
 	{--Entry Number: {252}
 		["type"]="PropCube",
-		["name"]="Prop161",
-		["position"]={1746},
-		["scale"]={1747},
-		["scripts"]={1748},
+		["name"]="Prop238",
+		["position"]={1246},
+		["scale"]={1247},
+		["scripts"]={1248},
 	},
 
 	{--Entry Number: {253}
 		["type"]="PropCube",
-		["name"]="Prop322",
-		["position"]={1749},
-		["scale"]={1750},
-		["scripts"]={1751},
+		["name"]="Prop284",
+		["position"]={1249},
+		["scale"]={1250},
+		["scripts"]={1251},
 	},
 
 	{--Entry Number: {254}
 		["type"]="PropCube",
-		["name"]="Prop644",
-		["position"]={1752},
-		["scale"]={1753},
-		["scripts"]={1754},
+		["name"]="Prop348",
+		["position"]={1252},
+		["scale"]={1253},
+		["scripts"]={1254},
 	},
 
 	{--Entry Number: {255}
 		["type"]="PropCube",
-		["name"]="Prop975",
-		["position"]={1755},
-		["scale"]={1756},
-		["scripts"]={1757},
+		["name"]="Prop412",
+		["position"]={1255},
+		["scale"]={1256},
+		["scripts"]={1257},
 	},
 
 	{--Entry Number: {256}
 		["type"]="PropCube",
-		["name"]="Prop645",
-		["position"]={1758},
-		["scale"]={1759},
-		["scripts"]={1760},
+		["name"]="Prop476",
+		["position"]={1258},
+		["scale"]={1259},
+		["scripts"]={1260},
 	},
 
 	{--Entry Number: {257}
 		["type"]="PropCube",
-		["name"]="Prop323",
-		["position"]={1761},
-		["scale"]={1762},
-		["scripts"]={1763},
+		["name"]="Prop445",
+		["position"]={1261},
+		["scale"]={1262},
+		["scripts"]={1263},
 	},
 
 	{--Entry Number: {258}
 		["type"]="PropCube",
-		["name"]="Prop646",
-		["position"]={1764},
-		["scale"]={1765},
-		["scripts"]={1766},
+		["name"]="Prop443",
+		["position"]={1264},
+		["scale"]={1265},
+		["scripts"]={1266},
 	},
 
 	{--Entry Number: {259}
 		["type"]="PropCube",
-		["name"]="Prop81",
-		["position"]={1767},
-		["scale"]={1768},
-		["scripts"]={1769},
+		["name"]="Prop239",
+		["position"]={1267},
+		["scale"]={1268},
+		["scripts"]={1269},
 	},
 
 	{--Entry Number: {260}
 		["type"]="PropCube",
-		["name"]="Prop162",
-		["position"]={1770},
-		["scale"]={1771},
-		["scripts"]={1772},
+		["name"]="Prop263",
+		["position"]={1270},
+		["scale"]={1271},
+		["scripts"]={1272},
 	},
 
 	{--Entry Number: {261}
 		["type"]="PropCube",
-		["name"]="Prop324",
-		["position"]={1773},
-		["scale"]={1774},
-		["scripts"]={1775},
+		["name"]="Prop285",
+		["position"]={1273},
+		["scale"]={1274},
+		["scripts"]={1275},
 	},
 
 	{--Entry Number: {262}
 		["type"]="PropCube",
-		["name"]="Prop648",
-		["position"]={1776},
-		["scale"]={1777},
-		["scripts"]={1778},
+		["name"]="Prop349",
+		["position"]={1276},
+		["scale"]={1277},
+		["scripts"]={1278},
 	},
 
 	{--Entry Number: {263}
 		["type"]="PropCube",
-		["name"]="Prop974",
-		["position"]={1779},
-		["scale"]={1780},
-		["scripts"]={1781},
+		["name"]="Prop413",
+		["position"]={1279},
+		["scale"]={1280},
+		["scripts"]={1281},
 	},
 
 	{--Entry Number: {264}
 		["type"]="PropCube",
-		["name"]="Prop649",
-		["position"]={1782},
-		["scale"]={1783},
-		["scripts"]={1784},
+		["name"]="Prop477",
+		["position"]={1282},
+		["scale"]={1283},
+		["scripts"]={1284},
 	},
 
 	{--Entry Number: {265}
 		["type"]="PropCube",
-		["name"]="Prop325",
-		["position"]={1785},
-		["scale"]={1786},
-		["scripts"]={1787},
+		["name"]="Prop9",
+		["position"]={1285},
+		["scale"]={1286},
+		["scripts"]={1287},
 	},
 
 	{--Entry Number: {266}
 		["type"]="PropCube",
-		["name"]="Prop650",
-		["position"]={1788},
-		["scale"]={1789},
-		["scripts"]={1790},
+		["name"]="Prop11",
+		["position"]={1288},
+		["scale"]={1289},
+		["scripts"]={1290},
 	},
 
 	{--Entry Number: {267}
 		["type"]="PropCube",
-		["name"]="Prop611",
-		["position"]={1791},
-		["scale"]={1792},
-		["scripts"]={1793},
+		["name"]="Prop13",
+		["position"]={1291},
+		["scale"]={1292},
+		["scripts"]={1293},
 	},
 
 	{--Entry Number: {268}
 		["type"]="PropCube",
-		["name"]="Prop163",
-		["position"]={1794},
-		["scale"]={1795},
-		["scripts"]={1796},
+		["name"]="Prop15",
+		["position"]={1294},
+		["scale"]={1295},
+		["scripts"]={1296},
 	},
 
 	{--Entry Number: {269}
 		["type"]="PropCube",
-		["name"]="Prop326",
-		["position"]={1797},
-		["scale"]={1798},
-		["scripts"]={1799},
+		["name"]="Prop18",
+		["position"]={1297},
+		["scale"]={1298},
+		["scripts"]={1299},
 	},
 
 	{--Entry Number: {270}
 		["type"]="PropCube",
-		["name"]="Prop652",
-		["position"]={1800},
-		["scale"]={1801},
-		["scripts"]={1802},
+		["name"]="Prop22",
+		["position"]={1300},
+		["scale"]={1301},
+		["scripts"]={1302},
 	},
 
 	{--Entry Number: {271}
 		["type"]="PropCube",
-		["name"]="Prop619",
-		["position"]={1803},
-		["scale"]={1804},
-		["scripts"]={1805},
+		["name"]="Prop26",
+		["position"]={1303},
+		["scale"]={1304},
+		["scripts"]={1305},
 	},
 
 	{--Entry Number: {272}
 		["type"]="PropCube",
-		["name"]="Prop653",
-		["position"]={1806},
-		["scale"]={1807},
-		["scripts"]={1808},
+		["name"]="Prop30",
+		["position"]={1306},
+		["scale"]={1307},
+		["scripts"]={1308},
 	},
 
 	{--Entry Number: {273}
 		["type"]="PropCube",
-		["name"]="Prop327",
-		["position"]={1809},
-		["scale"]={1810},
-		["scripts"]={1811},
+		["name"]="Prop36",
+		["position"]={1309},
+		["scale"]={1310},
+		["scripts"]={1311},
 	},
 
 	{--Entry Number: {274}
 		["type"]="PropCube",
-		["name"]="Prop41",
-		["position"]={1812},
-		["scale"]={1813},
-		["scripts"]={1814},
+		["name"]="Prop44",
+		["position"]={1312},
+		["scale"]={1313},
+		["scripts"]={1314},
 	},
 
 	{--Entry Number: {275}
 		["type"]="PropCube",
-		["name"]="Prop82",
-		["position"]={1815},
-		["scale"]={1816},
-		["scripts"]={1817},
+		["name"]="Prop52",
+		["position"]={1315},
+		["scale"]={1316},
+		["scripts"]={1317},
 	},
 
 	{--Entry Number: {276}
 		["type"]="PropCube",
-		["name"]="Prop164",
-		["position"]={1818},
-		["scale"]={1819},
-		["scripts"]={1820},
+		["name"]="Prop60",
+		["position"]={1318},
+		["scale"]={1319},
+		["scripts"]={1320},
 	},
 
 	{--Entry Number: {277}
 		["type"]="PropCube",
-		["name"]="Prop328",
-		["position"]={1821},
-		["scale"]={1822},
-		["scripts"]={1823},
+		["name"]="Prop72",
+		["position"]={1321},
+		["scale"]={1322},
+		["scripts"]={1323},
 	},
 
 	{--Entry Number: {278}
 		["type"]="PropCube",
-		["name"]="Prop656",
-		["position"]={1824},
-		["scale"]={1825},
-		["scripts"]={1826},
+		["name"]="Prop88",
+		["position"]={1324},
+		["scale"]={1325},
+		["scripts"]={1326},
 	},
 
 	{--Entry Number: {279}
 		["type"]="PropCube",
-		["name"]="Prop971",
-		["position"]={1827},
-		["scale"]={1828},
-		["scripts"]={1829},
+		["name"]="Prop104",
+		["position"]={1327},
+		["scale"]={1328},
+		["scripts"]={1329},
 	},
 
 	{--Entry Number: {280}
 		["type"]="PropCube",
-		["name"]="Prop657",
-		["position"]={1830},
-		["scale"]={1831},
-		["scripts"]={1832},
+		["name"]="Prop120",
+		["position"]={1330},
+		["scale"]={1331},
+		["scripts"]={1332},
 	},
 
 	{--Entry Number: {281}
 		["type"]="PropCube",
-		["name"]="Prop329",
-		["position"]={1833},
-		["scale"]={1834},
-		["scripts"]={1835},
+		["name"]="Prop144",
+		["position"]={1333},
+		["scale"]={1334},
+		["scripts"]={1335},
 	},
 
 	{--Entry Number: {282}
 		["type"]="PropCube",
-		["name"]="Prop658",
-		["position"]={1836},
-		["scale"]={1837},
-		["scripts"]={1838},
+		["name"]="Prop176",
+		["position"]={1336},
+		["scale"]={1337},
+		["scripts"]={1338},
 	},
 
 	{--Entry Number: {283}
 		["type"]="PropCube",
-		["name"]="Prop623",
-		["position"]={1839},
-		["scale"]={1840},
-		["scripts"]={1841},
+		["name"]="Prop208",
+		["position"]={1339},
+		["scale"]={1340},
+		["scripts"]={1341},
 	},
 
 	{--Entry Number: {284}
 		["type"]="PropCube",
-		["name"]="Prop165",
-		["position"]={1842},
-		["scale"]={1843},
-		["scripts"]={1844},
+		["name"]="Prop240",
+		["position"]={1342},
+		["scale"]={1343},
+		["scripts"]={1344},
 	},
 
 	{--Entry Number: {285}
 		["type"]="PropCube",
-		["name"]="Prop330",
-		["position"]={1845},
-		["scale"]={1846},
-		["scripts"]={1847},
+		["name"]="Prop288",
+		["position"]={1345},
+		["scale"]={1346},
+		["scripts"]={1347},
 	},
 
 	{--Entry Number: {286}
 		["type"]="PropCube",
-		["name"]="Prop660",
-		["position"]={1848},
-		["scale"]={1849},
-		["scripts"]={1850},
+		["name"]="Prop352",
+		["position"]={1348},
+		["scale"]={1349},
+		["scripts"]={1350},
 	},
 
 	{--Entry Number: {287}
 		["type"]="PropCube",
-		["name"]="Prop627",
-		["position"]={1851},
-		["scale"]={1852},
-		["scripts"]={1853},
+		["name"]="Prop416",
+		["position"]={1351},
+		["scale"]={1352},
+		["scripts"]={1353},
 	},
 
 	{--Entry Number: {288}
 		["type"]="PropCube",
-		["name"]="Prop661",
-		["position"]={1854},
-		["scale"]={1855},
-		["scripts"]={1856},
+		["name"]="Prop480",
+		["position"]={1354},
+		["scale"]={1355},
+		["scripts"]={1356},
 	},
 
 	{--Entry Number: {289}
 		["type"]="PropCube",
-		["name"]="Prop331",
-		["position"]={1857},
-		["scale"]={1858},
-		["scripts"]={1859},
+		["name"]="Prop302",
+		["position"]={1357},
+		["scale"]={1358},
+		["scripts"]={1359},
 	},
 
 	{--Entry Number: {290}
 		["type"]="PropCube",
-		["name"]="Prop662",
-		["position"]={1860},
-		["scale"]={1861},
-		["scripts"]={1862},
+		["name"]="Prop311",
+		["position"]={1360},
+		["scale"]={1361},
+		["scripts"]={1362},
 	},
 
 	{--Entry Number: {291}
 		["type"]="PropCube",
-		["name"]="Prop83",
-		["position"]={1863},
-		["scale"]={1864},
-		["scripts"]={1865},
+		["name"]="Prop319",
+		["position"]={1363},
+		["scale"]={1364},
+		["scripts"]={1365},
 	},
 
 	{--Entry Number: {292}
 		["type"]="PropCube",
-		["name"]="Prop166",
-		["position"]={1866},
-		["scale"]={1867},
-		["scripts"]={1868},
+		["name"]="Prop435",
+		["position"]={1366},
+		["scale"]={1367},
+		["scripts"]={1368},
 	},
 
 	{--Entry Number: {293}
 		["type"]="PropCube",
-		["name"]="Prop332",
-		["position"]={1869},
-		["scale"]={1870},
-		["scripts"]={1871},
+		["name"]="Prop289",
+		["position"]={1369},
+		["scale"]={1370},
+		["scripts"]={1371},
 	},
 
 	{--Entry Number: {294}
 		["type"]="PropCube",
-		["name"]="Prop664",
-		["position"]={1872},
-		["scale"]={1873},
-		["scripts"]={1874},
+		["name"]="Prop353",
+		["position"]={1372},
+		["scale"]={1373},
+		["scripts"]={1374},
 	},
 
 	{--Entry Number: {295}
 		["type"]="PropCube",
-		["name"]="Prop635",
-		["position"]={1875},
-		["scale"]={1876},
-		["scripts"]={1877},
+		["name"]="Prop417",
+		["position"]={1375},
+		["scale"]={1376},
+		["scripts"]={1377},
 	},
 
 	{--Entry Number: {296}
 		["type"]="PropCube",
-		["name"]="Prop665",
-		["position"]={1878},
-		["scale"]={1879},
-		["scripts"]={1880},
+		["name"]="Prop481",
+		["position"]={1378},
+		["scale"]={1379},
+		["scripts"]={1380},
 	},
 
 	{--Entry Number: {297}
 		["type"]="PropCube",
-		["name"]="Prop333",
-		["position"]={1881},
-		["scale"]={1882},
-		["scripts"]={1883},
+		["name"]="Prop145",
+		["position"]={1381},
+		["scale"]={1382},
+		["scripts"]={1383},
 	},
 
 	{--Entry Number: {298}
 		["type"]="PropCube",
-		["name"]="Prop666",
-		["position"]={1884},
-		["scale"]={1885},
-		["scripts"]={1886},
+		["name"]="Prop177",
+		["position"]={1384},
+		["scale"]={1385},
+		["scripts"]={1386},
 	},
 
 	{--Entry Number: {299}
 		["type"]="PropCube",
-		["name"]="Prop967",
-		["position"]={1887},
-		["scale"]={1888},
-		["scripts"]={1889},
+		["name"]="Prop209",
+		["position"]={1387},
+		["scale"]={1388},
+		["scripts"]={1389},
 	},
 
 	{--Entry Number: {300}
 		["type"]="PropCube",
-		["name"]="Prop167",
-		["position"]={1890},
-		["scale"]={1891},
-		["scripts"]={1892},
+		["name"]="Prop241",
+		["position"]={1390},
+		["scale"]={1391},
+		["scripts"]={1392},
 	},
 
 	{--Entry Number: {301}
 		["type"]="PropCube",
-		["name"]="Prop334",
-		["position"]={1893},
-		["scale"]={1894},
-		["scripts"]={1895},
+		["name"]="Prop290",
+		["position"]={1393},
+		["scale"]={1394},
+		["scripts"]={1395},
 	},
 
 	{--Entry Number: {302}
 		["type"]="PropCube",
-		["name"]="Prop668",
-		["position"]={1896},
-		["scale"]={1897},
-		["scripts"]={1898},
+		["name"]="Prop354",
+		["position"]={1396},
+		["scale"]={1397},
+		["scripts"]={1398},
 	},
 
 	{--Entry Number: {303}
 		["type"]="PropCube",
-		["name"]="Prop637",
-		["position"]={1899},
-		["scale"]={1900},
-		["scripts"]={1901},
+		["name"]="Prop418",
+		["position"]={1399},
+		["scale"]={1400},
+		["scripts"]={1401},
 	},
 
 	{--Entry Number: {304}
 		["type"]="PropCube",
-		["name"]="Prop669",
-		["position"]={1902},
-		["scale"]={1903},
-		["scripts"]={1904},
+		["name"]="Prop482",
+		["position"]={1402},
+		["scale"]={1403},
+		["scripts"]={1404},
 	},
 
 	{--Entry Number: {305}
 		["type"]="PropCube",
-		["name"]="Prop21",
-		["position"]={1905},
-		["scale"]={1906},
-		["scripts"]={1907},
+		["name"]="Prop347",
+		["position"]={1405},
+		["scale"]={1406},
+		["scripts"]={1407},
 	},
 
 	{--Entry Number: {306}
 		["type"]="PropCube",
-		["name"]="Prop42",
-		["position"]={1908},
-		["scale"]={1909},
-		["scripts"]={1910},
+		["name"]="Prop431",
+		["position"]={1408},
+		["scale"]={1409},
+		["scripts"]={1410},
 	},
 
 	{--Entry Number: {307}
 		["type"]="PropCube",
-		["name"]="Prop84",
-		["position"]={1911},
-		["scale"]={1912},
-		["scripts"]={1913},
+		["name"]="Prop430",
+		["position"]={1411},
+		["scale"]={1412},
+		["scripts"]={1413},
 	},
 
 	{--Entry Number: {308}
 		["type"]="PropCube",
-		["name"]="Prop168",
-		["position"]={1914},
-		["scale"]={1915},
-		["scripts"]={1916},
+		["name"]="Prop323",
+		["position"]={1414},
+		["scale"]={1415},
+		["scripts"]={1416},
 	},
 
 	{--Entry Number: {309}
 		["type"]="PropCube",
-		["name"]="Prop336",
-		["position"]={1917},
-		["scale"]={1918},
-		["scripts"]={1919},
+		["name"]="Prop73",
+		["position"]={1417},
+		["scale"]={1418},
+		["scripts"]={1419},
 	},
 
 	{--Entry Number: {310}
 		["type"]="PropCube",
-		["name"]="Prop672",
-		["position"]={1920},
-		["scale"]={1921},
-		["scripts"]={1922},
+		["name"]="Prop89",
+		["position"]={1420},
+		["scale"]={1421},
+		["scripts"]={1422},
 	},
 
 	{--Entry Number: {311}
 		["type"]="PropCube",
-		["name"]="Prop638",
-		["position"]={1923},
-		["scale"]={1924},
-		["scripts"]={1925},
+		["name"]="Prop105",
+		["position"]={1423},
+		["scale"]={1424},
+		["scripts"]={1425},
 	},
 
 	{--Entry Number: {312}
 		["type"]="PropCube",
-		["name"]="Prop673",
-		["position"]={1926},
-		["scale"]={1927},
-		["scripts"]={1928},
+		["name"]="Prop121",
+		["position"]={1426},
+		["scale"]={1427},
+		["scripts"]={1428},
 	},
 
 	{--Entry Number: {313}
 		["type"]="PropCube",
-		["name"]="Prop337",
-		["position"]={1929},
-		["scale"]={1930},
-		["scripts"]={1931},
+		["name"]="Prop146",
+		["position"]={1429},
+		["scale"]={1430},
+		["scripts"]={1431},
 	},
 
 	{--Entry Number: {314}
 		["type"]="PropCube",
-		["name"]="Prop674",
-		["position"]={1932},
-		["scale"]={1933},
-		["scripts"]={1934},
+		["name"]="Prop178",
+		["position"]={1432},
+		["scale"]={1433},
+		["scripts"]={1434},
 	},
 
 	{--Entry Number: {315}
 		["type"]="PropCube",
-		["name"]="Prop643",
-		["position"]={1935},
-		["scale"]={1936},
-		["scripts"]={1937},
+		["name"]="Prop210",
+		["position"]={1435},
+		["scale"]={1436},
+		["scripts"]={1437},
 	},
 
 	{--Entry Number: {316}
 		["type"]="PropCube",
-		["name"]="Prop169",
-		["position"]={1938},
-		["scale"]={1939},
-		["scripts"]={1940},
+		["name"]="Prop242",
+		["position"]={1438},
+		["scale"]={1439},
+		["scripts"]={1440},
 	},
 
 	{--Entry Number: {317}
 		["type"]="PropCube",
-		["name"]="Prop338",
-		["position"]={1941},
-		["scale"]={1942},
-		["scripts"]={1943},
+		["name"]="Prop292",
+		["position"]={1441},
+		["scale"]={1442},
+		["scripts"]={1443},
 	},
 
 	{--Entry Number: {318}
 		["type"]="PropCube",
-		["name"]="Prop676",
-		["position"]={1944},
-		["scale"]={1945},
-		["scripts"]={1946},
+		["name"]="Prop356",
+		["position"]={1444},
+		["scale"]={1445},
+		["scripts"]={1446},
 	},
 
 	{--Entry Number: {319}
 		["type"]="PropCube",
-		["name"]="Prop963",
-		["position"]={1947},
-		["scale"]={1948},
-		["scripts"]={1949},
+		["name"]="Prop420",
+		["position"]={1447},
+		["scale"]={1448},
+		["scripts"]={1449},
 	},
 
 	{--Entry Number: {320}
 		["type"]="PropCube",
-		["name"]="Prop677",
-		["position"]={1950},
-		["scale"]={1951},
-		["scripts"]={1952},
+		["name"]="Prop484",
+		["position"]={1450},
+		["scale"]={1451},
+		["scripts"]={1452},
 	},
 
 	{--Entry Number: {321}
 		["type"]="PropCube",
-		["name"]="Prop339",
-		["position"]={1953},
-		["scale"]={1954},
-		["scripts"]={1955},
+		["name"]="Prop427",
+		["position"]={1453},
+		["scale"]={1454},
+		["scripts"]={1455},
 	},
 
 	{--Entry Number: {322}
 		["type"]="PropCube",
-		["name"]="Prop678",
-		["position"]={1956},
-		["scale"]={1957},
-		["scripts"]={1958},
+		["name"]="Prop391",
+		["position"]={1456},
+		["scale"]={1457},
+		["scripts"]={1458},
 	},
 
 	{--Entry Number: {323}
 		["type"]="PropCube",
-		["name"]="Prop85",
-		["position"]={1959},
-		["scale"]={1960},
-		["scripts"]={1961},
+		["name"]="Prop398",
+		["position"]={1459},
+		["scale"]={1460},
+		["scripts"]={1461},
 	},
 
 	{--Entry Number: {324}
 		["type"]="PropCube",
-		["name"]="Prop170",
-		["position"]={1962},
-		["scale"]={1963},
-		["scripts"]={1964},
+		["name"]="Prop415",
+		["position"]={1462},
+		["scale"]={1463},
+		["scripts"]={1464},
 	},
 
 	{--Entry Number: {325}
 		["type"]="PropCube",
-		["name"]="Prop340",
-		["position"]={1965},
-		["scale"]={1966},
-		["scripts"]={1967},
+		["name"]="Prop293",
+		["position"]={1465},
+		["scale"]={1466},
+		["scripts"]={1467},
 	},
 
 	{--Entry Number: {326}
 		["type"]="PropCube",
-		["name"]="Prop680",
-		["position"]={1968},
-		["scale"]={1969},
-		["scripts"]={1970},
+		["name"]="Prop357",
+		["position"]={1468},
+		["scale"]={1469},
+		["scripts"]={1470},
 	},
 
 	{--Entry Number: {327}
 		["type"]="PropCube",
-		["name"]="Prop651",
-		["position"]={1971},
-		["scale"]={1972},
-		["scripts"]={1973},
+		["name"]="Prop421",
+		["position"]={1471},
+		["scale"]={1472},
+		["scripts"]={1473},
 	},
 
 	{--Entry Number: {328}
 		["type"]="PropCube",
-		["name"]="Prop681",
-		["position"]={1974},
-		["scale"]={1975},
-		["scripts"]={1976},
+		["name"]="Prop485",
+		["position"]={1474},
+		["scale"]={1475},
+		["scripts"]={1476},
 	},
 
 	{--Entry Number: {329}
 		["type"]="PropCube",
-		["name"]="Prop341",
-		["position"]={1977},
-		["scale"]={1978},
-		["scripts"]={1979},
+		["name"]="Prop147",
+		["position"]={1477},
+		["scale"]={1478},
+		["scripts"]={1479},
 	},
 
 	{--Entry Number: {330}
 		["type"]="PropCube",
-		["name"]="Prop682",
-		["position"]={1980},
-		["scale"]={1981},
-		["scripts"]={1982},
+		["name"]="Prop179",
+		["position"]={1480},
+		["scale"]={1481},
+		["scripts"]={1482},
 	},
 
 	{--Entry Number: {331}
 		["type"]="PropCube",
-		["name"]="Prop654",
-		["position"]={1983},
-		["scale"]={1984},
-		["scripts"]={1985},
+		["name"]="Prop211",
+		["position"]={1483},
+		["scale"]={1484},
+		["scripts"]={1485},
 	},
 
 	{--Entry Number: {332}
 		["type"]="PropCube",
-		["name"]="Prop171",
-		["position"]={1986},
-		["scale"]={1987},
-		["scripts"]={1988},
+		["name"]="Prop243",
+		["position"]={1486},
+		["scale"]={1487},
+		["scripts"]={1488},
 	},
 
 	{--Entry Number: {333}
 		["type"]="PropCube",
-		["name"]="Prop342",
-		["position"]={1989},
-		["scale"]={1990},
-		["scripts"]={1991},
+		["name"]="Prop294",
+		["position"]={1489},
+		["scale"]={1490},
+		["scripts"]={1491},
 	},
 
 	{--Entry Number: {334}
 		["type"]="PropCube",
-		["name"]="Prop684",
-		["position"]={1992},
-		["scale"]={1993},
-		["scripts"]={1994},
+		["name"]="Prop358",
+		["position"]={1492},
+		["scale"]={1493},
+		["scripts"]={1494},
 	},
 
 	{--Entry Number: {335}
 		["type"]="PropCube",
-		["name"]="Prop659",
-		["position"]={1995},
-		["scale"]={1996},
-		["scripts"]={1997},
+		["name"]="Prop422",
+		["position"]={1495},
+		["scale"]={1496},
+		["scripts"]={1497},
 	},
 
 	{--Entry Number: {336}
 		["type"]="PropCube",
-		["name"]="Prop685",
-		["position"]={1998},
-		["scale"]={1999},
-		["scripts"]={2000},
+		["name"]="Prop486",
+		["position"]={1498},
+		["scale"]={1499},
+		["scripts"]={1500},
 	},
 
 	{--Entry Number: {337}
 		["type"]="PropCube",
-		["name"]="Prop343",
-		["position"]={2001},
-		["scale"]={2002},
-		["scripts"]={2003},
+		["name"]="Prop37",
+		["position"]={1501},
+		["scale"]={1502},
+		["scripts"]={1503},
 	},
 
 	{--Entry Number: {338}
 		["type"]="PropCube",
-		["name"]="Prop43",
-		["position"]={2004},
-		["scale"]={2005},
-		["scripts"]={2006},
+		["name"]="Prop45",
+		["position"]={1504},
+		["scale"]={1505},
+		["scripts"]={1506},
 	},
 
 	{--Entry Number: {339}
 		["type"]="PropCube",
-		["name"]="Prop86",
-		["position"]={2007},
-		["scale"]={2008},
-		["scripts"]={2009},
+		["name"]="Prop53",
+		["position"]={1507},
+		["scale"]={1508},
+		["scripts"]={1509},
 	},
 
 	{--Entry Number: {340}
 		["type"]="PropCube",
-		["name"]="Prop172",
-		["position"]={2010},
-		["scale"]={2011},
-		["scripts"]={2012},
+		["name"]="Prop61",
+		["position"]={1510},
+		["scale"]={1511},
+		["scripts"]={1512},
 	},
 
 	{--Entry Number: {341}
 		["type"]="PropCube",
-		["name"]="Prop344",
-		["position"]={2013},
-		["scale"]={2014},
-		["scripts"]={2015},
+		["name"]="Prop74",
+		["position"]={1513},
+		["scale"]={1514},
+		["scripts"]={1515},
 	},
 
 	{--Entry Number: {342}
 		["type"]="PropCube",
-		["name"]="Prop688",
-		["position"]={2016},
-		["scale"]={2017},
-		["scripts"]={2018},
+		["name"]="Prop90",
+		["position"]={1516},
+		["scale"]={1517},
+		["scripts"]={1518},
 	},
 
 	{--Entry Number: {343}
 		["type"]="PropCube",
-		["name"]="Prop959",
-		["position"]={2019},
-		["scale"]={2020},
-		["scripts"]={2021},
+		["name"]="Prop106",
+		["position"]={1519},
+		["scale"]={1520},
+		["scripts"]={1521},
 	},
 
 	{--Entry Number: {344}
 		["type"]="PropCube",
-		["name"]="Prop689",
-		["position"]={2022},
-		["scale"]={2023},
-		["scripts"]={2024},
+		["name"]="Prop122",
+		["position"]={1522},
+		["scale"]={1523},
+		["scripts"]={1524},
 	},
 
 	{--Entry Number: {345}
 		["type"]="PropCube",
-		["name"]="Prop345",
-		["position"]={2025},
-		["scale"]={2026},
-		["scripts"]={2027},
+		["name"]="Prop148",
+		["position"]={1525},
+		["scale"]={1526},
+		["scripts"]={1527},
 	},
 
 	{--Entry Number: {346}
 		["type"]="PropCube",
-		["name"]="Prop690",
-		["position"]={2028},
-		["scale"]={2029},
-		["scripts"]={2030},
+		["name"]="Prop180",
+		["position"]={1528},
+		["scale"]={1529},
+		["scripts"]={1530},
 	},
 
 	{--Entry Number: {347}
 		["type"]="PropCube",
-		["name"]="Prop958",
-		["position"]={2031},
-		["scale"]={2032},
-		["scripts"]={2033},
+		["name"]="Prop212",
+		["position"]={1531},
+		["scale"]={1532},
+		["scripts"]={1533},
 	},
 
 	{--Entry Number: {348}
 		["type"]="PropCube",
-		["name"]="Prop173",
-		["position"]={2034},
-		["scale"]={2035},
-		["scripts"]={2036},
+		["name"]="Prop244",
+		["position"]={1534},
+		["scale"]={1535},
+		["scripts"]={1536},
 	},
 
 	{--Entry Number: {349}
 		["type"]="PropCube",
-		["name"]="Prop346",
-		["position"]={2037},
-		["scale"]={2038},
-		["scripts"]={2039},
+		["name"]="Prop296",
+		["position"]={1537},
+		["scale"]={1538},
+		["scripts"]={1539},
 	},
 
 	{--Entry Number: {350}
 		["type"]="PropCube",
-		["name"]="Prop692",
-		["position"]={2040},
-		["scale"]={2041},
-		["scripts"]={2042},
+		["name"]="Prop360",
+		["position"]={1540},
+		["scale"]={1541},
+		["scripts"]={1542},
 	},
 
 	{--Entry Number: {351}
 		["type"]="PropCube",
-		["name"]="Prop957",
-		["position"]={2043},
-		["scale"]={2044},
-		["scripts"]={2045},
+		["name"]="Prop424",
+		["position"]={1543},
+		["scale"]={1544},
+		["scripts"]={1545},
 	},
 
 	{--Entry Number: {352}
 		["type"]="PropCube",
-		["name"]="Prop693",
-		["position"]={2046},
-		["scale"]={2047},
-		["scripts"]={2048},
+		["name"]="Prop488",
+		["position"]={1546},
+		["scale"]={1547},
+		["scripts"]={1548},
 	},
 
 	{--Entry Number: {353}
 		["type"]="PropCube",
-		["name"]="Prop347",
-		["position"]={2049},
-		["scale"]={2050},
-		["scripts"]={2051},
+		["name"]="Prop411",
+		["position"]={1549},
+		["scale"]={1550},
+		["scripts"]={1551},
 	},
 
 	{--Entry Number: {354}
 		["type"]="PropCube",
-		["name"]="Prop694",
-		["position"]={2052},
-		["scale"]={2053},
-		["scripts"]={2054},
+		["name"]="Prop407",
+		["position"]={1552},
+		["scale"]={1553},
+		["scripts"]={1554},
 	},
 
 	{--Entry Number: {355}
 		["type"]="PropCube",
-		["name"]="Prop87",
-		["position"]={2055},
-		["scale"]={2056},
-		["scripts"]={2057},
+		["name"]="Prop403",
+		["position"]={1555},
+		["scale"]={1556},
+		["scripts"]={1557},
 	},
 
 	{--Entry Number: {356}
 		["type"]="PropCube",
-		["name"]="Prop174",
-		["position"]={2058},
-		["scale"]={2059},
-		["scripts"]={2060},
+		["name"]="Prop399",
+		["position"]={1558},
+		["scale"]={1559},
+		["scripts"]={1560},
 	},
 
 	{--Entry Number: {357}
 		["type"]="PropCube",
-		["name"]="Prop348",
-		["position"]={2061},
-		["scale"]={2062},
-		["scripts"]={2063},
+		["name"]="Prop297",
+		["position"]={1561},
+		["scale"]={1562},
+		["scripts"]={1563},
 	},
 
 	{--Entry Number: {358}
 		["type"]="PropCube",
-		["name"]="Prop696",
-		["position"]={2064},
-		["scale"]={2065},
-		["scripts"]={2066},
+		["name"]="Prop361",
+		["position"]={1564},
+		["scale"]={1565},
+		["scripts"]={1566},
 	},
 
 	{--Entry Number: {359}
 		["type"]="PropCube",
-		["name"]="Prop667",
-		["position"]={2067},
-		["scale"]={2068},
-		["scripts"]={2069},
+		["name"]="Prop425",
+		["position"]={1567},
+		["scale"]={1568},
+		["scripts"]={1569},
 	},
 
 	{--Entry Number: {360}
 		["type"]="PropCube",
-		["name"]="Prop697",
-		["position"]={2070},
-		["scale"]={2071},
-		["scripts"]={2072},
+		["name"]="Prop489",
+		["position"]={1570},
+		["scale"]={1571},
+		["scripts"]={1572},
 	},
 
 	{--Entry Number: {361}
 		["type"]="PropCube",
-		["name"]="Prop349",
-		["position"]={2073},
-		["scale"]={2074},
-		["scripts"]={2075},
+		["name"]="Prop149",
+		["position"]={1573},
+		["scale"]={1574},
+		["scripts"]={1575},
 	},
 
 	{--Entry Number: {362}
 		["type"]="PropCube",
-		["name"]="Prop698",
-		["position"]={2076},
-		["scale"]={2077},
-		["scripts"]={2078},
+		["name"]="Prop181",
+		["position"]={1576},
+		["scale"]={1577},
+		["scripts"]={1578},
 	},
 
 	{--Entry Number: {363}
 		["type"]="PropCube",
-		["name"]="Prop955",
-		["position"]={2079},
-		["scale"]={2080},
-		["scripts"]={2081},
+		["name"]="Prop213",
+		["position"]={1579},
+		["scale"]={1580},
+		["scripts"]={1581},
 	},
 
 	{--Entry Number: {364}
 		["type"]="PropCube",
-		["name"]="Prop175",
-		["position"]={2082},
-		["scale"]={2083},
-		["scripts"]={2084},
+		["name"]="Prop245",
+		["position"]={1582},
+		["scale"]={1583},
+		["scripts"]={1584},
 	},
 
 	{--Entry Number: {365}
 		["type"]="PropCube",
-		["name"]="Prop350",
-		["position"]={2085},
-		["scale"]={2086},
-		["scripts"]={2087},
+		["name"]="Prop298",
+		["position"]={1585},
+		["scale"]={1586},
+		["scripts"]={1587},
 	},
 
 	{--Entry Number: {366}
 		["type"]="PropCube",
-		["name"]="Prop700",
-		["position"]={2088},
-		["scale"]={2089},
-		["scripts"]={2090},
+		["name"]="Prop362",
+		["position"]={1588},
+		["scale"]={1589},
+		["scripts"]={1590},
 	},
 
 	{--Entry Number: {367}
 		["type"]="PropCube",
-		["name"]="Prop671",
-		["position"]={2091},
-		["scale"]={2092},
-		["scripts"]={2093},
+		["name"]="Prop426",
+		["position"]={1591},
+		["scale"]={1592},
+		["scripts"]={1593},
 	},
 
 	{--Entry Number: {368}
 		["type"]="PropCube",
-		["name"]="Prop11",
-		["position"]={2094},
-		["scale"]={2095},
-		["scripts"]={2096},
+		["name"]="Prop490",
+		["position"]={1594},
+		["scale"]={1595},
+		["scripts"]={1596},
 	},
 
 	{--Entry Number: {369}
 		["type"]="PropCube",
-		["name"]="Prop22",
-		["position"]={2097},
-		["scale"]={2098},
-		["scripts"]={2099},
+		["name"]="Prop383",
+		["position"]={1597},
+		["scale"]={1598},
+		["scripts"]={1599},
 	},
 
 	{--Entry Number: {370}
 		["type"]="PropCube",
-		["name"]="Prop44",
-		["position"]={2100},
-		["scale"]={2101},
-		["scripts"]={2102},
+		["name"]="Prop382",
+		["position"]={1600},
+		["scale"]={1601},
+		["scripts"]={1602},
 	},
 
 	{--Entry Number: {371}
 		["type"]="PropCube",
-		["name"]="Prop88",
-		["position"]={2103},
-		["scale"]={2104},
-		["scripts"]={2105},
+		["name"]="Prop381",
+		["position"]={1603},
+		["scale"]={1604},
+		["scripts"]={1605},
 	},
 
 	{--Entry Number: {372}
 		["type"]="PropCube",
-		["name"]="Prop176",
-		["position"]={2106},
-		["scale"]={2107},
-		["scripts"]={2108},
+		["name"]="Prop379",
+		["position"]={1606},
+		["scale"]={1607},
+		["scripts"]={1608},
 	},
 
 	{--Entry Number: {373}
 		["type"]="PropCube",
-		["name"]="Prop352",
-		["position"]={2109},
-		["scale"]={2110},
-		["scripts"]={2111},
+		["name"]="Prop75",
+		["position"]={1609},
+		["scale"]={1610},
+		["scripts"]={1611},
 	},
 
 	{--Entry Number: {374}
 		["type"]="PropCube",
-		["name"]="Prop704",
-		["position"]={2112},
-		["scale"]={2113},
-		["scripts"]={2114},
+		["name"]="Prop91",
+		["position"]={1612},
+		["scale"]={1613},
+		["scripts"]={1614},
 	},
 
 	{--Entry Number: {375}
 		["type"]="PropCube",
-		["name"]="Prop675",
-		["position"]={2115},
-		["scale"]={2116},
-		["scripts"]={2117},
+		["name"]="Prop107",
+		["position"]={1615},
+		["scale"]={1616},
+		["scripts"]={1617},
 	},
 
 	{--Entry Number: {376}
 		["type"]="PropCube",
-		["name"]="Prop705",
-		["position"]={2118},
-		["scale"]={2119},
-		["scripts"]={2120},
+		["name"]="Prop123",
+		["position"]={1618},
+		["scale"]={1619},
+		["scripts"]={1620},
 	},
 
 	{--Entry Number: {377}
 		["type"]="PropCube",
-		["name"]="Prop353",
-		["position"]={2121},
-		["scale"]={2122},
-		["scripts"]={2123},
+		["name"]="Prop150",
+		["position"]={1621},
+		["scale"]={1622},
+		["scripts"]={1623},
 	},
 
 	{--Entry Number: {378}
 		["type"]="PropCube",
-		["name"]="Prop706",
-		["position"]={2124},
-		["scale"]={2125},
-		["scripts"]={2126},
+		["name"]="Prop182",
+		["position"]={1624},
+		["scale"]={1625},
+		["scripts"]={1626},
 	},
 
 	{--Entry Number: {379}
 		["type"]="PropCube",
-		["name"]="Prop683",
-		["position"]={2127},
-		["scale"]={2128},
-		["scripts"]={2129},
+		["name"]="Prop214",
+		["position"]={1627},
+		["scale"]={1628},
+		["scripts"]={1629},
 	},
 
 	{--Entry Number: {380}
 		["type"]="PropCube",
-		["name"]="Prop177",
-		["position"]={2130},
-		["scale"]={2131},
-		["scripts"]={2132},
+		["name"]="Prop246",
+		["position"]={1630},
+		["scale"]={1631},
+		["scripts"]={1632},
 	},
 
 	{--Entry Number: {381}
 		["type"]="PropCube",
-		["name"]="Prop354",
-		["position"]={2133},
-		["scale"]={2134},
-		["scripts"]={2135},
+		["name"]="Prop300",
+		["position"]={1633},
+		["scale"]={1634},
+		["scripts"]={1635},
 	},
 
 	{--Entry Number: {382}
 		["type"]="PropCube",
-		["name"]="Prop708",
-		["position"]={2136},
-		["scale"]={2137},
-		["scripts"]={2138},
+		["name"]="Prop364",
+		["position"]={1636},
+		["scale"]={1637},
+		["scripts"]={1638},
 	},
 
 	{--Entry Number: {383}
 		["type"]="PropCube",
-		["name"]="Prop951",
-		["position"]={2139},
-		["scale"]={2140},
-		["scripts"]={2141},
+		["name"]="Prop428",
+		["position"]={1639},
+		["scale"]={1640},
+		["scripts"]={1641},
 	},
 
 	{--Entry Number: {384}
 		["type"]="PropCube",
-		["name"]="Prop709",
-		["position"]={2142},
-		["scale"]={2143},
-		["scripts"]={2144},
+		["name"]="Prop492",
+		["position"]={1642},
+		["scale"]={1643},
+		["scripts"]={1644},
 	},
 
 	{--Entry Number: {385}
 		["type"]="PropCube",
-		["name"]="Prop355",
-		["position"]={2145},
-		["scale"]={2146},
-		["scripts"]={2147},
+		["name"]="Prop291",
+		["position"]={1645},
+		["scale"]={1646},
+		["scripts"]={1647},
 	},
 
 	{--Entry Number: {386}
 		["type"]="PropCube",
-		["name"]="Prop710",
-		["position"]={2148},
-		["scale"]={2149},
-		["scripts"]={2150},
+		["name"]="Prop375",
+		["position"]={1648},
+		["scale"]={1649},
+		["scripts"]={1650},
 	},
 
 	{--Entry Number: {387}
 		["type"]="PropCube",
-		["name"]="Prop89",
-		["position"]={2151},
-		["scale"]={2152},
-		["scripts"]={2153},
+		["name"]="Prop303",
+		["position"]={1651},
+		["scale"]={1652},
+		["scripts"]={1653},
 	},
 
 	{--Entry Number: {388}
 		["type"]="PropCube",
-		["name"]="Prop178",
-		["position"]={2154},
-		["scale"]={2155},
-		["scripts"]={2156},
+		["name"]="Prop295",
+		["position"]={1654},
+		["scale"]={1655},
+		["scripts"]={1656},
 	},
 
 	{--Entry Number: {389}
 		["type"]="PropCube",
-		["name"]="Prop356",
-		["position"]={2157},
-		["scale"]={2158},
-		["scripts"]={2159},
+		["name"]="Prop301",
+		["position"]={1657},
+		["scale"]={1658},
+		["scripts"]={1659},
 	},
 
 	{--Entry Number: {390}
 		["type"]="PropCube",
-		["name"]="Prop712",
-		["position"]={2160},
-		["scale"]={2161},
-		["scripts"]={2162},
+		["name"]="Prop365",
+		["position"]={1660},
+		["scale"]={1661},
+		["scripts"]={1662},
 	},
 
 	{--Entry Number: {391}
 		["type"]="PropCube",
-		["name"]="Prop686",
-		["position"]={2163},
-		["scale"]={2164},
-		["scripts"]={2165},
+		["name"]="Prop429",
+		["position"]={1663},
+		["scale"]={1664},
+		["scripts"]={1665},
 	},
 
 	{--Entry Number: {392}
 		["type"]="PropCube",
-		["name"]="Prop713",
-		["position"]={2166},
-		["scale"]={2167},
-		["scripts"]={2168},
+		["name"]="Prop493",
+		["position"]={1666},
+		["scale"]={1667},
+		["scripts"]={1668},
 	},
 
 	{--Entry Number: {393}
 		["type"]="PropCube",
-		["name"]="Prop357",
-		["position"]={2169},
-		["scale"]={2170},
-		["scripts"]={2171},
+		["name"]="Prop151",
+		["position"]={1669},
+		["scale"]={1670},
+		["scripts"]={1671},
 	},
 
 	{--Entry Number: {394}
 		["type"]="PropCube",
-		["name"]="Prop714",
-		["position"]={2172},
-		["scale"]={2173},
-		["scripts"]={2174},
+		["name"]="Prop183",
+		["position"]={1672},
+		["scale"]={1673},
+		["scripts"]={1674},
 	},
 
 	{--Entry Number: {395}
 		["type"]="PropCube",
-		["name"]="Prop687",
-		["position"]={2175},
-		["scale"]={2176},
-		["scripts"]={2177},
+		["name"]="Prop215",
+		["position"]={1675},
+		["scale"]={1676},
+		["scripts"]={1677},
 	},
 
 	{--Entry Number: {396}
 		["type"]="PropCube",
-		["name"]="Prop179",
-		["position"]={2178},
-		["scale"]={2179},
-		["scripts"]={2180},
+		["name"]="Prop247",
+		["position"]={1678},
+		["scale"]={1679},
+		["scripts"]={1680},
 	},
 
 	{--Entry Number: {397}
 		["type"]="PropCube",
-		["name"]="Prop358",
-		["position"]={2181},
-		["scale"]={2182},
-		["scripts"]={2183},
+		["name"]="Prop19",
+		["position"]={1681},
+		["scale"]={1682},
+		["scripts"]={1683},
 	},
 
 	{--Entry Number: {398}
 		["type"]="PropCube",
-		["name"]="Prop716",
-		["position"]={2184},
-		["scale"]={2185},
-		["scripts"]={2186},
+		["name"]="Prop23",
+		["position"]={1684},
+		["scale"]={1685},
+		["scripts"]={1686},
 	},
 
 	{--Entry Number: {399}
 		["type"]="PropCube",
-		["name"]="Prop695",
-		["position"]={2187},
-		["scale"]={2188},
-		["scripts"]={2189},
+		["name"]="Prop27",
+		["position"]={1687},
+		["scale"]={1688},
+		["scripts"]={1689},
 	},
 
 	{--Entry Number: {400}
 		["type"]="PropCube",
-		["name"]="Prop717",
-		["position"]={2190},
-		["scale"]={2191},
-		["scripts"]={2192},
+		["name"]="Prop31",
+		["position"]={1690},
+		["scale"]={1691},
+		["scripts"]={1692},
 	},
 
 	{--Entry Number: {401}
 		["type"]="PropCube",
-		["name"]="Prop359",
-		["position"]={2193},
-		["scale"]={2194},
-		["scripts"]={2195},
+		["name"]="Prop38",
+		["position"]={1693},
+		["scale"]={1694},
+		["scripts"]={1695},
 	},
 
 	{--Entry Number: {402}
 		["type"]="PropCube",
-		["name"]="Prop45",
-		["position"]={2196},
-		["scale"]={2197},
-		["scripts"]={2198},
+		["name"]="Prop46",
+		["position"]={1696},
+		["scale"]={1697},
+		["scripts"]={1698},
 	},
 
 	{--Entry Number: {403}
 		["type"]="PropCube",
-		["name"]="Prop90",
-		["position"]={2199},
-		["scale"]={2200},
-		["scripts"]={2201},
+		["name"]="Prop54",
+		["position"]={1699},
+		["scale"]={1700},
+		["scripts"]={1701},
 	},
 
 	{--Entry Number: {404}
 		["type"]="PropCube",
-		["name"]="Prop180",
-		["position"]={2202},
-		["scale"]={2203},
-		["scripts"]={2204},
+		["name"]="Prop62",
+		["position"]={1702},
+		["scale"]={1703},
+		["scripts"]={1704},
 	},
 
 	{--Entry Number: {405}
 		["type"]="PropCube",
-		["name"]="Prop360",
-		["position"]={2205},
-		["scale"]={2206},
-		["scripts"]={2207},
+		["name"]="Prop76",
+		["position"]={1705},
+		["scale"]={1706},
+		["scripts"]={1707},
 	},
 
 	{--Entry Number: {406}
 		["type"]="PropCube",
-		["name"]="Prop720",
-		["position"]={2208},
-		["scale"]={2209},
-		["scripts"]={2210},
+		["name"]="Prop92",
+		["position"]={1708},
+		["scale"]={1709},
+		["scripts"]={1710},
 	},
 
 	{--Entry Number: {407}
 		["type"]="PropCube",
-		["name"]="Prop947",
-		["position"]={2211},
-		["scale"]={2212},
-		["scripts"]={2213},
+		["name"]="Prop108",
+		["position"]={1711},
+		["scale"]={1712},
+		["scripts"]={1713},
 	},
 
 	{--Entry Number: {408}
 		["type"]="PropCube",
-		["name"]="Prop721",
-		["position"]={2214},
-		["scale"]={2215},
-		["scripts"]={2216},
+		["name"]="Prop124",
+		["position"]={1714},
+		["scale"]={1715},
+		["scripts"]={1716},
 	},
 
 	{--Entry Number: {409}
 		["type"]="PropCube",
-		["name"]="Prop361",
-		["position"]={2217},
-		["scale"]={2218},
-		["scripts"]={2219},
+		["name"]="Prop152",
+		["position"]={1717},
+		["scale"]={1718},
+		["scripts"]={1719},
 	},
 
 	{--Entry Number: {410}
 		["type"]="PropCube",
-		["name"]="Prop722",
-		["position"]={2220},
-		["scale"]={2221},
-		["scripts"]={2222},
+		["name"]="Prop184",
+		["position"]={1720},
+		["scale"]={1721},
+		["scripts"]={1722},
 	},
 
 	{--Entry Number: {411}
 		["type"]="PropCube",
-		["name"]="Prop701",
-		["position"]={2223},
-		["scale"]={2224},
-		["scripts"]={2225},
+		["name"]="Prop216",
+		["position"]={1723},
+		["scale"]={1724},
+		["scripts"]={1725},
 	},
 
 	{--Entry Number: {412}
 		["type"]="PropCube",
-		["name"]="Prop181",
-		["position"]={2226},
-		["scale"]={2227},
-		["scripts"]={2228},
+		["name"]="Prop248",
+		["position"]={1726},
+		["scale"]={1727},
+		["scripts"]={1728},
 	},
 
 	{--Entry Number: {413}
 		["type"]="PropCube",
-		["name"]="Prop362",
-		["position"]={2229},
-		["scale"]={2230},
-		["scripts"]={2231},
+		["name"]="Prop304",
+		["position"]={1729},
+		["scale"]={1730},
+		["scripts"]={1731},
 	},
 
 	{--Entry Number: {414}
 		["type"]="PropCube",
-		["name"]="Prop724",
-		["position"]={2232},
-		["scale"]={2233},
-		["scripts"]={2234},
+		["name"]="Prop368",
+		["position"]={1732},
+		["scale"]={1733},
+		["scripts"]={1734},
 	},
 
 	{--Entry Number: {415}
 		["type"]="PropCube",
-		["name"]="Prop702",
-		["position"]={2235},
-		["scale"]={2236},
-		["scripts"]={2237},
+		["name"]="Prop432",
+		["position"]={1735},
+		["scale"]={1736},
+		["scripts"]={1737},
 	},
 
 	{--Entry Number: {416}
 		["type"]="PropCube",
-		["name"]="Prop725",
-		["position"]={2238},
-		["scale"]={2239},
-		["scripts"]={2240},
+		["name"]="Prop496",
+		["position"]={1738},
+		["scale"]={1739},
+		["scripts"]={1740},
 	},
 
 	{--Entry Number: {417}
 		["type"]="PropCube",
-		["name"]="Prop363",
-		["position"]={2241},
-		["scale"]={2242},
-		["scripts"]={2243},
+		["name"]="Prop367",
+		["position"]={1741},
+		["scale"]={1742},
+		["scripts"]={1743},
 	},
 
 	{--Entry Number: {418}
 		["type"]="PropCube",
-		["name"]="Prop726",
-		["position"]={2244},
-		["scale"]={2245},
-		["scripts"]={2246},
+		["name"]="Prop366",
+		["position"]={1744},
+		["scale"]={1745},
+		["scripts"]={1746},
 	},
 
 	{--Entry Number: {419}
 		["type"]="PropCube",
-		["name"]="Prop91",
-		["position"]={2247},
-		["scale"]={2248},
-		["scripts"]={2249},
+		["name"]="Prop363",
+		["position"]={1747},
+		["scale"]={1748},
+		["scripts"]={1749},
 	},
 
 	{--Entry Number: {420}
 		["type"]="PropCube",
-		["name"]="Prop182",
-		["position"]={2250},
-		["scale"]={2251},
-		["scripts"]={2252},
+		["name"]="Prop359",
+		["position"]={1750},
+		["scale"]={1751},
+		["scripts"]={1752},
 	},
 
 	{--Entry Number: {421}
 		["type"]="PropCube",
-		["name"]="Prop364",
-		["position"]={2253},
-		["scale"]={2254},
-		["scripts"]={2255},
+		["name"]="Prop305",
+		["position"]={1753},
+		["scale"]={1754},
+		["scripts"]={1755},
 	},
 
 	{--Entry Number: {422}
 		["type"]="PropCube",
-		["name"]="Prop728",
-		["position"]={2256},
-		["scale"]={2257},
-		["scripts"]={2258},
+		["name"]="Prop369",
+		["position"]={1756},
+		["scale"]={1757},
+		["scripts"]={1758},
 	},
 
 	{--Entry Number: {423}
 		["type"]="PropCube",
-		["name"]="Prop707",
-		["position"]={2259},
-		["scale"]={2260},
-		["scripts"]={2261},
+		["name"]="Prop433",
+		["position"]={1759},
+		["scale"]={1760},
+		["scripts"]={1761},
 	},
 
 	{--Entry Number: {424}
 		["type"]="PropCube",
-		["name"]="Prop729",
-		["position"]={2262},
-		["scale"]={2263},
-		["scripts"]={2264},
+		["name"]="Prop497",
+		["position"]={1762},
+		["scale"]={1763},
+		["scripts"]={1764},
 	},
 
 	{--Entry Number: {425}
 		["type"]="PropCube",
-		["name"]="Prop365",
-		["position"]={2265},
-		["scale"]={2266},
-		["scripts"]={2267},
+		["name"]="Prop153",
+		["position"]={1765},
+		["scale"]={1766},
+		["scripts"]={1767},
 	},
 
 	{--Entry Number: {426}
 		["type"]="PropCube",
-		["name"]="Prop730",
-		["position"]={2268},
-		["scale"]={2269},
-		["scripts"]={2270},
+		["name"]="Prop185",
+		["position"]={1768},
+		["scale"]={1769},
+		["scripts"]={1770},
 	},
 
 	{--Entry Number: {427}
 		["type"]="PropCube",
-		["name"]="Prop943",
-		["position"]={2271},
-		["scale"]={2272},
-		["scripts"]={2273},
+		["name"]="Prop217",
+		["position"]={1771},
+		["scale"]={1772},
+		["scripts"]={1773},
 	},
 
 	{--Entry Number: {428}
 		["type"]="PropCube",
-		["name"]="Prop183",
-		["position"]={2274},
-		["scale"]={2275},
-		["scripts"]={2276},
+		["name"]="Prop249",
+		["position"]={1774},
+		["scale"]={1775},
+		["scripts"]={1776},
 	},
 
 	{--Entry Number: {429}
 		["type"]="PropCube",
-		["name"]="Prop366",
-		["position"]={2277},
-		["scale"]={2278},
-		["scripts"]={2279},
+		["name"]="Prop306",
+		["position"]={1777},
+		["scale"]={1778},
+		["scripts"]={1779},
 	},
 
 	{--Entry Number: {430}
 		["type"]="PropCube",
-		["name"]="Prop732",
-		["position"]={2280},
-		["scale"]={2281},
-		["scripts"]={2282},
+		["name"]="Prop370",
+		["position"]={1780},
+		["scale"]={1781},
+		["scripts"]={1782},
 	},
 
 	{--Entry Number: {431}
 		["type"]="PropCube",
-		["name"]="Prop942",
-		["position"]={2283},
-		["scale"]={2284},
-		["scripts"]={2285},
+		["name"]="Prop434",
+		["position"]={1783},
+		["scale"]={1784},
+		["scripts"]={1785},
 	},
 
 	{--Entry Number: {432}
 		["type"]="PropCube",
-		["name"]="Prop733",
-		["position"]={2286},
-		["scale"]={2287},
-		["scripts"]={2288},
+		["name"]="Prop498",
+		["position"]={1786},
+		["scale"]={1787},
+		["scripts"]={1788},
 	},
 
 	{--Entry Number: {433}
 		["type"]="PropCube",
-		["name"]="Prop23",
-		["position"]={2289},
-		["scale"]={2290},
-		["scripts"]={2291},
+		["name"]="Prop335",
+		["position"]={1789},
+		["scale"]={1790},
+		["scripts"]={1791},
 	},
 
 	{--Entry Number: {434}
 		["type"]="PropCube",
-		["name"]="Prop46",
-		["position"]={2292},
-		["scale"]={2293},
-		["scripts"]={2294},
+		["name"]="Prop334",
+		["position"]={1792},
+		["scale"]={1793},
+		["scripts"]={1794},
 	},
 
 	{--Entry Number: {435}
 		["type"]="PropCube",
-		["name"]="Prop92",
-		["position"]={2295},
-		["scale"]={2296},
-		["scripts"]={2297},
+		["name"]="Prop331",
+		["position"]={1795},
+		["scale"]={1796},
+		["scripts"]={1797},
 	},
 
 	{--Entry Number: {436}
 		["type"]="PropCube",
-		["name"]="Prop184",
-		["position"]={2298},
-		["scale"]={2299},
-		["scripts"]={2300},
+		["name"]="Prop327",
+		["position"]={1798},
+		["scale"]={1799},
+		["scripts"]={1800},
 	},
 
 	{--Entry Number: {437}
 		["type"]="PropCube",
-		["name"]="Prop368",
-		["position"]={2301},
-		["scale"]={2302},
-		["scripts"]={2303},
+		["name"]="Prop77",
+		["position"]={1801},
+		["scale"]={1802},
+		["scripts"]={1803},
 	},
 
 	{--Entry Number: {438}
 		["type"]="PropCube",
-		["name"]="Prop736",
-		["position"]={2304},
-		["scale"]={2305},
-		["scripts"]={2306},
+		["name"]="Prop93",
+		["position"]={1804},
+		["scale"]={1805},
+		["scripts"]={1806},
 	},
 
 	{--Entry Number: {439}
 		["type"]="PropCube",
-		["name"]="Prop711",
-		["position"]={2307},
-		["scale"]={2308},
-		["scripts"]={2309},
+		["name"]="Prop109",
+		["position"]={1807},
+		["scale"]={1808},
+		["scripts"]={1809},
 	},
 
 	{--Entry Number: {440}
 		["type"]="PropCube",
-		["name"]="Prop737",
-		["position"]={2310},
-		["scale"]={2311},
-		["scripts"]={2312},
+		["name"]="Prop125",
+		["position"]={1810},
+		["scale"]={1811},
+		["scripts"]={1812},
 	},
 
 	{--Entry Number: {441}
 		["type"]="PropCube",
-		["name"]="Prop369",
-		["position"]={2313},
-		["scale"]={2314},
-		["scripts"]={2315},
+		["name"]="Prop154",
+		["position"]={1813},
+		["scale"]={1814},
+		["scripts"]={1815},
 	},
 
 	{--Entry Number: {442}
 		["type"]="PropCube",
-		["name"]="Prop738",
-		["position"]={2316},
-		["scale"]={2317},
-		["scripts"]={2318},
+		["name"]="Prop186",
+		["position"]={1816},
+		["scale"]={1817},
+		["scripts"]={1818},
 	},
 
 	{--Entry Number: {443}
 		["type"]="PropCube",
-		["name"]="Prop718",
-		["position"]={2319},
-		["scale"]={2320},
-		["scripts"]={2321},
+		["name"]="Prop218",
+		["position"]={1819},
+		["scale"]={1820},
+		["scripts"]={1821},
 	},
 
 	{--Entry Number: {444}
 		["type"]="PropCube",
-		["name"]="Prop185",
-		["position"]={2322},
-		["scale"]={2323},
-		["scripts"]={2324},
+		["name"]="Prop250",
+		["position"]={1822},
+		["scale"]={1823},
+		["scripts"]={1824},
 	},
 
 	{--Entry Number: {445}
 		["type"]="PropCube",
-		["name"]="Prop370",
-		["position"]={2325},
-		["scale"]={2326},
-		["scripts"]={2327},
+		["name"]="Prop308",
+		["position"]={1825},
+		["scale"]={1826},
+		["scripts"]={1827},
 	},
 
 	{--Entry Number: {446}
 		["type"]="PropCube",
-		["name"]="Prop740",
-		["position"]={2328},
-		["scale"]={2329},
-		["scripts"]={2330},
+		["name"]="Prop372",
+		["position"]={1828},
+		["scale"]={1829},
+		["scripts"]={1830},
 	},
 
 	{--Entry Number: {447}
 		["type"]="PropCube",
-		["name"]="Prop939",
-		["position"]={2331},
-		["scale"]={2332},
-		["scripts"]={2333},
+		["name"]="Prop436",
+		["position"]={1831},
+		["scale"]={1832},
+		["scripts"]={1833},
 	},
 
 	{--Entry Number: {448}
 		["type"]="PropCube",
-		["name"]="Prop741",
-		["position"]={2334},
-		["scale"]={2335},
-		["scripts"]={2336},
+		["name"]="Prop500",
+		["position"]={1834},
+		["scale"]={1835},
+		["scripts"]={1836},
 	},
 
 	{--Entry Number: {449}
 		["type"]="PropCube",
-		["name"]="Prop371",
-		["position"]={2337},
-		["scale"]={2338},
-		["scripts"]={2339},
+		["name"]="Prop317",
+		["position"]={1837},
+		["scale"]={1838},
+		["scripts"]={1839},
 	},
 
 	{--Entry Number: {450}
 		["type"]="PropCube",
-		["name"]="Prop742",
-		["position"]={2340},
-		["scale"]={2341},
-		["scripts"]={2342},
+		["name"]="Prop315",
+		["position"]={1840},
+		["scale"]={1841},
+		["scripts"]={1842},
 	},
 
 	{--Entry Number: {451}
 		["type"]="PropCube",
-		["name"]="Prop93",
-		["position"]={2343},
-		["scale"]={2344},
-		["scripts"]={2345},
+		["name"]="Prop255",
+		["position"]={1843},
+		["scale"]={1844},
+		["scripts"]={1845},
 	},
 
 	{--Entry Number: {452}
 		["type"]="PropCube",
-		["name"]="Prop186",
-		["position"]={2346},
-		["scale"]={2347},
-		["scripts"]={2348},
+		["name"]="Prop270",
+		["position"]={1846},
+		["scale"]={1847},
+		["scripts"]={1848},
 	},
 
 	{--Entry Number: {453}
 		["type"]="PropCube",
-		["name"]="Prop372",
-		["position"]={2349},
-		["scale"]={2350},
-		["scripts"]={2351},
+		["name"]="Prop309",
+		["position"]={1849},
+		["scale"]={1850},
+		["scripts"]={1851},
 	},
 
 	{--Entry Number: {454}
 		["type"]="PropCube",
-		["name"]="Prop744",
-		["position"]={2352},
-		["scale"]={2353},
-		["scripts"]={2354},
+		["name"]="Prop373",
+		["position"]={1852},
+		["scale"]={1853},
+		["scripts"]={1854},
 	},
 
 	{--Entry Number: {455}
 		["type"]="PropCube",
-		["name"]="Prop723",
-		["position"]={2355},
-		["scale"]={2356},
-		["scripts"]={2357},
+		["name"]="Prop437",
+		["position"]={1855},
+		["scale"]={1856},
+		["scripts"]={1857},
 	},
 
 	{--Entry Number: {456}
 		["type"]="PropCube",
-		["name"]="Prop745",
-		["position"]={2358},
-		["scale"]={2359},
-		["scripts"]={2360},
+		["name"]="Prop307",
+		["position"]={1858},
+		["scale"]={1859},
+		["scripts"]={1860},
 	},
 
 	{--Entry Number: {457}
 		["type"]="PropCube",
-		["name"]="Prop373",
-		["position"]={2361},
-		["scale"]={2362},
-		["scripts"]={2363},
+		["name"]="Prop155",
+		["position"]={1861},
+		["scale"]={1862},
+		["scripts"]={1863},
 	},
 
 	{--Entry Number: {458}
 		["type"]="PropCube",
-		["name"]="Prop746",
-		["position"]={2364},
-		["scale"]={2365},
-		["scripts"]={2366},
+		["name"]="Prop187",
+		["position"]={1864},
+		["scale"]={1865},
+		["scripts"]={1866},
 	},
 
 	{--Entry Number: {459}
 		["type"]="PropCube",
-		["name"]="Prop727",
-		["position"]={2367},
-		["scale"]={2368},
-		["scripts"]={2369},
+		["name"]="Prop219",
+		["position"]={1867},
+		["scale"]={1868},
+		["scripts"]={1869},
 	},
 
 	{--Entry Number: {460}
 		["type"]="PropCube",
-		["name"]="Prop187",
-		["position"]={2370},
-		["scale"]={2371},
-		["scripts"]={2372},
+		["name"]="Prop251",
+		["position"]={1870},
+		["scale"]={1871},
+		["scripts"]={1872},
 	},
 
 	{--Entry Number: {461}
 		["type"]="PropCube",
-		["name"]="Prop374",
-		["position"]={2373},
-		["scale"]={2374},
-		["scripts"]={2375},
+		["name"]="Prop310",
+		["position"]={1873},
+		["scale"]={1874},
+		["scripts"]={1875},
 	},
 
 	{--Entry Number: {462}
 		["type"]="PropCube",
-		["name"]="Prop748",
-		["position"]={2376},
-		["scale"]={2377},
-		["scripts"]={2378},
+		["name"]="Prop374",
+		["position"]={1876},
+		["scale"]={1877},
+		["scripts"]={1878},
 	},
 
 	{--Entry Number: {463}
 		["type"]="PropCube",
-		["name"]="Prop734",
-		["position"]={2379},
-		["scale"]={2380},
-		["scripts"]={2381},
+		["name"]="Prop438",
+		["position"]={1879},
+		["scale"]={1880},
+		["scripts"]={1881},
 	},
 
 	{--Entry Number: {464}
 		["type"]="PropCube",
-		["name"]="Prop749",
-		["position"]={2382},
-		["scale"]={2383},
-		["scripts"]={2384},
+		["name"]="Prop299",
+		["position"]={1882},
+		["scale"]={1883},
+		["scripts"]={1884},
 	},
 
 	{--Entry Number: {465}
 		["type"]="PropCube",
-		["name"]="Prop375",
-		["position"]={2385},
-		["scale"]={2386},
-		["scripts"]={2387},
+		["name"]="Prop39",
+		["position"]={1885},
+		["scale"]={1886},
+		["scripts"]={1887},
 	},
 
 	{--Entry Number: {466}
 		["type"]="PropCube",
 		["name"]="Prop47",
-		["position"]={2388},
-		["scale"]={2389},
-		["scripts"]={2390},
+		["position"]={1888},
+		["scale"]={1889},
+		["scripts"]={1890},
 	},
 
 	{--Entry Number: {467}
 		["type"]="PropCube",
-		["name"]="Prop94",
-		["position"]={2391},
-		["scale"]={2392},
-		["scripts"]={2393},
+		["name"]="Prop55",
+		["position"]={1891},
+		["scale"]={1892},
+		["scripts"]={1893},
 	},
 
 	{--Entry Number: {468}
 		["type"]="PropCube",
-		["name"]="Prop188",
-		["position"]={2394},
-		["scale"]={2395},
-		["scripts"]={2396},
+		["name"]="Prop63",
+		["position"]={1894},
+		["scale"]={1895},
+		["scripts"]={1896},
 	},
 
 	{--Entry Number: {469}
 		["type"]="PropCube",
-		["name"]="Prop376",
-		["position"]={2397},
-		["scale"]={2398},
-		["scripts"]={2399},
+		["name"]="Prop78",
+		["position"]={1897},
+		["scale"]={1898},
+		["scripts"]={1899},
 	},
 
 	{--Entry Number: {470}
 		["type"]="PropCube",
-		["name"]="Prop752",
-		["position"]={2400},
-		["scale"]={2401},
-		["scripts"]={2402},
+		["name"]="Prop94",
+		["position"]={1900},
+		["scale"]={1901},
+		["scripts"]={1902},
 	},
 
 	{--Entry Number: {471}
 		["type"]="PropCube",
-		["name"]="Prop935",
-		["position"]={2403},
-		["scale"]={2404},
-		["scripts"]={2405},
+		["name"]="Prop110",
+		["position"]={1903},
+		["scale"]={1904},
+		["scripts"]={1905},
 	},
 
 	{--Entry Number: {472}
 		["type"]="PropCube",
-		["name"]="Prop753",
-		["position"]={2406},
-		["scale"]={2407},
-		["scripts"]={2408},
+		["name"]="Prop126",
+		["position"]={1906},
+		["scale"]={1907},
+		["scripts"]={1908},
 	},
 
 	{--Entry Number: {473}
 		["type"]="PropCube",
-		["name"]="Prop377",
-		["position"]={2409},
-		["scale"]={2410},
-		["scripts"]={2411},
+		["name"]="Prop156",
+		["position"]={1909},
+		["scale"]={1910},
+		["scripts"]={1911},
 	},
 
 	{--Entry Number: {474}
 		["type"]="PropCube",
-		["name"]="Prop754",
-		["position"]={2412},
-		["scale"]={2413},
-		["scripts"]={2414},
+		["name"]="Prop188",
+		["position"]={1912},
+		["scale"]={1913},
+		["scripts"]={1914},
 	},
 
 	{--Entry Number: {475}
 		["type"]="PropCube",
-		["name"]="Prop735",
-		["position"]={2415},
-		["scale"]={2416},
-		["scripts"]={2417},
+		["name"]="Prop220",
+		["position"]={1915},
+		["scale"]={1916},
+		["scripts"]={1917},
 	},
 
 	{--Entry Number: {476}
 		["type"]="PropCube",
-		["name"]="Prop189",
-		["position"]={2418},
-		["scale"]={2419},
-		["scripts"]={2420},
+		["name"]="Prop252",
+		["position"]={1918},
+		["scale"]={1919},
+		["scripts"]={1920},
 	},
 
 	{--Entry Number: {477}
 		["type"]="PropCube",
-		["name"]="Prop378",
-		["position"]={2421},
-		["scale"]={2422},
-		["scripts"]={2423},
+		["name"]="Prop312",
+		["position"]={1921},
+		["scale"]={1922},
+		["scripts"]={1923},
 	},
 
 	{--Entry Number: {478}
 		["type"]="PropCube",
-		["name"]="Prop756",
-		["position"]={2424},
-		["scale"]={2425},
-		["scripts"]={2426},
+		["name"]="Prop376",
+		["position"]={1924},
+		["scale"]={1925},
+		["scripts"]={1926},
 	},
 
 	{--Entry Number: {479}
 		["type"]="PropCube",
-		["name"]="Prop739",
-		["position"]={2427},
-		["scale"]={2428},
-		["scripts"]={2429},
+		["name"]="Prop440",
+		["position"]={1927},
+		["scale"]={1928},
+		["scripts"]={1929},
 	},
 
 	{--Entry Number: {480}
 		["type"]="PropCube",
-		["name"]="Prop757",
-		["position"]={2430},
-		["scale"]={2431},
-		["scripts"]={2432},
+		["name"]="Prop286",
+		["position"]={1930},
+		["scale"]={1931},
+		["scripts"]={1932},
 	},
 
 	{--Entry Number: {481}
 		["type"]="PropCube",
-		["name"]="Prop379",
-		["position"]={2433},
-		["scale"]={2434},
-		["scripts"]={2435},
+		["name"]="Prop283",
+		["position"]={1933},
+		["scale"]={1934},
+		["scripts"]={1935},
 	},
 
 	{--Entry Number: {482}
 		["type"]="PropCube",
-		["name"]="Prop758",
-		["position"]={2436},
-		["scale"]={2437},
-		["scripts"]={2438},
+		["name"]="Prop279",
+		["position"]={1936},
+		["scale"]={1937},
+		["scripts"]={1938},
 	},
 
 	{--Entry Number: {483}
 		["type"]="PropCube",
-		["name"]="Prop95",
-		["position"]={2439},
-		["scale"]={2440},
-		["scripts"]={2441},
+		["name"]="Prop275",
+		["position"]={1939},
+		["scale"]={1940},
+		["scripts"]={1941},
 	},
 
 	{--Entry Number: {484}
 		["type"]="PropCube",
-		["name"]="Prop190",
-		["position"]={2442},
-		["scale"]={2443},
-		["scripts"]={2444},
+		["name"]="Prop271",
+		["position"]={1942},
+		["scale"]={1943},
+		["scripts"]={1944},
 	},
 
 	{--Entry Number: {485}
 		["type"]="PropCube",
-		["name"]="Prop380",
-		["position"]={2445},
-		["scale"]={2446},
-		["scripts"]={2447},
+		["name"]="Prop313",
+		["position"]={1945},
+		["scale"]={1946},
+		["scripts"]={1947},
 	},
 
 	{--Entry Number: {486}
 		["type"]="PropCube",
-		["name"]="Prop760",
-		["position"]={2448},
-		["scale"]={2449},
-		["scripts"]={2450},
+		["name"]="Prop377",
+		["position"]={1948},
+		["scale"]={1949},
+		["scripts"]={1950},
 	},
 
 	{--Entry Number: {487}
 		["type"]="PropCube",
-		["name"]="Prop747",
-		["position"]={2451},
-		["scale"]={2452},
-		["scripts"]={2453},
+		["name"]="Prop441",
+		["position"]={1951},
+		["scale"]={1952},
+		["scripts"]={1953},
 	},
 
 	{--Entry Number: {488}
 		["type"]="PropCube",
-		["name"]="Prop761",
-		["position"]={2454},
-		["scale"]={2455},
-		["scripts"]={2456},
+		["name"]="Prop259",
+		["position"]={1954},
+		["scale"]={1955},
+		["scripts"]={1956},
 	},
 
 	{--Entry Number: {489}
 		["type"]="PropCube",
-		["name"]="Prop381",
-		["position"]={2457},
-		["scale"]={2458},
-		["scripts"]={2459},
+		["name"]="Prop157",
+		["position"]={1957},
+		["scale"]={1958},
+		["scripts"]={1959},
 	},
 
 	{--Entry Number: {490}
 		["type"]="PropCube",
-		["name"]="Prop762",
-		["position"]={2460},
-		["scale"]={2461},
-		["scripts"]={2462},
+		["name"]="Prop189",
+		["position"]={1960},
+		["scale"]={1961},
+		["scripts"]={1962},
 	},
 
 	{--Entry Number: {491}
 		["type"]="PropCube",
-		["name"]="Prop931",
-		["position"]={2463},
-		["scale"]={2464},
-		["scripts"]={2465},
+		["name"]="Prop221",
+		["position"]={1963},
+		["scale"]={1964},
+		["scripts"]={1965},
 	},
 
 	{--Entry Number: {492}
 		["type"]="PropCube",
-		["name"]="Prop191",
-		["position"]={2466},
-		["scale"]={2467},
-		["scripts"]={2468},
+		["name"]="Prop253",
+		["position"]={1966},
+		["scale"]={1967},
+		["scripts"]={1968},
 	},
 
 	{--Entry Number: {493}
 		["type"]="PropCube",
-		["name"]="Prop382",
-		["position"]={2469},
-		["scale"]={2470},
-		["scripts"]={2471},
+		["name"]="Prop314",
+		["position"]={1969},
+		["scale"]={1970},
+		["scripts"]={1971},
 	},
 
 	{--Entry Number: {494}
 		["type"]="PropCube",
-		["name"]="Prop3",
-		["position"]={2472},
-		["scale"]={2473},
-		["scripts"]={2474},
+		["name"]="Prop378",
+		["position"]={1972},
+		["scale"]={1973},
+		["scripts"]={1974},
 	},
 
 	{--Entry Number: {495}
 		["type"]="PropCube",
-		["name"]="Prop6",
-		["position"]={2475},
-		["scale"]={2476},
-		["scripts"]={2477},
+		["name"]="Prop442",
+		["position"]={1975},
+		["scale"]={1976},
+		["scripts"]={1977},
 	},
 
 	{--Entry Number: {496}
 		["type"]="PropCube",
-		["name"]="Prop12",
-		["position"]={2478},
-		["scale"]={2479},
-		["scripts"]={2480},
+		["name"]="Prop223",
+		["position"]={1978},
+		["scale"]={1979},
+		["scripts"]={1980},
 	},
 
 	{--Entry Number: {497}
 		["type"]="PropCube",
-		["name"]="Prop24",
-		["position"]={2481},
-		["scale"]={2482},
-		["scripts"]={2483},
+		["name"]="Prop207",
+		["position"]={1981},
+		["scale"]={1982},
+		["scripts"]={1983},
 	},
 
 	{--Entry Number: {498}
 		["type"]="PropCube",
-		["name"]="Prop48",
-		["position"]={2484},
-		["scale"]={2485},
-		["scripts"]={2486},
+		["name"]="Prop191",
+		["position"]={1984},
+		["scale"]={1985},
+		["scripts"]={1986},
 	},
 
 	{--Entry Number: {499}
 		["type"]="PropCube",
-		["name"]="Prop96",
-		["position"]={2487},
-		["scale"]={2488},
-		["scripts"]={2489},
+		["name"]="Prop175",
+		["position"]={1987},
+		["scale"]={1988},
+		["scripts"]={1989},
 	},
 
 	{--Entry Number: {500}
 		["type"]="PropCube",
-		["name"]="Prop192",
-		["position"]={2490},
-		["scale"]={2491},
-		["scripts"]={2492},
+		["name"]="Prop159",
+		["position"]={1990},
+		["scale"]={1991},
+		["scripts"]={1992},
 	},
 
 	{--Entry Number: {501}
 		["type"]="PropCube",
-		["name"]="Prop384",
-		["position"]={2493},
-		["scale"]={2494},
-		["scripts"]={2495},
+		["name"]="Prop79",
+		["position"]={1993},
+		["scale"]={1994},
+		["scripts"]={1995},
 	},
 
 	{--Entry Number: {502}
 		["type"]="PropCube",
-		["name"]="Prop768",
-		["position"]={2496},
-		["scale"]={2497},
-		["scripts"]={2498},
+		["name"]="Prop95",
+		["position"]={1996},
+		["scale"]={1997},
+		["scripts"]={1998},
 	},
 
 	{--Entry Number: {503}
 		["type"]="PropCube",
-		["name"]="Prop751",
-		["position"]={2499},
-		["scale"]={2500},
-		["scripts"]={2501},
+		["name"]="Prop111",
+		["position"]={1999},
+		["scale"]={2000},
+		["scripts"]={2001},
 	},
 
 	{--Entry Number: {504}
 		["type"]="PropCube",
-		["name"]="Prop769",
-		["position"]={2502},
-		["scale"]={2503},
-		["scripts"]={2504},
+		["name"]="Prop143",
+		["position"]={2002},
+		["scale"]={2003},
+		["scripts"]={2004},
 	},
 
 	{--Entry Number: {505}
-		["type"]="PropCube",
-		["name"]="Prop385",
-		["position"]={2505},
-		["scale"]={2506},
-		["scripts"]={2507},
-	},
-
-	{--Entry Number: {506}
-		["type"]="PropCube",
-		["name"]="Prop770",
-		["position"]={2508},
-		["scale"]={2509},
-		["scripts"]={2510},
-	},
-
-	{--Entry Number: {507}
-		["type"]="PropCube",
-		["name"]="Prop755",
-		["position"]={2511},
-		["scale"]={2512},
-		["scripts"]={2513},
-	},
-
-	{--Entry Number: {508}
-		["type"]="PropCube",
-		["name"]="Prop193",
-		["position"]={2514},
-		["scale"]={2515},
-		["scripts"]={2516},
-	},
-
-	{--Entry Number: {509}
-		["type"]="PropCube",
-		["name"]="Prop386",
-		["position"]={2517},
-		["scale"]={2518},
-		["scripts"]={2519},
-	},
-
-	{--Entry Number: {510}
-		["type"]="PropCube",
-		["name"]="Prop772",
-		["position"]={2520},
-		["scale"]={2521},
-		["scripts"]={2522},
-	},
-
-	{--Entry Number: {511}
-		["type"]="PropCube",
-		["name"]="Prop763",
-		["position"]={2523},
-		["scale"]={2524},
-		["scripts"]={2525},
-	},
-
-	{--Entry Number: {512}
-		["type"]="PropCube",
-		["name"]="Prop773",
-		["position"]={2526},
-		["scale"]={2527},
-		["scripts"]={2528},
-	},
-
-	{--Entry Number: {513}
-		["type"]="PropCube",
-		["name"]="Prop387",
-		["position"]={2529},
-		["scale"]={2530},
-		["scripts"]={2531},
-	},
-
-	{--Entry Number: {514}
-		["type"]="PropCube",
-		["name"]="Prop774",
-		["position"]={2532},
-		["scale"]={2533},
-		["scripts"]={2534},
-	},
-
-	{--Entry Number: {515}
-		["type"]="PropCube",
-		["name"]="Prop97",
-		["position"]={2535},
-		["scale"]={2536},
-		["scripts"]={2537},
-	},
-
-	{--Entry Number: {516}
-		["type"]="PropCube",
-		["name"]="Prop194",
-		["position"]={2538},
-		["scale"]={2539},
-		["scripts"]={2540},
-	},
-
-	{--Entry Number: {517}
-		["type"]="PropCube",
-		["name"]="Prop388",
-		["position"]={2541},
-		["scale"]={2542},
-		["scripts"]={2543},
-	},
-
-	{--Entry Number: {518}
-		["type"]="PropCube",
-		["name"]="Prop776",
-		["position"]={2544},
-		["scale"]={2545},
-		["scripts"]={2546},
-	},
-
-	{--Entry Number: {519}
-		["type"]="PropCube",
-		["name"]="Prop927",
-		["position"]={2547},
-		["scale"]={2548},
-		["scripts"]={2549},
-	},
-
-	{--Entry Number: {520}
-		["type"]="PropCube",
-		["name"]="Prop777",
-		["position"]={2550},
-		["scale"]={2551},
-		["scripts"]={2552},
-	},
-
-	{--Entry Number: {521}
-		["type"]="PropCube",
-		["name"]="Prop389",
-		["position"]={2553},
-		["scale"]={2554},
-		["scripts"]={2555},
-	},
-
-	{--Entry Number: {522}
-		["type"]="PropCube",
-		["name"]="Prop778",
-		["position"]={2556},
-		["scale"]={2557},
-		["scripts"]={2558},
-	},
-
-	{--Entry Number: {523}
-		["type"]="PropCube",
-		["name"]="Prop926",
-		["position"]={2559},
-		["scale"]={2560},
-		["scripts"]={2561},
-	},
-
-	{--Entry Number: {524}
-		["type"]="PropCube",
-		["name"]="Prop195",
-		["position"]={2562},
-		["scale"]={2563},
-		["scripts"]={2564},
-	},
-
-	{--Entry Number: {525}
-		["type"]="PropCube",
-		["name"]="Prop390",
-		["position"]={2565},
-		["scale"]={2566},
-		["scripts"]={2567},
-	},
-
-	{--Entry Number: {526}
-		["type"]="PropCube",
-		["name"]="Prop780",
-		["position"]={2568},
-		["scale"]={2569},
-		["scripts"]={2570},
-	},
-
-	{--Entry Number: {527}
-		["type"]="PropCube",
-		["name"]="Prop764",
-		["position"]={2571},
-		["scale"]={2572},
-		["scripts"]={2573},
-	},
-
-	{--Entry Number: {528}
-		["type"]="PropCube",
-		["name"]="Prop781",
-		["position"]={2574},
-		["scale"]={2575},
-		["scripts"]={2576},
-	},
-
-	{--Entry Number: {529}
-		["type"]="PropCube",
-		["name"]="Prop391",
-		["position"]={2577},
-		["scale"]={2578},
-		["scripts"]={2579},
-	},
-
-	{--Entry Number: {530}
-		["type"]="PropCube",
-		["name"]="Prop49",
-		["position"]={2580},
-		["scale"]={2581},
-		["scripts"]={2582},
-	},
-
-	{--Entry Number: {531}
-		["type"]="PropCube",
-		["name"]="Prop98",
-		["position"]={2583},
-		["scale"]={2584},
-		["scripts"]={2585},
-	},
-
-	{--Entry Number: {532}
-		["type"]="PropCube",
-		["name"]="Prop196",
-		["position"]={2586},
-		["scale"]={2587},
-		["scripts"]={2588},
-	},
-
-	{--Entry Number: {533}
-		["type"]="PropCube",
-		["name"]="Prop392",
-		["position"]={2589},
-		["scale"]={2590},
-		["scripts"]={2591},
-	},
-
-	{--Entry Number: {534}
-		["type"]="PropCube",
-		["name"]="Prop784",
-		["position"]={2592},
-		["scale"]={2593},
-		["scripts"]={2594},
-	},
-
-	{--Entry Number: {535}
-		["type"]="PropCube",
-		["name"]="Prop766",
-		["position"]={2595},
-		["scale"]={2596},
-		["scripts"]={2597},
-	},
-
-	{--Entry Number: {536}
-		["type"]="PropCube",
-		["name"]="Prop785",
-		["position"]={2598},
-		["scale"]={2599},
-		["scripts"]={2600},
-	},
-
-	{--Entry Number: {537}
-		["type"]="PropCube",
-		["name"]="Prop393",
-		["position"]={2601},
-		["scale"]={2602},
-		["scripts"]={2603},
-	},
-
-	{--Entry Number: {538}
-		["type"]="PropCube",
-		["name"]="Prop786",
-		["position"]={2604},
-		["scale"]={2605},
-		["scripts"]={2606},
-	},
-
-	{--Entry Number: {539}
-		["type"]="PropCube",
-		["name"]="Prop923",
-		["position"]={2607},
-		["scale"]={2608},
-		["scripts"]={2609},
-	},
-
-	{--Entry Number: {540}
-		["type"]="PropCube",
-		["name"]="Prop197",
-		["position"]={2610},
-		["scale"]={2611},
-		["scripts"]={2612},
-	},
-
-	{--Entry Number: {541}
-		["type"]="PropCube",
-		["name"]="Prop394",
-		["position"]={2613},
-		["scale"]={2614},
-		["scripts"]={2615},
-	},
-
-	{--Entry Number: {542}
-		["type"]="PropCube",
-		["name"]="Prop788",
-		["position"]={2616},
-		["scale"]={2617},
-		["scripts"]={2618},
-	},
-
-	{--Entry Number: {543}
-		["type"]="PropCube",
-		["name"]="Prop771",
-		["position"]={2619},
-		["scale"]={2620},
-		["scripts"]={2621},
-	},
-
-	{--Entry Number: {544}
-		["type"]="PropCube",
-		["name"]="Prop789",
-		["position"]={2622},
-		["scale"]={2623},
-		["scripts"]={2624},
-	},
-
-	{--Entry Number: {545}
-		["type"]="PropCube",
-		["name"]="Prop395",
-		["position"]={2625},
-		["scale"]={2626},
-		["scripts"]={2627},
-	},
-
-	{--Entry Number: {546}
-		["type"]="PropCube",
-		["name"]="Prop790",
-		["position"]={2628},
-		["scale"]={2629},
-		["scripts"]={2630},
-	},
-
-	{--Entry Number: {547}
-		["type"]="PropCube",
-		["name"]="Prop99",
-		["position"]={2631},
-		["scale"]={2632},
-		["scripts"]={2633},
-	},
-
-	{--Entry Number: {548}
-		["type"]="PropCube",
-		["name"]="Prop198",
-		["position"]={2634},
-		["scale"]={2635},
-		["scripts"]={2636},
-	},
-
-	{--Entry Number: {549}
-		["type"]="PropCube",
-		["name"]="Prop396",
-		["position"]={2637},
-		["scale"]={2638},
-		["scripts"]={2639},
-	},
-
-	{--Entry Number: {550}
-		["type"]="PropCube",
-		["name"]="Prop792",
-		["position"]={2640},
-		["scale"]={2641},
-		["scripts"]={2642},
-	},
-
-	{--Entry Number: {551}
-		["type"]="PropCube",
-		["name"]="Prop775",
-		["position"]={2643},
-		["scale"]={2644},
-		["scripts"]={2645},
-	},
-
-	{--Entry Number: {552}
-		["type"]="PropCube",
-		["name"]="Prop793",
-		["position"]={2646},
-		["scale"]={2647},
-		["scripts"]={2648},
-	},
-
-	{--Entry Number: {553}
-		["type"]="PropCube",
-		["name"]="Prop397",
-		["position"]={2649},
-		["scale"]={2650},
-		["scripts"]={2651},
-	},
-
-	{--Entry Number: {554}
-		["type"]="PropCube",
-		["name"]="Prop794",
-		["position"]={2652},
-		["scale"]={2653},
-		["scripts"]={2654},
-	},
-
-	{--Entry Number: {555}
-		["type"]="PropCube",
-		["name"]="Prop782",
-		["position"]={2655},
-		["scale"]={2656},
-		["scripts"]={2657},
-	},
-
-	{--Entry Number: {556}
-		["type"]="PropCube",
-		["name"]="Prop199",
-		["position"]={2658},
-		["scale"]={2659},
-		["scripts"]={2660},
-	},
-
-	{--Entry Number: {557}
-		["type"]="PropCube",
-		["name"]="Prop398",
-		["position"]={2661},
-		["scale"]={2662},
-		["scripts"]={2663},
-	},
-
-	{--Entry Number: {558}
-		["type"]="PropCube",
-		["name"]="Prop796",
-		["position"]={2664},
-		["scale"]={2665},
-		["scripts"]={2666},
-	},
-
-	{--Entry Number: {559}
-		["type"]="PropCube",
-		["name"]="Prop919",
-		["position"]={2667},
-		["scale"]={2668},
-		["scripts"]={2669},
-	},
-
-	{--Entry Number: {560}
-		["type"]="PropCube",
-		["name"]="Prop797",
-		["position"]={2670},
-		["scale"]={2671},
-		["scripts"]={2672},
-	},
-
-	{--Entry Number: {561}
-		["type"]="PropCube",
-		["name"]="Prop25",
-		["position"]={2673},
-		["scale"]={2674},
-		["scripts"]={2675},
-	},
-
-	{--Entry Number: {562}
-		["type"]="PropCube",
-		["name"]="Prop50",
-		["position"]={2676},
-		["scale"]={2677},
-		["scripts"]={2678},
-	},
-
-	{--Entry Number: {563}
-		["type"]="PropCube",
-		["name"]="Prop100",
-		["position"]={2679},
-		["scale"]={2680},
-		["scripts"]={2681},
-	},
-
-	{--Entry Number: {564}
-		["type"]="PropCube",
-		["name"]="Prop200",
-		["position"]={2682},
-		["scale"]={2683},
-		["scripts"]={2684},
-	},
-
-	{--Entry Number: {565}
-		["type"]="PropCube",
-		["name"]="Prop400",
-		["position"]={2685},
-		["scale"]={2686},
-		["scripts"]={2687},
-	},
-
-	{--Entry Number: {566}
-		["type"]="PropCube",
-		["name"]="Prop800",
-		["position"]={2688},
-		["scale"]={2689},
-		["scripts"]={2690},
-	},
-
-	{--Entry Number: {567}
-		["type"]="PropCube",
-		["name"]="Prop783",
-		["position"]={2691},
-		["scale"]={2692},
-		["scripts"]={2693},
-	},
-
-	{--Entry Number: {568}
-		["type"]="PropCube",
-		["name"]="Prop801",
-		["position"]={2694},
-		["scale"]={2695},
-		["scripts"]={2696},
-	},
-
-	{--Entry Number: {569}
-		["type"]="PropCube",
-		["name"]="Prop401",
-		["position"]={2697},
-		["scale"]={2698},
-		["scripts"]={2699},
-	},
-
-	{--Entry Number: {570}
-		["type"]="PropCube",
-		["name"]="Prop802",
-		["position"]={2700},
-		["scale"]={2701},
-		["scripts"]={2702},
-	},
-
-	{--Entry Number: {571}
-		["type"]="PropCube",
-		["name"]="Prop787",
-		["position"]={2703},
-		["scale"]={2704},
-		["scripts"]={2705},
-	},
-
-	{--Entry Number: {572}
-		["type"]="PropCube",
-		["name"]="Prop201",
-		["position"]={2706},
-		["scale"]={2707},
-		["scripts"]={2708},
-	},
-
-	{--Entry Number: {573}
-		["type"]="PropCube",
-		["name"]="Prop402",
-		["position"]={2709},
-		["scale"]={2710},
-		["scripts"]={2711},
-	},
-
-	{--Entry Number: {574}
-		["type"]="PropCube",
-		["name"]="Prop804",
-		["position"]={2712},
-		["scale"]={2713},
-		["scripts"]={2714},
-	},
-
-	{--Entry Number: {575}
-		["type"]="PropCube",
-		["name"]="Prop795",
-		["position"]={2715},
-		["scale"]={2716},
-		["scripts"]={2717},
-	},
-
-	{--Entry Number: {576}
-		["type"]="PropCube",
-		["name"]="Prop805",
-		["position"]={2718},
-		["scale"]={2719},
-		["scripts"]={2720},
-	},
-
-	{--Entry Number: {577}
-		["type"]="PropCube",
-		["name"]="Prop403",
-		["position"]={2721},
-		["scale"]={2722},
-		["scripts"]={2723},
-	},
-
-	{--Entry Number: {578}
-		["type"]="PropCube",
-		["name"]="Prop806",
-		["position"]={2724},
-		["scale"]={2725},
-		["scripts"]={2726},
-	},
-
-	{--Entry Number: {579}
-		["type"]="PropCube",
-		["name"]="Prop101",
-		["position"]={2727},
-		["scale"]={2728},
-		["scripts"]={2729},
-	},
-
-	{--Entry Number: {580}
-		["type"]="PropCube",
-		["name"]="Prop202",
-		["position"]={2730},
-		["scale"]={2731},
-		["scripts"]={2732},
-	},
-
-	{--Entry Number: {581}
-		["type"]="PropCube",
-		["name"]="Prop404",
-		["position"]={2733},
-		["scale"]={2734},
-		["scripts"]={2735},
-	},
-
-	{--Entry Number: {582}
-		["type"]="PropCube",
-		["name"]="Prop808",
-		["position"]={2736},
-		["scale"]={2737},
-		["scripts"]={2738},
-	},
-
-	{--Entry Number: {583}
-		["type"]="PropCube",
-		["name"]="Prop915",
-		["position"]={2739},
-		["scale"]={2740},
-		["scripts"]={2741},
-	},
-
-	{--Entry Number: {584}
-		["type"]="PropCube",
-		["name"]="Prop809",
-		["position"]={2742},
-		["scale"]={2743},
-		["scripts"]={2744},
-	},
-
-	{--Entry Number: {585}
-		["type"]="PropCube",
-		["name"]="Prop405",
-		["position"]={2745},
-		["scale"]={2746},
-		["scripts"]={2747},
-	},
-
-	{--Entry Number: {586}
-		["type"]="PropCube",
-		["name"]="Prop810",
-		["position"]={2748},
-		["scale"]={2749},
-		["scripts"]={2750},
-	},
-
-	{--Entry Number: {587}
-		["type"]="PropCube",
-		["name"]="Prop799",
-		["position"]={2751},
-		["scale"]={2752},
-		["scripts"]={2753},
-	},
-
-	{--Entry Number: {588}
-		["type"]="PropCube",
-		["name"]="Prop203",
-		["position"]={2754},
-		["scale"]={2755},
-		["scripts"]={2756},
-	},
-
-	{--Entry Number: {589}
-		["type"]="PropCube",
-		["name"]="Prop406",
-		["position"]={2757},
-		["scale"]={2758},
-		["scripts"]={2759},
-	},
-
-	{--Entry Number: {590}
-		["type"]="PropCube",
-		["name"]="Prop812",
-		["position"]={2760},
-		["scale"]={2761},
-		["scripts"]={2762},
-	},
-
-	{--Entry Number: {591}
-		["type"]="PropCube",
-		["name"]="Prop803",
-		["position"]={2763},
-		["scale"]={2764},
-		["scripts"]={2765},
-	},
-
-	{--Entry Number: {592}
-		["type"]="PropCube",
-		["name"]="Prop813",
-		["position"]={2766},
-		["scale"]={2767},
-		["scripts"]={2768},
-	},
-
-	{--Entry Number: {593}
-		["type"]="PropCube",
-		["name"]="Prop407",
-		["position"]={2769},
-		["scale"]={2770},
-		["scripts"]={2771},
-	},
-
-	{--Entry Number: {594}
-		["type"]="PropCube",
-		["name"]="Prop51",
-		["position"]={2772},
-		["scale"]={2773},
-		["scripts"]={2774},
-	},
-
-	{--Entry Number: {595}
-		["type"]="PropCube",
-		["name"]="Prop102",
-		["position"]={2775},
-		["scale"]={2776},
-		["scripts"]={2777},
-	},
-
-	{--Entry Number: {596}
-		["type"]="PropCube",
-		["name"]="Prop204",
-		["position"]={2778},
-		["scale"]={2779},
-		["scripts"]={2780},
-	},
-
-	{--Entry Number: {597}
-		["type"]="PropCube",
-		["name"]="Prop408",
-		["position"]={2781},
-		["scale"]={2782},
-		["scripts"]={2783},
-	},
-
-	{--Entry Number: {598}
-		["type"]="PropCube",
-		["name"]="Prop816",
-		["position"]={2784},
-		["scale"]={2785},
-		["scripts"]={2786},
-	},
-
-	{--Entry Number: {599}
-		["type"]="PropCube",
-		["name"]="Prop811",
-		["position"]={2787},
-		["scale"]={2788},
-		["scripts"]={2789},
-	},
-
-	{--Entry Number: {600}
-		["type"]="PropCube",
-		["name"]="Prop817",
-		["position"]={2790},
-		["scale"]={2791},
-		["scripts"]={2792},
-	},
-
-	{--Entry Number: {601}
-		["type"]="PropCube",
-		["name"]="Prop409",
-		["position"]={2793},
-		["scale"]={2794},
-		["scripts"]={2795},
-	},
-
-	{--Entry Number: {602}
-		["type"]="PropCube",
-		["name"]="Prop818",
-		["position"]={2796},
-		["scale"]={2797},
-		["scripts"]={2798},
-	},
-
-	{--Entry Number: {603}
-		["type"]="PropCube",
-		["name"]="Prop911",
-		["position"]={2799},
-		["scale"]={2800},
-		["scripts"]={2801},
-	},
-
-	{--Entry Number: {604}
-		["type"]="PropCube",
-		["name"]="Prop205",
-		["position"]={2802},
-		["scale"]={2803},
-		["scripts"]={2804},
-	},
-
-	{--Entry Number: {605}
-		["type"]="PropCube",
-		["name"]="Prop410",
-		["position"]={2805},
-		["scale"]={2806},
-		["scripts"]={2807},
-	},
-
-	{--Entry Number: {606}
-		["type"]="PropCube",
-		["name"]="Prop820",
-		["position"]={2808},
-		["scale"]={2809},
-		["scripts"]={2810},
-	},
-
-	{--Entry Number: {607}
-		["type"]="PropCube",
-		["name"]="Prop910",
-		["position"]={2811},
-		["scale"]={2812},
-		["scripts"]={2813},
-	},
-
-	{--Entry Number: {608}
-		["type"]="PropCube",
-		["name"]="Prop821",
-		["position"]={2814},
-		["scale"]={2815},
-		["scripts"]={2816},
-	},
-
-	{--Entry Number: {609}
-		["type"]="PropCube",
-		["name"]="Prop411",
-		["position"]={2817},
-		["scale"]={2818},
-		["scripts"]={2819},
-	},
-
-	{--Entry Number: {610}
-		["type"]="PropCube",
-		["name"]="Prop822",
-		["position"]={2820},
-		["scale"]={2821},
-		["scripts"]={2822},
-	},
-
-	{--Entry Number: {611}
-		["type"]="PropCube",
-		["name"]="Prop103",
-		["position"]={2823},
-		["scale"]={2824},
-		["scripts"]={2825},
-	},
-
-	{--Entry Number: {612}
-		["type"]="PropCube",
-		["name"]="Prop206",
-		["position"]={2826},
-		["scale"]={2827},
-		["scripts"]={2828},
-	},
-
-	{--Entry Number: {613}
-		["type"]="PropCube",
-		["name"]="Prop412",
-		["position"]={2829},
-		["scale"]={2830},
-		["scripts"]={2831},
-	},
-
-	{--Entry Number: {614}
-		["type"]="PropCube",
-		["name"]="Prop824",
-		["position"]={2832},
-		["scale"]={2833},
-		["scripts"]={2834},
-	},
-
-	{--Entry Number: {615}
-		["type"]="PropCube",
-		["name"]="Prop814",
-		["position"]={2835},
-		["scale"]={2836},
-		["scripts"]={2837},
-	},
-
-	{--Entry Number: {616}
-		["type"]="PropCube",
-		["name"]="Prop825",
-		["position"]={2838},
-		["scale"]={2839},
-		["scripts"]={2840},
-	},
-
-	{--Entry Number: {617}
-		["type"]="PropCube",
-		["name"]="Prop413",
-		["position"]={2841},
-		["scale"]={2842},
-		["scripts"]={2843},
-	},
-
-	{--Entry Number: {618}
-		["type"]="PropCube",
-		["name"]="Prop826",
-		["position"]={2844},
-		["scale"]={2845},
-		["scripts"]={2846},
-	},
-
-	{--Entry Number: {619}
-		["type"]="PropCube",
-		["name"]="Prop819",
-		["position"]={2847},
-		["scale"]={2848},
-		["scripts"]={2849},
-	},
-
-	{--Entry Number: {620}
-		["type"]="PropCube",
-		["name"]="Prop207",
-		["position"]={2850},
-		["scale"]={2851},
-		["scripts"]={2852},
-	},
-
-	{--Entry Number: {621}
-		["type"]="PropCube",
-		["name"]="Prop414",
-		["position"]={2853},
-		["scale"]={2854},
-		["scripts"]={2855},
-	},
-
-	{--Entry Number: {622}
-		["type"]="PropCube",
-		["name"]="Prop828",
-		["position"]={2856},
-		["scale"]={2857},
-		["scripts"]={2858},
-	},
-
-	{--Entry Number: {623}
-		["type"]="PropCube",
-		["name"]="Prop907",
-		["position"]={2859},
-		["scale"]={2860},
-		["scripts"]={2861},
-	},
-
-	{--Entry Number: {624}
-		["type"]="PropCube",
-		["name"]="Prop13",
-		["position"]={2862},
-		["scale"]={2863},
-		["scripts"]={2864},
-	},
-
-	{--Entry Number: {625}
-		["type"]="PropCube",
-		["name"]="Prop26",
-		["position"]={2865},
-		["scale"]={2866},
-		["scripts"]={2867},
-	},
-
-	{--Entry Number: {626}
-		["type"]="PropCube",
-		["name"]="Prop52",
-		["position"]={2868},
-		["scale"]={2869},
-		["scripts"]={2870},
-	},
-
-	{--Entry Number: {627}
-		["type"]="PropCube",
-		["name"]="Prop104",
-		["position"]={2871},
-		["scale"]={2872},
-		["scripts"]={2873},
-	},
-
-	{--Entry Number: {628}
-		["type"]="PropCube",
-		["name"]="Prop208",
-		["position"]={2874},
-		["scale"]={2875},
-		["scripts"]={2876},
-	},
-
-	{--Entry Number: {629}
-		["type"]="PropCube",
-		["name"]="Prop416",
-		["position"]={2877},
-		["scale"]={2878},
-		["scripts"]={2879},
-	},
-
-	{--Entry Number: {630}
-		["type"]="PropCube",
-		["name"]="Prop832",
-		["position"]={2880},
-		["scale"]={2881},
-		["scripts"]={2882},
-	},
-
-	{--Entry Number: {631}
-		["type"]="PropCube",
-		["name"]="Prop827",
-		["position"]={2883},
-		["scale"]={2884},
-		["scripts"]={2885},
-	},
-
-	{--Entry Number: {632}
-		["type"]="PropCube",
-		["name"]="Prop833",
-		["position"]={2886},
-		["scale"]={2887},
-		["scripts"]={2888},
-	},
-
-	{--Entry Number: {633}
-		["type"]="PropCube",
-		["name"]="Prop417",
-		["position"]={2889},
-		["scale"]={2890},
-		["scripts"]={2891},
-	},
-
-	{--Entry Number: {634}
-		["type"]="PropCube",
-		["name"]="Prop834",
-		["position"]={2892},
-		["scale"]={2893},
-		["scripts"]={2894},
-	},
-
-	{--Entry Number: {635}
-		["type"]="PropCube",
-		["name"]="Prop829",
-		["position"]={2895},
-		["scale"]={2896},
-		["scripts"]={2897},
-	},
-
-	{--Entry Number: {636}
-		["type"]="PropCube",
-		["name"]="Prop209",
-		["position"]={2898},
-		["scale"]={2899},
-		["scripts"]={2900},
-	},
-
-	{--Entry Number: {637}
-		["type"]="PropCube",
-		["name"]="Prop418",
-		["position"]={2901},
-		["scale"]={2902},
-		["scripts"]={2903},
-	},
-
-	{--Entry Number: {638}
-		["type"]="PropCube",
-		["name"]="Prop836",
-		["position"]={2904},
-		["scale"]={2905},
-		["scripts"]={2906},
-	},
-
-	{--Entry Number: {639}
-		["type"]="PropCube",
-		["name"]="Prop831",
-		["position"]={2907},
-		["scale"]={2908},
-		["scripts"]={2909},
-	},
-
-	{--Entry Number: {640}
-		["type"]="PropCube",
-		["name"]="Prop837",
-		["position"]={2910},
-		["scale"]={2911},
-		["scripts"]={2912},
-	},
-
-	{--Entry Number: {641}
-		["type"]="PropCube",
-		["name"]="Prop419",
-		["position"]={2913},
-		["scale"]={2914},
-		["scripts"]={2915},
-	},
-
-	{--Entry Number: {642}
-		["type"]="PropCube",
-		["name"]="Prop838",
-		["position"]={2916},
-		["scale"]={2917},
-		["scripts"]={2918},
-	},
-
-	{--Entry Number: {643}
-		["type"]="PropCube",
-		["name"]="Prop105",
-		["position"]={2919},
-		["scale"]={2920},
-		["scripts"]={2921},
-	},
-
-	{--Entry Number: {644}
-		["type"]="PropCube",
-		["name"]="Prop210",
-		["position"]={2922},
-		["scale"]={2923},
-		["scripts"]={2924},
-	},
-
-	{--Entry Number: {645}
-		["type"]="PropCube",
-		["name"]="Prop420",
-		["position"]={2925},
-		["scale"]={2926},
-		["scripts"]={2927},
-	},
-
-	{--Entry Number: {646}
-		["type"]="PropCube",
-		["name"]="Prop840",
-		["position"]={2928},
-		["scale"]={2929},
-		["scripts"]={2930},
-	},
-
-	{--Entry Number: {647}
-		["type"]="PropCube",
-		["name"]="Prop903",
-		["position"]={2931},
-		["scale"]={2932},
-		["scripts"]={2933},
-	},
-
-	{--Entry Number: {648}
-		["type"]="PropCube",
-		["name"]="Prop841",
-		["position"]={2934},
-		["scale"]={2935},
-		["scripts"]={2936},
-	},
-
-	{--Entry Number: {649}
-		["type"]="PropCube",
-		["name"]="Prop421",
-		["position"]={2937},
-		["scale"]={2938},
-		["scripts"]={2939},
-	},
-
-	{--Entry Number: {650}
-		["type"]="PropCube",
-		["name"]="Prop842",
-		["position"]={2940},
-		["scale"]={2941},
-		["scripts"]={2942},
-	},
-
-	{--Entry Number: {651}
-		["type"]="PropCube",
-		["name"]="Prop835",
-		["position"]={2943},
-		["scale"]={2944},
-		["scripts"]={2945},
-	},
-
-	{--Entry Number: {652}
-		["type"]="PropCube",
-		["name"]="Prop211",
-		["position"]={2946},
-		["scale"]={2947},
-		["scripts"]={2948},
-	},
-
-	{--Entry Number: {653}
-		["type"]="PropCube",
-		["name"]="Prop422",
-		["position"]={2949},
-		["scale"]={2950},
-		["scripts"]={2951},
-	},
-
-	{--Entry Number: {654}
-		["type"]="PropCube",
-		["name"]="Prop844",
-		["position"]={2952},
-		["scale"]={2953},
-		["scripts"]={2954},
-	},
-
-	{--Entry Number: {655}
-		["type"]="PropCube",
-		["name"]="Prop839",
-		["position"]={2955},
-		["scale"]={2956},
-		["scripts"]={2957},
-	},
-
-	{--Entry Number: {656}
-		["type"]="PropCube",
-		["name"]="Prop845",
-		["position"]={2958},
-		["scale"]={2959},
-		["scripts"]={2960},
-	},
-
-	{--Entry Number: {657}
-		["type"]="PropCube",
-		["name"]="Prop423",
-		["position"]={2961},
-		["scale"]={2962},
-		["scripts"]={2963},
-	},
-
-	{--Entry Number: {658}
-		["type"]="PropCube",
-		["name"]="Prop53",
-		["position"]={2964},
-		["scale"]={2965},
-		["scripts"]={2966},
-	},
-
-	{--Entry Number: {659}
-		["type"]="PropCube",
-		["name"]="Prop106",
-		["position"]={2967},
-		["scale"]={2968},
-		["scripts"]={2969},
-	},
-
-	{--Entry Number: {660}
-		["type"]="PropCube",
-		["name"]="Prop212",
-		["position"]={2970},
-		["scale"]={2971},
-		["scripts"]={2972},
-	},
-
-	{--Entry Number: {661}
-		["type"]="PropCube",
-		["name"]="Prop424",
-		["position"]={2973},
-		["scale"]={2974},
-		["scripts"]={2975},
-	},
-
-	{--Entry Number: {662}
-		["type"]="PropCube",
-		["name"]="Prop848",
-		["position"]={2976},
-		["scale"]={2977},
-		["scripts"]={2978},
-	},
-
-	{--Entry Number: {663}
-		["type"]="PropCube",
-		["name"]="Prop846",
-		["position"]={2979},
-		["scale"]={2980},
-		["scripts"]={2981},
-	},
-
-	{--Entry Number: {664}
-		["type"]="PropCube",
-		["name"]="Prop849",
-		["position"]={2982},
-		["scale"]={2983},
-		["scripts"]={2984},
-	},
-
-	{--Entry Number: {665}
-		["type"]="PropCube",
-		["name"]="Prop425",
-		["position"]={2985},
-		["scale"]={2986},
-		["scripts"]={2987},
-	},
-
-	{--Entry Number: {666}
-		["type"]="PropCube",
-		["name"]="Prop850",
-		["position"]={2988},
-		["scale"]={2989},
-		["scripts"]={2990},
-	},
-
-	{--Entry Number: {667}
-		["type"]="PropCube",
-		["name"]="Prop899",
-		["position"]={2991},
-		["scale"]={2992},
-		["scripts"]={2993},
-	},
-
-	{--Entry Number: {668}
-		["type"]="PropCube",
-		["name"]="Prop213",
-		["position"]={2994},
-		["scale"]={2995},
-		["scripts"]={2996},
-	},
-
-	{--Entry Number: {669}
-		["type"]="PropCube",
-		["name"]="Prop426",
-		["position"]={2997},
-		["scale"]={2998},
-		["scripts"]={2999},
-	},
-
-	{--Entry Number: {670}
-		["type"]="PropCube",
-		["name"]="Prop852",
-		["position"]={3000},
-		["scale"]={3001},
-		["scripts"]={3002},
-	},
-
-	{--Entry Number: {671}
-		["type"]="PropCube",
-		["name"]="Prop851",
-		["position"]={3003},
-		["scale"]={3004},
-		["scripts"]={3005},
-	},
-
-	{--Entry Number: {672}
-		["type"]="PropCube",
-		["name"]="Prop853",
-		["position"]={3006},
-		["scale"]={3007},
-		["scripts"]={3008},
-	},
-
-	{--Entry Number: {673}
-		["type"]="PropCube",
-		["name"]="Prop427",
-		["position"]={3009},
-		["scale"]={3010},
-		["scripts"]={3011},
-	},
-
-	{--Entry Number: {674}
-		["type"]="PropCube",
-		["name"]="Prop854",
-		["position"]={3012},
-		["scale"]={3013},
-		["scripts"]={3014},
-	},
-
-	{--Entry Number: {675}
-		["type"]="PropCube",
-		["name"]="Prop107",
-		["position"]={3015},
-		["scale"]={3016},
-		["scripts"]={3017},
-	},
-
-	{--Entry Number: {676}
-		["type"]="PropCube",
-		["name"]="Prop214",
-		["position"]={3018},
-		["scale"]={3019},
-		["scripts"]={3020},
-	},
-
-	{--Entry Number: {677}
-		["type"]="PropCube",
-		["name"]="Prop428",
-		["position"]={3021},
-		["scale"]={3022},
-		["scripts"]={3023},
-	},
-
-	{--Entry Number: {678}
-		["type"]="PropCube",
-		["name"]="Prop856",
-		["position"]={3024},
-		["scale"]={3025},
-		["scripts"]={3026},
-	},
-
-	{--Entry Number: {679}
-		["type"]="PropCube",
-		["name"]="Prop855",
-		["position"]={3027},
-		["scale"]={3028},
-		["scripts"]={3029},
-	},
-
-	{--Entry Number: {680}
-		["type"]="PropCube",
-		["name"]="Prop857",
-		["position"]={3030},
-		["scale"]={3031},
-		["scripts"]={3032},
-	},
-
-	{--Entry Number: {681}
-		["type"]="PropCube",
-		["name"]="Prop429",
-		["position"]={3033},
-		["scale"]={3034},
-		["scripts"]={3035},
-	},
-
-	{--Entry Number: {682}
-		["type"]="PropCube",
-		["name"]="Prop858",
-		["position"]={3036},
-		["scale"]={3037},
-		["scripts"]={3038},
-	},
-
-	{--Entry Number: {683}
-		["type"]="PropCube",
-		["name"]="Prop862",
-		["position"]={3039},
-		["scale"]={3040},
-		["scripts"]={3041},
-	},
-
-	{--Entry Number: {684}
-		["type"]="PropCube",
-		["name"]="Prop215",
-		["position"]={3042},
-		["scale"]={3043},
-		["scripts"]={3044},
-	},
-
-	{--Entry Number: {685}
-		["type"]="PropCube",
-		["name"]="Prop430",
-		["position"]={3045},
-		["scale"]={3046},
-		["scripts"]={3047},
-	},
-
-	{--Entry Number: {686}
-		["type"]="PropCube",
-		["name"]="Prop860",
-		["position"]={3048},
-		["scale"]={3049},
-		["scripts"]={3050},
-	},
-
-	{--Entry Number: {687}
-		["type"]="PropCube",
-		["name"]="Prop895",
-		["position"]={3051},
-		["scale"]={3052},
-		["scripts"]={3053},
-	},
-
-	{--Entry Number: {688}
-		["type"]="PropCube",
-		["name"]="Prop861",
-		["position"]={3054},
-		["scale"]={3055},
-		["scripts"]={3056},
-	},
-
-	{--Entry Number: {689}
-		["type"]="PropCube",
-		["name"]="Prop27",
-		["position"]={3057},
-		["scale"]={3058},
-		["scripts"]={3059},
-	},
-
-	{--Entry Number: {690}
-		["type"]="PropCube",
-		["name"]="Prop54",
-		["position"]={3060},
-		["scale"]={3061},
-		["scripts"]={3062},
-	},
-
-	{--Entry Number: {691}
-		["type"]="PropCube",
-		["name"]="Prop108",
-		["position"]={3063},
-		["scale"]={3064},
-		["scripts"]={3065},
-	},
-
-	{--Entry Number: {692}
-		["type"]="PropCube",
-		["name"]="Prop216",
-		["position"]={3066},
-		["scale"]={3067},
-		["scripts"]={3068},
-	},
-
-	{--Entry Number: {693}
-		["type"]="PropCube",
-		["name"]="Prop432",
-		["position"]={3069},
-		["scale"]={3070},
-		["scripts"]={3071},
-	},
-
-	{--Entry Number: {694}
-		["type"]="PropCube",
-		["name"]="Prop864",
-		["position"]={3072},
-		["scale"]={3073},
-		["scripts"]={3074},
-	},
-
-	{--Entry Number: {695}
-		["type"]="PropCube",
-		["name"]="Prop894",
-		["position"]={3075},
-		["scale"]={3076},
-		["scripts"]={3077},
-	},
-
-	{--Entry Number: {696}
-		["type"]="PropCube",
-		["name"]="Prop865",
-		["position"]={3078},
-		["scale"]={3079},
-		["scripts"]={3080},
-	},
-
-	{--Entry Number: {697}
-		["type"]="PropCube",
-		["name"]="Prop433",
-		["position"]={3081},
-		["scale"]={3082},
-		["scripts"]={3083},
-	},
-
-	{--Entry Number: {698}
-		["type"]="PropCube",
-		["name"]="Prop866",
-		["position"]={3084},
-		["scale"]={3085},
-		["scripts"]={3086},
-	},
-
-	{--Entry Number: {699}
-		["type"]="PropCube",
-		["name"]="Prop893",
-		["position"]={3087},
-		["scale"]={3088},
-		["scripts"]={3089},
-	},
-
-	{--Entry Number: {700}
-		["type"]="PropCube",
-		["name"]="Prop217",
-		["position"]={3090},
-		["scale"]={3091},
-		["scripts"]={3092},
-	},
-
-	{--Entry Number: {701}
-		["type"]="PropCube",
-		["name"]="Prop434",
-		["position"]={3093},
-		["scale"]={3094},
-		["scripts"]={3095},
-	},
-
-	{--Entry Number: {702}
-		["type"]="PropCube",
-		["name"]="Prop868",
-		["position"]={3096},
-		["scale"]={3097},
-		["scripts"]={3098},
-	},
-
-	{--Entry Number: {703}
-		["type"]="PropCube",
-		["name"]="Prop863",
-		["position"]={3099},
-		["scale"]={3100},
-		["scripts"]={3101},
-	},
-
-	{--Entry Number: {704}
-		["type"]="PropCube",
-		["name"]="Prop869",
-		["position"]={3102},
-		["scale"]={3103},
-		["scripts"]={3104},
-	},
-
-	{--Entry Number: {705}
-		["type"]="PropCube",
-		["name"]="Prop435",
-		["position"]={3105},
-		["scale"]={3106},
-		["scripts"]={3107},
-	},
-
-	{--Entry Number: {706}
-		["type"]="PropCube",
-		["name"]="Prop870",
-		["position"]={3108},
-		["scale"]={3109},
-		["scripts"]={3110},
-	},
-
-	{--Entry Number: {707}
-		["type"]="PropCube",
-		["name"]="Prop109",
-		["position"]={3111},
-		["scale"]={3112},
-		["scripts"]={3113},
-	},
-
-	{--Entry Number: {708}
-		["type"]="PropCube",
-		["name"]="Prop218",
-		["position"]={3114},
-		["scale"]={3115},
-		["scripts"]={3116},
-	},
-
-	{--Entry Number: {709}
-		["type"]="PropCube",
-		["name"]="Prop436",
-		["position"]={3117},
-		["scale"]={3118},
-		["scripts"]={3119},
-	},
-
-	{--Entry Number: {710}
-		["type"]="PropCube",
-		["name"]="Prop872",
-		["position"]={3120},
-		["scale"]={3121},
-		["scripts"]={3122},
-	},
-
-	{--Entry Number: {711}
-		["type"]="PropCube",
-		["name"]="Prop891",
-		["position"]={3123},
-		["scale"]={3124},
-		["scripts"]={3125},
-	},
-
-	{--Entry Number: {712}
-		["type"]="PropCube",
-		["name"]="Prop873",
-		["position"]={3126},
-		["scale"]={3127},
-		["scripts"]={3128},
-	},
-
-	{--Entry Number: {713}
-		["type"]="PropCube",
-		["name"]="Prop437",
-		["position"]={3129},
-		["scale"]={3130},
-		["scripts"]={3131},
-	},
-
-	{--Entry Number: {714}
-		["type"]="PropCube",
-		["name"]="Prop874",
-		["position"]={3132},
-		["scale"]={3133},
-		["scripts"]={3134},
-	},
-
-	{--Entry Number: {715}
-		["type"]="PropCube",
-		["name"]="Prop871",
-		["position"]={3135},
-		["scale"]={3136},
-		["scripts"]={3137},
-	},
-
-	{--Entry Number: {716}
-		["type"]="PropCube",
-		["name"]="Prop219",
-		["position"]={3138},
-		["scale"]={3139},
-		["scripts"]={3140},
-	},
-
-	{--Entry Number: {717}
-		["type"]="PropCube",
-		["name"]="Prop438",
-		["position"]={3141},
-		["scale"]={3142},
-		["scripts"]={3143},
-	},
-
-	{--Entry Number: {718}
-		["type"]="PropCube",
-		["name"]="Prop876",
-		["position"]={3144},
-		["scale"]={3145},
-		["scripts"]={3146},
-	},
-
-	{--Entry Number: {719}
-		["type"]="PropCube",
-		["name"]="Prop875",
-		["position"]={3147},
-		["scale"]={3148},
-		["scripts"]={3149},
-	},
-
-	{--Entry Number: {720}
-		["type"]="PropCube",
-		["name"]="Prop877",
-		["position"]={3150},
-		["scale"]={3151},
-		["scripts"]={3152},
-	},
-
-	{--Entry Number: {721}
-		["type"]="PropCube",
-		["name"]="Prop439",
-		["position"]={3153},
-		["scale"]={3154},
-		["scripts"]={3155},
-	},
-
-	{--Entry Number: {722}
-		["type"]="PropCube",
-		["name"]="Prop55",
-		["position"]={3156},
-		["scale"]={3157},
-		["scripts"]={3158},
-	},
-
-	{--Entry Number: {723}
-		["type"]="PropCube",
-		["name"]="Prop110",
-		["position"]={3159},
-		["scale"]={3160},
-		["scripts"]={3161},
-	},
-
-	{--Entry Number: {724}
-		["type"]="PropCube",
-		["name"]="Prop220",
-		["position"]={3162},
-		["scale"]={3163},
-		["scripts"]={3164},
-	},
-
-	{--Entry Number: {725}
-		["type"]="PropCube",
-		["name"]="Prop440",
-		["position"]={3165},
-		["scale"]={3166},
-		["scripts"]={3167},
-	},
-
-	{--Entry Number: {726}
-		["type"]="PropCube",
-		["name"]="Prop880",
-		["position"]={3168},
-		["scale"]={3169},
-		["scripts"]={3170},
-	},
-
-	{--Entry Number: {727}
-		["type"]="PropCube",
-		["name"]="Prop879",
-		["position"]={3171},
-		["scale"]={3172},
-		["scripts"]={3173},
-	},
-
-	{--Entry Number: {728}
-		["type"]="PropCube",
-		["name"]="Prop881",
-		["position"]={3174},
-		["scale"]={3175},
-		["scripts"]={3176},
-	},
-
-	{--Entry Number: {729}
-		["type"]="PropCube",
-		["name"]="Prop441",
-		["position"]={3177},
-		["scale"]={3178},
-		["scripts"]={3179},
-	},
-
-	{--Entry Number: {730}
-		["type"]="PropCube",
-		["name"]="Prop882",
-		["position"]={3180},
-		["scale"]={3181},
-		["scripts"]={3182},
-	},
-
-	{--Entry Number: {731}
-		["type"]="PropCube",
-		["name"]="Prop887",
-		["position"]={3183},
-		["scale"]={3184},
-		["scripts"]={3185},
-	},
-
-	{--Entry Number: {732}
-		["type"]="PropCube",
-		["name"]="Prop221",
-		["position"]={3186},
-		["scale"]={3187},
-		["scripts"]={3188},
-	},
-
-	{--Entry Number: {733}
-		["type"]="PropCube",
-		["name"]="Prop442",
-		["position"]={3189},
-		["scale"]={3190},
-		["scripts"]={3191},
-	},
-
-	{--Entry Number: {734}
-		["type"]="PropCube",
-		["name"]="Prop884",
-		["position"]={3192},
-		["scale"]={3193},
-		["scripts"]={3194},
-	},
-
-	{--Entry Number: {735}
-		["type"]="PropCube",
-		["name"]="Prop883",
-		["position"]={3195},
-		["scale"]={3196},
-		["scripts"]={3197},
-	},
-
-	{--Entry Number: {736}
-		["type"]="PropCube",
-		["name"]="Prop885",
-		["position"]={3198},
-		["scale"]={3199},
-		["scripts"]={3200},
-	},
-
-	{--Entry Number: {737}
-		["type"]="PropCube",
-		["name"]="Prop443",
-		["position"]={3201},
-		["scale"]={3202},
-		["scripts"]={3203},
-	},
-
-	{--Entry Number: {738}
-		["type"]="PropCube",
-		["name"]="Prop886",
-		["position"]={3204},
-		["scale"]={3205},
-		["scripts"]={3206},
-	},
-
-	{--Entry Number: {739}
-		["type"]="PropCube",
-		["name"]="Prop111",
-		["position"]={3207},
-		["scale"]={3208},
-		["scripts"]={3209},
-	},
-
-	{--Entry Number: {740}
-		["type"]="PropCube",
-		["name"]="Prop222",
-		["position"]={3210},
-		["scale"]={3211},
-		["scripts"]={3212},
-	},
-
-	{--Entry Number: {741}
-		["type"]="PropCube",
-		["name"]="Prop444",
-		["position"]={3213},
-		["scale"]={3214},
-		["scripts"]={3215},
-	},
-
-	{--Entry Number: {742}
-		["type"]="PropCube",
-		["name"]="Prop888",
-		["position"]={3216},
-		["scale"]={3217},
-		["scripts"]={3218},
-	},
-
-	{--Entry Number: {743}
-		["type"]="PropCube",
-		["name"]="Prop878",
-		["position"]={3219},
-		["scale"]={3220},
-		["scripts"]={3221},
-	},
-
-	{--Entry Number: {744}
-		["type"]="PropCube",
-		["name"]="Prop889",
-		["position"]={3222},
-		["scale"]={3223},
-		["scripts"]={3224},
-	},
-
-	{--Entry Number: {745}
-		["type"]="PropCube",
-		["name"]="Prop445",
-		["position"]={3225},
-		["scale"]={3226},
-		["scripts"]={3227},
-	},
-
-	{--Entry Number: {746}
-		["type"]="PropCube",
-		["name"]="Prop890",
-		["position"]={3228},
-		["scale"]={3229},
-		["scripts"]={3230},
-	},
-
-	{--Entry Number: {747}
-		["type"]="PropCube",
-		["name"]="Prop867",
-		["position"]={3231},
-		["scale"]={3232},
-		["scripts"]={3233},
-	},
-
-	{--Entry Number: {748}
-		["type"]="PropCube",
-		["name"]="Prop223",
-		["position"]={3234},
-		["scale"]={3235},
-		["scripts"]={3236},
-	},
-
-	{--Entry Number: {749}
-		["type"]="PropCube",
-		["name"]="Prop446",
-		["position"]={3237},
-		["scale"]={3238},
-		["scripts"]={3239},
-	},
-
-	{--Entry Number: {750}
-		["type"]="PropCube",
-		["name"]="Prop892",
-		["position"]={3240},
-		["scale"]={3241},
-		["scripts"]={3242},
-	},
-
-	{--Entry Number: {751}
-		["type"]="PropCube",
-		["name"]="Prop7",
-		["position"]={3243},
-		["scale"]={3244},
-		["scripts"]={3245},
-	},
-
-	{--Entry Number: {752}
-		["type"]="PropCube",
-		["name"]="Prop14",
-		["position"]={3246},
-		["scale"]={3247},
-		["scripts"]={3248},
-	},
-
-	{--Entry Number: {753}
-		["type"]="PropCube",
-		["name"]="Prop28",
-		["position"]={3249},
-		["scale"]={3250},
-		["scripts"]={3251},
-	},
-
-	{--Entry Number: {754}
-		["type"]="PropCube",
-		["name"]="Prop56",
-		["position"]={3252},
-		["scale"]={3253},
-		["scripts"]={3254},
-	},
-
-	{--Entry Number: {755}
-		["type"]="PropCube",
-		["name"]="Prop112",
-		["position"]={3255},
-		["scale"]={3256},
-		["scripts"]={3257},
-	},
-
-	{--Entry Number: {756}
-		["type"]="PropCube",
-		["name"]="Prop224",
-		["position"]={3258},
-		["scale"]={3259},
-		["scripts"]={3260},
-	},
-
-	{--Entry Number: {757}
-		["type"]="PropCube",
-		["name"]="Prop448",
-		["position"]={3261},
-		["scale"]={3262},
-		["scripts"]={3263},
-	},
-
-	{--Entry Number: {758}
-		["type"]="PropCube",
-		["name"]="Prop896",
-		["position"]={3264},
-		["scale"]={3265},
-		["scripts"]={3266},
-	},
-
-	{--Entry Number: {759}
-		["type"]="PropCube",
-		["name"]="Prop859",
-		["position"]={3267},
-		["scale"]={3268},
-		["scripts"]={3269},
-	},
-
-	{--Entry Number: {760}
-		["type"]="PropCube",
-		["name"]="Prop897",
-		["position"]={3270},
-		["scale"]={3271},
-		["scripts"]={3272},
-	},
-
-	{--Entry Number: {761}
-		["type"]="PropCube",
-		["name"]="Prop449",
-		["position"]={3273},
-		["scale"]={3274},
-		["scripts"]={3275},
-	},
-
-	{--Entry Number: {762}
-		["type"]="PropCube",
-		["name"]="Prop898",
-		["position"]={3276},
-		["scale"]={3277},
-		["scripts"]={3278},
-	},
-
-	{--Entry Number: {763}
-		["type"]="PropCube",
-		["name"]="Prop847",
-		["position"]={3279},
-		["scale"]={3280},
-		["scripts"]={3281},
-	},
-
-	{--Entry Number: {764}
-		["type"]="PropCube",
-		["name"]="Prop225",
-		["position"]={3282},
-		["scale"]={3283},
-		["scripts"]={3284},
-	},
-
-	{--Entry Number: {765}
-		["type"]="PropCube",
-		["name"]="Prop450",
-		["position"]={3285},
-		["scale"]={3286},
-		["scripts"]={3287},
-	},
-
-	{--Entry Number: {766}
-		["type"]="PropCube",
-		["name"]="Prop900",
-		["position"]={3288},
-		["scale"]={3289},
-		["scripts"]={3290},
-	},
-
-	{--Entry Number: {767}
-		["type"]="PropCube",
-		["name"]="Prop843",
-		["position"]={3291},
-		["scale"]={3292},
-		["scripts"]={3293},
-	},
-
-	{--Entry Number: {768}
-		["type"]="PropCube",
-		["name"]="Prop901",
-		["position"]={3294},
-		["scale"]={3295},
-		["scripts"]={3296},
-	},
-
-	{--Entry Number: {769}
-		["type"]="PropCube",
-		["name"]="Prop451",
-		["position"]={3297},
-		["scale"]={3298},
-		["scripts"]={3299},
-	},
-
-	{--Entry Number: {770}
-		["type"]="PropCube",
-		["name"]="Prop902",
-		["position"]={3300},
-		["scale"]={3301},
-		["scripts"]={3302},
-	},
-
-	{--Entry Number: {771}
-		["type"]="PropCube",
-		["name"]="Prop113",
-		["position"]={3303},
-		["scale"]={3304},
-		["scripts"]={3305},
-	},
-
-	{--Entry Number: {772}
-		["type"]="PropCube",
-		["name"]="Prop226",
-		["position"]={3306},
-		["scale"]={3307},
-		["scripts"]={3308},
-	},
-
-	{--Entry Number: {773}
-		["type"]="PropCube",
-		["name"]="Prop452",
-		["position"]={3309},
-		["scale"]={3310},
-		["scripts"]={3311},
-	},
-
-	{--Entry Number: {774}
-		["type"]="PropCube",
-		["name"]="Prop904",
-		["position"]={3312},
-		["scale"]={3313},
-		["scripts"]={3314},
-	},
-
-	{--Entry Number: {775}
-		["type"]="PropCube",
-		["name"]="Prop830",
-		["position"]={3315},
-		["scale"]={3316},
-		["scripts"]={3317},
-	},
-
-	{--Entry Number: {776}
-		["type"]="PropCube",
-		["name"]="Prop905",
-		["position"]={3318},
-		["scale"]={3319},
-		["scripts"]={3320},
-	},
-
-	{--Entry Number: {777}
-		["type"]="PropCube",
-		["name"]="Prop453",
-		["position"]={3321},
-		["scale"]={3322},
-		["scripts"]={3323},
-	},
-
-	{--Entry Number: {778}
-		["type"]="PropCube",
-		["name"]="Prop906",
-		["position"]={3324},
-		["scale"]={3325},
-		["scripts"]={3326},
-	},
-
-	{--Entry Number: {779}
-		["type"]="PropCube",
-		["name"]="Prop823",
-		["position"]={3327},
-		["scale"]={3328},
-		["scripts"]={3329},
-	},
-
-	{--Entry Number: {780}
-		["type"]="PropCube",
-		["name"]="Prop227",
-		["position"]={3330},
-		["scale"]={3331},
-		["scripts"]={3332},
-	},
-
-	{--Entry Number: {781}
-		["type"]="PropCube",
-		["name"]="Prop454",
-		["position"]={3333},
-		["scale"]={3334},
-		["scripts"]={3335},
-	},
-
-	{--Entry Number: {782}
-		["type"]="PropCube",
-		["name"]="Prop908",
-		["position"]={3336},
-		["scale"]={3337},
-		["scripts"]={3338},
-	},
-
-	{--Entry Number: {783}
-		["type"]="PropCube",
-		["name"]="Prop815",
-		["position"]={3339},
-		["scale"]={3340},
-		["scripts"]={3341},
-	},
-
-	{--Entry Number: {784}
-		["type"]="PropCube",
-		["name"]="Prop909",
-		["position"]={3342},
-		["scale"]={3343},
-		["scripts"]={3344},
-	},
-
-	{--Entry Number: {785}
-		["type"]="PropCube",
-		["name"]="Prop455",
-		["position"]={3345},
-		["scale"]={3346},
-		["scripts"]={3347},
-	},
-
-	{--Entry Number: {786}
-		["type"]="PropCube",
-		["name"]="Prop57",
-		["position"]={3348},
-		["scale"]={3349},
-		["scripts"]={3350},
-	},
-
-	{--Entry Number: {787}
-		["type"]="PropCube",
-		["name"]="Prop114",
-		["position"]={3351},
-		["scale"]={3352},
-		["scripts"]={3353},
-	},
-
-	{--Entry Number: {788}
-		["type"]="PropCube",
-		["name"]="Prop228",
-		["position"]={3354},
-		["scale"]={3355},
-		["scripts"]={3356},
-	},
-
-	{--Entry Number: {789}
-		["type"]="PropCube",
-		["name"]="Prop456",
-		["position"]={3357},
-		["scale"]={3358},
-		["scripts"]={3359},
-	},
-
-	{--Entry Number: {790}
-		["type"]="PropCube",
-		["name"]="Prop912",
-		["position"]={3360},
-		["scale"]={3361},
-		["scripts"]={3362},
-	},
-
-	{--Entry Number: {791}
-		["type"]="PropCube",
-		["name"]="Prop807",
-		["position"]={3363},
-		["scale"]={3364},
-		["scripts"]={3365},
-	},
-
-	{--Entry Number: {792}
-		["type"]="PropCube",
-		["name"]="Prop913",
-		["position"]={3366},
-		["scale"]={3367},
-		["scripts"]={3368},
-	},
-
-	{--Entry Number: {793}
-		["type"]="PropCube",
-		["name"]="Prop457",
-		["position"]={3369},
-		["scale"]={3370},
-		["scripts"]={3371},
-	},
-
-	{--Entry Number: {794}
-		["type"]="PropCube",
-		["name"]="Prop914",
-		["position"]={3372},
-		["scale"]={3373},
-		["scripts"]={3374},
-	},
-
-	{--Entry Number: {795}
-		["type"]="PropCube",
-		["name"]="Prop798",
-		["position"]={3375},
-		["scale"]={3376},
-		["scripts"]={3377},
-	},
-
-	{--Entry Number: {796}
-		["type"]="PropCube",
-		["name"]="Prop229",
-		["position"]={3378},
-		["scale"]={3379},
-		["scripts"]={3380},
-	},
-
-	{--Entry Number: {797}
-		["type"]="PropCube",
-		["name"]="Prop458",
-		["position"]={3381},
-		["scale"]={3382},
-		["scripts"]={3383},
-	},
-
-	{--Entry Number: {798}
-		["type"]="PropCube",
-		["name"]="Prop916",
-		["position"]={3384},
-		["scale"]={3385},
-		["scripts"]={3386},
-	},
-
-	{--Entry Number: {799}
-		["type"]="PropCube",
-		["name"]="Prop791",
-		["position"]={3387},
-		["scale"]={3388},
-		["scripts"]={3389},
-	},
-
-	{--Entry Number: {800}
-		["type"]="PropCube",
-		["name"]="Prop917",
-		["position"]={3390},
-		["scale"]={3391},
-		["scripts"]={3392},
-	},
-
-	{--Entry Number: {801}
-		["type"]="PropCube",
-		["name"]="Prop459",
-		["position"]={3393},
-		["scale"]={3394},
-		["scripts"]={3395},
-	},
-
-	{--Entry Number: {802}
-		["type"]="PropCube",
-		["name"]="Prop918",
-		["position"]={3396},
-		["scale"]={3397},
-		["scripts"]={3398},
-	},
-
-	{--Entry Number: {803}
-		["type"]="PropCube",
-		["name"]="Prop115",
-		["position"]={3399},
-		["scale"]={3400},
-		["scripts"]={3401},
-	},
-
-	{--Entry Number: {804}
-		["type"]="PropCube",
-		["name"]="Prop230",
-		["position"]={3402},
-		["scale"]={3403},
-		["scripts"]={3404},
-	},
-
-	{--Entry Number: {805}
-		["type"]="PropCube",
-		["name"]="Prop460",
-		["position"]={3405},
-		["scale"]={3406},
-		["scripts"]={3407},
-	},
-
-	{--Entry Number: {806}
-		["type"]="PropCube",
-		["name"]="Prop920",
-		["position"]={3408},
-		["scale"]={3409},
-		["scripts"]={3410},
-	},
-
-	{--Entry Number: {807}
-		["type"]="PropCube",
-		["name"]="Prop779",
-		["position"]={3411},
-		["scale"]={3412},
-		["scripts"]={3413},
-	},
-
-	{--Entry Number: {808}
-		["type"]="PropCube",
-		["name"]="Prop921",
-		["position"]={3414},
-		["scale"]={3415},
-		["scripts"]={3416},
-	},
-
-	{--Entry Number: {809}
-		["type"]="PropCube",
-		["name"]="Prop461",
-		["position"]={3417},
-		["scale"]={3418},
-		["scripts"]={3419},
-	},
-
-	{--Entry Number: {810}
-		["type"]="PropCube",
-		["name"]="Prop922",
-		["position"]={3420},
-		["scale"]={3421},
-		["scripts"]={3422},
-	},
-
-	{--Entry Number: {811}
-		["type"]="PropCube",
-		["name"]="Prop767",
-		["position"]={3423},
-		["scale"]={3424},
-		["scripts"]={3425},
-	},
-
-	{--Entry Number: {812}
-		["type"]="PropCube",
-		["name"]="Prop231",
-		["position"]={3426},
-		["scale"]={3427},
-		["scripts"]={3428},
-	},
-
-	{--Entry Number: {813}
-		["type"]="PropCube",
-		["name"]="Prop462",
-		["position"]={3429},
-		["scale"]={3430},
-		["scripts"]={3431},
-	},
-
-	{--Entry Number: {814}
-		["type"]="PropCube",
-		["name"]="Prop924",
-		["position"]={3432},
-		["scale"]={3433},
-		["scripts"]={3434},
-	},
-
-	{--Entry Number: {815}
-		["type"]="PropCube",
-		["name"]="Prop765",
-		["position"]={3435},
-		["scale"]={3436},
-		["scripts"]={3437},
-	},
-
-	{--Entry Number: {816}
-		["type"]="PropCube",
-		["name"]="Prop925",
-		["position"]={3438},
-		["scale"]={3439},
-		["scripts"]={3440},
-	},
-
-	{--Entry Number: {817}
-		["type"]="PropCube",
-		["name"]="Prop29",
-		["position"]={3441},
-		["scale"]={3442},
-		["scripts"]={3443},
-	},
-
-	{--Entry Number: {818}
-		["type"]="PropCube",
-		["name"]="Prop58",
-		["position"]={3444},
-		["scale"]={3445},
-		["scripts"]={3446},
-	},
-
-	{--Entry Number: {819}
-		["type"]="PropCube",
-		["name"]="Prop116",
-		["position"]={3447},
-		["scale"]={3448},
-		["scripts"]={3449},
-	},
-
-	{--Entry Number: {820}
-		["type"]="PropCube",
-		["name"]="Prop232",
-		["position"]={3450},
-		["scale"]={3451},
-		["scripts"]={3452},
-	},
-
-	{--Entry Number: {821}
-		["type"]="PropCube",
-		["name"]="Prop464",
-		["position"]={3453},
-		["scale"]={3454},
-		["scripts"]={3455},
-	},
-
-	{--Entry Number: {822}
-		["type"]="PropCube",
-		["name"]="Prop928",
-		["position"]={3456},
-		["scale"]={3457},
-		["scripts"]={3458},
-	},
-
-	{--Entry Number: {823}
-		["type"]="PropCube",
-		["name"]="Prop759",
-		["position"]={3459},
-		["scale"]={3460},
-		["scripts"]={3461},
-	},
-
-	{--Entry Number: {824}
-		["type"]="PropCube",
-		["name"]="Prop929",
-		["position"]={3462},
-		["scale"]={3463},
-		["scripts"]={3464},
-	},
-
-	{--Entry Number: {825}
-		["type"]="PropCube",
-		["name"]="Prop465",
-		["position"]={3465},
-		["scale"]={3466},
-		["scripts"]={3467},
-	},
-
-	{--Entry Number: {826}
-		["type"]="PropCube",
-		["name"]="Prop930",
-		["position"]={3468},
-		["scale"]={3469},
-		["scripts"]={3470},
-	},
-
-	{--Entry Number: {827}
-		["type"]="PropCube",
-		["name"]="Prop750",
-		["position"]={3471},
-		["scale"]={3472},
-		["scripts"]={3473},
-	},
-
-	{--Entry Number: {828}
-		["type"]="PropCube",
-		["name"]="Prop233",
-		["position"]={3474},
-		["scale"]={3475},
-		["scripts"]={3476},
-	},
-
-	{--Entry Number: {829}
-		["type"]="PropCube",
-		["name"]="Prop466",
-		["position"]={3477},
-		["scale"]={3478},
-		["scripts"]={3479},
-	},
-
-	{--Entry Number: {830}
-		["type"]="PropCube",
-		["name"]="Prop932",
-		["position"]={3480},
-		["scale"]={3481},
-		["scripts"]={3482},
-	},
-
-	{--Entry Number: {831}
-		["type"]="PropCube",
-		["name"]="Prop743",
-		["position"]={3483},
-		["scale"]={3484},
-		["scripts"]={3485},
-	},
-
-	{--Entry Number: {832}
-		["type"]="PropCube",
-		["name"]="Prop933",
-		["position"]={3486},
-		["scale"]={3487},
-		["scripts"]={3488},
-	},
-
-	{--Entry Number: {833}
-		["type"]="PropCube",
-		["name"]="Prop467",
-		["position"]={3489},
-		["scale"]={3490},
-		["scripts"]={3491},
-	},
-
-	{--Entry Number: {834}
-		["type"]="PropCube",
-		["name"]="Prop934",
-		["position"]={3492},
-		["scale"]={3493},
-		["scripts"]={3494},
-	},
-
-	{--Entry Number: {835}
-		["type"]="PropCube",
-		["name"]="Prop117",
-		["position"]={3495},
-		["scale"]={3496},
-		["scripts"]={3497},
-	},
-
-	{--Entry Number: {836}
-		["type"]="PropCube",
-		["name"]="Prop234",
-		["position"]={3498},
-		["scale"]={3499},
-		["scripts"]={3500},
-	},
-
-	{--Entry Number: {837}
-		["type"]="PropCube",
-		["name"]="Prop468",
-		["position"]={3501},
-		["scale"]={3502},
-		["scripts"]={3503},
-	},
-
-	{--Entry Number: {838}
-		["type"]="PropCube",
-		["name"]="Prop936",
-		["position"]={3504},
-		["scale"]={3505},
-		["scripts"]={3506},
-	},
-
-	{--Entry Number: {839}
-		["type"]="PropCube",
-		["name"]="Prop731",
-		["position"]={3507},
-		["scale"]={3508},
-		["scripts"]={3509},
-	},
-
-	{--Entry Number: {840}
-		["type"]="PropCube",
-		["name"]="Prop937",
-		["position"]={3510},
-		["scale"]={3511},
-		["scripts"]={3512},
-	},
-
-	{--Entry Number: {841}
-		["type"]="PropCube",
-		["name"]="Prop469",
-		["position"]={3513},
-		["scale"]={3514},
-		["scripts"]={3515},
-	},
-
-	{--Entry Number: {842}
-		["type"]="PropCube",
-		["name"]="Prop938",
-		["position"]={3516},
-		["scale"]={3517},
-		["scripts"]={3518},
-	},
-
-	{--Entry Number: {843}
-		["type"]="PropCube",
-		["name"]="Prop719",
-		["position"]={3519},
-		["scale"]={3520},
-		["scripts"]={3521},
-	},
-
-	{--Entry Number: {844}
-		["type"]="PropCube",
-		["name"]="Prop235",
-		["position"]={3522},
-		["scale"]={3523},
-		["scripts"]={3524},
-	},
-
-	{--Entry Number: {845}
-		["type"]="PropCube",
-		["name"]="Prop470",
-		["position"]={3525},
-		["scale"]={3526},
-		["scripts"]={3527},
-	},
-
-	{--Entry Number: {846}
-		["type"]="PropCube",
-		["name"]="Prop940",
-		["position"]={3528},
-		["scale"]={3529},
-		["scripts"]={3530},
-	},
-
-	{--Entry Number: {847}
-		["type"]="PropCube",
-		["name"]="Prop715",
-		["position"]={3531},
-		["scale"]={3532},
-		["scripts"]={3533},
-	},
-
-	{--Entry Number: {848}
-		["type"]="PropCube",
-		["name"]="Prop941",
-		["position"]={3534},
-		["scale"]={3535},
-		["scripts"]={3536},
-	},
-
-	{--Entry Number: {849}
-		["type"]="PropCube",
-		["name"]="Prop471",
-		["position"]={3537},
-		["scale"]={3538},
-		["scripts"]={3539},
-	},
-
-	{--Entry Number: {850}
-		["type"]="PropCube",
-		["name"]="Prop59",
-		["position"]={3540},
-		["scale"]={3541},
-		["scripts"]={3542},
-	},
-
-	{--Entry Number: {851}
-		["type"]="PropCube",
-		["name"]="Prop118",
-		["position"]={3543},
-		["scale"]={3544},
-		["scripts"]={3545},
-	},
-
-	{--Entry Number: {852}
-		["type"]="PropCube",
-		["name"]="Prop236",
-		["position"]={3546},
-		["scale"]={3547},
-		["scripts"]={3548},
-	},
-
-	{--Entry Number: {853}
-		["type"]="PropCube",
-		["name"]="Prop472",
-		["position"]={3549},
-		["scale"]={3550},
-		["scripts"]={3551},
-	},
-
-	{--Entry Number: {854}
-		["type"]="PropCube",
-		["name"]="Prop944",
-		["position"]={3552},
-		["scale"]={3553},
-		["scripts"]={3554},
-	},
-
-	{--Entry Number: {855}
-		["type"]="PropCube",
-		["name"]="Prop703",
-		["position"]={3555},
-		["scale"]={3556},
-		["scripts"]={3557},
-	},
-
-	{--Entry Number: {856}
-		["type"]="PropCube",
-		["name"]="Prop945",
-		["position"]={3558},
-		["scale"]={3559},
-		["scripts"]={3560},
-	},
-
-	{--Entry Number: {857}
-		["type"]="PropCube",
-		["name"]="Prop473",
-		["position"]={3561},
-		["scale"]={3562},
-		["scripts"]={3563},
-	},
-
-	{--Entry Number: {858}
-		["type"]="PropCube",
-		["name"]="Prop946",
-		["position"]={3564},
-		["scale"]={3565},
-		["scripts"]={3566},
-	},
-
-	{--Entry Number: {859}
-		["type"]="PropCube",
-		["name"]="Prop699",
-		["position"]={3567},
-		["scale"]={3568},
-		["scripts"]={3569},
-	},
-
-	{--Entry Number: {860}
-		["type"]="PropCube",
-		["name"]="Prop237",
-		["position"]={3570},
-		["scale"]={3571},
-		["scripts"]={3572},
-	},
-
-	{--Entry Number: {861}
-		["type"]="PropCube",
-		["name"]="Prop474",
-		["position"]={3573},
-		["scale"]={3574},
-		["scripts"]={3575},
-	},
-
-	{--Entry Number: {862}
-		["type"]="PropCube",
-		["name"]="Prop948",
-		["position"]={3576},
-		["scale"]={3577},
-		["scripts"]={3578},
-	},
-
-	{--Entry Number: {863}
-		["type"]="PropCube",
-		["name"]="Prop691",
-		["position"]={3579},
-		["scale"]={3580},
-		["scripts"]={3581},
-	},
-
-	{--Entry Number: {864}
-		["type"]="PropCube",
-		["name"]="Prop949",
-		["position"]={3582},
-		["scale"]={3583},
-		["scripts"]={3584},
-	},
-
-	{--Entry Number: {865}
-		["type"]="PropCube",
-		["name"]="Prop475",
-		["position"]={3585},
-		["scale"]={3586},
-		["scripts"]={3587},
-	},
-
-	{--Entry Number: {866}
-		["type"]="PropCube",
-		["name"]="Prop950",
-		["position"]={3588},
-		["scale"]={3589},
-		["scripts"]={3590},
-	},
-
-	{--Entry Number: {867}
-		["type"]="PropCube",
-		["name"]="Prop119",
-		["position"]={3591},
-		["scale"]={3592},
-		["scripts"]={3593},
-	},
-
-	{--Entry Number: {868}
-		["type"]="PropCube",
-		["name"]="Prop238",
-		["position"]={3594},
-		["scale"]={3595},
-		["scripts"]={3596},
-	},
-
-	{--Entry Number: {869}
-		["type"]="PropCube",
-		["name"]="Prop476",
-		["position"]={3597},
-		["scale"]={3598},
-		["scripts"]={3599},
-	},
-
-	{--Entry Number: {870}
-		["type"]="PropCube",
-		["name"]="Prop952",
-		["position"]={3600},
-		["scale"]={3601},
-		["scripts"]={3602},
-	},
-
-	{--Entry Number: {871}
-		["type"]="PropCube",
-		["name"]="Prop679",
-		["position"]={3603},
-		["scale"]={3604},
-		["scripts"]={3605},
-	},
-
-	{--Entry Number: {872}
-		["type"]="PropCube",
-		["name"]="Prop953",
-		["position"]={3606},
-		["scale"]={3607},
-		["scripts"]={3608},
-	},
-
-	{--Entry Number: {873}
-		["type"]="PropCube",
-		["name"]="Prop477",
-		["position"]={3609},
-		["scale"]={3610},
-		["scripts"]={3611},
-	},
-
-	{--Entry Number: {874}
-		["type"]="PropCube",
-		["name"]="Prop954",
-		["position"]={3612},
-		["scale"]={3613},
-		["scripts"]={3614},
-	},
-
-	{--Entry Number: {875}
-		["type"]="PropCube",
-		["name"]="Prop670",
-		["position"]={3615},
-		["scale"]={3616},
-		["scripts"]={3617},
-	},
-
-	{--Entry Number: {876}
-		["type"]="PropCube",
-		["name"]="Prop239",
-		["position"]={3618},
-		["scale"]={3619},
-		["scripts"]={3620},
-	},
-
-	{--Entry Number: {877}
-		["type"]="PropCube",
-		["name"]="Prop478",
-		["position"]={3621},
-		["scale"]={3622},
-		["scripts"]={3623},
-	},
-
-	{--Entry Number: {878}
-		["type"]="PropCube",
-		["name"]="Prop956",
-		["position"]={3624},
-		["scale"]={3625},
-		["scripts"]={3626},
-	},
-
-	{--Entry Number: {879}
-		["type"]="PropCube",
-		["name"]="Prop663",
-		["position"]={3627},
-		["scale"]={3628},
-		["scripts"]={3629},
-	},
-
-	{--Entry Number: {880}
-		["type"]="PropCube",
-		["name"]="Prop15",
-		["position"]={3630},
-		["scale"]={3631},
-		["scripts"]={3632},
-	},
-
-	{--Entry Number: {881}
-		["type"]="PropCube",
-		["name"]="Prop30",
-		["position"]={3633},
-		["scale"]={3634},
-		["scripts"]={3635},
-	},
-
-	{--Entry Number: {882}
-		["type"]="PropCube",
-		["name"]="Prop60",
-		["position"]={3636},
-		["scale"]={3637},
-		["scripts"]={3638},
-	},
-
-	{--Entry Number: {883}
-		["type"]="PropCube",
-		["name"]="Prop120",
-		["position"]={3639},
-		["scale"]={3640},
-		["scripts"]={3641},
-	},
-
-	{--Entry Number: {884}
-		["type"]="PropCube",
-		["name"]="Prop240",
-		["position"]={3642},
-		["scale"]={3643},
-		["scripts"]={3644},
-	},
-
-	{--Entry Number: {885}
-		["type"]="PropCube",
-		["name"]="Prop480",
-		["position"]={3645},
-		["scale"]={3646},
-		["scripts"]={3647},
-	},
-
-	{--Entry Number: {886}
-		["type"]="PropCube",
-		["name"]="Prop960",
-		["position"]={3648},
-		["scale"]={3649},
-		["scripts"]={3650},
-	},
-
-	{--Entry Number: {887}
-		["type"]="PropCube",
-		["name"]="Prop655",
-		["position"]={3651},
-		["scale"]={3652},
-		["scripts"]={3653},
-	},
-
-	{--Entry Number: {888}
-		["type"]="PropCube",
-		["name"]="Prop961",
-		["position"]={3654},
-		["scale"]={3655},
-		["scripts"]={3656},
-	},
-
-	{--Entry Number: {889}
-		["type"]="PropCube",
-		["name"]="Prop481",
-		["position"]={3657},
-		["scale"]={3658},
-		["scripts"]={3659},
-	},
-
-	{--Entry Number: {890}
-		["type"]="PropCube",
-		["name"]="Prop962",
-		["position"]={3660},
-		["scale"]={3661},
-		["scripts"]={3662},
-	},
-
-	{--Entry Number: {891}
-		["type"]="PropCube",
-		["name"]="Prop647",
-		["position"]={3663},
-		["scale"]={3664},
-		["scripts"]={3665},
-	},
-
-	{--Entry Number: {892}
-		["type"]="PropCube",
-		["name"]="Prop241",
-		["position"]={3666},
-		["scale"]={3667},
-		["scripts"]={3668},
-	},
-
-	{--Entry Number: {893}
-		["type"]="PropCube",
-		["name"]="Prop482",
-		["position"]={3669},
-		["scale"]={3670},
-		["scripts"]={3671},
-	},
-
-	{--Entry Number: {894}
-		["type"]="PropCube",
-		["name"]="Prop964",
-		["position"]={3672},
-		["scale"]={3673},
-		["scripts"]={3674},
-	},
-
-	{--Entry Number: {895}
-		["type"]="PropCube",
-		["name"]="Prop639",
-		["position"]={3675},
-		["scale"]={3676},
-		["scripts"]={3677},
-	},
-
-	{--Entry Number: {896}
-		["type"]="PropCube",
-		["name"]="Prop965",
-		["position"]={3678},
-		["scale"]={3679},
-		["scripts"]={3680},
-	},
-
-	{--Entry Number: {897}
-		["type"]="PropCube",
-		["name"]="Prop483",
-		["position"]={3681},
-		["scale"]={3682},
-		["scripts"]={3683},
-	},
-
-	{--Entry Number: {898}
-		["type"]="PropCube",
-		["name"]="Prop966",
-		["position"]={3684},
-		["scale"]={3685},
-		["scripts"]={3686},
-	},
-
-	{--Entry Number: {899}
-		["type"]="PropCube",
-		["name"]="Prop121",
-		["position"]={3687},
-		["scale"]={3688},
-		["scripts"]={3689},
-	},
-
-	{--Entry Number: {900}
-		["type"]="PropCube",
-		["name"]="Prop242",
-		["position"]={3690},
-		["scale"]={3691},
-		["scripts"]={3692},
-	},
-
-	{--Entry Number: {901}
-		["type"]="PropCube",
-		["name"]="Prop484",
-		["position"]={3693},
-		["scale"]={3694},
-		["scripts"]={3695},
-	},
-
-	{--Entry Number: {902}
-		["type"]="PropCube",
-		["name"]="Prop968",
-		["position"]={3696},
-		["scale"]={3697},
-		["scripts"]={3698},
-	},
-
-	{--Entry Number: {903}
-		["type"]="PropCube",
-		["name"]="Prop631",
-		["position"]={3699},
-		["scale"]={3700},
-		["scripts"]={3701},
-	},
-
-	{--Entry Number: {904}
-		["type"]="PropCube",
-		["name"]="Prop969",
-		["position"]={3702},
-		["scale"]={3703},
-		["scripts"]={3704},
-	},
-
-	{--Entry Number: {905}
-		["type"]="PropCube",
-		["name"]="Prop485",
-		["position"]={3705},
-		["scale"]={3706},
-		["scripts"]={3707},
-	},
-
-	{--Entry Number: {906}
-		["type"]="PropCube",
-		["name"]="Prop970",
-		["position"]={3708},
-		["scale"]={3709},
-		["scripts"]={3710},
-	},
-
-	{--Entry Number: {907}
-		["type"]="PropCube",
-		["name"]="Prop622",
-		["position"]={3711},
-		["scale"]={3712},
-		["scripts"]={3713},
-	},
-
-	{--Entry Number: {908}
-		["type"]="PropCube",
-		["name"]="Prop243",
-		["position"]={3714},
-		["scale"]={3715},
-		["scripts"]={3716},
-	},
-
-	{--Entry Number: {909}
-		["type"]="PropCube",
-		["name"]="Prop486",
-		["position"]={3717},
-		["scale"]={3718},
-		["scripts"]={3719},
-	},
-
-	{--Entry Number: {910}
-		["type"]="PropCube",
-		["name"]="Prop972",
-		["position"]={3720},
-		["scale"]={3721},
-		["scripts"]={3722},
-	},
-
-	{--Entry Number: {911}
-		["type"]="PropCube",
-		["name"]="Prop615",
-		["position"]={3723},
-		["scale"]={3724},
-		["scripts"]={3725},
-	},
-
-	{--Entry Number: {912}
-		["type"]="PropCube",
-		["name"]="Prop973",
-		["position"]={3726},
-		["scale"]={3727},
-		["scripts"]={3728},
-	},
-
-	{--Entry Number: {913}
-		["type"]="PropCube",
-		["name"]="Prop487",
-		["position"]={3729},
-		["scale"]={3730},
-		["scripts"]={3731},
-	},
-
-	{--Entry Number: {914}
-		["type"]="PropCube",
-		["name"]="Prop61",
-		["position"]={3732},
-		["scale"]={3733},
-		["scripts"]={3734},
-	},
-
-	{--Entry Number: {915}
-		["type"]="PropCube",
-		["name"]="Prop122",
-		["position"]={3735},
-		["scale"]={3736},
-		["scripts"]={3737},
-	},
-
-	{--Entry Number: {916}
-		["type"]="PropCube",
-		["name"]="Prop244",
-		["position"]={3738},
-		["scale"]={3739},
-		["scripts"]={3740},
-	},
-
-	{--Entry Number: {917}
-		["type"]="PropCube",
-		["name"]="Prop488",
-		["position"]={3741},
-		["scale"]={3742},
-		["scripts"]={3743},
-	},
-
-	{--Entry Number: {918}
-		["type"]="PropCube",
-		["name"]="Prop976",
-		["position"]={3744},
-		["scale"]={3745},
-		["scripts"]={3746},
-	},
-
-	{--Entry Number: {919}
-		["type"]="PropCube",
-		["name"]="Prop606",
-		["position"]={3747},
-		["scale"]={3748},
-		["scripts"]={3749},
-	},
-
-	{--Entry Number: {920}
-		["type"]="PropCube",
-		["name"]="Prop977",
-		["position"]={3750},
-		["scale"]={3751},
-		["scripts"]={3752},
-	},
-
-	{--Entry Number: {921}
-		["type"]="PropCube",
-		["name"]="Prop489",
-		["position"]={3753},
-		["scale"]={3754},
-		["scripts"]={3755},
-	},
-
-	{--Entry Number: {922}
-		["type"]="PropCube",
-		["name"]="Prop978",
-		["position"]={3756},
-		["scale"]={3757},
-		["scripts"]={3758},
-	},
-
-	{--Entry Number: {923}
-		["type"]="PropCube",
-		["name"]="Prop595",
-		["position"]={3759},
-		["scale"]={3760},
-		["scripts"]={3761},
-	},
-
-	{--Entry Number: {924}
-		["type"]="PropCube",
-		["name"]="Prop245",
-		["position"]={3762},
-		["scale"]={3763},
-		["scripts"]={3764},
-	},
-
-	{--Entry Number: {925}
-		["type"]="PropCube",
-		["name"]="Prop490",
-		["position"]={3765},
-		["scale"]={3766},
-		["scripts"]={3767},
-	},
-
-	{--Entry Number: {926}
-		["type"]="PropCube",
-		["name"]="Prop980",
-		["position"]={3768},
-		["scale"]={3769},
-		["scripts"]={3770},
-	},
-
-	{--Entry Number: {927}
-		["type"]="PropCube",
-		["name"]="Prop590",
-		["position"]={3771},
-		["scale"]={3772},
-		["scripts"]={3773},
-	},
-
-	{--Entry Number: {928}
-		["type"]="PropCube",
-		["name"]="Prop981",
-		["position"]={3774},
-		["scale"]={3775},
-		["scripts"]={3776},
-	},
-
-	{--Entry Number: {929}
-		["type"]="PropCube",
-		["name"]="Prop491",
-		["position"]={3777},
-		["scale"]={3778},
-		["scripts"]={3779},
-	},
-
-	{--Entry Number: {930}
-		["type"]="PropCube",
-		["name"]="Prop982",
-		["position"]={3780},
-		["scale"]={3781},
-		["scripts"]={3782},
-	},
-
-	{--Entry Number: {931}
-		["type"]="PropCube",
-		["name"]="Prop123",
-		["position"]={3783},
-		["scale"]={3784},
-		["scripts"]={3785},
-	},
-
-	{--Entry Number: {932}
-		["type"]="PropCube",
-		["name"]="Prop246",
-		["position"]={3786},
-		["scale"]={3787},
-		["scripts"]={3788},
-	},
-
-	{--Entry Number: {933}
-		["type"]="PropCube",
-		["name"]="Prop492",
-		["position"]={3789},
-		["scale"]={3790},
-		["scripts"]={3791},
-	},
-
-	{--Entry Number: {934}
-		["type"]="PropCube",
-		["name"]="Prop984",
-		["position"]={3792},
-		["scale"]={3793},
-		["scripts"]={3794},
-	},
-
-	{--Entry Number: {935}
-		["type"]="PropCube",
-		["name"]="Prop575",
-		["position"]={3795},
-		["scale"]={3796},
-		["scripts"]={3797},
-	},
-
-	{--Entry Number: {936}
-		["type"]="PropCube",
-		["name"]="Prop985",
-		["position"]={3798},
-		["scale"]={3799},
-		["scripts"]={3800},
-	},
-
-	{--Entry Number: {937}
-		["type"]="PropCube",
-		["name"]="Prop493",
-		["position"]={3801},
-		["scale"]={3802},
-		["scripts"]={3803},
-	},
-
-	{--Entry Number: {938}
-		["type"]="PropCube",
-		["name"]="Prop986",
-		["position"]={3804},
-		["scale"]={3805},
-		["scripts"]={3806},
-	},
-
-	{--Entry Number: {939}
-		["type"]="PropCube",
-		["name"]="Prop571",
-		["position"]={3807},
-		["scale"]={3808},
-		["scripts"]={3809},
-	},
-
-	{--Entry Number: {940}
-		["type"]="PropCube",
-		["name"]="Prop247",
-		["position"]={3810},
-		["scale"]={3811},
-		["scripts"]={3812},
-	},
-
-	{--Entry Number: {941}
-		["type"]="PropCube",
-		["name"]="Prop494",
-		["position"]={3813},
-		["scale"]={3814},
-		["scripts"]={3815},
-	},
-
-	{--Entry Number: {942}
-		["type"]="PropCube",
-		["name"]="Prop988",
-		["position"]={3816},
-		["scale"]={3817},
-		["scripts"]={3818},
-	},
-
-	{--Entry Number: {943}
-		["type"]="PropCube",
-		["name"]="Prop563",
-		["position"]={3819},
-		["scale"]={3820},
-		["scripts"]={3821},
-	},
-
-	{--Entry Number: {944}
-		["type"]="PropCube",
-		["name"]="Prop989",
-		["position"]={3822},
-		["scale"]={3823},
-		["scripts"]={3824},
-	},
-
-	{--Entry Number: {945}
-		["type"]="PropCube",
-		["name"]="Prop31",
-		["position"]={3825},
-		["scale"]={3826},
-		["scripts"]={3827},
-	},
-
-	{--Entry Number: {946}
-		["type"]="PropCube",
-		["name"]="Prop62",
-		["position"]={3828},
-		["scale"]={3829},
-		["scripts"]={3830},
-	},
-
-	{--Entry Number: {947}
-		["type"]="PropCube",
-		["name"]="Prop124",
-		["position"]={3831},
-		["scale"]={3832},
-		["scripts"]={3833},
-	},
-
-	{--Entry Number: {948}
-		["type"]="PropCube",
-		["name"]="Prop248",
-		["position"]={3834},
-		["scale"]={3835},
-		["scripts"]={3836},
-	},
-
-	{--Entry Number: {949}
-		["type"]="PropCube",
-		["name"]="Prop496",
-		["position"]={3837},
-		["scale"]={3838},
-		["scripts"]={3839},
-	},
-
-	{--Entry Number: {950}
-		["type"]="PropCube",
-		["name"]="Prop992",
-		["position"]={3840},
-		["scale"]={3841},
-		["scripts"]={3842},
-	},
-
-	{--Entry Number: {951}
-		["type"]="PropCube",
-		["name"]="Prop555",
-		["position"]={3843},
-		["scale"]={3844},
-		["scripts"]={3845},
-	},
-
-	{--Entry Number: {952}
-		["type"]="PropCube",
-		["name"]="Prop993",
-		["position"]={3846},
-		["scale"]={3847},
-		["scripts"]={3848},
-	},
-
-	{--Entry Number: {953}
-		["type"]="PropCube",
-		["name"]="Prop497",
-		["position"]={3849},
-		["scale"]={3850},
-		["scripts"]={3851},
-	},
-
-	{--Entry Number: {954}
-		["type"]="PropCube",
-		["name"]="Prop994",
-		["position"]={3852},
-		["scale"]={3853},
-		["scripts"]={3854},
-	},
-
-	{--Entry Number: {955}
-		["type"]="PropCube",
-		["name"]="Prop543",
-		["position"]={3855},
-		["scale"]={3856},
-		["scripts"]={3857},
-	},
-
-	{--Entry Number: {956}
-		["type"]="PropCube",
-		["name"]="Prop249",
-		["position"]={3858},
-		["scale"]={3859},
-		["scripts"]={3860},
-	},
-
-	{--Entry Number: {957}
-		["type"]="PropCube",
-		["name"]="Prop498",
-		["position"]={3861},
-		["scale"]={3862},
-		["scripts"]={3863},
-	},
-
-	{--Entry Number: {958}
-		["type"]="PropCube",
-		["name"]="Prop996",
-		["position"]={3864},
-		["scale"]={3865},
-		["scripts"]={3866},
-	},
-
-	{--Entry Number: {959}
-		["type"]="PropCube",
-		["name"]="Prop539",
-		["position"]={3867},
-		["scale"]={3868},
-		["scripts"]={3869},
-	},
-
-	{--Entry Number: {960}
-		["type"]="PropCube",
-		["name"]="Prop997",
-		["position"]={3870},
-		["scale"]={3871},
-		["scripts"]={3872},
-	},
-
-	{--Entry Number: {961}
-		["type"]="PropCube",
-		["name"]="Prop499",
-		["position"]={3873},
-		["scale"]={3874},
-		["scripts"]={3875},
-	},
-
-	{--Entry Number: {962}
-		["type"]="PropCube",
-		["name"]="Prop998",
-		["position"]={3876},
-		["scale"]={3877},
-		["scripts"]={3878},
-	},
-
-	{--Entry Number: {963}
-		["type"]="PropCube",
-		["name"]="Prop125",
-		["position"]={3879},
-		["scale"]={3880},
-		["scripts"]={3881},
-	},
-
-	{--Entry Number: {964}
-		["type"]="PropCube",
-		["name"]="Prop250",
-		["position"]={3882},
-		["scale"]={3883},
-		["scripts"]={3884},
-	},
-
-	{--Entry Number: {965}
-		["type"]="PropCube",
-		["name"]="Prop500",
-		["position"]={3885},
-		["scale"]={3886},
-		["scripts"]={3887},
-	},
-
-	{--Entry Number: {966}
-		["type"]="PropCube",
-		["name"]="Prop1000",
-		["position"]={3888},
-		["scale"]={3889},
-		["scripts"]={3890},
-	},
-
-	{--Entry Number: {967}
-		["type"]="PropCube",
-		["name"]="Prop526",
-		["position"]={3891},
-		["scale"]={3892},
-		["scripts"]={3893},
-	},
-
-	{--Entry Number: {968}
-		["type"]="PropCube",
-		["name"]="Prop523",
-		["position"]={3894},
-		["scale"]={3895},
-		["scripts"]={3896},
-	},
-
-	{--Entry Number: {969}
-		["type"]="PropCube",
-		["name"]="Prop501",
-		["position"]={3897},
-		["scale"]={3898},
-		["scripts"]={3899},
-	},
-
-	{--Entry Number: {970}
-		["type"]="PropCube",
-		["name"]="Prop519",
-		["position"]={3900},
-		["scale"]={3901},
-		["scripts"]={3902},
-	},
-
-	{--Entry Number: {971}
-		["type"]="PropCube",
-		["name"]="Prop515",
-		["position"]={3903},
-		["scale"]={3904},
-		["scripts"]={3905},
-	},
-
-	{--Entry Number: {972}
-		["type"]="PropCube",
-		["name"]="Prop251",
-		["position"]={3906},
-		["scale"]={3907},
-		["scripts"]={3908},
-	},
-
-	{--Entry Number: {973}
-		["type"]="PropCube",
-		["name"]="Prop502",
-		["position"]={3909},
-		["scale"]={3910},
-		["scripts"]={3911},
-	},
-
-	{--Entry Number: {974}
-		["type"]="PropCube",
-		["name"]="Prop511",
-		["position"]={3912},
-		["scale"]={3913},
-		["scripts"]={3914},
-	},
-
-	{--Entry Number: {975}
-		["type"]="PropCube",
-		["name"]="Prop510",
-		["position"]={3915},
-		["scale"]={3916},
-		["scripts"]={3917},
-	},
-
-	{--Entry Number: {976}
-		["type"]="PropCube",
-		["name"]="Prop303",
-		["position"]={3918},
-		["scale"]={3919},
-		["scripts"]={3920},
-	},
-
-	{--Entry Number: {977}
-		["type"]="PropCube",
-		["name"]="Prop503",
-		["position"]={3921},
-		["scale"]={3922},
-		["scripts"]={3923},
-	},
-
-	{--Entry Number: {978}
-		["type"]="PropCube",
-		["name"]="Prop63",
-		["position"]={3924},
-		["scale"]={3925},
-		["scripts"]={3926},
-	},
-
-	{--Entry Number: {979}
-		["type"]="PropCube",
-		["name"]="Prop126",
-		["position"]={3927},
-		["scale"]={3928},
-		["scripts"]={3929},
-	},
-
-	{--Entry Number: {980}
-		["type"]="PropCube",
-		["name"]="Prop252",
-		["position"]={3930},
-		["scale"]={3931},
-		["scripts"]={3932},
-	},
-
-	{--Entry Number: {981}
-		["type"]="PropCube",
-		["name"]="Prop504",
-		["position"]={3933},
-		["scale"]={3934},
-		["scripts"]={3935},
-	},
-
-	{--Entry Number: {982}
-		["type"]="PropCube",
-		["name"]="Prop367",
-		["position"]={3936},
-		["scale"]={3937},
-		["scripts"]={3938},
-	},
-
-	{--Entry Number: {983}
-		["type"]="PropCube",
-		["name"]="Prop399",
-		["position"]={3939},
-		["scale"]={3940},
-		["scripts"]={3941},
-	},
-
-	{--Entry Number: {984}
-		["type"]="PropCube",
-		["name"]="Prop463",
-		["position"]={3942},
-		["scale"]={3943},
-		["scripts"]={3944},
-	},
-
-	{--Entry Number: {985}
-		["type"]="PropCube",
-		["name"]="Prop505",
-		["position"]={3945},
-		["scale"]={3946},
-		["scripts"]={3947},
-	},
-
-	{--Entry Number: {986}
-		["type"]="PropCube",
-		["name"]="Prop495",
-		["position"]={3948},
-		["scale"]={3949},
-		["scripts"]={3950},
-	},
-
-	{--Entry Number: {987}
-		["type"]="PropCube",
-		["name"]="Prop479",
-		["position"]={3951},
-		["scale"]={3952},
-		["scripts"]={3953},
-	},
-
-	{--Entry Number: {988}
-		["type"]="PropCube",
-		["name"]="Prop253",
-		["position"]={3954},
-		["scale"]={3955},
-		["scripts"]={3956},
-	},
-
-	{--Entry Number: {989}
-		["type"]="PropCube",
-		["name"]="Prop506",
-		["position"]={3957},
-		["scale"]={3958},
-		["scripts"]={3959},
-	},
-
-	{--Entry Number: {990}
-		["type"]="PropCube",
-		["name"]="Prop447",
-		["position"]={3960},
-		["scale"]={3961},
-		["scripts"]={3962},
-	},
-
-	{--Entry Number: {991}
-		["type"]="PropCube",
-		["name"]="Prop431",
-		["position"]={3963},
-		["scale"]={3964},
-		["scripts"]={3965},
-	},
-
-	{--Entry Number: {992}
-		["type"]="PropCube",
-		["name"]="Prop415",
-		["position"]={3966},
-		["scale"]={3967},
-		["scripts"]={3968},
-	},
-
-	{--Entry Number: {993}
-		["type"]="PropCube",
-		["name"]="Prop507",
-		["position"]={3969},
-		["scale"]={3970},
-		["scripts"]={3971},
-	},
-
-	{--Entry Number: {994}
-		["type"]="PropCube",
-		["name"]="Prop383",
-		["position"]={3972},
-		["scale"]={3973},
-		["scripts"]={3974},
-	},
-
-	{--Entry Number: {995}
-		["type"]="PropCube",
-		["name"]="Prop127",
-		["position"]={3975},
-		["scale"]={3976},
-		["scripts"]={3977},
-	},
-
-	{--Entry Number: {996}
-		["type"]="PropCube",
-		["name"]="Prop254",
-		["position"]={3978},
-		["scale"]={3979},
-		["scripts"]={3980},
-	},
-
-	{--Entry Number: {997}
-		["type"]="PropCube",
-		["name"]="Prop508",
-		["position"]={3981},
-		["scale"]={3982},
-		["scripts"]={3983},
-	},
-
-	{--Entry Number: {998}
-		["type"]="PropCube",
-		["name"]="Prop351",
-		["position"]={3984},
-		["scale"]={3985},
-		["scripts"]={3986},
-	},
-
-	{--Entry Number: {999}
-		["type"]="PropCube",
-		["name"]="Prop335",
-		["position"]={3987},
-		["scale"]={3988},
-		["scripts"]={3989},
-	},
-
-	{--Entry Number: {1000}
-		["type"]="PropCube",
-		["name"]="Prop319",
-		["position"]={3990},
-		["scale"]={3991},
-		["scripts"]={3992},
-	},
-
-	{--Entry Number: {1001}
-		["type"]="PropCube",
-		["name"]="Prop509",
-		["position"]={3993},
-		["scale"]={3994},
-		["scripts"]={3995},
-	},
-
-	{--Entry Number: {1002}
-		["type"]="PropCube",
-		["name"]="Prop287",
-		["position"]={3996},
-		["scale"]={3997},
-		["scripts"]={3998},
-	},
-
-	{--Entry Number: {1003}
-		["type"]="PropCube",
-		["name"]="Prop271",
-		["position"]={3999},
-		["scale"]={4000},
-		["scripts"]={4001},
-	},
-
-	{--Entry Number: {1004}
-		["type"]="PropCube",
-		["name"]="Prop255",
-		["position"]={4002},
-		["scale"]={4003},
-		["scripts"]={4004},
-	},
-
-	{--Entry Number: {1005}
-		["y"]=-220,
-		["x"]=-236.8,
+		["y"]=-264,
+		["x"]=47.666666666666,
 		["z"]=-1000,
 	},
 
-	{--Entry Number: {1006}
+	{--Entry Number: {506}
 		["y"]=10,
 		["x"]=10,
 		["z"]=10,
 	},
 
-	{--Entry Number: {1007}
+	{--Entry Number: {507}
 		[1]="PropMovement.lua",
 	},
 
-	{--Entry Number: {1008}
-		["y"]=-198,
-		["x"]=319.2,
+	{--Entry Number: {508}
+		["y"]=-52,
+		["x"]=389.66666666667,
 		["z"]=-1000,
 	},
 
-	{--Entry Number: {1009}
+	{--Entry Number: {509}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {510}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {511}
+		["y"]=88,
+		["x"]=90.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {512}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {513}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {514}
+		["y"]=-138,
+		["x"]=391.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {515}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {516}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {517}
+		["y"]=-206,
+		["x"]=55.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {518}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {519}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {520}
+		["y"]=234,
+		["x"]=453.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {521}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {522}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {523}
+		["y"]=-88,
+		["x"]=60.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {524}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {525}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {526}
+		["y"]=-85,
+		["x"]=-34.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {527}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {528}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {529}
+		["y"]=-145,
+		["x"]=268.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {530}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {531}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {532}
+		["y"]=-41,
+		["x"]=436.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {533}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {534}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {535}
+		["y"]=156,
+		["x"]=-66.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {536}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {537}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {538}
+		["y"]=133,
+		["x"]=-80.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {539}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {540}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {541}
+		["y"]=2,
+		["x"]=-23.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {542}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {543}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {544}
+		["y"]=212,
+		["x"]=242.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {545}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {546}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {547}
+		["y"]=-49,
+		["x"]=110.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {548}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {549}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {550}
+		["y"]=-29,
+		["x"]=31.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {551}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {552}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {553}
+		["y"]=1,
+		["x"]=-39.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {554}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {555}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {556}
+		["y"]=195,
+		["x"]=286.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {557}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {558}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {559}
+		["y"]=-7,
+		["x"]=398.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {560}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {561}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {562}
+		["y"]=155,
+		["x"]=181.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {563}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {564}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {565}
+		["y"]=13,
+		["x"]=130.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {566}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {567}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {568}
+		["y"]=-59,
+		["x"]=203.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {569}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {570}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {571}
+		["y"]=67,
+		["x"]=270.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {572}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {573}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {574}
+		["y"]=-64,
+		["x"]=271.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {575}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {576}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {577}
+		["y"]=-200,
+		["x"]=256.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {578}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {579}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {580}
+		["y"]=-284,
+		["x"]=185.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {581}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {582}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {583}
+		["y"]=290,
+		["x"]=240.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {584}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {585}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {586}
+		["y"]=25,
+		["x"]=-23.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {587}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {588}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {589}
+		["y"]=289,
+		["x"]=287.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {590}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {591}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {592}
+		["y"]=-242,
+		["x"]=62.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {593}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {594}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {595}
+		["y"]=-96,
+		["x"]=-137.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {596}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {597}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {598}
+		["y"]=-121,
+		["x"]=-79.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {599}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {600}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {601}
+		["y"]=55,
+		["x"]=-87.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {602}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {603}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {604}
+		["y"]=-27,
+		["x"]=192.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {605}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {606}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {607}
+		["y"]=76,
+		["x"]=212.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {608}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {609}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {610}
+		["y"]=-98,
+		["x"]=-17.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {611}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {612}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {613}
+		["y"]=69,
+		["x"]=246.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {614}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {615}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {616}
+		["y"]=-92,
+		["x"]=225.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {617}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {618}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {619}
+		["y"]=210,
+		["x"]=314.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {620}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {621}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {622}
+		["y"]=49,
+		["x"]=7.6666666666663,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {623}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {624}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {625}
+		["y"]=282,
+		["x"]=426.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {626}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {627}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {628}
+		["y"]=-284,
+		["x"]=-33.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {629}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {630}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {631}
+		["y"]=-128,
+		["x"]=-84.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {632}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {633}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {634}
+		["y"]=267,
+		["x"]=241.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {635}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {636}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {637}
+		["y"]=154,
+		["x"]=-50.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {638}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {639}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {640}
+		["y"]=210,
+		["x"]=416.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {641}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {642}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {643}
+		["y"]=269,
+		["x"]=401.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {644}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {645}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {646}
+		["y"]=185,
+		["x"]=413.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {647}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {648}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {649}
+		["y"]=76,
+		["x"]=-61.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {650}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {651}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {652}
+		["y"]=26,
+		["x"]=151.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {653}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {654}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {655}
+		["y"]=-45,
+		["x"]=16.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {656}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {657}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {658}
+		["y"]=35,
+		["x"]=128.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {659}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {660}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {661}
+		["y"]=-207,
+		["x"]=299.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {662}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {663}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {664}
+		["y"]=228,
+		["x"]=450.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {665}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {666}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {667}
+		["y"]=20,
+		["x"]=236.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {668}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {669}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {670}
+		["y"]=235,
+		["x"]=-13.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {671}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {672}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {673}
+		["y"]=242,
+		["x"]=-66.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {674}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {675}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {676}
+		["y"]=124,
+		["x"]=448.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {677}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {678}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {679}
+		["y"]=-108,
+		["x"]=136.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {680}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {681}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {682}
+		["y"]=60,
+		["x"]=375.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {683}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {684}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {685}
+		["y"]=10,
+		["x"]=92.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {686}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {687}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {688}
+		["y"]=-24,
+		["x"]=10.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {689}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {690}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {691}
+		["y"]=-133,
+		["x"]=123.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {692}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {693}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {694}
+		["y"]=255,
+		["x"]=69.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {695}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {696}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {697}
+		["y"]=221,
+		["x"]=427.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {698}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {699}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {700}
+		["y"]=-260,
+		["x"]=462.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {701}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {702}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {703}
+		["y"]=38,
+		["x"]=-107.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {704}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {705}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {706}
+		["y"]=223,
+		["x"]=418.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {707}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {708}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {709}
+		["y"]=-106,
+		["x"]=112.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {710}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {711}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {712}
+		["y"]=83,
+		["x"]=261.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {713}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {714}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {715}
+		["y"]=-178,
+		["x"]=-101.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {716}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {717}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {718}
+		["y"]=-116,
+		["x"]=-32.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {719}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {720}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {721}
+		["y"]=170,
+		["x"]=443.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {722}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {723}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {724}
+		["y"]=288,
+		["x"]=-100.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {725}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {726}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {727}
+		["y"]=244,
+		["x"]=117.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {728}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {729}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {730}
+		["y"]=-178,
+		["x"]=166.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {731}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {732}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {733}
+		["y"]=-19,
+		["x"]=394.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {734}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {735}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {736}
+		["y"]=216,
+		["x"]=290.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {737}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {738}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {739}
+		["y"]=-294,
+		["x"]=66.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {740}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {741}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {742}
+		["y"]=-259,
+		["x"]=324.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {743}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {744}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {745}
+		["y"]=119,
+		["x"]=138.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {746}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {747}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {748}
+		["y"]=-41,
+		["x"]=-14.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {749}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {750}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {751}
+		["y"]=-191,
+		["x"]=10.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {752}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {753}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {754}
+		["y"]=-83,
+		["x"]=382.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {755}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {756}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {757}
+		["y"]=-235,
+		["x"]=8.6666666666663,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {758}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {759}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {760}
+		["y"]=182,
+		["x"]=-115.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {761}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {762}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {763}
+		["y"]=-128,
+		["x"]=455.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {764}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {765}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {766}
+		["y"]=-235,
+		["x"]=8.6666666666663,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {767}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {768}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {769}
+		["y"]=-29,
+		["x"]=395.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {770}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {771}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {772}
+		["y"]=102,
+		["x"]=190.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {773}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {774}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {775}
+		["y"]=-150,
+		["x"]=118.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {776}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {777}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {778}
+		["y"]=-247,
+		["x"]=2.6666666666663,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {779}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {780}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {781}
+		["y"]=94,
+		["x"]=306.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {782}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {783}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {784}
+		["y"]=156,
+		["x"]=158.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {785}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {786}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {787}
+		["y"]=-157,
+		["x"]=330.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {788}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {789}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {790}
+		["y"]=-200,
+		["x"]=-136.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {791}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {792}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {793}
+		["y"]=155,
+		["x"]=218.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {794}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {795}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {796}
+		["y"]=-79,
+		["x"]=268.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {797}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {798}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {799}
+		["y"]=194,
+		["x"]=205.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {800}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {801}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {802}
+		["y"]=-218,
+		["x"]=227.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {803}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {804}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {805}
+		["y"]=-123,
+		["x"]=160.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {806}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {807}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {808}
+		["y"]=-3,
+		["x"]=69.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {809}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {810}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {811}
+		["y"]=-31,
+		["x"]=-108.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {812}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {813}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {814}
+		["y"]=-245,
+		["x"]=441.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {815}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {816}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {817}
+		["y"]=-165,
+		["x"]=300.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {818}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {819}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {820}
+		["y"]=222,
+		["x"]=-57.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {821}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {822}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {823}
+		["y"]=-194,
+		["x"]=-40.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {824}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {825}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {826}
+		["y"]=-128,
+		["x"]=321.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {827}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {828}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {829}
+		["y"]=15,
+		["x"]=-6.3333333333338,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {830}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {831}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {832}
+		["y"]=49,
+		["x"]=286.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {833}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {834}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {835}
+		["y"]=-202,
+		["x"]=219.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {836}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {837}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {838}
+		["y"]=97,
+		["x"]=394.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {839}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {840}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {841}
+		["y"]=193,
+		["x"]=207.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {842}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {843}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {844}
+		["y"]=-65,
+		["x"]=42.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {845}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {846}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {847}
+		["y"]=-12,
+		["x"]=8.6666666666663,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {848}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {849}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {850}
+		["y"]=-142,
+		["x"]=121.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {851}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {852}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {853}
+		["y"]=-286,
+		["x"]=321.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {854}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {855}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {856}
+		["y"]=51,
+		["x"]=62.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {857}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {858}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {859}
+		["y"]=108,
+		["x"]=274.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {860}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {861}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {862}
+		["y"]=156,
+		["x"]=-136.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {863}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {864}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {865}
+		["y"]=278,
+		["x"]=-13.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {866}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {867}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {868}
+		["y"]=147,
+		["x"]=-24.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {869}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {870}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {871}
+		["y"]=-134,
+		["x"]=20.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {872}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {873}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {874}
+		["y"]=269,
+		["x"]=244.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {875}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {876}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {877}
+		["y"]=162,
+		["x"]=208.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {878}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {879}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {880}
+		["y"]=30,
+		["x"]=236.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {881}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {882}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {883}
+		["y"]=104,
+		["x"]=-131.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {884}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {885}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {886}
+		["y"]=-174,
+		["x"]=-104.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {887}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {888}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {889}
+		["y"]=74,
+		["x"]=-63.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {890}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {891}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {892}
+		["y"]=255,
+		["x"]=408.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {893}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {894}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {895}
+		["y"]=15,
+		["x"]=75.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {896}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {897}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {898}
+		["y"]=265,
+		["x"]=36.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {899}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {900}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {901}
+		["y"]=-127,
+		["x"]=443.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {902}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {903}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {904}
+		["y"]=-149,
+		["x"]=-55.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {905}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {906}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {907}
+		["y"]=238,
+		["x"]=-101.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {908}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {909}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {910}
+		["y"]=-108,
+		["x"]=86.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {911}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {912}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {913}
+		["y"]=217,
+		["x"]=-61.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {914}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {915}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {916}
+		["y"]=-108,
+		["x"]=138.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {917}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {918}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {919}
+		["y"]=188,
+		["x"]=151.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {920}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {921}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {922}
+		["y"]=46,
+		["x"]=-103.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {923}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {924}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {925}
+		["y"]=-37,
+		["x"]=-51.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {926}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {927}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {928}
+		["y"]=278,
+		["x"]=-10.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {929}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {930}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {931}
+		["y"]=140,
+		["x"]=-130.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {932}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {933}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {934}
+		["y"]=223,
+		["x"]=247.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {935}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {936}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {937}
+		["y"]=-62,
+		["x"]=-125.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {938}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {939}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {940}
+		["y"]=227,
+		["x"]=179.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {941}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {942}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {943}
+		["y"]=-206,
+		["x"]=435.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {944}
 		["y"]=100,
 		["x"]=100,
 		["z"]=100,
 	},
 
-	{--Entry Number: {1010}
+	{--Entry Number: {945}
 		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {946}
+		["y"]=-108,
+		["x"]=-122.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {947}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {948}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {949}
+		["y"]=30,
+		["x"]=117.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {950}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {951}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {952}
+		["y"]=30,
+		["x"]=-120.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {953}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {954}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {955}
+		["y"]=126,
+		["x"]=312.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {956}
+		["y"]=100,
+		["x"]=100,
+		["z"]=100,
+	},
+
+	{--Entry Number: {957}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {958}
+		["y"]=234,
+		["x"]=40.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {959}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {960}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {961}
+		["y"]=70,
+		["x"]=167.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {962}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {963}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {964}
+		["y"]=250,
+		["x"]=321.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {965}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {966}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {967}
+		["y"]=-298,
+		["x"]=324.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {968}
+		["y"]=100,
+		["x"]=100,
+		["z"]=100,
+	},
+
+	{--Entry Number: {969}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {970}
+		["y"]=164,
+		["x"]=-2.3333333333338,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {971}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {972}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {973}
+		["y"]=-280,
+		["x"]=-120.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {974}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {975}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {976}
+		["y"]=38,
+		["x"]=444.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {977}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {978}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {979}
+		["y"]=68,
+		["x"]=424.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {980}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {981}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {982}
+		["y"]=-59,
+		["x"]=270.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {983}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {984}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {985}
+		["y"]=-127,
+		["x"]=-94.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {986}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {987}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {988}
+		["y"]=-21,
+		["x"]=24.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {989}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {990}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {991}
+		["y"]=-121,
+		["x"]=-132.33333333333,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {992}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {993}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {994}
+		["y"]=185,
+		["x"]=232.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {995}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {996}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {997}
+		["y"]=-296,
+		["x"]=193.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {998}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {999}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {1000}
+		["y"]=-178,
+		["x"]=27.666666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {1001}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {1002}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {1003}
+		["y"]=286,
+		["x"]=460.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {1004}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {1005}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {1006}
+		["y"]=-254,
+		["x"]=-60.333333333334,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {1007}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {1008}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {1009}
+		["y"]=-156,
+		["x"]=216.66666666667,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {1010}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1011}
-		["y"]=-83,
-		["x"]=-57.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1012}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-85,
+		["x"]=202.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1013}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1014}
-		["y"]=-277,
-		["x"]=-128.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1015}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-18,
+		["x"]=296.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1016}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1017}
-		["y"]=269,
-		["x"]=117.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1018}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=128,
+		["x"]=-130.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1019}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1020}
-		["y"]=-237,
-		["x"]=78.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1021}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=250,
+		["x"]=-35.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1022}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1023}
-		["y"]=235,
-		["x"]=-170.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1024}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-78,
+		["x"]=-105.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1025}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1026}
-		["y"]=140,
-		["x"]=-222.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1027}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-5,
+		["x"]=458.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1028}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1029}
-		["y"]=286,
-		["x"]=-244.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1030}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=53,
+		["x"]=-103.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1031}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1032}
-		["y"]=-73,
-		["x"]=303.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1033}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=235,
+		["x"]=135.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1034}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1035}
-		["y"]=-79,
-		["x"]=317.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1036}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-18,
+		["x"]=-77.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1037}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1038}
-		["y"]=2,
-		["x"]=-60.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1039}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-56,
+		["x"]=253.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1040}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1041}
-		["y"]=176,
-		["x"]=264.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1042}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=277,
+		["x"]=-73.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1043}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1044}
-		["y"]=-259,
-		["x"]=-61.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1045}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-85,
+		["x"]=450.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1046}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1047}
-		["y"]=148,
-		["x"]=22.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1048}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-299,
+		["x"]=287.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1049}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1050}
-		["y"]=-204,
-		["x"]=-146.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1051}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-240,
+		["x"]=460.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1052}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1053}
-		["y"]=-29,
-		["x"]=249.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1054}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-49,
+		["x"]=215.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1055}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1056}
-		["y"]=279,
-		["x"]=-78.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1057}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-101,
+		["x"]=188.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1058}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1059}
-		["y"]=-140,
-		["x"]=-246.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1060}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-10,
+		["x"]=3.6666666666663,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1061}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1062}
-		["y"]=-253,
-		["x"]=-235.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1063}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-228,
+		["x"]=-71.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1064}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1065}
-		["y"]=-248,
-		["x"]=317.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1066}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=80,
+		["x"]=84.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1067}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1068}
-		["y"]=-146,
-		["x"]=-50.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1069}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=232,
+		["x"]=224.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1070}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1071}
-		["y"]=-212,
-		["x"]=-62.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1072}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=122,
+		["x"]=107.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1073}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1074}
-		["y"]=-111,
-		["x"]=-166.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1075}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-142,
+		["x"]=-89.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1076}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1077}
-		["y"]=217,
-		["x"]=96.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1078}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-24,
+		["x"]=305.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1079}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1080}
-		["y"]=244,
-		["x"]=-63.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1081}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-207,
+		["x"]=-36.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1082}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1083}
-		["y"]=156,
-		["x"]=172.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1084}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=210,
+		["x"]=63.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1085}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1086}
-		["y"]=220,
-		["x"]=100.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1087}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-18,
+		["x"]=435.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1088}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1089}
-		["y"]=-300,
-		["x"]=8.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1090}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=18,
+		["x"]=373.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1091}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1092}
-		["y"]=237,
-		["x"]=-222.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1093}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=179,
+		["x"]=423.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1094}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1095}
-		["y"]=-152,
-		["x"]=-213.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1096}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=96,
+		["x"]=-40.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1097}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1098}
-		["y"]=148,
-		["x"]=189.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1099}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=292,
+		["x"]=242.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1100}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1101}
-		["y"]=-143,
-		["x"]=9.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1102}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=111,
+		["x"]=-111.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1103}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1104}
-		["y"]=-3,
-		["x"]=146.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1105}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=41,
+		["x"]=394.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1106}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1107}
-		["y"]=-83,
-		["x"]=101.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1108}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=289,
+		["x"]=-116.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1109}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1110}
-		["y"]=3,
-		["x"]=224.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1111}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=171,
+		["x"]=202.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1112}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1113}
-		["y"]=-46,
-		["x"]=55.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1114}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=72,
+		["x"]=421.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1115}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1116}
-		["y"]=-243,
-		["x"]=-163.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1117}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=40,
+		["x"]=63.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1118}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1119}
-		["y"]=-100,
-		["x"]=181.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1120}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-51,
+		["x"]=7.6666666666663,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1121}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1122}
-		["y"]=-207,
-		["x"]=-210.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1123}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-300,
+		["x"]=207.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1124}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1125}
-		["y"]=12,
-		["x"]=-52.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1126}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=145,
+		["x"]=309.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1127}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1128}
-		["y"]=120,
-		["x"]=-185.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1129}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-193,
+		["x"]=313.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1130}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1131}
-		["y"]=140,
-		["x"]=243.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1132}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-135,
+		["x"]=-28.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1133}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1134}
-		["y"]=64,
-		["x"]=178.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1135}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-276,
+		["x"]=40.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1136}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1137}
-		["y"]=-22,
-		["x"]=-148.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1138}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-122,
+		["x"]=206.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1139}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1140}
-		["y"]=253,
-		["x"]=167.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1141}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-253,
+		["x"]=292.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1142}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1143}
-		["y"]=-86,
-		["x"]=-76.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1144}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-24,
+		["x"]=105.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1145}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1146}
-		["y"]=-218,
-		["x"]=-170.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1147}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=22,
+		["x"]=-67.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1148}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1149}
-		["y"]=-203,
-		["x"]=28.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1150}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-13,
+		["x"]=-62.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1151}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1152}
-		["y"]=106,
-		["x"]=241.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1153}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-234,
+		["x"]=310.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1154}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1155}
-		["y"]=156,
-		["x"]=144.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1156}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=239,
+		["x"]=193.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1157}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1158}
-		["y"]=286,
-		["x"]=-75.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1159}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=14,
+		["x"]=314.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1160}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1161}
-		["y"]=94,
-		["x"]=143.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1162}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=226,
+		["x"]=-103.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1163}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1164}
-		["y"]=-185,
-		["x"]=119.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1165}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=178,
+		["x"]=414.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1166}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1167}
-		["y"]=-67,
-		["x"]=254.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1168}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-186,
+		["x"]=114.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1169}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1170}
-		["y"]=110,
-		["x"]=158.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1171}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-137,
+		["x"]=342.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1172}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1173}
-		["y"]=-124,
-		["x"]=318.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1174}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=106,
+		["x"]=-2.3333333333338,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1175}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1176}
-		["y"]=-189,
-		["x"]=76.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1177}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=103,
+		["x"]=161.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1178}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1179}
-		["y"]=271,
-		["x"]=174.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1180}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=33,
+		["x"]=371.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1181}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1182}
-		["y"]=48,
-		["x"]=148.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1183}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=21,
+		["x"]=216.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1184}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1185}
-		["y"]=-125,
-		["x"]=-92.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1186}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=78,
+		["x"]=-104.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1187}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1188}
-		["y"]=-107,
-		["x"]=-84.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1189}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=211,
+		["x"]=-3.3333333333338,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1190}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1191}
-		["y"]=-40,
-		["x"]=-23.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1192}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-277,
+		["x"]=386.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1193}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1194}
-		["y"]=-28,
-		["x"]=-82.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1195}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-238,
+		["x"]=-35.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1196}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1197}
-		["y"]=-224,
-		["x"]=-186.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1198}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=66,
+		["x"]=219.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1199}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1200}
-		["y"]=-87,
-		["x"]=-248.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1201}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=235,
+		["x"]=50.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1202}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1203}
-		["y"]=-273,
-		["x"]=-42.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1204}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-150,
+		["x"]=276.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1205}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1206}
-		["y"]=296,
-		["x"]=146.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1207}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=34,
+		["x"]=419.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1208}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1209}
-		["y"]=93,
-		["x"]=196.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1210}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=272,
+		["x"]=451.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1211}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1212}
-		["y"]=103,
-		["x"]=264.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1213}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-127,
+		["x"]=369.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1214}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1215}
-		["y"]=-176,
-		["x"]=-182.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1216}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-232,
+		["x"]=329.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1217}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1218}
-		["y"]=-269,
-		["x"]=-41.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1219}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=191,
+		["x"]=-14.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1220}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1221}
-		["y"]=-283,
-		["x"]=301.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1222}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=15,
+		["x"]=359.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1223}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1224}
-		["y"]=31,
-		["x"]=27.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1225}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=18,
+		["x"]=373.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1226}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1227}
-		["y"]=-125,
-		["x"]=-170.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1228}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-15,
+		["x"]=293.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1229}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1230}
-		["y"]=-267,
-		["x"]=-155.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1231}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-51,
+		["x"]=112.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1232}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1233}
-		["y"]=-224,
-		["x"]=-87.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1234}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-151,
+		["x"]=299.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1235}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1236}
-		["y"]=-242,
-		["x"]=-108.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1237}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-99,
+		["x"]=459.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1238}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1239}
-		["y"]=-167,
-		["x"]=-105.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1240}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=205,
+		["x"]=117.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1241}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1242}
-		["y"]=72,
-		["x"]=55.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1243}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-294,
+		["x"]=321.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1244}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1245}
-		["y"]=218,
-		["x"]=-172.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1246}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=253,
+		["x"]=51.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1247}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1248}
-		["y"]=-79,
-		["x"]=270.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1249}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=68,
+		["x"]=85.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1250}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1251}
-		["y"]=40,
-		["x"]=-190.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1252}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-104,
+		["x"]=340.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1253}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1254}
-		["y"]=189,
-		["x"]=-17.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1255}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=234,
+		["x"]=230.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1256}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1257}
-		["y"]=-113,
-		["x"]=-60.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1258}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=112,
+		["x"]=-120.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1259}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1260}
-		["y"]=-46,
-		["x"]=84.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1261}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=109,
+		["x"]=416.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1262}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1263}
-		["y"]=251,
-		["x"]=-47.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1264}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=256,
+		["x"]=-18.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1265}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1266}
-		["y"]=-227,
-		["x"]=-231.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1267}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-100,
+		["x"]=166.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1268}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1269}
-		["y"]=18,
-		["x"]=304.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1270}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-230,
+		["x"]=-11.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1271}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1272}
-		["y"]=0,
-		["x"]=-145.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1273}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-43,
+		["x"]=347.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1274}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1275}
-		["y"]=206,
-		["x"]=275.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1276}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=155,
+		["x"]=-123.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1277}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1278}
-		["y"]=17,
-		["x"]=-253.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1279}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-142,
+		["x"]=227.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1280}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1281}
-		["y"]=100,
-		["x"]=290.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1282}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-23,
+		["x"]=95.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1283}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1284}
-		["y"]=-60,
-		["x"]=24.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1285}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-31,
+		["x"]=356.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1286}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1287}
-		["y"]=290,
-		["x"]=204.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1288}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-104,
+		["x"]=-127.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1289}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1290}
-		["y"]=162,
-		["x"]=-187.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1291}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-249,
+		["x"]=-120.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1292}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1293}
-		["y"]=220,
-		["x"]=227.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1294}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-230,
+		["x"]=454.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1295}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1296}
-		["y"]=291,
-		["x"]=-181.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1297}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=225,
+		["x"]=112.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1298}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1299}
-		["y"]=-77,
-		["x"]=246.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1300}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-286,
+		["x"]=-126.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1301}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1302}
-		["y"]=-260,
-		["x"]=-164.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1303}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-235,
+		["x"]=76.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1304}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1305}
-		["y"]=-169,
-		["x"]=-144.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1306}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-139,
+		["x"]=-10.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1307}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1308}
-		["y"]=-242,
-		["x"]=-36.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1309}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=169,
+		["x"]=338.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1310}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1311}
-		["y"]=71,
-		["x"]=128.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1312}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=210,
+		["x"]=175.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1313}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1314}
-		["y"]=49,
-		["x"]=25.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1315}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-127,
+		["x"]=160.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1316}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1317}
-		["y"]=-56,
-		["x"]=295.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1318}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=80,
+		["x"]=167.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1319}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1320}
-		["y"]=-238,
-		["x"]=25.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1321}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-251,
+		["x"]=-8.3333333333338,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1322}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1323}
-		["y"]=107,
-		["x"]=129.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1324}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=220,
+		["x"]=276.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1325}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1326}
-		["y"]=-283,
-		["x"]=-90.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1327}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-92,
+		["x"]=297.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1328}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1329}
-		["y"]=-276,
-		["x"]=-223.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1330}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-211,
+		["x"]=380.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1331}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1332}
-		["y"]=143,
-		["x"]=-199.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1333}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=192,
+		["x"]=116.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1334}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1335}
-		["y"]=154,
-		["x"]=55.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1336}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-182,
+		["x"]=41.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1337}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1338}
-		["y"]=120,
-		["x"]=134.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1339}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-172,
+		["x"]=39.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1340}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1341}
-		["y"]=225,
-		["x"]=315.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1342}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-85,
+		["x"]=13.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1343}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1344}
-		["y"]=288,
-		["x"]=-182.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1345}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-95,
+		["x"]=325.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1346}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1347}
-		["y"]=-179,
-		["x"]=-142.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1348}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=210,
+		["x"]=139.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1349}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1350}
-		["y"]=225,
-		["x"]=-144.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1351}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=221,
+		["x"]=57.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1352}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1353}
-		["y"]=17,
-		["x"]=245.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1354}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-127,
+		["x"]=-98.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1355}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1356}
-		["y"]=-41,
-		["x"]=227.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1357}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=174,
+		["x"]=335.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1358}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1359}
-		["y"]=-102,
-		["x"]=-115.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1360}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-150,
+		["x"]=34.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1361}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1362}
-		["y"]=277,
-		["x"]=-61.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1363}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=102,
+		["x"]=419.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1364}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1365}
-		["y"]=-235,
-		["x"]=-95.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1366}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-115,
+		["x"]=88.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1367}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1368}
-		["y"]=-259,
-		["x"]=72.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1369}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=231,
+		["x"]=420.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1370}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1371}
-		["y"]=-82,
-		["x"]=-240.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1372}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-260,
+		["x"]=451.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1373}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1374}
-		["y"]=6,
-		["x"]=158.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1375}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-52,
+		["x"]=106.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1376}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1377}
-		["y"]=-273,
-		["x"]=153.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1378}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=263,
+		["x"]=182.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1379}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1380}
-		["y"]=-247,
-		["x"]=-199.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1381}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=211,
+		["x"]=455.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1382}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1383}
-		["y"]=183,
-		["x"]=217.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1384}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=211,
+		["x"]=-132.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1385}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1386}
-		["y"]=118,
-		["x"]=274.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1387}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=154,
+		["x"]=-85.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1388}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1389}
-		["y"]=-271,
-		["x"]=-13.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1390}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=266,
+		["x"]=319.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1391}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1392}
-		["y"]=-56,
-		["x"]=262.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1393}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=160,
+		["x"]=165.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1394}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1395}
-		["y"]=124,
-		["x"]=-37.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1396}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-172,
+		["x"]=313.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1397}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1398}
-		["y"]=-12,
-		["x"]=-86.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1399}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-187,
+		["x"]=260.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1400}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1401}
-		["y"]=-253,
-		["x"]=78.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1402}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=199,
+		["x"]=-19.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1403}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1404}
-		["y"]=-287,
-		["x"]=-142.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1405}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-48,
+		["x"]=428.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1406}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1407}
-		["y"]=-155,
-		["x"]=278.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1408}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=29,
+		["x"]=187.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1409}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1410}
-		["y"]=204,
-		["x"]=-200.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1411}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-30,
+		["x"]=33.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1412}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1413}
-		["y"]=-115,
-		["x"]=-199.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1414}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-204,
+		["x"]=-100.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1415}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1416}
-		["y"]=221,
-		["x"]=-199.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1417}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=203,
+		["x"]=425.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1418}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1419}
-		["y"]=19,
-		["x"]=154.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1420}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-25,
+		["x"]=183.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1421}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1422}
-		["y"]=39,
-		["x"]=62.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1423}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-218,
+		["x"]=410.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1424}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1425}
-		["y"]=-161,
-		["x"]=156.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1426}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=289,
+		["x"]=130.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1427}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1428}
-		["y"]=-180,
-		["x"]=-279.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1429}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-50,
+		["x"]=79.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1430}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1431}
-		["y"]=75,
-		["x"]=-144.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1432}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=295,
+		["x"]=200.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1433}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1434}
-		["y"]=-17,
-		["x"]=-77.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1435}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=285,
+		["x"]=366.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1436}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1437}
-		["y"]=247,
-		["x"]=-149.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1438}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=156,
+		["x"]=-103.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1439}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1440}
-		["y"]=149,
-		["x"]=-256.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1441}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-20,
+		["x"]=328.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1442}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1443}
-		["y"]=-225,
-		["x"]=-146.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1444}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-141,
+		["x"]=366.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1445}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1446}
-		["y"]=96,
-		["x"]=244.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1447}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=239,
+		["x"]=243.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1448}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1449}
-		["y"]=204,
-		["x"]=284.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1450}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=152,
+		["x"]=82.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1451}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1452}
-		["y"]=-222,
-		["x"]=71.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1453}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=33,
+		["x"]=56.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1454}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1455}
-		["y"]=111,
-		["x"]=-72.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1456}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-24,
+		["x"]=458.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1457}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1458}
-		["y"]=94,
-		["x"]=-131.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1459}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-56,
+		["x"]=-130.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1460}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1461}
-		["y"]=-226,
-		["x"]=158.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1462}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=73,
+		["x"]=78.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1463}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1464}
-		["y"]=253,
-		["x"]=-46.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1465}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=127,
+		["x"]=62.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1466}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1467}
-		["y"]=248,
-		["x"]=265.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1468}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=223,
+		["x"]=33.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1469}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1470}
-		["y"]=-264,
-		["x"]=-256.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1471}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-250,
+		["x"]=250.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1472}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1473}
-		["y"]=182,
-		["x"]=179.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1474}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=220,
+		["x"]=8.6666666666663,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1475}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1476}
-		["y"]=183,
-		["x"]=203.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1477}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=90,
+		["x"]=35.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1478}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1479}
-		["y"]=-115,
-		["x"]=219.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1480}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-249,
+		["x"]=279.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1481}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1482}
-		["y"]=-260,
-		["x"]=271.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1483}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=62,
+		["x"]=446.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1484}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1485}
-		["y"]=-130,
-		["x"]=-270.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1486}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=142,
+		["x"]=428.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1487}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1488}
-		["y"]=-239,
-		["x"]=250.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1489}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-177,
+		["x"]=318.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1490}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1491}
-		["y"]=43,
-		["x"]=57.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1492}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=37,
+		["x"]=-103.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1493}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1494}
-		["y"]=247,
-		["x"]=3.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1495}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-19,
+		["x"]=70.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1496}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1497}
-		["y"]=-201,
-		["x"]=87.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1498}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=41,
+		["x"]=-87.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1499}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1500}
-		["y"]=-124,
-		["x"]=63.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1501}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-114,
+		["x"]=-105.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1502}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1503}
-		["y"]=297,
-		["x"]=171.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1504}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-55,
+		["x"]=387.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1505}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1506}
-		["y"]=-182,
-		["x"]=-219.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1507}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-108,
+		["x"]=313.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1508}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1509}
-		["y"]=-166,
-		["x"]=91.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1510}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-199,
+		["x"]=81.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1511}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1512}
-		["y"]=-152,
-		["x"]=131.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1513}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=214,
+		["x"]=297.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1514}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1515}
-		["y"]=-122,
-		["x"]=73.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1516}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-248,
+		["x"]=354.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1517}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1518}
-		["y"]=138,
-		["x"]=312.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1519}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=239,
+		["x"]=202.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1520}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1521}
-		["y"]=9,
-		["x"]=-40.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1522}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=165,
+		["x"]=393.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1523}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1524}
-		["y"]=125,
-		["x"]=25.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1525}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=252,
+		["x"]=398.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1526}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1527}
-		["y"]=21,
-		["x"]=-185.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1528}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-18,
+		["x"]=178.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1529}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1530}
-		["y"]=-24,
-		["x"]=270.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1531}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-136,
+		["x"]=360.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1532}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1533}
-		["y"]=8,
-		["x"]=-131.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1534}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-224,
+		["x"]=-16.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1535}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1536}
-		["y"]=-263,
-		["x"]=68.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1537}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-145,
+		["x"]=2.6666666666663,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1538}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1539}
-		["y"]=-105,
-		["x"]=-197.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1540}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=28,
+		["x"]=186.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1541}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1542}
-		["y"]=-236,
-		["x"]=-127.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1543}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=87,
+		["x"]=415.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1544}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1545}
-		["y"]=-85,
-		["x"]=245.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1546}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-34,
+		["x"]=-90.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1547}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1548}
-		["y"]=-29,
-		["x"]=155.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1549}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=159,
+		["x"]=23.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1550}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1551}
-		["y"]=38,
-		["x"]=166.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1552}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=237,
+		["x"]=325.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1553}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {1554}
-		["y"]=164,
-		["x"]=-223.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {1555}
 		["y"]=10,
 		["x"]=10,
 		["z"]=10,
 	},
 
-	{--Entry Number: {1556}
+	{--Entry Number: {1554}
 		[1]="PropMovement.lua",
 	},
 
-	{--Entry Number: {1557}
-		["y"]=-237,
-		["x"]=78.2,
+	{--Entry Number: {1555}
+		["y"]=-127,
+		["x"]=449.66666666667,
 		["z"]=-1000,
+	},
+
+	{--Entry Number: {1556}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {1557}
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1558}
 		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["x"]=227.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1559}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1560}
-		["y"]=98,
-		["x"]=177.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1561}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=163,
+		["x"]=345.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1562}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1563}
-		["y"]=135,
-		["x"]=-191.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1564}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-119,
+		["x"]=239.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1565}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1566}
-		["y"]=-3,
-		["x"]=239.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1567}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=111,
+		["x"]=419.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1568}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1569}
-		["y"]=-225,
-		["x"]=31.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1570}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=261,
+		["x"]=-119.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1571}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1572}
-		["y"]=-168,
-		["x"]=41.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1573}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-11,
+		["x"]=390.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1574}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1575}
-		["y"]=-91,
-		["x"]=233.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1576}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-167,
+		["x"]=-127.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1577}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1578}
-		["y"]=-214,
-		["x"]=-67.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1579}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=223,
+		["x"]=238.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1580}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1581}
-		["y"]=66,
-		["x"]=-96.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1582}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=72,
+		["x"]=47.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1583}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1584}
-		["y"]=-102,
-		["x"]=-135.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1585}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-129,
+		["x"]=-39.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1586}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1587}
-		["y"]=-204,
-		["x"]=-10.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1588}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=147,
+		["x"]=93.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1589}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1590}
-		["y"]=-223,
-		["x"]=-266.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1591}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=262,
+		["x"]=-13.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1592}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1593}
-		["y"]=287,
-		["x"]=-209.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1594}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=300,
+		["x"]=211.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1595}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1596}
-		["y"]=31,
-		["x"]=61.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1597}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-55,
+		["x"]=-51.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1598}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1599}
-		["y"]=13,
-		["x"]=305.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1600}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-131,
+		["x"]=62.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1601}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1602}
-		["y"]=114,
-		["x"]=28.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1603}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=237,
+		["x"]=-6.3333333333338,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1604}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1605}
-		["y"]=180,
-		["x"]=213.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1606}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-111,
+		["x"]=162.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1607}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1608}
-		["y"]=-52,
-		["x"]=249.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1609}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-100,
+		["x"]=416.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1610}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1611}
-		["y"]=256,
-		["x"]=112.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1612}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-144,
+		["x"]=166.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1613}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1614}
-		["y"]=-246,
-		["x"]=234.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1615}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=296,
+		["x"]=315.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1616}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1617}
-		["y"]=24,
-		["x"]=16.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1618}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-54,
+		["x"]=136.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1619}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1620}
-		["y"]=-27,
-		["x"]=150.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1621}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-86,
+		["x"]=409.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1622}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1623}
-		["y"]=211,
-		["x"]=79.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1624}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-205,
+		["x"]=241.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1625}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1626}
-		["y"]=-43,
-		["x"]=-90.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1627}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=245,
+		["x"]=259.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1628}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1629}
-		["y"]=15,
-		["x"]=7.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1630}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-115,
+		["x"]=124.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1631}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1632}
-		["y"]=-94,
-		["x"]=-242.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1633}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-205,
+		["x"]=244.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1634}
-		[1]="PropMovement.lua",
+		["y"]=100,
+		["x"]=100,
+		["z"]=100,
 	},
 
 	{--Entry Number: {1635}
-		["y"]=276,
-		["x"]=-228.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1636}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=236,
+		["x"]=-54.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1637}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1638}
-		["y"]=-14,
-		["x"]=-58.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1639}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-258,
+		["x"]=365.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1640}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1641}
-		["y"]=-144,
-		["x"]=-253.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1642}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-251,
+		["x"]=423.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1643}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1644}
-		["y"]=-185,
-		["x"]=170.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1645}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=151,
+		["x"]=74.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1646}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1647}
-		["y"]=172,
-		["x"]=263.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1648}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=82,
+		["x"]=314.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1649}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1650}
-		["y"]=-201,
-		["x"]=-114.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1651}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-62,
+		["x"]=85.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1652}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1653}
-		["y"]=126,
-		["x"]=40.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1654}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-70,
+		["x"]=-13.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1655}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1656}
-		["y"]=171,
-		["x"]=296.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1657}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=124,
+		["x"]=3.6666666666663,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1658}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1659}
-		["y"]=-20,
-		["x"]=-256.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1660}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=206,
+		["x"]=236.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1661}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1662}
-		["y"]=118,
-		["x"]=318.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1663}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=22,
+		["x"]=213.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1664}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1665}
-		["y"]=7,
-		["x"]=-34.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1666}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-119,
+		["x"]=433.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1667}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1668}
-		["y"]=199,
-		["x"]=269.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1669}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-150,
+		["x"]=449.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1670}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1671}
-		["y"]=-95,
-		["x"]=-261.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1672}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=194,
+		["x"]=73.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1673}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1674}
-		["y"]=-228,
-		["x"]=169.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1675}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=188,
+		["x"]=3.6666666666663,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1676}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1677}
-		["y"]=24,
-		["x"]=11.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1678}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=41,
+		["x"]=169.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1679}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1680}
-		["y"]=241,
-		["x"]=-5.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1681}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=37,
+		["x"]=120.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1682}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1683}
-		["y"]=17,
-		["x"]=167.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1684}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=135,
+		["x"]=88.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1685}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1686}
-		["y"]=244,
-		["x"]=201.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1687}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=117,
+		["x"]=-4.3333333333338,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1688}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1689}
-		["y"]=107,
-		["x"]=13.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1690}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-10,
+		["x"]=-82.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1691}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1692}
-		["y"]=-161,
-		["x"]=-186.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1693}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-9,
+		["x"]=127.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1694}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1695}
-		["y"]=-33,
-		["x"]=113.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1696}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-9,
+		["x"]=208.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1697}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1698}
-		["y"]=103,
-		["x"]=28.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1699}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-249,
+		["x"]=347.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1700}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1701}
-		["y"]=36,
-		["x"]=-33.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1702}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-153,
+		["x"]=36.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1703}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1704}
-		["y"]=147,
-		["x"]=130.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1705}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-182,
+		["x"]=342.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1706}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1707}
-		["y"]=-93,
-		["x"]=229.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1708}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=83,
+		["x"]=128.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1709}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1710}
-		["y"]=5,
-		["x"]=-15.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1711}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=129,
+		["x"]=25.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1712}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1713}
-		["y"]=-166,
-		["x"]=176.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1714}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=204,
+		["x"]=401.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1715}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1716}
-		["y"]=70,
-		["x"]=153.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1717}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-9,
+		["x"]=173.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1718}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1719}
-		["y"]=-33,
-		["x"]=-63.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1720}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=294,
+		["x"]=236.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1721}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1722}
-		["y"]=131,
-		["x"]=-211.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1723}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-138,
+		["x"]=244.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1724}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1725}
-		["y"]=170,
-		["x"]=104.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1726}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-36,
+		["x"]=176.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1727}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1728}
-		["y"]=172,
-		["x"]=-177.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1729}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-16,
+		["x"]=402.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1730}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1731}
-		["y"]=-243,
-		["x"]=70.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1732}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-41,
+		["x"]=428.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1733}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1734}
-		["y"]=-270,
-		["x"]=243.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1735}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-226,
+		["x"]=-87.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1736}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1737}
-		["y"]=62,
-		["x"]=235.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1738}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-36,
+		["x"]=-120.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1739}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1740}
-		["y"]=-43,
-		["x"]=-250.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1741}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=228,
+		["x"]=76.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1742}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1743}
-		["y"]=-60,
-		["x"]=-64.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1744}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-249,
+		["x"]=38.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1745}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1746}
-		["y"]=-264,
-		["x"]=69.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1747}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=220,
+		["x"]=190.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1748}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1749}
-		["y"]=-7,
-		["x"]=40.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1750}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-175,
+		["x"]=290.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1751}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1752}
-		["y"]=32,
-		["x"]=105.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1753}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-198,
+		["x"]=199.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1754}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1755}
-		["y"]=270,
-		["x"]=182.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1756}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=29,
+		["x"]=306.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1757}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1758}
-		["y"]=53,
-		["x"]=244.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1759}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-244,
+		["x"]=235.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1760}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1761}
-		["y"]=-9,
-		["x"]=-166.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1762}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=193,
+		["x"]=184.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1763}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1764}
-		["y"]=-56,
-		["x"]=-20.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1765}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-217,
+		["x"]=264.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1766}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1767}
-		["y"]=-112,
-		["x"]=-99.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1768}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=262,
+		["x"]=385.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1769}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1770}
-		["y"]=194,
-		["x"]=92.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1771}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=224,
+		["x"]=-8.3333333333338,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1772}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1773}
-		["y"]=229,
-		["x"]=99.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1774}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=271,
+		["x"]=83.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1775}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1776}
-		["y"]=-60,
-		["x"]=-29.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1777}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=186,
+		["x"]=43.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1778}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1779}
-		["y"]=-100,
-		["x"]=229.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1780}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-131,
+		["x"]=12.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1781}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1782}
-		["y"]=-274,
-		["x"]=-104.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1783}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-110,
+		["x"]=375.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1784}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1785}
-		["y"]=-229,
-		["x"]=-159.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1786}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-268,
+		["x"]=-97.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1787}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1788}
-		["y"]=-268,
-		["x"]=-172.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1789}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=248,
+		["x"]=-118.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1790}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1791}
-		["y"]=31,
-		["x"]=150.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1792}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-57,
+		["x"]=354.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1793}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1794}
-		["y"]=-68,
-		["x"]=14.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1795}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=58,
+		["x"]=101.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1796}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1797}
-		["y"]=-156,
-		["x"]=312.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1798}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=130,
+		["x"]=159.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1799}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1800}
-		["y"]=-60,
-		["x"]=-8.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1801}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-90,
+		["x"]=133.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1802}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1803}
-		["y"]=-103,
-		["x"]=-1.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1804}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-89,
+		["x"]=-87.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1805}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1806}
-		["y"]=-272,
-		["x"]=-235.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1807}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-14,
+		["x"]=7.6666666666663,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1808}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1809}
-		["y"]=-108,
-		["x"]=-125.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1810}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=263,
+		["x"]=427.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1811}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1812}
-		["y"]=-59,
-		["x"]=269.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1813}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-30,
+		["x"]=61.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1814}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1815}
-		["y"]=-71,
-		["x"]=-93.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1816}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-222,
+		["x"]=-45.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1817}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1818}
-		["y"]=226,
-		["x"]=-65.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1819}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-98,
+		["x"]=369.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1820}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1821}
-		["y"]=136,
-		["x"]=280.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1822}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-250,
+		["x"]=102.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1823}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1824}
-		["y"]=-76,
-		["x"]=318.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1825}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=111,
+		["x"]=14.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1826}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1827}
-		["y"]=217,
-		["x"]=115.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1828}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=18,
+		["x"]=395.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1829}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1830}
-		["y"]=-211,
-		["x"]=-237.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1831}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-267,
+		["x"]=45.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1832}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1833}
-		["y"]=265,
-		["x"]=256.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1834}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=92,
+		["x"]=287.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1835}
-		[1]="PropMovement.lua",
+		["y"]=100,
+		["x"]=100,
+		["z"]=100,
 	},
 
 	{--Entry Number: {1836}
-		["y"]=13,
-		["x"]=273.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1837}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=24,
+		["x"]=340.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1838}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1839}
-		["y"]=58,
-		["x"]=-108.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1840}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-47,
+		["x"]=-45.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1841}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1842}
-		["y"]=219,
-		["x"]=-108.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1843}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=26,
+		["x"]=-76.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1844}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1845}
-		["y"]=7,
-		["x"]=-230.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1846}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-208,
+		["x"]=395.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1847}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1848}
-		["y"]=-288,
-		["x"]=247.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1849}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=102,
+		["x"]=348.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1850}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1851}
-		["y"]=-93,
-		["x"]=-12.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1852}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=232,
+		["x"]=71.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1853}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1854}
-		["y"]=-230,
-		["x"]=79.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1855}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=173,
+		["x"]=314.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1856}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1857}
-		["y"]=-161,
-		["x"]=-246.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1858}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-12,
+		["x"]=315.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1859}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1860}
-		["y"]=-299,
-		["x"]=13.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1861}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=210,
+		["x"]=-112.33333333333,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1862}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1863}
-		["y"]=-59,
-		["x"]=294.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1864}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=142,
+		["x"]=-11.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1865}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1866}
-		["y"]=246,
-		["x"]=-229.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1867}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=137,
+		["x"]=107.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1868}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1869}
-		["y"]=-79,
-		["x"]=225.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1870}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=291,
+		["x"]=212.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1871}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1872}
-		["y"]=-180,
-		["x"]=-29.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1873}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-66,
+		["x"]=127.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1874}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1875}
-		["y"]=252,
-		["x"]=9.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1876}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-275,
+		["x"]=-77.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1877}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1878}
-		["y"]=-74,
-		["x"]=99.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1879}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=245,
+		["x"]=382.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1880}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1881}
-		["y"]=-20,
-		["x"]=296.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1882}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-101,
+		["x"]=450.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1883}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1884}
-		["y"]=-292,
-		["x"]=-46.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1885}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-275,
+		["x"]=-57.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1886}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1887}
-		["y"]=27,
-		["x"]=-271.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1888}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-295,
+		["x"]=373.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1889}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1890}
-		["y"]=193,
-		["x"]=-5.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1891}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-251,
+		["x"]=200.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1892}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1893}
-		["y"]=-60,
-		["x"]=-157.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1894}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-196,
+		["x"]=-27.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1895}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1896}
-		["y"]=-107,
-		["x"]=296.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1897}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-8,
+		["x"]=-62.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1898}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1899}
-		["y"]=31,
-		["x"]=-102.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1900}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-125,
+		["x"]=-54.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1901}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1902}
-		["y"]=27,
-		["x"]=94.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1903}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=246,
+		["x"]=260.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1904}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1905}
-		["y"]=246,
-		["x"]=205.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1906}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=143,
+		["x"]=51.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1907}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1908}
-		["y"]=-209,
-		["x"]=-76.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1909}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-205,
+		["x"]=402.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1910}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1911}
-		["y"]=133,
-		["x"]=9.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1912}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-287,
+		["x"]=446.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1913}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1914}
-		["y"]=-36,
-		["x"]=304.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1915}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-88,
+		["x"]=-52.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1916}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1917}
-		["y"]=-278,
-		["x"]=-198.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1918}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=45,
+		["x"]=422.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1919}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1920}
-		["y"]=218,
-		["x"]=-260.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1921}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-64,
+		["x"]=22.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1922}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1923}
-		["y"]=259,
-		["x"]=-151.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1924}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=143,
+		["x"]=197.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1925}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1926}
-		["y"]=-229,
-		["x"]=283.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1927}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-81,
+		["x"]=-78.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1928}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1929}
-		["y"]=274,
-		["x"]=-272.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1930}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=4,
+		["x"]=223.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1931}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1932}
-		["y"]=-235,
-		["x"]=61.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1933}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-202,
+		["x"]=-28.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1934}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1935}
-		["y"]=-54,
-		["x"]=150.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1936}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=259,
+		["x"]=203.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1937}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1938}
-		["y"]=-249,
-		["x"]=221.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1939}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=11,
+		["x"]=420.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1940}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1941}
-		["y"]=295,
-		["x"]=-107.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1942}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=66,
+		["x"]=232.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1943}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1944}
-		["y"]=-292,
-		["x"]=-197.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1945}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-277,
+		["x"]=23.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1946}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1947}
-		["y"]=16,
-		["x"]=-140.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1948}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-169,
+		["x"]=402.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1949}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1950}
-		["y"]=-139,
-		["x"]=277.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1951}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=3,
+		["x"]=215.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1952}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1953}
-		["y"]=-166,
-		["x"]=190.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1954}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=137,
+		["x"]=-88.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1955}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1956}
-		["y"]=274,
-		["x"]=-46.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1957}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-155,
+		["x"]=-38.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1958}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1959}
-		["y"]=-161,
-		["x"]=256.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1960}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-253,
+		["x"]=153.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1961}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1962}
-		["y"]=-180,
-		["x"]=-234.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1963}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=158,
+		["x"]=-59.333333333334,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1964}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1965}
-		["y"]=-129,
-		["x"]=-61.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1966}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-236,
+		["x"]=359.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1967}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1968}
-		["y"]=-28,
-		["x"]=-186.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1969}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=164,
+		["x"]=209.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1970}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1971}
-		["y"]=197,
-		["x"]=163.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1972}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-97,
+		["x"]=247.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1973}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1974}
-		["y"]=160,
-		["x"]=91.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1975}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=254,
+		["x"]=188.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1976}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1977}
-		["y"]=197,
-		["x"]=214.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1978}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-169,
+		["x"]=462.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1979}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1980}
-		["y"]=-62,
-		["x"]=-16.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1981}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=207,
+		["x"]=31.666666666666,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1982}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1983}
-		["y"]=14,
-		["x"]=314.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1984}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-143,
+		["x"]=215.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1985}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1986}
-		["y"]=122,
-		["x"]=-242.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1987}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=255,
+		["x"]=272.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1988}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1989}
-		["y"]=-265,
-		["x"]=262.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1990}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=119,
+		["x"]=379.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1991}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1992}
-		["y"]=-162,
-		["x"]=-51.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1993}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=219,
+		["x"]=189.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1994}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1995}
-		["y"]=-16,
-		["x"]=143.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1996}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-75,
+		["x"]=414.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {1997}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {1998}
-		["y"]=-276,
-		["x"]=-265.8,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {1999}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=-57,
+		["x"]=357.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {2000}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {2001}
-		["y"]=261,
-		["x"]=310.2,
-		["z"]=-1000,
+		[1]="PropMovement.lua",
 	},
 
 	{--Entry Number: {2002}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=211,
+		["x"]=433.66666666667,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {2003}
-		[1]="PropMovement.lua",
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
 	},
 
 	{--Entry Number: {2004}
-		["y"]=138,
-		["x"]=237.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2005}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2006}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2007}
-		["y"]=-271,
-		["x"]=75.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2008}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2009}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2010}
-		["y"]=193,
-		["x"]=203.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2011}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2012}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2013}
-		["y"]=-146,
-		["x"]=169.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2014}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2015}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2016}
-		["y"]=180,
-		["x"]=-168.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2017}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2018}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2019}
-		["y"]=-98,
-		["x"]=-128.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2020}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2021}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2022}
-		["y"]=-96,
-		["x"]=-224.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2023}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2024}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2025}
-		["y"]=-249,
-		["x"]=21.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2026}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2027}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2028}
-		["y"]=-232,
-		["x"]=-219.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2029}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2030}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2031}
-		["y"]=-208,
-		["x"]=-58.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2032}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2033}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2034}
-		["y"]=-69,
-		["x"]=-181.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2035}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2036}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2037}
-		["y"]=244,
-		["x"]=319.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2038}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2039}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2040}
-		["y"]=-210,
-		["x"]=-98.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2041}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2042}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2043}
-		["y"]=293,
-		["x"]=0.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2044}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2045}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2046}
-		["y"]=-269,
-		["x"]=-115.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2047}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2048}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2049}
-		["y"]=202,
-		["x"]=222.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2050}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2051}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2052}
-		["y"]=228,
-		["x"]=-74.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2053}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2054}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2055}
-		["y"]=-278,
-		["x"]=83.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2056}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2057}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2058}
-		["y"]=-214,
-		["x"]=-160.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2059}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2060}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2061}
-		["y"]=-248,
-		["x"]=155.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2062}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2063}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2064}
-		["y"]=-246,
-		["x"]=162.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2065}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2066}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2067}
-		["y"]=30,
-		["x"]=8.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2068}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2069}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2070}
-		["y"]=-233,
-		["x"]=140.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2071}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2072}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2073}
-		["y"]=224,
-		["x"]=-83.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2074}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2075}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2076}
-		["y"]=157,
-		["x"]=257.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2077}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2078}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2079}
-		["y"]=-59,
-		["x"]=271.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2080}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2081}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2082}
-		["y"]=64,
-		["x"]=-154.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2083}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2084}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2085}
-		["y"]=-112,
-		["x"]=-143.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2086}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2087}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2088}
-		["y"]=78,
-		["x"]=-101.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2089}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2090}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2091}
-		["y"]=-108,
-		["x"]=-259.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2092}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2093}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2094}
-		["y"]=185,
-		["x"]=-257.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2095}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2096}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2097}
-		["y"]=-143,
-		["x"]=-137.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2098}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2099}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2100}
-		["y"]=146,
-		["x"]=-76.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2101}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2102}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2103}
-		["y"]=262,
-		["x"]=-116.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2104}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2105}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2106}
-		["y"]=-102,
-		["x"]=-118.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2107}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2108}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2109}
-		["y"]=-52,
-		["x"]=-217.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2110}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2111}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2112}
-		["y"]=3,
-		["x"]=177.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2113}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2114}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2115}
-		["y"]=177,
-		["x"]=165.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2116}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2117}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2118}
-		["y"]=-164,
-		["x"]=210.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2119}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2120}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2121}
-		["y"]=-215,
-		["x"]=-171.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2122}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2123}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2124}
-		["y"]=142,
-		["x"]=41.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2125}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2126}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2127}
-		["y"]=-236,
-		["x"]=-208.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2128}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2129}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2130}
-		["y"]=149,
-		["x"]=107.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2131}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2132}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2133}
-		["y"]=77,
-		["x"]=282.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2134}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2135}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2136}
-		["y"]=193,
-		["x"]=114.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2137}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2138}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2139}
-		["y"]=-273,
-		["x"]=311.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2140}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2141}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2142}
-		["y"]=9,
-		["x"]=142.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2143}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2144}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2145}
-		["y"]=287,
-		["x"]=23.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2146}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2147}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2148}
-		["y"]=104,
-		["x"]=0.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2149}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2150}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2151}
-		["y"]=287,
-		["x"]=-4.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2152}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2153}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2154}
-		["y"]=-67,
-		["x"]=-163.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2155}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2156}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2157}
-		["y"]=-283,
-		["x"]=231.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2158}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2159}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2160}
-		["y"]=197,
-		["x"]=124.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2161}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2162}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2163}
-		["y"]=162,
-		["x"]=-263.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2164}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2165}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2166}
-		["y"]=-98,
-		["x"]=313.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2167}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2168}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2169}
-		["y"]=-23,
-		["x"]=88.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2170}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2171}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2172}
-		["y"]=271,
-		["x"]=-144.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2173}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2174}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2175}
-		["y"]=166,
-		["x"]=16.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2176}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2177}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2178}
-		["y"]=-184,
-		["x"]=-93.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2179}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2180}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2181}
-		["y"]=280,
-		["x"]=172.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2182}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2183}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2184}
-		["y"]=182,
-		["x"]=139.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2185}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2186}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2187}
-		["y"]=-59,
-		["x"]=146.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2188}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2189}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2190}
-		["y"]=-198,
-		["x"]=-278.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2191}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2192}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2193}
-		["y"]=-136,
-		["x"]=191.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2194}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2195}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2196}
-		["y"]=-109,
-		["x"]=132.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2197}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2198}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2199}
-		["y"]=273,
-		["x"]=187.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2200}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2201}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2202}
-		["y"]=-108,
-		["x"]=109.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2203}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2204}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2205}
-		["y"]=88,
-		["x"]=20.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2206}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2207}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2208}
-		["y"]=-250,
-		["x"]=5.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2209}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2210}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2211}
-		["y"]=85,
-		["x"]=159.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2212}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2213}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2214}
-		["y"]=-168,
-		["x"]=-252.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2215}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2216}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2217}
-		["y"]=263,
-		["x"]=43.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2218}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2219}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2220}
-		["y"]=-23,
-		["x"]=195.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2221}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2222}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2223}
-		["y"]=37,
-		["x"]=-269.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2224}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2225}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2226}
-		["y"]=175,
-		["x"]=108.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2227}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2228}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2229}
-		["y"]=29,
-		["x"]=209.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2230}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2231}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2232}
-		["y"]=-179,
-		["x"]=255.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2233}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2234}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2235}
-		["y"]=93,
-		["x"]=149.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2236}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2237}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2238}
-		["y"]=138,
-		["x"]=286.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2239}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2240}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2241}
-		["y"]=132,
-		["x"]=-262.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2242}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2243}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2244}
-		["y"]=9,
-		["x"]=193.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2245}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2246}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2247}
-		["y"]=11,
-		["x"]=-115.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2248}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2249}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2250}
-		["y"]=-3,
-		["x"]=-252.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2251}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2252}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2253}
-		["y"]=176,
-		["x"]=-165.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2254}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2255}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2256}
-		["y"]=-205,
-		["x"]=251.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2257}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2258}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2259}
-		["y"]=243,
-		["x"]=-244.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2260}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2261}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2262}
-		["y"]=-58,
-		["x"]=-134.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2263}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2264}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2265}
-		["y"]=-139,
-		["x"]=50.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2266}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2267}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2268}
-		["y"]=-246,
-		["x"]=203.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2269}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2270}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2271}
-		["y"]=217,
-		["x"]=-148.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2272}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2273}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2274}
-		["y"]=48,
-		["x"]=-175.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2275}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2276}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2277}
-		["y"]=-210,
-		["x"]=87.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2278}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2279}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2280}
-		["y"]=191,
-		["x"]=308.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2281}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2282}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2283}
-		["y"]=83,
-		["x"]=225.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2284}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2285}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2286}
-		["y"]=274,
-		["x"]=-262.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2287}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2288}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2289}
-		["y"]=176,
-		["x"]=284.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2290}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2291}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2292}
-		["y"]=145,
-		["x"]=177.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2293}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2294}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2295}
-		["y"]=-57,
-		["x"]=-15.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2296}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2297}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2298}
-		["y"]=-28,
-		["x"]=315.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2299}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2300}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2301}
-		["y"]=198,
-		["x"]=-86.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2302}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2303}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2304}
-		["y"]=-46,
-		["x"]=-8.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2305}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2306}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2307}
-		["y"]=48,
-		["x"]=147.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2308}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2309}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2310}
-		["y"]=176,
-		["x"]=-58.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2311}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2312}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2313}
-		["y"]=249,
-		["x"]=235.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2314}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2315}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2316}
-		["y"]=-268,
-		["x"]=141.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2317}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2318}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2319}
-		["y"]=-97,
-		["x"]=304.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2320}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2321}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2322}
-		["y"]=-187,
-		["x"]=156.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2323}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2324}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2325}
-		["y"]=118,
-		["x"]=-0.79999999999999,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2326}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2327}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2328}
-		["y"]=-151,
-		["x"]=-216.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2329}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2330}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2331}
-		["y"]=-261,
-		["x"]=-193.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2332}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2333}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2334}
-		["y"]=183,
-		["x"]=-56.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2335}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2336}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2337}
-		["y"]=248,
-		["x"]=151.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2338}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2339}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2340}
-		["y"]=219,
-		["x"]=-139.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2341}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2342}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2343}
-		["y"]=-115,
-		["x"]=162.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2344}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2345}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2346}
-		["y"]=159,
-		["x"]=137.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2347}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2348}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2349}
-		["y"]=-239,
-		["x"]=228.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2350}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2351}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2352}
-		["y"]=-83,
-		["x"]=136.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2353}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2354}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2355}
-		["y"]=221,
-		["x"]=189.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2356}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2357}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2358}
-		["y"]=-122,
-		["x"]=251.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2359}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2360}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2361}
-		["y"]=-56,
-		["x"]=236.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2362}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2363}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2364}
-		["y"]=51,
-		["x"]=269.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2365}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2366}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2367}
-		["y"]=72,
-		["x"]=118.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2368}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2369}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2370}
-		["y"]=193,
-		["x"]=21.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2371}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2372}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2373}
-		["y"]=273,
-		["x"]=92.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2374}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2375}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2376}
-		["y"]=12,
-		["x"]=285.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2377}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2378}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2379}
-		["y"]=-216,
-		["x"]=186.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2380}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2381}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2382}
-		["y"]=-275,
-		["x"]=206.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2383}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2384}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2385}
-		["y"]=157,
-		["x"]=286.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2386}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2387}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2388}
-		["y"]=-175,
-		["x"]=-13.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2389}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2390}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2391}
-		["y"]=-37,
-		["x"]=126.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2392}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2393}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2394}
-		["y"]=-239,
-		["x"]=114.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2395}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2396}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2397}
-		["y"]=-180,
-		["x"]=-178.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2398}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2399}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2400}
-		["y"]=-186,
-		["x"]=-151.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2401}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2402}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2403}
-		["y"]=192,
-		["x"]=-69.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2404}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2405}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2406}
-		["y"]=-29,
-		["x"]=-257.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2407}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2408}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2409}
-		["y"]=160,
-		["x"]=-80.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2410}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2411}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2412}
-		["y"]=36,
-		["x"]=318.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2413}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2414}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2415}
-		["y"]=-192,
-		["x"]=-160.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2416}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2417}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2418}
-		["y"]=-170,
-		["x"]=-9.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2419}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2420}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2421}
-		["y"]=-75,
-		["x"]=301.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2422}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2423}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2424}
-		["y"]=120,
-		["x"]=202.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2425}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2426}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2427}
-		["y"]=-38,
-		["x"]=-18.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2428}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2429}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2430}
-		["y"]=227,
-		["x"]=-261.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2431}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2432}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2433}
-		["y"]=190,
-		["x"]=-233.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2434}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2435}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2436}
-		["y"]=-21,
-		["x"]=105.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2437}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2438}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2439}
-		["y"]=-31,
-		["x"]=133.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2440}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2441}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2442}
-		["y"]=-178,
-		["x"]=-45.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2443}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2444}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2445}
-		["y"]=-83,
-		["x"]=136.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2446}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2447}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2448}
-		["y"]=-4,
-		["x"]=219.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2449}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2450}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2451}
-		["y"]=175,
-		["x"]=-115.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2452}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2453}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2454}
-		["y"]=-276,
-		["x"]=316.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2455}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2456}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2457}
-		["y"]=-266,
-		["x"]=-133.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2458}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2459}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2460}
-		["y"]=-227,
-		["x"]=166.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2461}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2462}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2463}
-		["y"]=13,
-		["x"]=286.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2464}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2465}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2466}
-		["y"]=13,
-		["x"]=-266.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2467}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2468}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2469}
-		["y"]=-274,
-		["x"]=-41.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2470}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2471}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2472}
-		["y"]=-8,
-		["x"]=-237.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2473}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2474}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2475}
-		["y"]=-217,
-		["x"]=12.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2476}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2477}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2478}
-		["y"]=113,
-		["x"]=-131.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2479}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2480}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2481}
-		["y"]=268,
-		["x"]=122.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2482}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2483}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2484}
-		["y"]=-62,
-		["x"]=-29.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2485}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2486}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2487}
-		["y"]=117,
-		["x"]=211.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2488}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2489}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2490}
-		["y"]=217,
-		["x"]=0.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2491}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2492}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2493}
-		["y"]=290,
-		["x"]=306.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2494}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2495}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2496}
-		["y"]=201,
-		["x"]=139.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2497}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2498}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2499}
-		["y"]=250,
-		["x"]=229.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2500}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2501}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2502}
-		["y"]=139,
-		["x"]=294.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2503}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2504}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2505}
-		["y"]=-263,
-		["x"]=-159.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2506}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2507}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2508}
-		["y"]=-116,
-		["x"]=-88.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2509}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2510}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2511}
-		["y"]=16,
-		["x"]=-200.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2512}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2513}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2514}
-		["y"]=-39,
-		["x"]=219.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2515}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2516}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2517}
-		["y"]=164,
-		["x"]=180.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2518}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2519}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2520}
-		["y"]=-256,
-		["x"]=257.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2521}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2522}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2523}
-		["y"]=-2,
-		["x"]=314.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2524}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2525}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2526}
-		["y"]=-230,
-		["x"]=86.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2527}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2528}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2529}
-		["y"]=134,
-		["x"]=284.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2530}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2531}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2532}
-		["y"]=-96,
-		["x"]=172.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2533}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2534}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2535}
-		["y"]=29,
-		["x"]=210.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2536}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2537}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2538}
-		["y"]=59,
-		["x"]=118.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2539}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2540}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2541}
-		["y"]=-138,
-		["x"]=26.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2542}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2543}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2544}
-		["y"]=-64,
-		["x"]=-18.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2545}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2546}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2547}
-		["y"]=-195,
-		["x"]=-259.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2548}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2549}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2550}
-		["y"]=113,
-		["x"]=-100.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2551}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2552}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2553}
-		["y"]=-250,
-		["x"]=24.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2554}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2555}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2556}
-		["y"]=102,
-		["x"]=-49.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2557}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2558}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2559}
-		["y"]=-154,
-		["x"]=135.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2560}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2561}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2562}
-		["y"]=49,
-		["x"]=-137.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2563}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2564}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2565}
-		["y"]=-123,
-		["x"]=18.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2566}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2567}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2568}
-		["y"]=-133,
-		["x"]=-196.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2569}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2570}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2571}
-		["y"]=22,
-		["x"]=194.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2572}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2573}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2574}
-		["y"]=156,
-		["x"]=166.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2575}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2576}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2577}
-		["y"]=-90,
-		["x"]=253.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2578}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2579}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2580}
-		["y"]=72,
-		["x"]=198.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2581}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2582}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2583}
-		["y"]=-211,
-		["x"]=39.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2584}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2585}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2586}
-		["y"]=-182,
-		["x"]=18.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2587}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2588}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2589}
-		["y"]=-295,
-		["x"]=-194.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2590}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2591}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2592}
-		["y"]=50,
-		["x"]=-132.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2593}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2594}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2595}
-		["y"]=172,
-		["x"]=-0.79999999999999,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2596}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2597}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2598}
-		["y"]=-180,
-		["x"]=131.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2599}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2600}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2601}
-		["y"]=224,
-		["x"]=239.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2602}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2603}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2604}
-		["y"]=243,
-		["x"]=-150.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2605}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2606}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2607}
-		["y"]=-140,
-		["x"]=-209.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2608}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2609}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2610}
-		["y"]=-10,
-		["x"]=-42.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2611}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2612}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2613}
-		["y"]=62,
-		["x"]=202.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2614}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2615}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2616}
-		["y"]=102,
-		["x"]=138.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2617}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2618}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2619}
-		["y"]=52,
-		["x"]=-195.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2620}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2621}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2622}
-		["y"]=135,
-		["x"]=-3.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2623}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2624}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2625}
-		["y"]=52,
-		["x"]=66.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2626}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2627}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2628}
-		["y"]=174,
-		["x"]=-149.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2629}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2630}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2631}
-		["y"]=2,
-		["x"]=177.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2632}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2633}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2634}
-		["y"]=134,
-		["x"]=274.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2635}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2636}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2637}
-		["y"]=-27,
-		["x"]=-220.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2638}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2639}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2640}
-		["y"]=109,
-		["x"]=-251.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2641}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2642}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2643}
-		["y"]=293,
-		["x"]=137.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2644}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2645}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2646}
-		["y"]=-109,
-		["x"]=-165.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2647}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2648}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2649}
-		["y"]=104,
-		["x"]=129.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2650}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2651}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2652}
-		["y"]=-15,
-		["x"]=222.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2653}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2654}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2655}
-		["y"]=104,
-		["x"]=221.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2656}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2657}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2658}
-		["y"]=-269,
-		["x"]=204.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2659}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2660}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2661}
-		["y"]=-55,
-		["x"]=38.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2662}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2663}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2664}
-		["y"]=263,
-		["x"]=-273.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2665}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2666}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2667}
-		["y"]=170,
-		["x"]=-245.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2668}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2669}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2670}
-		["y"]=176,
-		["x"]=78.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2671}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2672}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2673}
-		["y"]=174,
-		["x"]=-125.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2674}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2675}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2676}
-		["y"]=-135,
-		["x"]=0.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2677}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2678}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2679}
-		["y"]=-133,
-		["x"]=-192.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2680}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2681}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2682}
-		["y"]=-171,
-		["x"]=10.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2683}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2684}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2685}
-		["y"]=-89,
-		["x"]=113.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2686}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2687}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2688}
-		["y"]=-30,
-		["x"]=80.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2689}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2690}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2691}
-		["y"]=71,
-		["x"]=-185.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2692}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2693}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2694}
-		["y"]=-24,
-		["x"]=-16.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2695}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2696}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2697}
-		["y"]=-60,
-		["x"]=-268.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2698}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2699}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2700}
-		["y"]=-156,
-		["x"]=-196.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2701}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2702}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2703}
-		["y"]=55,
-		["x"]=250.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2704}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2705}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2706}
-		["y"]=-295,
-		["x"]=247.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2707}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2708}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2709}
-		["y"]=131,
-		["x"]=101.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2710}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2711}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2712}
-		["y"]=42,
-		["x"]=279.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2713}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2714}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2715}
-		["y"]=-257,
-		["x"]=204.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2716}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2717}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2718}
-		["y"]=259,
-		["x"]=73.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2719}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2720}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2721}
-		["y"]=83,
-		["x"]=225.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2722}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2723}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2724}
-		["y"]=-58,
-		["x"]=74.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2725}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2726}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2727}
-		["y"]=-73,
-		["x"]=-153.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2728}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2729}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2730}
-		["y"]=106,
-		["x"]=128.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2731}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2732}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2733}
-		["y"]=-249,
-		["x"]=-33.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2734}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2735}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2736}
-		["y"]=156,
-		["x"]=92.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2737}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2738}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2739}
-		["y"]=-94,
-		["x"]=154.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2740}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2741}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2742}
-		["y"]=-271,
-		["x"]=149.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2743}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2744}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2745}
-		["y"]=267,
-		["x"]=-187.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2746}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2747}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2748}
-		["y"]=-258,
-		["x"]=-274.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2749}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2750}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2751}
-		["y"]=-266,
-		["x"]=16.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2752}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2753}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2754}
-		["y"]=-223,
-		["x"]=52.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2755}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2756}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2757}
-		["y"]=26,
-		["x"]=-109.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2758}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2759}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2760}
-		["y"]=-10,
-		["x"]=217.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2761}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2762}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2763}
-		["y"]=-269,
-		["x"]=284.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2764}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2765}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2766}
-		["y"]=256,
-		["x"]=81.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2767}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2768}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2769}
-		["y"]=17,
-		["x"]=-154.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2770}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2771}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2772}
-		["y"]=256,
-		["x"]=-26.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2773}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2774}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2775}
-		["y"]=-144,
-		["x"]=92.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2776}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2777}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2778}
-		["y"]=34,
-		["x"]=236.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2779}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2780}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2781}
-		["y"]=266,
-		["x"]=-152.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2782}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2783}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2784}
-		["y"]=-166,
-		["x"]=270.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2785}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2786}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2787}
-		["y"]=277,
-		["x"]=-238.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2788}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2789}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2790}
-		["y"]=-219,
-		["x"]=-223.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2791}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2792}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2793}
-		["y"]=56,
-		["x"]=184.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2794}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2795}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2796}
-		["y"]=-8,
-		["x"]=-9.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2797}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2798}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2799}
-		["y"]=-20,
-		["x"]=-147.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2800}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2801}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2802}
-		["y"]=134,
-		["x"]=39.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2803}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2804}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2805}
-		["y"]=141,
-		["x"]=61.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2806}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2807}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2808}
-		["y"]=82,
-		["x"]=157.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2809}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2810}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2811}
-		["y"]=131,
-		["x"]=-126.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2812}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2813}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2814}
-		["y"]=-300,
-		["x"]=114.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2815}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2816}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2817}
-		["y"]=-286,
-		["x"]=-112.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2818}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2819}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2820}
-		["y"]=-274,
-		["x"]=-81.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2821}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2822}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2823}
-		["y"]=-122,
-		["x"]=300.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2824}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2825}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2826}
-		["y"]=-99,
-		["x"]=-43.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2827}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2828}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2829}
-		["y"]=7,
-		["x"]=125.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2830}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2831}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2832}
-		["y"]=187,
-		["x"]=24.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2833}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2834}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2835}
-		["y"]=182,
-		["x"]=98.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2836}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2837}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2838}
-		["y"]=-286,
-		["x"]=63.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2839}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2840}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2841}
-		["y"]=50,
-		["x"]=194.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2842}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2843}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2844}
-		["y"]=-139,
-		["x"]=148.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2845}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2846}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2847}
-		["y"]=-295,
-		["x"]=-250.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2848}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2849}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2850}
-		["y"]=-142,
-		["x"]=-226.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2851}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2852}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2853}
-		["y"]=263,
-		["x"]=236.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2854}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2855}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2856}
-		["y"]=102,
-		["x"]=-24.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2857}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2858}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2859}
-		["y"]=271,
-		["x"]=183.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2860}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2861}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2862}
-		["y"]=-87,
-		["x"]=63.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2863}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2864}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2865}
-		["y"]=26,
-		["x"]=117.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2866}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2867}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2868}
-		["y"]=-141,
-		["x"]=-207.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2869}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2870}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2871}
-		["y"]=-121,
-		["x"]=9.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2872}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2873}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2874}
-		["y"]=-52,
-		["x"]=-28.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2875}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2876}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2877}
-		["y"]=-180,
-		["x"]=-67.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2878}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2879}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2880}
-		["y"]=-11,
-		["x"]=170.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2881}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2882}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2883}
-		["y"]=189,
-		["x"]=281.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2884}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2885}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2886}
-		["y"]=236,
-		["x"]=-172.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2887}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2888}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2889}
-		["y"]=167,
-		["x"]=188.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2890}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2891}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2892}
-		["y"]=-243,
-		["x"]=-30.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2893}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2894}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2895}
-		["y"]=-36,
-		["x"]=170.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2896}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2897}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2898}
-		["y"]=39,
-		["x"]=-234.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2899}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2900}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2901}
-		["y"]=101,
-		["x"]=186.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2902}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2903}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2904}
-		["y"]=8,
-		["x"]=93.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2905}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2906}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2907}
-		["y"]=-134,
-		["x"]=254.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2908}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2909}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2910}
-		["y"]=-165,
-		["x"]=310.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2911}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2912}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2913}
-		["y"]=-50,
-		["x"]=-125.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2914}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2915}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2916}
-		["y"]=217,
-		["x"]=204.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2917}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2918}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2919}
-		["y"]=165,
-		["x"]=48.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2920}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2921}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2922}
-		["y"]=260,
-		["x"]=288.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2923}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2924}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2925}
-		["y"]=228,
-		["x"]=32.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2926}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2927}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2928}
-		["y"]=181,
-		["x"]=1.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2929}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2930}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2931}
-		["y"]=-65,
-		["x"]=-156.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2932}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2933}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2934}
-		["y"]=-47,
-		["x"]=-209.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2935}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2936}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2937}
-		["y"]=-20,
-		["x"]=-245.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2938}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2939}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2940}
-		["y"]=-204,
-		["x"]=121.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2941}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2942}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2943}
-		["y"]=-281,
-		["x"]=-218.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2944}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2945}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2946}
-		["y"]=-59,
-		["x"]=-238.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2947}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2948}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2949}
-		["y"]=20,
-		["x"]=192.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2950}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2951}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2952}
-		["y"]=-282,
-		["x"]=-255.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2953}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2954}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2955}
-		["y"]=240,
-		["x"]=108.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2956}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2957}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2958}
-		["y"]=87,
-		["x"]=132.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2959}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2960}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2961}
-		["y"]=-113,
-		["x"]=109.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2962}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2963}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2964}
-		["y"]=291,
-		["x"]=75.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2965}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2966}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2967}
-		["y"]=177,
-		["x"]=5.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2968}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2969}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2970}
-		["y"]=109,
-		["x"]=75.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2971}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2972}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2973}
-		["y"]=92,
-		["x"]=67.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2974}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2975}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2976}
-		["y"]=45,
-		["x"]=-238.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2977}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2978}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2979}
-		["y"]=290,
-		["x"]=-225.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2980}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2981}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2982}
-		["y"]=-48,
-		["x"]=248.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2983}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2984}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2985}
-		["y"]=-128,
-		["x"]=-66.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2986}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2987}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2988}
-		["y"]=181,
-		["x"]=-156.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2989}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2990}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2991}
-		["y"]=192,
-		["x"]=-227.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2992}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2993}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2994}
-		["y"]=-293,
-		["x"]=-124.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2995}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2996}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {2997}
-		["y"]=29,
-		["x"]=-25.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {2998}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {2999}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3000}
-		["y"]=76,
-		["x"]=54.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3001}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3002}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3003}
-		["y"]=-165,
-		["x"]=-189.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3004}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3005}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3006}
-		["y"]=260,
-		["x"]=46.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3007}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3008}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3009}
-		["y"]=92,
-		["x"]=-225.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3010}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3011}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3012}
-		["y"]=-130,
-		["x"]=-103.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3013}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3014}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3015}
-		["y"]=-81,
-		["x"]=-73.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3016}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3017}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3018}
-		["y"]=165,
-		["x"]=162.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3019}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3020}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3021}
-		["y"]=154,
-		["x"]=-220.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3022}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3023}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3024}
-		["y"]=-17,
-		["x"]=125.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3025}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3026}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3027}
-		["y"]=42,
-		["x"]=93.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3028}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3029}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3030}
-		["y"]=-30,
-		["x"]=-57.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3031}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3032}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3033}
-		["y"]=-130,
-		["x"]=-188.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3034}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3035}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3036}
-		["y"]=-228,
-		["x"]=20.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3037}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3038}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3039}
-		["y"]=293,
-		["x"]=-168.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3040}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3041}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3042}
-		["y"]=-92,
-		["x"]=-238.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3043}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3044}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3045}
-		["y"]=63,
-		["x"]=-191.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3046}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3047}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3048}
-		["y"]=230,
-		["x"]=-88.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3049}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3050}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3051}
-		["y"]=-29,
-		["x"]=-6.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3052}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3053}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3054}
-		["y"]=229,
-		["x"]=149.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3055}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3056}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3057}
-		["y"]=-206,
-		["x"]=-140.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3058}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3059}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3060}
-		["y"]=206,
-		["x"]=-122.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3061}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3062}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3063}
-		["y"]=-24,
-		["x"]=-138.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3064}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3065}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3066}
-		["y"]=-169,
-		["x"]=-60.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3067}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3068}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3069}
-		["y"]=41,
-		["x"]=5.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3070}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3071}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3072}
-		["y"]=86,
-		["x"]=-132.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3073}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3074}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3075}
-		["y"]=-251,
-		["x"]=186.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3076}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3077}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3078}
-		["y"]=-33,
-		["x"]=-257.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3079}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3080}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3081}
-		["y"]=-254,
-		["x"]=85.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3082}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3083}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3084}
-		["y"]=71,
-		["x"]=260.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3085}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3086}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3087}
-		["y"]=280,
-		["x"]=44.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3088}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3089}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3090}
-		["y"]=3,
-		["x"]=-249.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3091}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3092}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3093}
-		["y"]=-272,
-		["x"]=200.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3094}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3095}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3096}
-		["y"]=-192,
-		["x"]=247.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3097}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3098}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3099}
-		["y"]=-282,
-		["x"]=55.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3100}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3101}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3102}
-		["y"]=-14,
-		["x"]=301.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3103}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3104}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3105}
-		["y"]=-91,
-		["x"]=-177.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3106}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3107}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3108}
-		["y"]=-288,
-		["x"]=302.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3109}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3110}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3111}
-		["y"]=-270,
-		["x"]=245.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3112}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3113}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3114}
-		["y"]=-263,
-		["x"]=-36.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3115}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3116}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3117}
-		["y"]=158,
-		["x"]=-150.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3118}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3119}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3120}
-		["y"]=-89,
-		["x"]=141.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3121}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3122}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3123}
-		["y"]=54,
-		["x"]=-161.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3124}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3125}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3126}
-		["y"]=-91,
-		["x"]=318.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3127}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3128}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3129}
-		["y"]=-201,
-		["x"]=-202.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3130}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3131}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3132}
-		["y"]=184,
-		["x"]=164.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3133}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3134}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3135}
-		["y"]=-297,
-		["x"]=319.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3136}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3137}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3138}
-		["y"]=-152,
-		["x"]=-223.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3139}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3140}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3141}
-		["y"]=-71,
-		["x"]=147.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3142}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3143}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3144}
-		["y"]=-106,
-		["x"]=-94.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3145}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3146}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3147}
-		["y"]=-185,
-		["x"]=107.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3148}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3149}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3150}
-		["y"]=12,
-		["x"]=197.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3151}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3152}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3153}
-		["y"]=-152,
-		["x"]=-215.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3154}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3155}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3156}
-		["y"]=146,
-		["x"]=-267.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3157}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3158}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3159}
-		["y"]=-250,
-		["x"]=164.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3160}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3161}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3162}
-		["y"]=-151,
-		["x"]=207.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3163}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3164}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3165}
-		["y"]=44,
-		["x"]=229.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3166}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3167}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3168}
-		["y"]=60,
-		["x"]=-247.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3169}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3170}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3171}
-		["y"]=-73,
-		["x"]=63.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3172}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3173}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3174}
-		["y"]=133,
-		["x"]=-189.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3175}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3176}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3177}
-		["y"]=-87,
-		["x"]=57.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3178}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3179}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3180}
-		["y"]=206,
-		["x"]=8.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3181}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3182}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3183}
-		["y"]=77,
-		["x"]=-251.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3184}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3185}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3186}
-		["y"]=296,
-		["x"]=-3.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3187}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3188}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3189}
-		["y"]=-237,
-		["x"]=-21.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3190}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3191}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3192}
-		["y"]=-202,
-		["x"]=-75.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3193}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3194}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3195}
-		["y"]=-188,
-		["x"]=-158.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3196}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3197}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3198}
-		["y"]=-151,
-		["x"]=46.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3199}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3200}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3201}
-		["y"]=18,
-		["x"]=-232.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3202}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3203}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3204}
-		["y"]=-261,
-		["x"]=274.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3205}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3206}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3207}
-		["y"]=-132,
-		["x"]=-199.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3208}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3209}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3210}
-		["y"]=215,
-		["x"]=-167.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3211}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3212}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3213}
-		["y"]=-186,
-		["x"]=-8.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3214}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3215}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3216}
-		["y"]=149,
-		["x"]=36.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3217}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3218}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3219}
-		["y"]=86,
-		["x"]=-38.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3220}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3221}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3222}
-		["y"]=-68,
-		["x"]=-85.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3223}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3224}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3225}
-		["y"]=-117,
-		["x"]=-272.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3226}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3227}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3228}
-		["y"]=-209,
-		["x"]=215.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3229}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3230}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3231}
-		["y"]=-167,
-		["x"]=-42.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3232}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3233}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3234}
-		["y"]=-174,
-		["x"]=141.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3235}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3236}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3237}
-		["y"]=103,
-		["x"]=-246.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3238}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3239}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3240}
-		["y"]=-162,
-		["x"]=2.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3241}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3242}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3243}
-		["y"]=273,
-		["x"]=46.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3244}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3245}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3246}
-		["y"]=-108,
-		["x"]=-255.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3247}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3248}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3249}
-		["y"]=284,
-		["x"]=272.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3250}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3251}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3252}
-		["y"]=139,
-		["x"]=-121.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3253}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3254}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3255}
-		["y"]=-265,
-		["x"]=221.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3256}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3257}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3258}
-		["y"]=226,
-		["x"]=-130.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3259}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3260}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3261}
-		["y"]=-132,
-		["x"]=219.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3262}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3263}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3264}
-		["y"]=-213,
-		["x"]=129.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3265}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3266}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3267}
-		["y"]=-122,
-		["x"]=31.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3268}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3269}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3270}
-		["y"]=-279,
-		["x"]=-54.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3271}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3272}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3273}
-		["y"]=-176,
-		["x"]=-110.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3274}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3275}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3276}
-		["y"]=-269,
-		["x"]=225.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3277}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3278}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3279}
-		["y"]=130,
-		["x"]=58.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3280}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3281}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3282}
-		["y"]=67,
-		["x"]=303.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3283}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3284}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3285}
-		["y"]=35,
-		["x"]=-148.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3286}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3287}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3288}
-		["y"]=-93,
-		["x"]=-217.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3289}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3290}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3291}
-		["y"]=283,
-		["x"]=-54.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3292}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3293}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3294}
-		["y"]=100,
-		["x"]=-151.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3295}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3296}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3297}
-		["y"]=-146,
-		["x"]=156.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3298}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3299}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3300}
-		["y"]=114,
-		["x"]=-194.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3301}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3302}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3303}
-		["y"]=-278,
-		["x"]=91.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3304}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3305}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3306}
-		["y"]=-206,
-		["x"]=244.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3307}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3308}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3309}
-		["y"]=78,
-		["x"]=-108.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3310}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3311}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3312}
-		["y"]=151,
-		["x"]=44.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3313}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3314}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3315}
-		["y"]=167,
-		["x"]=309.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3316}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3317}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3318}
-		["y"]=221,
-		["x"]=-78.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3319}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3320}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3321}
-		["y"]=52,
-		["x"]=282.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3322}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3323}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3324}
-		["y"]=-73,
-		["x"]=-221.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3325}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3326}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3327}
-		["y"]=-240,
-		["x"]=291.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3328}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3329}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3330}
-		["y"]=-276,
-		["x"]=178.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3331}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3332}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3333}
-		["y"]=-8,
-		["x"]=129.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3334}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3335}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3336}
-		["y"]=-143,
-		["x"]=120.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3337}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3338}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3339}
-		["y"]=-246,
-		["x"]=317.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3340}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3341}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3342}
-		["y"]=93,
-		["x"]=-145.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3343}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3344}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3345}
-		["y"]=-51,
-		["x"]=106.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3346}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3347}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3348}
-		["y"]=9,
-		["x"]=11.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3349}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3350}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3351}
-		["y"]=-85,
-		["x"]=98.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3352}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3353}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3354}
-		["y"]=139,
-		["x"]=-259.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3355}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3356}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3357}
-		["y"]=250,
-		["x"]=-262.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3358}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3359}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3360}
-		["y"]=157,
-		["x"]=149.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3361}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3362}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3363}
-		["y"]=188,
-		["x"]=63.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3364}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3365}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3366}
-		["y"]=-177,
-		["x"]=33.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3367}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3368}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3369}
-		["y"]=-167,
-		["x"]=-280.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3370}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3371}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3372}
-		["y"]=-236,
-		["x"]=187.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3373}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3374}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3375}
-		["y"]=163,
-		["x"]=152.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3376}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3377}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3378}
-		["y"]=-7,
-		["x"]=91.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3379}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3380}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3381}
-		["y"]=151,
-		["x"]=54.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3382}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3383}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3384}
-		["y"]=-135,
-		["x"]=163.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3385}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3386}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3387}
-		["y"]=-175,
-		["x"]=142.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3388}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3389}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3390}
-		["y"]=-193,
-		["x"]=69.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3391}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3392}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3393}
-		["y"]=-154,
-		["x"]=-0.79999999999999,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3394}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3395}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3396}
-		["y"]=-31,
-		["x"]=39.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3397}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3398}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3399}
-		["y"]=235,
-		["x"]=-267.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3400}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3401}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3402}
-		["y"]=-236,
-		["x"]=-29.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3403}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3404}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3405}
-		["y"]=59,
-		["x"]=-145.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3406}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3407}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3408}
-		["y"]=-161,
-		["x"]=39.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3409}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3410}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3411}
-		["y"]=-95,
-		["x"]=-80.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3412}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3413}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3414}
-		["y"]=-225,
-		["x"]=122.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3415}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3416}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3417}
-		["y"]=-177,
-		["x"]=-121.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3418}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3419}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3420}
-		["y"]=290,
-		["x"]=207.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3421}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3422}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3423}
-		["y"]=143,
-		["x"]=269.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3424}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3425}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3426}
-		["y"]=-236,
-		["x"]=219.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3427}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3428}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3429}
-		["y"]=104,
-		["x"]=-187.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3430}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3431}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3432}
-		["y"]=216,
-		["x"]=-179.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3433}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3434}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3435}
-		["y"]=49,
-		["x"]=144.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3436}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3437}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3438}
-		["y"]=-270,
-		["x"]=185.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3439}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3440}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3441}
-		["y"]=58,
-		["x"]=-9.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3442}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3443}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3444}
-		["y"]=89,
-		["x"]=193.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3445}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3446}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3447}
-		["y"]=-232,
-		["x"]=-279.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3448}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3449}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3450}
-		["y"]=146,
-		["x"]=298.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3451}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3452}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3453}
-		["y"]=265,
-		["x"]=100.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3454}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3455}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3456}
-		["y"]=124,
-		["x"]=-188.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3457}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3458}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3459}
-		["y"]=-69,
-		["x"]=-249.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3460}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3461}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3462}
-		["y"]=-252,
-		["x"]=-247.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3463}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3464}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3465}
-		["y"]=-233,
-		["x"]=-137.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3466}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3467}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3468}
-		["y"]=-214,
-		["x"]=317.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3469}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3470}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3471}
-		["y"]=98,
-		["x"]=-273.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3472}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3473}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3474}
-		["y"]=99,
-		["x"]=121.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3475}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3476}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3477}
-		["y"]=-192,
-		["x"]=-5.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3478}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3479}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3480}
-		["y"]=-130,
-		["x"]=-152.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3481}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3482}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3483}
-		["y"]=-203,
-		["x"]=-18.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3484}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3485}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3486}
-		["y"]=-138,
-		["x"]=260.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3487}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3488}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3489}
-		["y"]=-5,
-		["x"]=-146.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3490}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3491}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3492}
-		["y"]=-196,
-		["x"]=255.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3493}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3494}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3495}
-		["y"]=-72,
-		["x"]=-197.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3496}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3497}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3498}
-		["y"]=-104,
-		["x"]=-186.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3499}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3500}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3501}
-		["y"]=-206,
-		["x"]=273.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3502}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3503}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3504}
-		["y"]=204,
-		["x"]=142.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3505}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3506}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3507}
-		["y"]=-291,
-		["x"]=224.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3508}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3509}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3510}
-		["y"]=14,
-		["x"]=93.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3511}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3512}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3513}
-		["y"]=-119,
-		["x"]=144.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3514}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3515}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3516}
-		["y"]=148,
-		["x"]=-207.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3517}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3518}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3519}
-		["y"]=-243,
-		["x"]=-62.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3520}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3521}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3522}
-		["y"]=-106,
-		["x"]=-186.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3523}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3524}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3525}
-		["y"]=16,
-		["x"]=-149.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3526}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3527}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3528}
-		["y"]=-153,
-		["x"]=109.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3529}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3530}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3531}
-		["y"]=-8,
-		["x"]=20.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3532}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3533}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3534}
-		["y"]=91,
-		["x"]=186.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3535}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3536}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3537}
-		["y"]=-44,
-		["x"]=1.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3538}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3539}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3540}
-		["y"]=201,
-		["x"]=-137.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3541}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3542}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3543}
-		["y"]=-37,
-		["x"]=-257.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3544}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3545}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3546}
-		["y"]=-284,
-		["x"]=-94.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3547}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3548}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3549}
-		["y"]=106,
-		["x"]=47.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3550}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3551}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3552}
-		["y"]=-287,
-		["x"]=-41.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3553}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3554}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3555}
-		["y"]=153,
-		["x"]=254.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3556}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3557}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3558}
-		["y"]=23,
-		["x"]=-219.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3559}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3560}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3561}
-		["y"]=-92,
-		["x"]=280.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3562}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3563}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3564}
-		["y"]=51,
-		["x"]=-219.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3565}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3566}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3567}
-		["y"]=-266,
-		["x"]=-148.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3568}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3569}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3570}
-		["y"]=-212,
-		["x"]=288.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3571}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3572}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3573}
-		["y"]=-236,
-		["x"]=127.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3574}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3575}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3576}
-		["y"]=-9,
-		["x"]=264.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3577}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3578}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3579}
-		["y"]=-201,
-		["x"]=-92.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3580}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3581}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3582}
-		["y"]=-29,
-		["x"]=-231.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3583}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3584}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3585}
-		["y"]=247,
-		["x"]=94.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3586}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3587}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3588}
-		["y"]=292,
-		["x"]=281.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3589}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3590}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3591}
-		["y"]=112,
-		["x"]=-266.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3592}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3593}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3594}
-		["y"]=-76,
-		["x"]=112.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3595}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3596}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3597}
-		["y"]=27,
-		["x"]=-95.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3598}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3599}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3600}
-		["y"]=-296,
-		["x"]=116.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3601}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3602}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3603}
-		["y"]=287,
-		["x"]=287.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3604}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3605}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3606}
-		["y"]=-25,
-		["x"]=-194.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3607}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3608}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3609}
-		["y"]=47,
-		["x"]=-3.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3610}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3611}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3612}
-		["y"]=138,
-		["x"]=-226.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3613}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3614}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3615}
-		["y"]=87,
-		["x"]=225.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3616}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3617}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3618}
-		["y"]=-141,
-		["x"]=-95.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3619}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3620}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3621}
-		["y"]=-43,
-		["x"]=274.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3622}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3623}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3624}
-		["y"]=-47,
-		["x"]=-165.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3625}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3626}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3627}
-		["y"]=135,
-		["x"]=237.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3628}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3629}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3630}
-		["y"]=297,
-		["x"]=120.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3631}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3632}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3633}
-		["y"]=-85,
-		["x"]=-5.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3634}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3635}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3636}
-		["y"]=-149,
-		["x"]=224.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3637}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3638}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3639}
-		["y"]=90,
-		["x"]=120.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3640}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3641}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3642}
-		["y"]=249,
-		["x"]=11.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3643}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3644}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3645}
-		["y"]=261,
-		["x"]=23.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3646}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3647}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3648}
-		["y"]=20,
-		["x"]=-126.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3649}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3650}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3651}
-		["y"]=-257,
-		["x"]=41.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3652}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3653}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3654}
-		["y"]=-4,
-		["x"]=-17.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3655}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3656}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3657}
-		["y"]=160,
-		["x"]=59.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3658}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3659}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3660}
-		["y"]=-220,
-		["x"]=87.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3661}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3662}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3663}
-		["y"]=58,
-		["x"]=-246.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3664}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3665}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3666}
-		["y"]=-253,
-		["x"]=180.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3667}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3668}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3669}
-		["y"]=-190,
-		["x"]=227.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3670}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3671}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3672}
-		["y"]=163,
-		["x"]=85.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3673}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3674}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3675}
-		["y"]=-152,
-		["x"]=-174.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3676}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3677}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3678}
-		["y"]=-140,
-		["x"]=137.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3679}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3680}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3681}
-		["y"]=264,
-		["x"]=-210.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3682}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3683}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3684}
-		["y"]=-132,
-		["x"]=-113.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3685}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3686}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3687}
-		["y"]=281,
-		["x"]=270.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3688}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3689}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3690}
-		["y"]=-108,
-		["x"]=-172.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3691}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3692}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3693}
-		["y"]=180,
-		["x"]=151.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3694}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3695}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3696}
-		["y"]=271,
-		["x"]=-31.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3697}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3698}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3699}
-		["y"]=-255,
-		["x"]=-108.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3700}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3701}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3702}
-		["y"]=-87,
-		["x"]=225.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3703}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3704}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3705}
-		["y"]=254,
-		["x"]=-87.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3706}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3707}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3708}
-		["y"]=-134,
-		["x"]=131.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3709}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3710}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3711}
-		["y"]=102,
-		["x"]=-180.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3712}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3713}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3714}
-		["y"]=-52,
-		["x"]=-22.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3715}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3716}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3717}
-		["y"]=-23,
-		["x"]=170.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3718}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3719}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3720}
-		["y"]=-196,
-		["x"]=-108.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3721}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3722}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3723}
-		["y"]=-194,
-		["x"]=-2.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3724}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3725}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3726}
-		["y"]=69,
-		["x"]=168.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3727}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3728}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3729}
-		["y"]=-47,
-		["x"]=293.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3730}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3731}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3732}
-		["y"]=-121,
-		["x"]=184.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3733}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3734}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3735}
-		["y"]=48,
-		["x"]=-125.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3736}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3737}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3738}
-		["y"]=-250,
-		["x"]=-83.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3739}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3740}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3741}
-		["y"]=81,
-		["x"]=-149.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3742}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3743}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3744}
-		["y"]=208,
-		["x"]=288.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3745}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3746}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3747}
-		["y"]=198,
-		["x"]=-41.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3748}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3749}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3750}
-		["y"]=232,
-		["x"]=20.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3751}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3752}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3753}
-		["y"]=-170,
-		["x"]=-110.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3754}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3755}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3756}
-		["y"]=164,
-		["x"]=290.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3757}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3758}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3759}
-		["y"]=199,
-		["x"]=28.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3760}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3761}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3762}
-		["y"]=-271,
-		["x"]=26.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3763}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3764}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3765}
-		["y"]=-252,
-		["x"]=66.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3766}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3767}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3768}
-		["y"]=192,
-		["x"]=23.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3769}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3770}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3771}
-		["y"]=166,
-		["x"]=-58.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3772}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3773}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3774}
-		["y"]=-124,
-		["x"]=300.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3775}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3776}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3777}
-		["y"]=-192,
-		["x"]=-225.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3778}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3779}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3780}
-		["y"]=142,
-		["x"]=-11.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3781}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3782}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3783}
-		["y"]=-133,
-		["x"]=311.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3784}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3785}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3786}
-		["y"]=-22,
-		["x"]=202.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3787}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3788}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3789}
-		["y"]=-73,
-		["x"]=-276.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3790}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3791}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3792}
-		["y"]=99,
-		["x"]=-50.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3793}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3794}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3795}
-		["y"]=-215,
-		["x"]=-202.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3796}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3797}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3798}
-		["y"]=105,
-		["x"]=308.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3799}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3800}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3801}
-		["y"]=-276,
-		["x"]=207.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3802}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3803}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3804}
-		["y"]=-294,
-		["x"]=191.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3805}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3806}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3807}
-		["y"]=3,
-		["x"]=105.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3808}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3809}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3810}
-		["y"]=4,
-		["x"]=-209.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3811}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3812}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3813}
-		["y"]=-276,
-		["x"]=165.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3814}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3815}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3816}
-		["y"]=-260,
-		["x"]=215.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3817}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3818}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3819}
-		["y"]=-8,
-		["x"]=-43.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3820}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3821}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3822}
-		["y"]=-223,
-		["x"]=-179.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3823}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3824}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3825}
-		["y"]=-24,
-		["x"]=72.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3826}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3827}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3828}
-		["y"]=286,
-		["x"]=241.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3829}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3830}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3831}
-		["y"]=-252,
-		["x"]=22.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3832}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3833}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3834}
-		["y"]=207,
-		["x"]=-275.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3835}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3836}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3837}
-		["y"]=-41,
-		["x"]=4.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3838}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3839}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3840}
-		["y"]=-94,
-		["x"]=-227.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3841}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3842}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3843}
-		["y"]=228,
-		["x"]=-179.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3844}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3845}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3846}
-		["y"]=115,
-		["x"]=-50.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3847}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3848}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3849}
-		["y"]=-197,
-		["x"]=-270.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3850}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3851}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3852}
-		["y"]=161,
-		["x"]=-14.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3853}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3854}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3855}
-		["y"]=-97,
-		["x"]=39.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3856}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3857}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3858}
-		["y"]=7,
-		["x"]=203.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3859}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3860}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3861}
-		["y"]=-233,
-		["x"]=88.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3862}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3863}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3864}
-		["y"]=-251,
-		["x"]=-160.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3865}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3866}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3867}
-		["y"]=-255,
-		["x"]=-272.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3868}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3869}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3870}
-		["y"]=-218,
-		["x"]=185.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3871}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3872}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3873}
-		["y"]=-292,
-		["x"]=-270.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3874}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3875}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3876}
-		["y"]=-111,
-		["x"]=241.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3877}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3878}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3879}
-		["y"]=-12,
-		["x"]=-47.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3880}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3881}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3882}
-		["y"]=-206,
-		["x"]=-210.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3883}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3884}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3885}
-		["y"]=177,
-		["x"]=129.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3886}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3887}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3888}
-		["y"]=256,
-		["x"]=-45.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3889}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3890}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3891}
-		["y"]=87,
-		["x"]=77.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3892}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3893}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3894}
-		["y"]=171,
-		["x"]=237.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3895}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3896}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3897}
-		["y"]=-251,
-		["x"]=-91.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3898}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3899}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3900}
-		["y"]=55,
-		["x"]=-183.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3901}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3902}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3903}
-		["y"]=98,
-		["x"]=135.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3904}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3905}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3906}
-		["y"]=-277,
-		["x"]=278.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3907}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3908}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3909}
-		["y"]=21,
-		["x"]=89.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3910}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3911}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3912}
-		["y"]=-86,
-		["x"]=-213.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3913}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3914}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3915}
-		["y"]=236,
-		["x"]=260.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3916}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3917}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3918}
-		["y"]=-98,
-		["x"]=-237.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3919}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3920}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3921}
-		["y"]=-255,
-		["x"]=95.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3922}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3923}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3924}
-		["y"]=-117,
-		["x"]=298.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3925}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3926}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3927}
-		["y"]=-45,
-		["x"]=-85.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3928}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3929}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3930}
-		["y"]=12,
-		["x"]=57.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3931}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3932}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3933}
-		["y"]=-94,
-		["x"]=-113.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3934}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3935}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3936}
-		["y"]=239,
-		["x"]=-195.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3937}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3938}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3939}
-		["y"]=-69,
-		["x"]=-211.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3940}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3941}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3942}
-		["y"]=-179,
-		["x"]=1.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3943}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3944}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3945}
-		["y"]=-86,
-		["x"]=94.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3946}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3947}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3948}
-		["y"]=180,
-		["x"]=175.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3949}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3950}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3951}
-		["y"]=-264,
-		["x"]=268.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3952}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3953}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3954}
-		["y"]=-96,
-		["x"]=-67.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3955}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3956}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3957}
-		["y"]=215,
-		["x"]=284.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3958}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3959}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3960}
-		["y"]=190,
-		["x"]=8.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3961}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3962}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3963}
-		["y"]=-285,
-		["x"]=-186.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3964}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3965}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3966}
-		["y"]=-8,
-		["x"]=236.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3967}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3968}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3969}
-		["y"]=-160,
-		["x"]=52.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3970}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3971}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3972}
-		["y"]=-36,
-		["x"]=78.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3973}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3974}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3975}
-		["y"]=-285,
-		["x"]=152.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3976}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3977}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3978}
-		["y"]=159,
-		["x"]=68.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3979}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3980}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3981}
-		["y"]=-164,
-		["x"]=-264.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3982}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3983}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3984}
-		["y"]=23,
-		["x"]=161.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3985}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3986}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3987}
-		["y"]=106,
-		["x"]=36.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3988}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3989}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3990}
-		["y"]=-210,
-		["x"]=212.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3991}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3992}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3993}
-		["y"]=-149,
-		["x"]=-170.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3994}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3995}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3996}
-		["y"]=-217,
-		["x"]=258.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {3997}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {3998}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {3999}
-		["y"]=297,
-		["x"]=-240.8,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {4000}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {4001}
-		[1]="PropMovement.lua",
-	},
-
-	{--Entry Number: {4002}
-		["y"]=223,
-		["x"]=25.2,
-		["z"]=-1000,
-	},
-
-	{--Entry Number: {4003}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
-	},
-
-	{--Entry Number: {4004}
 		[1]="PropMovement.lua",
 	},
 })

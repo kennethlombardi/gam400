@@ -5,7 +5,7 @@ local ResourceManager = {
 };
 
 function ResourceManager:addToCache(key, value) 
-	self.cache.key = value;
+	self.cache[key] = value;
 end
 
 function ResourceManager:getFromCache(key)
@@ -93,26 +93,16 @@ end
 -- MOAITextureCreator
 function MOAITextureCreator:load(fileName) 
 	local path = "../textures/"..fileName;
-	local textureBuffer = ResourceManager:getFromCache(path);
-	if textureBuffer == nil then 
-		textureBuffer = MOAIDataBuffer.new();
-		local success = textureBuffer:load(path);
-		if not success then 
-			local defaultPath = "../textures/pinkSquare.png";
-			MOAILogMgr.log("Loading failed for: "..fileName.. "at path: "..path);
-			MOAILogMgr.log("Attempting reasonable default of "..defaultPath);
-			success = textureBuffer:load(defaultPath);
-			if not success then 
-				MOAILogMgr.log("Loading of default path failed at path: "..defaultPath);
-			end
-		else
-			ResourceManager:addToCache(path, textureBuffer);
-		end
+	local texture = ResourceManager:getFromCache(path);
+	if texture == nil then
+		texture = MOAITexture.new();
+		texture:load(path);
+		ResourceManager:addToCache(path, texture);
+		print("Not in cache");
 	end
 	--TODO: If texture loading failes from file, create new MOAIImage with some garbage
 	--		to ensure that at least something is registered correctly.
-	local texture = MOAITexture.new();
-	texture:load(textureBuffer);
+
 	return texture;
 end
 --
@@ -121,7 +111,7 @@ end
 function MOAIScriptHandler:load(fileName)	
 	local fullPath = "../scripts/"..fileName;
 	local script = ResourceManager:getFromCache(fullPath);
-	if script ~= nil then print("Script was already cached"); return script end;
+	if script ~= nil then return script end;
 
 	-- If the script didn't exist in the cache
 	if require("FileSystem"):checkFileExists(fullPath) then

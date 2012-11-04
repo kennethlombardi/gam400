@@ -11,11 +11,11 @@ layer1 = {
 
 width = 1280;
 height = 720;
-objectCount = 1000;
+objectCount = 500;
 for i = 1, objectCount do
 	position = {x = math.random(-300, 300), y = math.random(-300, 300), z = -1000};
 	scale = {x = 10, y = 10, z = 10};
-	if i == 2 then position.x = 300; 
+	if i % 100 == 0 then 
 		scale = {x = 100, y = 100, z = 100}
 	end
 	prop = {
