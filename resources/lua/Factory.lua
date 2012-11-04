@@ -58,10 +58,10 @@ function MOAILayerCreator:create(properties)
 	local script = {
 		name = "GenericScriptName",
 	}
-	function script:update(self, dt)
-		local location = self:getLoc();
+	function script.update(asdf, dt)
+		local location = asdf:getLoc();
 		local step = .1;
-		self:setLoc(location.x + step, location.y + step, location.z);
+		asdf:setLoc(location.x + step, location.y + step, location.z);
 	end
 	newLayer:registerScript(script);
 	return newLayer;
@@ -84,10 +84,6 @@ function MOAILayerCreator:createFromFile(fileName)
 end
 --
 
-local ResourceManager = require("ResourceManager");
-local texture = ResourceManager:load("Texture", "spacebox/space_front5.png");
-
-
 -- MOAIPropCreator
 function MOAIPropCreator:create(properties)
 	local file = assert ( io.open ( 'shader.vsh', mode ))
@@ -99,7 +95,7 @@ function MOAIPropCreator:create(properties)
 	file:close ()
 
 	local gfxQuad = MOAIGfxQuad2D.new ()
-	gfxQuad:setTexture(texture);
+	gfxQuad:setTexture(require("ResourceManager"):load("Texture", "spacebox/space_front5.png"));
 	gfxQuad:setRect ( -64, -64, 64, 64 )
 	if type(properties.scale) == 'table' then
 		gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
