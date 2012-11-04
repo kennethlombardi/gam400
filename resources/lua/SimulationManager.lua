@@ -15,6 +15,10 @@ function SimulationCore:forceGarbageCollection()
 	print("SimulationCore:forceGarbageCollection is UNIMPLEMENTED");
 end
 
+function SimulationCore:getStep()
+	print("SimulationCore:getStep is UNIMPLEMENTED");
+end
+
 function SimulationCore:reportHistogram()
 	print("SimulationCore:reportHistogram is UNIMPLEMENTED");
 end
@@ -36,6 +40,10 @@ end
 --
 
 -- SimulationManager
+function SimulationManager:getStep()
+	return self.core:getStep();
+end
+
 function SimulationManager:forceGarbageCollection()
 	self.core:forceGarbageCollection();
 end
@@ -73,6 +81,10 @@ function MOAISimulationCore:forceGarbageCollection()
 	MOAISim.forceGarbageCollection();
 end
 
+function MOAISimulationCore:getStep()
+	return MOAISim.getStep();
+end
+
 function MOAISimulationCore:reportHistogram()
 	MOAISim.reportHistogram();
 end
@@ -91,7 +103,6 @@ end
 
 function MOAISimulationCore:shutdown()
 end
-
 --
 
 

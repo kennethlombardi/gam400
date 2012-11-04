@@ -31,7 +31,7 @@ end
 
 function LayerManager:update(dt)
 	for k,v in pairs(self.layers) do
-		v:update();
+		v:update(dt);
 	end
 end
 

@@ -49,7 +49,7 @@ function Mouse:IsKeyTriggered(key)
 	return false;
 end
 
-function Mouse:Update()
+function Mouse:Update(dt)
 	for i = 0, 1, 1 do
 		if Mouse.key[i][1] == false then
 			PushBack(i, Mouse.key[i][2]);

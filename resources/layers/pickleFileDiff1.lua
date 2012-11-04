@@ -2,7 +2,7 @@ deserialize ("Layer",
 {
 	{--Entry Number: {1}
 		["visible"]="true",
-		["type"]="Layer",
+		["type"]="LayerDD",
 		["name"]="Layer1",
 		["propContainer"]={2},
 		["scripts"]={3},
@@ -14,13 +14,13 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
-		[1]="LayerMovement.lua",
+		[1]="Hud.lua",
 	},
 
 	{--Entry Number: {4}
 		["y"]=0,
-		["x"]=92,
-		["z"]=1108.5125732422,
+		["x"]=0,
+		["z"]=0,
 	},
 
 	{--Entry Number: {5}

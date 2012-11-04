@@ -114,9 +114,9 @@ if MOAIInputMgr.device.keyboard then
 	Input.Keyboard = require "KeyboardInput";
 end
 
-function Input:Update()
-	Input.Keyboard:Update();
-	Input.Mouse:Update();
+function Input:Update(dt)
+	Input.Keyboard:Update(dt);
+	Input.Mouse:Update(dt);
 end
 
 function Input:IsKeyPressed(k)

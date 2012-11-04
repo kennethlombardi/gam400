@@ -40,8 +40,8 @@ local function shutdown()
 end
 
 local function update(dt)
-	require("InputManager"):Update();
-	require("LayerManager"):update();
+	require("InputManager"):Update(dt);
+	require("LayerManager"):update(dt);
 end
 
 
@@ -51,7 +51,7 @@ function gamesLoop ()
 	initialize();
 	
 	while not done do
-		update();
+		update(require("SimulationManager"):getStep());
 		done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
 		coroutine.yield()
 	end

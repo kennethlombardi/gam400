@@ -48,7 +48,7 @@ function Keyboard:IsKeyTriggered(key)
 	return false;
 end
 
-function Keyboard:Update()
+function Keyboard:Update(dt)
 	for i =8, 127, 1 do
 		if Keyboard.key[i][1] == false then
 			PushBack(i, Keyboard.key[i][2]);

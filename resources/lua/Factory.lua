@@ -13,11 +13,21 @@ end
 local MOAIPropCreator = Creator:new();
 local PropContainerCreator = Creator:new();
 local MOAILayerCreator = Creator:new();
+local MOAILayerDDCreator = Creator:new();
 local PropPrototypeCreator = Creator:new();
 local MOAIPropPrototypeCreator = Creator:new();
 local MOAIPropCubeCreator = Creator:new();
 local MOAITextBoxCreator = Creator:new();
 local MOAIScriptCreator = Creator:new();
+--
+
+-- MOAILayerDDCreator
+function MOAILayerDDCreator:create(properties)
+	local layerdd = Factory:create("Layer", properties);
+	layerdd:setCamera(MOAICamera2D.new());
+
+	return layerdd;
+end
 --
 
 -- MOAILayerCreator
@@ -46,14 +56,14 @@ function MOAILayerCreator:create(properties)
 
     -- camera
     local newCamera = MOAICamera.new();
-    
+
     -- initialize the layer
     newLayer:setViewport(newViewport);
     newLayer:setCamera(newCamera);
     newLayer:setName(properties.name);
     newLayer:setType(properties.type);
     newLayer:setVisible(properties.visible == "true");
-	newLayer:setLoc(properties.position.x, properties.position.y, newCamera:getFocalLength(screenWidth));
+	newLayer:setLoc(properties.position.x, properties.position.y, properties.position.z);--newCamera:getFocalLength(screenWidth)
 
 	-- scripts
 	for k,scriptName in pairs(properties.scripts) do
@@ -69,7 +79,7 @@ function MOAILayerCreator:createFromFile(fileName)
 	local objectIndex = 1;
 	function deserialize(className, properties)
 		cucumber = unpickle(properties);
-		newObjects[objectIndex] = self:create(cucumber)
+		newObjects[objectIndex] = Factory:create(cucumber.type, cucumber)
 		objectIndex = objectIndex + 1;
 		print(cucumber.name);
 	end
@@ -237,6 +247,7 @@ local function initialize()
 	Factory:register("Prop", MOAIPropCreator:new());
 	Factory:register("PropContainer", PropContainerCreator:new());
 	Factory:register("Layer", MOAILayerCreator:new());
+	Factory:register("LayerDD", MOAILayerDDCreator:new());
 	Factory:register("PropCube", MOAIPropCubeCreator:new());
 	Factory:register("TextBox", MOAITextBoxCreator:new());
 	Factory:register("Script", MOAIScriptCreator:new());

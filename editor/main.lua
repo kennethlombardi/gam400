@@ -13,7 +13,7 @@ width = 1280;
 height = 720;
 objectCount = 2;
 for i = 1, objectCount do
-	position = {x = 0, y = 0, z = 300};
+	position = {x = 0, y = 0, z = -1000};
 	scale = {x = 10, y = 10, z = 10};
 	if i == 2 then position.x = 300; 
 		scale = {x = 100, y = 100, z = 100}

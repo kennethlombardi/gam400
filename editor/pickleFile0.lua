@@ -47,7 +47,7 @@ deserialize ("Layer",
 	{--Entry Number: {8}
 		["y"]=0,
 		["x"]=0,
-		["z"]=300,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {9}
@@ -59,7 +59,7 @@ deserialize ("Layer",
 	{--Entry Number: {10}
 		["y"]=0,
 		["x"]=300,
-		["z"]=300,
+		["z"]=-1000,
 	},
 })
 
