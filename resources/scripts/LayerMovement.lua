@@ -1,4 +1,6 @@
-local Script = {};
+local Script = {
+	name = "LayerMovement.lua",
+};
 
 function Script.update(object, dt)
 	local position = object:getLoc();

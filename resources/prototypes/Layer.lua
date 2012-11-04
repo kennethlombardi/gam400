@@ -60,6 +60,10 @@ function Layer:serializeBase(properties)
     properties["visible"] = self.visible;
     properties["propContainer"] = self["propContainer"]:serialize();
     properties["position"] = self.position;
+    properties.scripts = {};
+    for i,script in pairs(self.scripts) do
+        table.insert(properties.scripts, script.name);
+    end
     return properties;   
 end
 
