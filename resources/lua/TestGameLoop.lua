@@ -14,7 +14,7 @@ local function initialize()
 
 	-- the hack world
 	layer0 = require("LayerManager"):createFromFile("pickleFile0.lua");
-	layer1 = require("LayerManager"):createFromFile("PickleFile1.lua");
+	layer1 = require("LayerManager"):createFromFile("pickleFile1.lua");
 
 	-- simulation state
 	MOAIGfxDevice.setClearDepth ( true );
@@ -23,8 +23,9 @@ local function initialize()
 end
 
 local function preShutdown()
-	require("LayerManager"):serializeToFile(layer0, "pickleFile0diff.lua");
-	require("LayerManager"):serializeToFile(layer1, "pickleFile1diff.lua");
+	require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
+	require("LayerManager"):serializeToFile(require("LayerManager"):getIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
+	--require("LayerManager"):serializeToFile(layer1, "pickleFileDiff1.lua");
 end
 
 local function shutdown()
