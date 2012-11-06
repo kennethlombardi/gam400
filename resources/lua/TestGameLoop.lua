@@ -25,8 +25,6 @@ end
 local function preShutdown()
 	require("LayerManager"):serializeToFile(layer0, "pickleFile0diff.lua");
 	require("LayerManager"):serializeToFile(layer1, "pickleFile1diff.lua");
-	--require("LayerManager"):getAtIndex(layer0):serializeToFile("pickleFileDiff0.lua");
-	--require("LayerManager"):getAtIndex(layer1):serializeToFile("pickleFileDiff1.lua");
 end
 
 local function shutdown()

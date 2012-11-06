@@ -67,10 +67,12 @@ function Layer:serializeBase(properties)
     return properties;   
 end
 
-function Layer:serializeToFile(filename)
+function Layer:serializeToFile(fileName)
     require "Pickle";
-    p = pickle( self:serialize() );
-    file = assert( io.open("../layers/"..filename, "wt") );
+    properties = self:serialize();
+    properties.name = fileName;
+    p = pickle( properties );
+    file = assert( io.open("../layers/"..fileName, "wt") );
     s = "deserialize (\"Layer\",\n";
     file:write(s);
     file:write(p);

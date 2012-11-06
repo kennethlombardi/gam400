@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="Layer",
-		["name"]="Layer0",
+		["name"]="pickleFile0diff.lua",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -33,7 +33,7 @@ deserialize ("Layer",
 
 	{--Entry Number: {6}
 		["y"]=200,
-		["x"]=350.13333333333,
+		["x"]=360.26666666667,
 		["z"]=-1000,
 	},
 
