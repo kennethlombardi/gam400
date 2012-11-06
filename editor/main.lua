@@ -11,7 +11,7 @@ layer1 = {
 
 width = 1280;
 height = 720;
-objectCount = 500;
+objectCount = 1;
 for i = 1, objectCount do
 	position = {x = math.random(-300, 300), y = math.random(-300, 300), z = -1000};
 	scale = {x = 10, y = 10, z = 10};
