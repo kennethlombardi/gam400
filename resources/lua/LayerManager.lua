@@ -1,37 +1,37 @@
 local LayerManager = {
 	layers = {},
-	indicesByName = {},
+	layerIndicesByName = {},
 	currentLayerIndex = 1,
 }
 
 local Factory = require "Factory";
 
-function LayerManager:createFromFile(layerFileName)
+function LayerManager:createLayerFromFile(layerFileName)
 	self.layers[self.currentLayerIndex] = Factory:createFromFile("Layer", layerFileName);
 	local layerIndex = self.currentLayerIndex;
 	self.currentLayerIndex = self.currentLayerIndex + 1;
 
 	-- Save the layer name as a hash for the index to allow quick retrieval of layers by name
-	self.indicesByName[layerFileName] = layerIndex;
+	self.layerIndicesByName[layerFileName] = layerIndex;
 	return layerIndex;
 end
 
-function LayerManager:getAtIndex(layerIndex)
+function LayerManager:getLayerAtIndex(layerIndex)
 	if self.layers[layerIndex] == nil then
 		print("getLayerAtIndex["..layerIndex.."] is nil");
 	end
 	return self.layers[layerIndex];
 end
 
-function LayerManager:getIndexByName(layerName)
-	return self.indicesByName[layerName];
+function LayerManager:getLayerIndexByName(layerName)
+	return self.layerIndicesByName[layerName];
 end
 
 function LayerManager:getLayerByName(layerName)
-	return self:getAtIndex(self.indicesByName[layerName]);
+	return self:getLayerAtIndex(self.layerIndicesByName[layerName]);
 end
 
-function LayerManager:serializeToFile(layerIndex, fileName)
+function LayerManager:serializeLayerToFile(layerIndex, fileName)
 	if self.layers[layerIndex] == nil then
 		print("serializeToFile["..layerIndex.."] is nil");
 		return;
@@ -46,7 +46,7 @@ function LayerManager:shutdown()
 	end
 	self.layers = nil;
 	Factory = nil;
-	self.indicesByName = nil;
+	self.layerIndicesByName = nil;
 end
 
 function LayerManager:update(dt)
