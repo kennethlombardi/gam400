@@ -25,18 +25,17 @@ end
 local function preShutdown()
 	require("LayerManager"):getAtIndex(layer0):serializeToFile("pickleFileDiff0.lua");
 	require("LayerManager"):getAtIndex(layer1):serializeToFile("pickleFileDiff1.lua");
+end
+
+local function shutdown()
 	require("LayerManager"):shutdown();
-	
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
-
+	
 	require("SimulationManager"):reportHistogram();
 	require("SimulationManager"):reportLeaks();
 	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):shutdown();
-end
-
-local function shutdown()
 end
 
 local function update(dt)

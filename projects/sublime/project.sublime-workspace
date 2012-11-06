@@ -216,8 +216,9 @@
 	},
 	"file_history":
 	[
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/BoxMesh.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LevelEditor.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/BoxMesh.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/PropMovement.lua",
