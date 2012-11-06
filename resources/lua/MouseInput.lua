@@ -79,12 +79,14 @@ MOAIInputMgr.device.mouseLeft:setCallback(
 	end
 )
 MOAIInputMgr.device.mouseRight:setCallback(
+
 	function(isMouseDown)		
 		if(isMouseDown) then
 			PressKey(1);
 		else
 			RaiseKey(1);
 		end		
+		
 	end
 )
 

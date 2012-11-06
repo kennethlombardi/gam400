@@ -7,10 +7,12 @@ local windowManager = require "WindowManager";
 function MOAILayerPrototype:allocate()
     local object = MOAILayerPrototype:new {
         propContainer = {},
+        propsByIndex = {},
         position = {x = 0, y = 0, z = 0},
         underlyingType = nil,
-        camera = nil;
-        scripts = {};
+        camera = nil,
+        scripts = {},
+        currentIndex = 1;
     }
     return object;
 end
@@ -18,14 +20,17 @@ end
 function MOAILayerPrototype:free()
 	self:setVisible(false);
 	self:baseFree();
-	self.camera = nil;
+	camera = nil;
 end
 
 function MOAILayerPrototype:getLoc()
 	return self.position;
 end
 
+-- Get the partition
+-- Insert prop into partition
 function MOAILayerPrototype:insertProp(prop)
+	self:baseInsertProp(prop);
 	if self.underlyingType == nil then 
 		print("Trying to insert prop into MOAILayerPrototype without underlying type"); 
 		return;
@@ -37,6 +42,15 @@ end
 function MOAILayerPrototype:insertPropPersistent(prop)
 	self:insertProp(prop);
 	self.propContainer:insertProp(prop);
+end
+
+function MOAILayerPrototype:pick(windowX, windowY)
+	local function toTable ( ... )
+    	return arg;
+	end
+	local originX, originY, originZ, directionX, directionY, directionZ = self.underlyingType:wndToWorld(windowX, windowY, 0);
+	local pickList = toTable(self.underlyingType:getPartition():propListForRay(originX, originY, originZ, directionX, directionY, directionZ));
+	return pickList;
 end
 
 function MOAILayerPrototype:setCamera(camera)
@@ -56,17 +70,17 @@ function MOAILayerPrototype:setLoc(newX, newY, newZ)
 	end
 end
 
+function MOAILayerPrototype:serialize(properties)
+	properties = properties or {}
+	self:serializeBase(properties);	--Serialize the parent data
+	return properties;
+end
+
 function Layer:setPropContainer(propContainer)
     self.propContainer = propContainer;
     for i,prop in pairs(propContainer.props) do
         self:insertProp(prop);
     end
-end
-
-function MOAILayerPrototype:serialize(properties)
-	properties = properties or {}
-	self:serializeBase(properties);	--Serialize the parent data
-	return properties;
 end
 
 function MOAILayerPrototype:setViewport(viewport)
