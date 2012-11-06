@@ -55,13 +55,6 @@ function MOAILayerPrototype:setLoc(newX, newY, newZ)
 	end
 end
 
-function MOAILayerPrototype:setPropContainer(propContainer)
-	self.propContainer = propContainer;
-	for i,prop in pairs(propContainer.props) do
-		self:insertProp(prop);
-	end
-end
-
 function MOAILayerPrototype:serialize(properties)
 	properties = properties or {}
 	self:serializeBase(properties);	--Serialize the parent data

@@ -93,6 +93,9 @@ end
 
 function Layer:setPropContainer(propContainer)
     self.propContainer = propContainer;
+    for i,prop in pairs(propContainer.props) do
+        self:insertProp(prop);
+    end
 end
 
 function Layer:setType(type)
