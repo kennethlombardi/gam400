@@ -34,7 +34,10 @@ end
 function MOAILayerCreator:create(properties)
 	local layer = require "MOAILayerPrototype";
 	local newLayer = layer:allocate();
-	newLayer:setUnderlyingType( MOAILayer.new() );
+	local newMoaiLayer = MOAILayer.new();
+	local newMoaiPartition = MOAIPartition.new();
+	newMoaiLayer:setPartition(newMoaiPartition);
+	newLayer:setUnderlyingType( newMoaiLayer );
 	local propContainer = Factory:create("PropContainer");
 
 	-- fill the prop container then insert into layer

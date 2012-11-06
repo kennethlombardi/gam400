@@ -26,11 +26,12 @@ function MOAILayerPrototype:getLoc()
 end
 
 function MOAILayerPrototype:insertProp(prop)
-	if self["underlyingType"] == nil then 
+	if self.underlyingType == nil then 
 		print("Trying to insert prop into MOAILayerPrototype without underlying type"); 
 		return;
 	end;
-	self.underlyingType:insertProp(prop:getUnderlyingType());
+	local partition = self.underlyingType:getPartition();
+	partition:insertProp(prop:getUnderlyingType());
 end
 
 function MOAILayerPrototype:insertPropPersistent(prop)
@@ -53,6 +54,13 @@ function MOAILayerPrototype:setLoc(newX, newY, newZ)
 		self.camera:setLoc(newX, newY, newZ);
 	else
 	end
+end
+
+function Layer:setPropContainer(propContainer)
+    self.propContainer = propContainer;
+    for i,prop in pairs(propContainer.props) do
+        self:insertProp(prop);
+    end
 end
 
 function MOAILayerPrototype:serialize(properties)
