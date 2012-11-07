@@ -4,7 +4,7 @@ local Layer = {
     visible = "false",  -- This should start at false to allow a push to the render pass
     underlyingType = "nil",
     propContainer = nil,
-    propsByIndex = nil,
+    --propsByIndex = nil,
     position = {x = 0, y = 0, z = 0},
     scripts = {},
     currentIndex = 1,
@@ -14,18 +14,10 @@ function Layer:baseFree()
     self.underlyingType = nil;
     self.propContainer:free();
     self.camera = nil;
-    self.propsByIndex = nil;
+    --self.propsByIndex = nil;
     self.position = nil;
     self.scripts = nil;
     self.propContainer = nil;
-end
-
--- Decorate prop so we can identify it later
--- Register the prop in map by index
-function Layer:baseInsertProp(prop)
-    local index = self:nextIndex();
-    self:decorate(prop, "index", index);
-    self.propsByIndex[index] = prop;
 end
 
 function Layer:baseUpdate(dt) 
@@ -33,11 +25,6 @@ function Layer:baseUpdate(dt)
         v.update(self, dt);
     end
     self.propContainer:update(dt);
-end
-
-function Layer:decorate(prop, key, value)
-    prop.mark = prop.mark or {};
-    prop.mark[key] = value;
 end
 
 function Layer:free() 
@@ -52,11 +39,6 @@ function Layer:getUnderlyingType()
     return self["underlyingType"];
 end
 
-function Layer:getPropDecoration(prop, key)
-    prop.mark = prop.mark or {};
-    return prop.mark[key];
-end
-
 function Layer:getPropForIndex(index)
     return propsByIndex[index];
 end
@@ -67,7 +49,6 @@ function Layer:hide()
 end
 
 function Layer:insertProp(prop)
-    self:baseInsertProp(prop);
 end
 
 function Layer:new(object)
@@ -75,12 +56,6 @@ function Layer:new(object)
     setmetatable(object, self);
     self.__index = self;
     return object;
-end
-
-function Layer:nextIndex()
-    local index = self.currentIndex;
-    self.currentIndex = index + 1;
-    return index;
 end
 
 function Layer:pick()

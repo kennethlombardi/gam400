@@ -7,7 +7,7 @@ local windowManager = require "WindowManager";
 function MOAILayerPrototype:allocate()
     local object = MOAILayerPrototype:new {
         propContainer = {},
-        propsByIndex = {},
+        --propsByIndex = {},
         position = {x = 0, y = 0, z = 0},
         underlyingType = nil,
         camera = nil,
@@ -30,7 +30,6 @@ end
 -- Get the partition
 -- Insert prop into partition
 function MOAILayerPrototype:insertProp(prop)
-	self:baseInsertProp(prop);
 	if self.underlyingType == nil then 
 		print("Trying to insert prop into MOAILayerPrototype without underlying type"); 
 		return;
@@ -106,6 +105,17 @@ function MOAILayerPrototype:setVisible(visible)
 end
 
 function MOAILayerPrototype:update(dt)
+	Input = require("InputManager");
+	local x = Input.Mouse.windowX;
+	local y = Input.Mouse.windowY;
+	if Input.Mouse:IsKeyPressed(1) then
+		local objects = self:pick(x, y);
+		for k,v in pairs(objects) do
+			if type(v) ~= "number" then
+				v:moveScl ( 0.25, 0.25, 0.25, 0.125, MOAIEaseType.EASE_IN )
+			end
+		end
+	end
 	self:baseUpdate(dt);
 end
 
