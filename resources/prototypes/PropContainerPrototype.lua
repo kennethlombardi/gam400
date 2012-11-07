@@ -35,15 +35,15 @@ function PropContainerPrototype:getPropDecoration(prop, key)
 	return self:getRawPropDecoration(prop.underlyingType, key);
 end
 
-function PropContainerPrototype:getPropsForRawList(rawList)
-	local props = {};
+function PropContainerPrototype:getPropsForRawList(rawList, cookedList)
+	local cookedList = cookedList or {};
 	for k,v in pairs(rawList) do
 		if type(v) ~= "number" then
 			local index = self:getRawPropDecoration(v, "index");
-			table.insert(props, self.propsByIndex[index]);
+			table.insert(cookedList, self.propsByIndex[index]);
 		end
 	end
-	return props;
+	return cookedList;
 end
 
 function PropContainerPrototype:insertProp(prop)

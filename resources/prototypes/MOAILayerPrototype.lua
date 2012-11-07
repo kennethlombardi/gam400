@@ -42,13 +42,15 @@ function MOAILayerPrototype:insertPropPersistent(prop)
 	self.propContainer:insertProp(prop);
 end
 
-function MOAILayerPrototype:pick(windowX, windowY)
+function MOAILayerPrototype:pick(windowX, windowY, props)
+	props = props or {};
 	local function toTable ( ... )
     	return arg;
 	end
 	local originX, originY, originZ, directionX, directionY, directionZ = self.underlyingType:wndToWorld(windowX, windowY, 0);
-	local pickList = toTable(self.underlyingType:getPartition():propListForRay(originX, originY, originZ, directionX, directionY, directionZ));
-	return self.propContainer:getPropsForRawList(pickList);
+	local pickListRaw = toTable(self.underlyingType:getPartition():propListForRay(originX, originY, originZ, directionX, directionY, directionZ));
+	self.propContainer:getPropsForRawList(pickListRaw, props);
+	return props;
 end
 
 function MOAILayerPrototype:setCamera(camera)
