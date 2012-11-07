@@ -53,6 +53,16 @@ function MOAILayerPrototype:pick(windowX, windowY, props)
 	return props;
 end
 
+function MOAILayerPrototype:removeProp(prop)
+	local partition = self.underlyingType:getPartition();
+	partition:removeProp(prop:getUnderlyingType());
+end
+
+function MOAILayerPrototype:removePropPersistent(prop)
+	self:removeProp(prop);
+	self.propContainer:removeProp(prop);
+end
+
 function MOAILayerPrototype:setCamera(camera)
 	if self["underlyingType"] == nil then 
 		print("Trying to insert camera into MOAILayerPrototype without underlying type"); 
@@ -114,6 +124,7 @@ function MOAILayerPrototype:update(dt)
 		for k,v in pairs(objects) do
 			if type(v) ~= "number" then
 				v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
+				self:removePropPersistent(v);
 			end
 		end
 	end
