@@ -4,7 +4,6 @@ local Layer = {
     visible = "false",  -- This should start at false to allow a push to the render pass
     underlyingType = "nil",
     propContainer = nil,
-    --propsByIndex = nil,
     position = {x = 0, y = 0, z = 0},
     scripts = {},
     currentIndex = 1,
@@ -14,7 +13,6 @@ function Layer:baseFree()
     self.underlyingType = nil;
     self.propContainer:free();
     self.camera = nil;
-    --self.propsByIndex = nil;
     self.position = nil;
     self.scripts = nil;
     self.propContainer = nil;

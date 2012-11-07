@@ -4,9 +4,18 @@ local PropContainerPrototype = {
 	currentIndex = 1;
 }
 
-function PropContainerPrototype:decorate(prop, key, value)
-    prop.mark = prop.mark or {};
-    prop.mark[key] = value;
+function PropContainerPrototype:allocate()
+	object = PropContainerPrototype:new {
+		props = {},
+		propsByIndex = {},
+		currentIndex = 1,
+	}
+	return object;
+end
+
+function PropContainerPrototype:decorateProp(prop, key, value)
+    prop.underlyingType.mark = prop.underlyingType.mark or {};
+    prop.underlyingType.mark[key] = value;
 end
 
 function PropContainerPrototype:free()
@@ -17,14 +26,29 @@ function PropContainerPrototype:free()
 	self.props = nil;
 end
 
+function PropContainerPrototype:getRawPropDecoration(rawProp, key)
+    rawProp.mark = rawProp.mark or {};
+    return rawProp.mark[key];
+end
+
 function PropContainerPrototype:getPropDecoration(prop, key)
-    prop.mark = prop.mark or {};
-    return prop.mark[key];
+	return self:getRawPropDecoration(prop.underlyingType, key);
+end
+
+function PropContainerPrototype:getPropsForRawList(rawList)
+	local props = {};
+	for k,v in pairs(rawList) do
+		if type(v) ~= "number" then
+			local index = self:getRawPropDecoration(v, "index");
+			table.insert(props, self.propsByIndex[index]);
+		end
+	end
+	return props;
 end
 
 function PropContainerPrototype:insertProp(prop)
 	local index = self:nextIndex();
-    self:decorate(prop, "index", index);
+    self:decorateProp(prop, "index", index);
     self.propsByIndex[index] = prop;
 	table.insert(self.props, index, prop);
 end

@@ -13,6 +13,7 @@ function LayerManager:createLayerFromFile(layerFileName)
 
 	-- Save the layer name as a hash for the index to allow quick retrieval of layers by name
 	self.layerIndicesByName[layerFileName] = layerIndex;
+	self.layers[layerIndex].underlyingType:showDebugLines();
 	return layerIndex;
 end
 

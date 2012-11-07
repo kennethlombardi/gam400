@@ -7,7 +7,6 @@ local windowManager = require "WindowManager";
 function MOAILayerPrototype:allocate()
     local object = MOAILayerPrototype:new {
         propContainer = {},
-        --propsByIndex = {},
         position = {x = 0, y = 0, z = 0},
         underlyingType = nil,
         camera = nil,
@@ -49,7 +48,7 @@ function MOAILayerPrototype:pick(windowX, windowY)
 	end
 	local originX, originY, originZ, directionX, directionY, directionZ = self.underlyingType:wndToWorld(windowX, windowY, 0);
 	local pickList = toTable(self.underlyingType:getPartition():propListForRay(originX, originY, originZ, directionX, directionY, directionZ));
-	return pickList;
+	return self.propContainer:getPropsForRawList(pickList);
 end
 
 function MOAILayerPrototype:setCamera(camera)
@@ -112,10 +111,11 @@ function MOAILayerPrototype:update(dt)
 		local objects = self:pick(x, y);
 		for k,v in pairs(objects) do
 			if type(v) ~= "number" then
-				v:moveScl ( 0.25, 0.25, 0.25, 0.125, MOAIEaseType.EASE_IN )
+				v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
 			end
 		end
 	end
+
 	self:baseUpdate(dt);
 end
 
