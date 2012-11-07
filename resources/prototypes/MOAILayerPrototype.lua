@@ -7,7 +7,6 @@ local windowManager = require "WindowManager";
 function MOAILayerPrototype:allocate()
     local object = MOAILayerPrototype:new {
         propContainer = {},
-        propsByIndex = {},
         position = {x = 0, y = 0, z = 0},
         underlyingType = nil,
         camera = nil,
@@ -30,7 +29,6 @@ end
 -- Get the partition
 -- Insert prop into partition
 function MOAILayerPrototype:insertProp(prop)
-	self:baseInsertProp(prop);
 	if self.underlyingType == nil then 
 		print("Trying to insert prop into MOAILayerPrototype without underlying type"); 
 		return;
@@ -44,13 +42,25 @@ function MOAILayerPrototype:insertPropPersistent(prop)
 	self.propContainer:insertProp(prop);
 end
 
-function MOAILayerPrototype:pick(windowX, windowY)
+function MOAILayerPrototype:pick(windowX, windowY, props)
+	props = props or {};
 	local function toTable ( ... )
     	return arg;
 	end
 	local originX, originY, originZ, directionX, directionY, directionZ = self.underlyingType:wndToWorld(windowX, windowY, 0);
-	local pickList = toTable(self.underlyingType:getPartition():propListForRay(originX, originY, originZ, directionX, directionY, directionZ));
-	return pickList;
+	local pickListRaw = toTable(self.underlyingType:getPartition():propListForRay(originX, originY, originZ, directionX, directionY, directionZ));
+	self.propContainer:getPropsForRawList(pickListRaw, props);
+	return props;
+end
+
+function MOAILayerPrototype:removeProp(prop)
+	local partition = self.underlyingType:getPartition();
+	partition:removeProp(prop:getUnderlyingType());
+end
+
+function MOAILayerPrototype:removePropPersistent(prop)
+	self:removeProp(prop);
+	self.propContainer:removeProp(prop);
 end
 
 function MOAILayerPrototype:setCamera(camera)
@@ -106,6 +116,19 @@ function MOAILayerPrototype:setVisible(visible)
 end
 
 function MOAILayerPrototype:update(dt)
+	Input = require("InputManager");
+	local x = Input.Mouse.windowX;
+	local y = Input.Mouse.windowY;
+	if Input.Mouse:IsKeyPressed(1) then
+		local objects = self:pick(x, y);
+		for k,v in pairs(objects) do
+			if type(v) ~= "number" then
+				v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
+				self:removePropPersistent(v);
+			end
+		end
+	end
+
 	self:baseUpdate(dt);
 end
 

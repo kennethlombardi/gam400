@@ -225,7 +225,7 @@ end
 -- PropContainerCreator
 function PropContainerCreator:create(properties)
 	propContainerPrototype = require "PropContainerPrototype";
-	return propContainerPrototype:new();
+	return propContainerPrototype:allocate();
 end
 --
 

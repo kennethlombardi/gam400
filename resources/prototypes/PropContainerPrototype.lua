@@ -1,6 +1,21 @@
 local PropContainerPrototype = {
-	props = nil;
+	props = nil,
+	currentIndex = 1;
 }
+
+function PropContainerPrototype:allocate()
+	object = PropContainerPrototype:new {
+		props = {},
+		propsByIndex = {},
+		currentIndex = 1,
+	}
+	return object;
+end
+
+function PropContainerPrototype:decorateProp(prop, key, value)
+    prop.underlyingType.mark = prop.underlyingType.mark or {};
+    prop.underlyingType.mark[key] = value;
+end
 
 function PropContainerPrototype:free()
 	for k,v in pairs(self.props) do 
@@ -10,8 +25,30 @@ function PropContainerPrototype:free()
 	self.props = nil;
 end
 
+function PropContainerPrototype:getRawPropDecoration(rawProp, key)
+    rawProp.mark = rawProp.mark or {};
+    return rawProp.mark[key];
+end
+
+function PropContainerPrototype:getPropDecoration(prop, key)
+	return self:getRawPropDecoration(prop.underlyingType, key);
+end
+
+function PropContainerPrototype:getPropsForRawList(rawList, cookedList)
+	local cookedList = cookedList or {};
+	for k,v in pairs(rawList) do
+		if type(v) ~= "number" then
+			local index = self:getRawPropDecoration(v, "index");
+			table.insert(cookedList, self.props[index]);
+		end
+	end
+	return cookedList;
+end
+
 function PropContainerPrototype:insertProp(prop)
-	table.insert(self.props, prop);
+	local index = self:nextIndex();
+    self:decorateProp(prop, "index", index);
+	table.insert(self.props, index, prop);
 end
 
 function PropContainerPrototype:new(object)
@@ -20,6 +57,17 @@ function PropContainerPrototype:new(object)
 	self.__index = self;
 	object.props = {};
 	return object;
+end
+
+function PropContainerPrototype:nextIndex()
+    local index = self.currentIndex;
+    self.currentIndex = index + 1;
+    return index;
+end
+
+function PropContainerPrototype:removeProp(prop)
+	local index = self:getPropDecoration(prop, "index");
+	self.props[index] = nil;
 end
 
 function PropContainerPrototype:serialize(properties)
