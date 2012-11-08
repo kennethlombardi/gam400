@@ -19,6 +19,7 @@ local MOAIPropPrototypeCreator = Creator:new();
 local MOAIPropCubeCreator = Creator:new();
 local MOAITextBoxCreator = Creator:new();
 local MOAIScriptCreator = Creator:new();
+local MOAIShaderCreator = Creator:new();
 --
 
 -- MOAILayerDDCreator
@@ -151,10 +152,16 @@ function MOAIPropCubeCreator:create(properties)
 
 	properties.scale = properties.scale or propPrototype.scale;
 	local cubeMesh = ShapeLibrary.makeCube("../textures/moai.png");
-	cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
+
+	local shader = Factory:create("Shader", "shader");
+	cubeMesh:setShader(shader);
+	--cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
+
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
-	propPrototype:getUnderlyingType():setScl(properties.scale.x, properties.scale.y, properties.scale.z);
+	propPrototype:setScl(properties.scale.x, properties.scale.y, properties.scale.z);
+
+	
 	return propPrototype;
 end
 
@@ -190,6 +197,12 @@ end
 
 function MOAIScriptCreator:createFromFile(fileName)
 	return require("ResourceManager"):load("Script", fileName);
+end
+--
+
+-- MOAIShaderCreator
+function MOAIShaderCreator:create(fileName) -- Change this to properties soon
+	return require("ResourceManager"):load("Shader", fileName);
 end
 --
 
@@ -263,6 +276,7 @@ local function initialize()
 	Factory:register("PropCube", MOAIPropCubeCreator:new());
 	Factory:register("TextBox", MOAITextBoxCreator:new());
 	Factory:register("Script", MOAIScriptCreator:new());
+	Factory:register("Shader", MOAIShaderCreator:new());
 end
 
 initialize();

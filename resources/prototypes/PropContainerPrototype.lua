@@ -78,12 +78,6 @@ function PropContainerPrototype:serialize(properties)
 	return properties;
 end
 
-function PropContainerPrototype:baseSetScl(x, y, z)
-	self.scale.x = x;
-	self.scale.y = y;
-	self.scale.z = z;
-end
-
 function PropContainerPrototype:update(dt)
 	for k,v in pairs(self.props) do
 		v:update(dt);

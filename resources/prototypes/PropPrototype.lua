@@ -36,7 +36,7 @@ function PropPrototype:baseSetLoc(x, y, z)
 	self.position.z = z;
 end
 
-function PropPrototype:baseSetScale(x, y, z)
+function PropPrototype:baseSetScl(x, y, z)
 	self.scale.x = x;
 	self.scale.y = y;
 	self.scale.z = z;
@@ -72,7 +72,7 @@ function PropPrototype:serialize(properties)
 end
 
 function PropPrototype:setScale(x, y, z)
-	self:baseSetScale(x, y, z);
+	self:baseSetScl(x, y, z);
 end
 
 function PropPrototype:setType(type)

@@ -40,6 +40,7 @@ end
 local MOAITextureCreator = Creator:new(); 
 local MOAIFileCreator = Creator:new();
 local MOAIFontCreator = Creator:new();
+local MOAIShaderCreator = Creator:new();
 --
 
 -- Handler
@@ -68,7 +69,13 @@ end
 
 -- MOAIFileHandler
 function MOAIFileHandler:load(fullPath) 
-
+	local fileSystem = require("FileSystem");
+	local file = "";
+	if fileSystem:checkFileExists(fullPath) then
+		file = fileSystem:load("File", fullPath);
+	end
+	ResourceManager:addToCache(fullPath, file);
+	print(file);
 end
 --
 
@@ -125,11 +132,29 @@ function MOAIScriptHandler:load(fileName)
 end
 --
 
+-- MOAIShaderCreator
+function MOAIShaderCreator:load(fileName)
+	local fullPath = "../shaders/"..fileName;
+	local vsh = require("FileSystem"):load("File", fullPath..".vsh", "rb");
+	local fsh = require("FileSystem"):load("File", fullPath..".fsh", "rb");
+	local shader = MOAIShader.new();
+	shader:reserveUniforms(1);
+	shader:declareUniform(1, 'transform', MOAIShader.UNIFORM_WORLD_VIEW_PROJ);
+	shader:setVertexAttribute(1, 'position');
+	shader:setVertexAttribute(2, 'uv');
+	shader:setVertexAttribute(3, 'color');	
+	shader:load(vsh, fsh);
+	return shader;
+end
+--
+
 local function init()
 	ResourceManager:register("Texture", MOAITextureCreator:new());
 	ResourceManager:register("Configuration", MOAIConfigurationHandler:new());
 	ResourceManager:register("Font", MOAIFontCreator:new());
 	ResourceManager:register("Script", MOAIScriptHandler:new());
+	ResourceManager:register("Shader", MOAIShaderCreator:new());
+	ResourceManager:register("File", MOAIFileHandler:new());
 end
 
 init();

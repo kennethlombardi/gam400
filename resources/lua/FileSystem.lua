@@ -12,7 +12,7 @@ function FileSystem:new(object)
 end
 
 function FileSystem:load(type, fullPath, options) 
-	self.handlers[type]:load(fullPath, options);
+	return self.handlers[type]:load(fullPath, options);
 end
 
 function FileSystem:registerCore(core)
@@ -62,6 +62,17 @@ function MOAIFileSystemCore:checkFileExists(fullPath)
 end
 --
 
+-- MOAIFileSystemHandler
+local MOAIFileSystemFileHandler = FileSystemHandler:new();
+
+function MOAIFileSystemFileHandler:load(fullPath)
+	local file = io.open(fullPath, "rb");
+	local string = file:read("*all");
+	file:close();
+	return string;
+end
+--
+
 -- MOAIFileSystemFileStreamHandler
 local function fileOpenModesDefault(table, key)
 	table[key] = MOAIFileStream.READ;
@@ -87,7 +98,11 @@ function MOAIFileSystemFileStreamHandler:init()
 end
 
 function MOAIFileSystemFileStreamHandler:load(fullPath, mode)
-	return MOAIFileStream.new():load(fullPath, self.fileOpenModes[mode]);
+	local stream = MOAIFileStream.new();
+	local success = stream:open(fullPath, self.fileOpenModes[mode]);
+	print("success", success);
+	print("stream", stream);
+	return stream;
 end
 --
 
@@ -98,6 +113,7 @@ function init()
 	-- FileSystem registration
 	FileSystem:registerCore(MOAIFileSystemCore:new());
 	FileSystem:registerHandler("Stream", MOAIFileSystemFileStreamHandler:new());
+	FileSystem:registerHandler("File", MOAIFileSystemFileHandler:new());
 end
 
 init();
