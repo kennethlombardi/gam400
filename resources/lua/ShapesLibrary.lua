@@ -70,7 +70,7 @@ end
 
 ShapesLibrary.cubeMesh = makeCubeMesh();
 
-function makeCube(texture)
+function ShapesLibrary.makeCube(texture)
   local ResourceManager = require("ResourceManager");
   local mesh = MOAIMesh.new();
   mesh:setTexture(ResourceManager:load("Texture", texture));
@@ -79,8 +79,6 @@ function makeCube(texture)
   
   return mesh;
 end
-
-ShapesLibrary.makeCube = makeCube;
 
 function makeSphereMesh()
   local radius = .5;
@@ -146,7 +144,7 @@ end
 
 ShapesLibrary.sphereMesh = makeSphereMesh();
 
-function makeSphere(texture)
+function ShapesLibrary.makeSphere(texture)
   local ResourceManager = require("ResourceManager");
   local mesh = MOAIMesh.new();
   mesh:setTexture(ResourceManager:load("Texture", texture));
@@ -155,8 +153,6 @@ function makeSphere(texture)
   
   return mesh;
 end
-ShapesLibrary.makeSphere = makeSphere;
-
 
 function makeTorusMesh()
   local radius = .5;
@@ -224,7 +220,7 @@ end
 
 ShapesLibrary.torusMesh = makeTorusMesh();
 
-function makeTorus(texture)
+function ShapesLibrary.makeTorus(texture)
   local ResourceManager = require("ResourceManager");
   local mesh = MOAIMesh.new();
   mesh:setTexture(ResourceManager:load("Texture", texture));
@@ -234,6 +230,10 @@ function makeTorus(texture)
   return mesh;
 end
 
-ShapesLibrary.makeTorus = makeTorus;
+function ShapesLibrary:shutdown()
+	ShapesLibrary.torusMesh = nil;
+	ShapesLibrary.sphereMesh= nil;
+	ShapesLibrary.cubeMesh = nil;
+end
 
 return ShapesLibrary;
