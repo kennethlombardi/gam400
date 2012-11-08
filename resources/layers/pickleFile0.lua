@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="Layer",
-		["name"]="Layer0",
+		["name"]="pickleFileDiff0.lua",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -30,6 +30,7 @@ deserialize ("Layer",
 		["name"]="Prop1",
 		["position"]={8},
 		["scale"]={9},
+		["shaderName"]="shader",
 		["scripts"]={10},
 	},
 
@@ -38,6 +39,7 @@ deserialize ("Layer",
 		["name"]="Prop2",
 		["position"]={11},
 		["scale"]={12},
+		["shaderName"]="shader",
 		["scripts"]={13},
 	},
 
@@ -46,12 +48,13 @@ deserialize ("Layer",
 		["name"]="Prop3",
 		["position"]={14},
 		["scale"]={15},
+		["shaderName"]="shader",
 		["scripts"]={16},
 	},
 
 	{--Entry Number: {8}
-		["y"]=-165,
-		["x"]=289,
+		["y"]=178,
+		["x"]=61.933333333333,
 		["z"]=-1000,
 	},
 
@@ -66,8 +69,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {11}
-		["y"]=-75,
-		["x"]=-146,
+		["y"]=-203,
+		["x"]=314.93333333333,
 		["z"]=-1000,
 	},
 
@@ -82,8 +85,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {14}
-		["y"]=194,
-		["x"]=-73,
+		["y"]=-32,
+		["x"]=213.93333333333,
 		["z"]=-1000,
 	},
 

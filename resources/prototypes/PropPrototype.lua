@@ -4,6 +4,7 @@ local PropPrototype = {
 	type = "PropPrototypeType",
 	scale = {x = 1, y = 1, z = 1},
 	position = {x = 0, y = 0, z = 0},
+	shaderName = "ken",
 }
 
 function PropPrototype:baseUpdate(dt)
@@ -27,6 +28,7 @@ function PropPrototype:baseSerialize(properties)
 	properties.position = self.position;
 	properties.type = self.type;
 	properties.scale = self.scale;
+	properties.shaderName = self.shaderName;
 	return properties;
 end
 
@@ -73,6 +75,10 @@ end
 
 function PropPrototype:setScale(x, y, z)
 	self:baseSetScl(x, y, z);
+end
+
+function PropPrototype:setShaderName(shaderName)
+	self.shaderName = shaderName;
 end
 
 function PropPrototype:setType(type)

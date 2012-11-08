@@ -69,13 +69,12 @@ end
 
 -- MOAIFileHandler
 function MOAIFileHandler:load(fullPath) 
-	local fileSystem = require("FileSystem");
+	local FileSystem = require("FileSystem");
 	local file = "";
-	if fileSystem:checkFileExists(fullPath) then
-		file = fileSystem:load("File", fullPath);
+	if FileSystem:checkFileExists(fullPath) then
+		file = FileSystem:load("File", fullPath);
 	end
 	ResourceManager:addToCache(fullPath, file);
-	print(file);
 end
 --
 
@@ -106,7 +105,7 @@ function MOAITextureCreator:load(fileName)
 		texture:load(path);
 		ResourceManager:addToCache(path, texture);
 	end
-	--TODO: If texture loading failes from file, create new MOAIImage with some garbage
+	--TODO: If texture loading fails from file, create new MOAIImage with some garbage
 	--		to ensure that at least something is registered correctly.
 
 	return texture;

@@ -153,8 +153,9 @@ function MOAIPropCubeCreator:create(properties)
 	properties.scale = properties.scale or propPrototype.scale;
 	local cubeMesh = ShapeLibrary.makeCube("../textures/moai.png");
 
-	local shader = Factory:create("Shader", "shader");
+	local shader = Factory:create("Shader", properties.shaderName);
 	cubeMesh:setShader(shader);
+	propPrototype:setShaderName(properties.shaderName);
 	--cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
 
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);

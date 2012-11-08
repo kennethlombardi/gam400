@@ -11,6 +11,8 @@ deserialize ("Layer",
 
 	{--Entry Number: {2}
 		[1]={5},
+		[2]={6},
+		[3]={7},
 	},
 
 	{--Entry Number: {3}
@@ -26,24 +28,75 @@ deserialize ("Layer",
 	{--Entry Number: {5}
 		["type"]="PropCube",
 		["name"]="Prop1",
-		["position"]={6},
-		["scale"]={7},
-		["scripts"]={8},
+		["position"]={8},
+		["scale"]={9},
+		["shaderName"]="shader",
+		["scripts"]={10},
 	},
 
 	{--Entry Number: {6}
-		["y"]=200,
-		["x"]=335.2,
-		["z"]=-1000,
+		["type"]="PropCube",
+		["name"]="Prop2",
+		["position"]={11},
+		["scale"]={12},
+		["shaderName"]="shader",
+		["scripts"]={13},
 	},
 
 	{--Entry Number: {7}
+		["type"]="PropCube",
+		["name"]="Prop3",
+		["position"]={14},
+		["scale"]={15},
+		["shaderName"]="shader",
+		["scripts"]={16},
+	},
+
+	{--Entry Number: {8}
+		["y"]=178,
+		["x"]=78.466666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {9}
 		["y"]=10,
 		["x"]=10,
 		["z"]=10,
 	},
 
-	{--Entry Number: {8}
+	{--Entry Number: {10}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {11}
+		["y"]=-203,
+		["x"]=331.46666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {12}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {13}
+		[1]="PropMovement.lua",
+	},
+
+	{--Entry Number: {14}
+		["y"]=-32,
+		["x"]=230.46666666666,
+		["z"]=-1000,
+	},
+
+	{--Entry Number: {15}
+		["y"]=10,
+		["x"]=10,
+		["z"]=10,
+	},
+
+	{--Entry Number: {16}
 		[1]="PropMovement.lua",
 	},
 })

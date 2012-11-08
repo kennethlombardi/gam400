@@ -22,8 +22,9 @@ for i = 1, objectCount do
 		type = "PropCube",
 		["name"] = "Prop"..i,
 		position = position,
-		scale = scale;
-		scripts = {"PropMovement.lua"};
+		scale = scale,
+		scripts = {"PropMovement.lua"},
+		shaderName = "shader",
 	}
 	table.insert(layer1.propContainer, prop);
 end
@@ -55,7 +56,8 @@ for i = 1, objectCount do
 		textSize = 24,
 		rectangle = {x1 = -50, y1 = -100, x2 = 300, y2 = 100},
 		string = "This is text in a level file",
-		scripts = {"PerformanceCounter.lua"};
+		scripts = {"PerformanceCounter.lua"},
+		shaderName = "ken"
 	}
 	table.insert(layer2.propContainer, prop);
 end

@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="LayerDD",
-		["name"]="Layer1",
+		["name"]="pickleFileDiff1.lua",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -24,37 +24,38 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {5}
-		["scripts"]={6},
 		["type"]="TextBox",
+		["scale"]={6},
+		["shaderName"]="ken",
+		["rectangle"]={7},
 		["name"]="TextBox#1",
-		["position"]={7},
-		["scale"]={8},
-		["string"]="This is text in a level file",
+		["position"]={8},
+		["scripts"]={9},
 		["textSize"]=24,
-		["rectangle"]={9},
+		["string"]="dt 0.016667 : FPS 54.823025",
 	},
 
 	{--Entry Number: {6}
-		[1]="PerformanceCounter.lua",
-	},
-
-	{--Entry Number: {7}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
-	},
-
-	{--Entry Number: {8}
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
 	},
 
-	{--Entry Number: {9}
+	{--Entry Number: {7}
 		["x2"]=300,
 		["y2"]=100,
 		["y1"]=-100,
 		["x1"]=-50,
+	},
+
+	{--Entry Number: {8}
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {9}
+		[1]="PerformanceCounter.lua",
 	},
 })
 
