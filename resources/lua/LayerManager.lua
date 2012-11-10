@@ -17,12 +17,11 @@ function LayerManager:createLayerFromFile(layerFileName)
 
 	-- Save the layer name as a hash for the index to allow quick retrieval of layers by name
 	self.layerIndicesByName[layerFileName] = nextIndex;
-	print("Created layer at index", nextIndex);
+
 	return nextIndex;
 end
 
 function LayerManager:removeLayerByIndex(layerIndex)
-	print("Freeing layer at index", layerIndex);
 	self.layers[layerIndex]:free();
 	self.layers[layerIndex] = nil;
 end

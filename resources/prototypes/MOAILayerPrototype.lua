@@ -122,7 +122,7 @@ end
 
 function MOAILayerPrototype:update(dt)
 	Input = require("InputManager");
-	if false then
+	if true then
 		local x = Input.Mouse.windowX;
 		local y = Input.Mouse.windowY;
 		if Input.Mouse:IsKeyPressed(1) then

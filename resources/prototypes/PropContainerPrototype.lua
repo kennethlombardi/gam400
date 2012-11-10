@@ -67,6 +67,7 @@ end
 
 function PropContainerPrototype:removeProp(prop)
 	local index = self:getPropDecoration(prop, "index");
+	prop:free();
 	self.props[index] = nil;
 end
 

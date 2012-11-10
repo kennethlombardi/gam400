@@ -21,8 +21,7 @@ local function initialize()
 	MOAIGfxDevice.setClearDepth(true);
 	
 	-- song
-	require("SoundManager"):play("mono16.wav", false);
-	require("SoundManager"):play("mono16.wav", true);
+	--require("SoundManager"):play("mono16.wav", false);
 
   	print("Initialized");
 end
@@ -57,15 +56,13 @@ local done = false;
 function gamesLoop ()
 	preInitialize();
 	initialize();
+
 	while not done do
-		if true then
-			layer0 = require("LayerManager"):createLayerFromFile("pickleFile0.lua");
-			require("LayerManager"):removeLayerByIndex(layer0);
-		end
 		update(require("SimulationManager"):getStep());
 		done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
 		coroutine.yield()
 	end
+	
 	preShutdown();
 	shutdown();
 	os.exit();
