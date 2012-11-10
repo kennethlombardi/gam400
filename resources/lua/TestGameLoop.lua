@@ -18,6 +18,14 @@ local function initialize()
 
 	-- simulation state
 	MOAIGfxDevice.setClearDepth ( true );
+
+	-- sound
+	MOAIUntzSystem.initialize ()
+	local sound = MOAIUntzSound.new ()
+	sound:load ( 'mono16.wav' )
+	sound:setVolume ( 1 )
+	sound:setLooping ( true )
+	sound:play ()
 	
   	print("Initialized");
 end
@@ -39,7 +47,7 @@ local function shutdown()
 end
 
 local function update(dt)
-	require("InputManager"):Update(dt);
+	--require("InputManager"):Update(dt);
 	require("LayerManager"):update(dt);
 end
 
@@ -51,7 +59,7 @@ function gamesLoop ()
 	
 	while not done do
 		update(require("SimulationManager"):getStep());
-		done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
+		--done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
 		coroutine.yield()
 	end
 	preShutdown();

@@ -157,7 +157,8 @@ function MOAIPropCubeCreator:create(properties)
 	cubeMesh:setShader(shader);
 	propPrototype:setShaderName(properties.shaderName);
 	--cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
-
+	propPrototype:getUnderlyingType():moveScl(100, 100, 100, 5);
+	propPrototype:getUnderlyingType():moveRot(1080, 1080, 1080, 20);
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
 	propPrototype:setScl(properties.scale.x, properties.scale.y, properties.scale.z);

@@ -117,14 +117,16 @@ end
 
 function MOAILayerPrototype:update(dt)
 	Input = require("InputManager");
-	local x = Input.Mouse.windowX;
-	local y = Input.Mouse.windowY;
-	if Input.Mouse:IsKeyPressed(1) then
-		local objects = self:pick(x, y);
-		for k,v in pairs(objects) do
-			if type(v) ~= "number" then
-				v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
-				self:removePropPersistent(v);
+	if false then
+		local x = Input.Mouse.windowX;
+		local y = Input.Mouse.windowY;
+		if Input.Mouse:IsKeyPressed(1) then
+			local objects = self:pick(x, y);
+			for k,v in pairs(objects) do
+				if type(v) ~= "number" then
+					v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
+					self:removePropPersistent(v);
+				end
 			end
 		end
 	end

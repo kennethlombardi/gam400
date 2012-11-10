@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"shader",
+				"shaderName"
+			],
+			[
+				"MOAIShad",
+				"MOAIShaderCreator"
+			],
+			[
+				"MOAIFIleSyste",
+				"MOAIFileSystemHandler"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
 				"win",
 				"windowY"
 			],
@@ -30,10 +46,6 @@
 			[
 				"layer",
 				"layerFileName"
-			],
-			[
-				"file",
-				"filename"
 			],
 			[
 				"register",
@@ -211,6 +223,70 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
+			"settings":
+			{
+				"buffer_size": 9053,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
+			"settings":
+			{
+				"buffer_size": 1669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
+			"settings":
+			{
+				"buffer_size": 1223,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
+			"settings":
+			{
+				"buffer_size": 1865,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
+			"settings":
+			{
+				"buffer_size": 4117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/shaders/shader.fsh",
+			"settings":
+			{
+				"buffer_size": 252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/shaders/shader.vsh",
+			"settings":
+			{
+				"buffer_size": 303,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/FileSystem.lua",
+			"settings":
+			{
+				"buffer_size": 2728,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/Moai-Windows.sublime-build",
 	"command_palette":
@@ -236,13 +312,18 @@
 	},
 	"file_history":
 	[
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/FileSystem.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ShapesLibrary.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
-		"/C/Users/Kenneth/AppData/Roaming/Sublime Text 2/Packages/User/Moai-Windows.sublime-build",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayerPrototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Layer.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ken.vsh",
+		"/C/Users/Kenneth/AppData/Roaming/Sublime Text 2/Packages/User/Moai-Windows.sublime-build",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/InputManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/MouseInput.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/LayerMovement.lua",
@@ -259,13 +340,10 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Test.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LevelEditor.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/BoxMesh.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/TextBoxPrototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MoaiTextBoxPrototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ConfigurationManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/Hud.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/FileSystem.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/KeyboardInput.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/EngineProofGameLoop.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/fac",
@@ -313,6 +391,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"moaishadercrea",
+			"shader",
+			"makecube",
 			"propcontainer",
 			"baseinsertprop",
 			"asdfasdfas",
@@ -357,6 +438,221 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
+					"settings":
+					{
+						"buffer_size": 9053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4894,
+								4894
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2746.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
+					"settings":
+					{
+						"buffer_size": 1669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
+					"settings":
+					{
+						"buffer_size": 1223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
+					"settings":
+					{
+						"buffer_size": 1865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1576,
+								1576
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
+					"settings":
+					{
+						"buffer_size": 4117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3149,
+								3166
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/shaders/shader.fsh",
+					"settings":
+					{
+						"buffer_size": 252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/shaders/shader.vsh",
+					"settings":
+					{
+						"buffer_size": 303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/FileSystem.lua",
+					"settings":
+					{
+						"buffer_size": 2728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1265,
+								1265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 876.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -416,6 +712,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 170.0,
+	"side_bar_width": 246.0,
 	"status_bar_visible": true
 }
