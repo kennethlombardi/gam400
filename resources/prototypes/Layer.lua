@@ -12,7 +12,6 @@ local Layer = {
 function Layer:baseFree()
     self.underlyingType = nil;
     self.propContainer:free();
-    self.camera = nil;
     self.position = nil;
     self.scripts = nil;
     self.propContainer = nil;

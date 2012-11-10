@@ -41,6 +41,7 @@ local MOAITextureCreator = Creator:new();
 local MOAIFileCreator = Creator:new();
 local MOAIFontCreator = Creator:new();
 local MOAIShaderCreator = Creator:new();
+local MOAISoundCreator = Creator:new();
 --
 
 -- Handler
@@ -147,6 +148,13 @@ function MOAIShaderCreator:load(fileName)
 end
 --
 
+function MOAISoundCreator:load(fileName)
+	local fullPath = "../sounds/"..fileName;
+	local sound = MOAIUntzSound.new();
+	sound:load(fullPath);
+	return sound;
+end
+
 local function init()
 	ResourceManager:register("Texture", MOAITextureCreator:new());
 	ResourceManager:register("Configuration", MOAIConfigurationHandler:new());
@@ -154,6 +162,7 @@ local function init()
 	ResourceManager:register("Script", MOAIScriptHandler:new());
 	ResourceManager:register("Shader", MOAIShaderCreator:new());
 	ResourceManager:register("File", MOAIFileHandler:new());
+	ResourceManager:register("Sound", MOAISoundCreator:new());
 end
 
 init();

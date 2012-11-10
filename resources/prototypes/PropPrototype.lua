@@ -7,6 +7,18 @@ local PropPrototype = {
 	shaderName = "ken",
 }
 
+function PropPrototype:allocate()
+	local object = PropPrototype:new {
+		underlyingType = nil,
+		name = "PropPrototypeName",
+		type = "PropPrototypeType",
+		scale = {x = 1, y = 1, z = 1},
+		position = {x = 0, y = 0, z = 0},
+		shaderName = "ken",
+	}
+	return object;
+end
+
 function PropPrototype:baseUpdate(dt)
 
 end

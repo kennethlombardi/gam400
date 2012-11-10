@@ -77,17 +77,17 @@ end
 
 function MOAILayerCreator:createFromFile(fileName)
 	dofile "Pickle.lua";
-	local newObjects = {};
+	local newObject;
 	local objectIndex = 1;
 	function deserialize(className, properties)
-		cucumber = unpickle(properties);
-		newObjects[objectIndex] = Factory:create(cucumber.type, cucumber)
+		local cucumber = unpickle(properties);
+		newObject = Factory:create(cucumber.type, cucumber)
 		objectIndex = objectIndex + 1;
 	end
 	local path = "../layers/"..fileName;
 	dofile (path)
 	if objectIndex > 2 then print("MORE THAN ONE LAYER IN LAYER FILE: "..path) end;
-	return newObjects[1];
+	return newObject;
 end
 --
 
@@ -156,9 +156,11 @@ function MOAIPropCubeCreator:create(properties)
 	local shader = Factory:create("Shader", properties.shaderName);
 	cubeMesh:setShader(shader);
 	propPrototype:setShaderName(properties.shaderName);
+	
 	--cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
-	propPrototype:getUnderlyingType():moveScl(100, 100, 100, 5);
-	propPrototype:getUnderlyingType():moveRot(1080, 1080, 1080, 20);
+	--propPrototype:getUnderlyingType():moveScl(100, 100, 100, 5);
+	--propPrototype:getUnderlyingType():moveRot(1080, 1080, 1080, 20);
+	
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
 	propPrototype:setScl(properties.scale.x, properties.scale.y, properties.scale.z);

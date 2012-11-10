@@ -1,6 +1,6 @@
 local PropPrototype = require "PropPrototype";
 
-local MOAIPropPrototype = PropPrototype:new();
+local MOAIPropPrototype = PropPrototype:allocate();
 
 function MOAIPropPrototype:allocate()
 	object = MOAIPropPrototype:new{

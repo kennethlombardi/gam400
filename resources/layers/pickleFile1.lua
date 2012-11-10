@@ -32,7 +32,7 @@ deserialize ("Layer",
 		["position"]={8},
 		["scripts"]={9},
 		["textSize"]=24,
-		["string"]="dt 0.016667 : FPS 54.823025",
+		["string"]="dt 0.016667 : FPS 60.164944",
 	},
 
 	{--Entry Number: {6}

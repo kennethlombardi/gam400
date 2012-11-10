@@ -4,6 +4,7 @@ local function preInitialize()
 	require "WindowManager";
 	require "ResourceManager";
 	require "LayerManager";
+	require("SoundManager");
 	
  	print("PreInitialized");
 end
@@ -17,38 +18,38 @@ local function initialize()
 	layer1 = require("LayerManager"):createLayerFromFile("pickleFile1.lua");
 
 	-- simulation state
-	MOAIGfxDevice.setClearDepth ( true );
-
-	-- sound
-	MOAIUntzSystem.initialize ()
-	local sound = MOAIUntzSound.new ()
-	sound:load ( 'mono16.wav' )
-	sound:setVolume ( 1 )
-	sound:setLooping ( true )
-	sound:play ()
+	MOAIGfxDevice.setClearDepth(true);
 	
+	-- song
+	require("SoundManager"):play("mono16.wav", false);
+	require("SoundManager"):play("mono16.wav", true);
+
   	print("Initialized");
 end
 
 local function preShutdown()
-	require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
-	require("LayerManager"):serializeLayerToFile(require("LayerManager"):getLayerIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
+	--require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
+	--require("LayerManager"):serializeLayerToFile(require("LayerManager"):getLayerIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
 end
 
 local function shutdown()
 	require("LayerManager"):shutdown();
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
+	require("SoundManager"):shutdown();
 	
-	require("SimulationManager"):reportHistogram();
+	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):reportLeaks();
 	require("SimulationManager"):forceGarbageCollection();
+	require("SimulationManager"):reportHistogram();
+
 	require("SimulationManager"):shutdown();
 end
 
 local function update(dt)
-	--require("InputManager"):Update(dt);
+	require("InputManager"):Update(dt);
 	require("LayerManager"):update(dt);
+	require("SoundManager"):update(dt);
 end
 
 
@@ -56,10 +57,13 @@ local done = false;
 function gamesLoop ()
 	preInitialize();
 	initialize();
-	
 	while not done do
+		if true then
+			layer0 = require("LayerManager"):createLayerFromFile("pickleFile0.lua");
+			require("LayerManager"):removeLayerByIndex(layer0);
+		end
 		update(require("SimulationManager"):getStep());
-		--done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
+		done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
 		coroutine.yield()
 	end
 	preShutdown();

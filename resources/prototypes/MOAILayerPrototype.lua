@@ -16,10 +16,15 @@ function MOAILayerPrototype:allocate()
     return object;
 end
 
+function MOAILayerPrototype:clear()
+	self:getUnderlyingType():clear();
+end
+
 function MOAILayerPrototype:free()
-	self:setVisible(false);
+	self:clear();
+	MOAIRenderMgr.removeRenderPass(self:getUnderlyingType());
 	self:baseFree();
-	camera = nil;
+	self.camera = nil;
 end
 
 function MOAILayerPrototype:getLoc()
