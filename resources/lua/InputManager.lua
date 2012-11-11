@@ -1,7 +1,7 @@
 local Input = {};
-Input.Mouse = 0;
-Input.Keyboard = 0;
-
+Input.Mouse = nil;
+Input.Keyboard = nil;
+Input.Android = nil;
 Key = {};
 
 Key["backspace"] = 8;
@@ -114,33 +114,62 @@ if MOAIInputMgr.device.keyboard then
 	Input.Keyboard = require "KeyboardInput";
 end
 
+if MOAIInputMgr.device.touch then
+	Input.Android = require "AndroidInput";
+end
+
 function Input:Update(dt)
-	Input.Keyboard:Update(dt);
-	Input.Mouse:Update(dt);
+	if Input.Keyboard then
+		Input.Keyboard:Update(dt);
+	end
+	if Input.Mouse then
+		Input.Mouse:Update(dt);
+	end
+	if Input.Android then
+		Input.Android:Update(dt);
+	end
 end
 
 function Input:IsKeyPressed(k)
-	return Input.Keyboard:IsKeyPressed(k);
+	if Input.Keyboard then
+		return Input.Keyboard:IsKeyPressed(k);
+	end
+	return false;
 end
 
 function Input:IsButtonPressed(b)
-	return Input.Mouse:IsKeyPressed(b);
+	if Input.Mouse then
+		return Input.Mouse:IsKeyPressed(b);
+	end
+	return false;
 end
 
 function Input:IsKeyTriggered(k)
-	return Input.Keyboard:IsKeyTriggered(k);
+	if Input.Keyboard then
+		return Input.Keyboard:IsKeyTriggered(k);
+	end
+	return false;
 end
 
 function Input:IsButtonTriggered(b)
-	return Input.Mouse:IsKeyTriggered(b);
+	if Input.Mouse then
+		return Input.Mouse:IsKeyTriggered(b);
+	end
+	return false;
 end
 
 function Input:IsKeyReleased(k)
-	return Input.Keyboard:IsKeyReleased(k);
+	if Input.Keyboard then
+		return Input.Keyboard:IsKeyReleased(k);
+	end
+	return false;
 end
 
 function Input:IsButtonReleased(b)
-	return Input.Mouse:IsKeyReleased(b);
+	if Input.Mouse then
+		return Input.Mouse:IsKeyReleased(b);
+	end
+	return false;
 end
 
 return Input;
