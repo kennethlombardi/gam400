@@ -55,7 +55,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {9}
-		[1]="PerformanceCounter.lua",
+		[1]="AccelerometerDebug.lua",
 	},
 })
 

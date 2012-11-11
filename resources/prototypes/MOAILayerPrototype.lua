@@ -122,10 +122,10 @@ end
 
 function MOAILayerPrototype:update(dt)
 	Input = require("InputManager");
-	if true then
+	if Input.Mouse then
 		local x = Input.Mouse.windowX;
 		local y = Input.Mouse.windowY;
-		if Input.Mouse:IsKeyPressed(1) then
+		if Input.Mouse:isKeyPressed(1) then
 			local objects = self:pick(x, y);
 			for k,v in pairs(objects) do
 				if type(v) ~= "number" then

@@ -101,12 +101,12 @@ function MOAIPropCreator:create(properties)
 	fsh = file:read ( '*all' )
 	file:close ()
 
-	local gfxQuad = MOAIGfxQuad2D.new ()
+	local gfxQuad = MOAIGfxQuad2D.new ()	
 	gfxQuad:setTexture(require("ResourceManager"):load("Texture", "spacebox/space_front5.png"));
 	gfxQuad:setRect ( -64, -64, 64, 64 )
 	if type(properties.scale) == 'table' then
 		gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
-	end
+	end	
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
 	-- create prop to hook shader to	
@@ -114,6 +114,9 @@ function MOAIPropCreator:create(properties)
 	propPrototype:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	propPrototype:getUnderlyingType():setDeck(gfxQuad);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
+	if type(properties.rotation) == 'table' then
+		propPrototype:getUnderlyingType():setRot(properties.rotation.x, properties.rotation.y, properties.rotation.z);
+	end
 
 	local color = MOAIColor.new ()
 	color:setColor ( 0, 0, 1, 0 )
@@ -133,7 +136,7 @@ function MOAIPropCreator:create(properties)
 		propPrototype:registerScript(Factory:createFromFile("Script", scriptName));
 	end
 
-	if not properties.bg then
+	if properties.shaderName ~= "skybox" then
 		gfxQuad:setShader ( shader )
 	end
 

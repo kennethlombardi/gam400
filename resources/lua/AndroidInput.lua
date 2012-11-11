@@ -4,7 +4,9 @@ Android.window = {x = 0, y = 0;};			--place of last tap in window space
 Android.world = {x = 0; y = 0;};			--place of last tap in world space
 Android.accel = {x = 0; y = 0; z = 0;};		--current state of gyro
 Android.baseAccel = {x = 0; y = 0; z = 0;};	--base state of gyro (used for calibration)
+Android.diffAccel = {x = 0; y = 0; z = 0;}; -- diff between accel - base
 Android.key[0] = {false, false, false};
+Android.key[1] = {false, false, false};
 
 local function PushBack(key, pressed)
 	Android.key[key][1] = true;
@@ -25,54 +27,69 @@ local function RaiseKey(key)
 	SetKey(key, false);
 end
 
-function Android:IsKeyPressed(key)	
+function Android:isKeyPressed(key)	
 	if self.key[key][2] == true and self.key[key][3] == true then
 		return true;
 	end
 	return false;
 end
 
-function Android:IsKeyReleased(key)	
+function Android:isKeyReleased(key)	
 	if self.key[key][2] == false and self.key[key][3] == true then
 		return true;
 	end
 	return false;
 end
 
-function Android:IsKeyTriggered(key)
+function Android:isKeyTriggered(key)
 	if self.key[key][2] == true and self.key[key][3] == false then
 		return true;
 	end
 	return false;
 end
 
-function Android:Update(dt)
-	if Android.key[0][1] == false then
-		PushBack(0, Android.key[0][2]);
-	end
-	Android.key[0][1] = false;
+function Android:update(dt)
+	for i = 0, 1, 1 do
+		if Android.key[i][1] == false then
+			PushBack(i, Android.key[i][2]);
+		end
+		Android.key[i][1] = false;	
+	end	
 	--need to throw in calibration here
 	--if tap is in top-left corner
 	--calibrate, simple enough, no?
+--	if Android:isKeyTriggered(1) then
+--		Android:reCal();
+--	end	
+	Android.diffAccel.x = Android.accel.x - Android.baseAccel.x;
+	Android.diffAccel.y = Android.accel.y - Android.baseAccel.y;
+	Android.diffAccel.z = Android.accel.z - Android.baseAccel.z;
 end
 
-function Android:Calibrate()
-	Android.baseAccel = Android.accel;
+function Android:reCal() --recalibrate
+	Android.baseAccel.x = Android.accel.x;
+	Android.baseAccel.y = Android.accel.y;
+	Android.baseAccel.z = Android.accel.z;
 end
 
-function Android:GetWorldTap(layer)
+function Android:getWorldTap(layer)
 	self.world.x, self.world.y = (layer:wndToWorld(self.window.x, self.window.y));
 end
 
 MOAIInputMgr.device.touch:setCallback (					
 	function ( eventType, idx, x, y, tapCount )						
-		if eventType == MOAITouchSensor.TOUCH_DOWN then			
+		if eventType == MOAITouchSensor.TOUCH_DOWN or eventType == MOAITouchSensor.TOUCH_MOVE then			
 			--wx,wy = (layer:wndToWorld(x,y))
 			Android.window.x = x;
-			Android.window.y = y;			
-			PressKey(0);
-		else
-			RaiseKey(0);
+			Android.window.y = y;	
+			if x < 100 and y < 100 then
+				PressKey(1);
+			else
+				PressKey(0);		
+			end
+		else			
+			RaiseKey(1);			
+			RaiseKey(0);			
 		end
 	end
 )
@@ -84,3 +101,5 @@ MOAIInputMgr.device.touch:setCallback (
 	  Android.accel.z = z;
 	end
 )
+
+return Android;
