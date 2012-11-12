@@ -4,7 +4,8 @@ local function preInitialize()
 	require "WindowManager";
 	require "ResourceManager";
 	require "LayerManager";
-	
+	require("SoundManager");
+	require("InputManager");
  	print("PreInitialized");
 end
 
@@ -13,12 +14,16 @@ local function initialize()
 	require("SimulationManager"):setHistogramEnabled(true);
 
 	-- the hack world
+	bg = require("LayerManager"):createLayerFromFile("skyBox.lua");
 	layer0 = require("LayerManager"):createLayerFromFile("pickleFile0.lua");
 	layer1 = require("LayerManager"):createLayerFromFile("pickleFile1.lua");
 
 	-- simulation state
-	MOAIGfxDevice.setClearDepth ( true );
+	MOAIGfxDevice.setClearDepth(true);
 	
+	-- song
+	require("SoundManager"):play("mono16.wav", false);
+
   	print("Initialized");
 end
 
@@ -31,17 +36,21 @@ local function shutdown()
 	require("LayerManager"):shutdown();
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
+	require("SoundManager"):shutdown();
 	require("ShapesLibrary"):shutdown();
-		
-	require("SimulationManager"):reportHistogram();
+	
+	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):reportLeaks();
 	require("SimulationManager"):forceGarbageCollection();
+	require("SimulationManager"):reportHistogram();
+	
 	require("SimulationManager"):shutdown();
 end
 
 local function update(dt)
-	require("InputManager"):Update(dt);
+	require("InputManager"):update(dt);
 	require("LayerManager"):update(dt);
+	require("SoundManager"):update(dt);
 end
 
 
@@ -49,12 +58,13 @@ local done = false;
 function gamesLoop ()
 	preInitialize();
 	initialize();
-	
+	require("InputManager"):reCal();
 	while not done do
 		update(require("SimulationManager"):getStep());
-		done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
+		done = require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]);
 		coroutine.yield()
 	end
+	
 	preShutdown();
 	shutdown();
 	os.exit();

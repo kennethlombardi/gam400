@@ -115,61 +115,105 @@ if MOAIInputMgr.device.keyboard then
 end
 
 if MOAIInputMgr.device.touch then
-	Input.Android = require "AndroidInput";
+	Input.Android = require "AndroidInput";		
 end
 
-function Input:Update(dt)
+function Input:update(dt)
 	if Input.Keyboard then
-		Input.Keyboard:Update(dt);
+		Input.Keyboard:update(dt);
 	end
 	if Input.Mouse then
-		Input.Mouse:Update(dt);
+		Input.Mouse:update(dt);
 	end
 	if Input.Android then
-		Input.Android:Update(dt);
+		Input.Android:update(dt);		
 	end
 end
 
-function Input:IsKeyPressed(k)
+function Input:reCal()
+	if Input.Android then
+		Input.Android:reCal();
+	end
+end
+
+function Input:isKeyPressed(k)
 	if Input.Keyboard then
-		return Input.Keyboard:IsKeyPressed(k);
+		return Input.Keyboard:isKeyPressed(k);
 	end
 	return false;
 end
 
-function Input:IsButtonPressed(b)
+function Input:isButtonPressed(b)
 	if Input.Mouse then
-		return Input.Mouse:IsKeyPressed(b);
+		return Input.Mouse:isKeyPressed(b);
 	end
 	return false;
 end
 
-function Input:IsKeyTriggered(k)
+function Input:isScreenPressed(s)
+	if Input.Android then
+		return Input.Android:isKeyPressed(s);
+	end
+end
+
+function Input:isKeyTriggered(k)
 	if Input.Keyboard then
-		return Input.Keyboard:IsKeyTriggered(k);
+		return Input.Keyboard:isKeyTriggered(k);
 	end
 	return false;
 end
 
-function Input:IsButtonTriggered(b)
+function Input:isButtonTriggered(b)
 	if Input.Mouse then
-		return Input.Mouse:IsKeyTriggered(b);
+		return Input.Mouse:isKeyTriggered(b);
 	end
 	return false;
 end
 
-function Input:IsKeyReleased(k)
+function Input:isScreenTriggered(s)
+	if Input.Android then
+		return Input.Android:isKeyTriggered(s);
+	end
+	return false;
+end
+
+function Input:isKeyReleased(k)
 	if Input.Keyboard then
-		return Input.Keyboard:IsKeyReleased(k);
+		return Input.Keyboard:isKeyReleased(k);
 	end
 	return false;
 end
 
-function Input:IsButtonReleased(b)
+function Input:isButtonReleased(b)
 	if Input.Mouse then
-		return Input.Mouse:IsKeyReleased(b);
+		return Input.Mouse:isKeyReleased(b);
 	end
 	return false;
+end
+
+function Input:isScreenReleased(s)
+	if Input.Android then
+		return Input.Android:isScreenReleased(s);
+	end
+	return false;
+end
+
+function Input:isKeyDown(k)
+	if Input.Keyboard then
+		return Input.Keyboard:isKeyPressed(k) or Input.Keyboard:isKeyTriggered(k);
+	end
+end
+
+function Input:isButtonDown(b)
+	if Input.Mouse then
+		return Input.Mouse:isKeyPressed(b) or Input.Mouse:isKeyTriggered(b);
+	end
+end
+
+function Input:isScreenDown(s)
+	if Input.Android then
+		return Input.Android:isKeyPressed(s) or Input.Android:isKeyTriggered(s);
+	end
 end
 
 return Input;

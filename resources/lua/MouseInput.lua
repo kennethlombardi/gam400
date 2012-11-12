@@ -28,28 +28,28 @@ local function RaiseKey(key)
 	SetKey(key, false);
 end
 
-function Mouse:IsKeyPressed(key)	
+function Mouse:isKeyPressed(key)	
 	if self.key[key][2] == true and self.key[key][3] == true then
 		return true;
 	end
 	return false;
 end
 
-function Mouse:IsKeyReleased(key)	
+function Mouse:isKeyReleased(key)	
 	if self.key[key][2] == false and self.key[key][3] == true then
 		return true;
 	end
 	return false;
 end
 
-function Mouse:IsKeyTriggered(key)
+function Mouse:isKeyTriggered(key)
 	if self.key[key][2] == true and self.key[key][3] == false then
 		return true;
 	end
 	return false;
 end
 
-function Mouse:Update(dt)
+function Mouse:update(dt)
 	for i = 0, 1, 1 do
 		if Mouse.key[i][1] == false then
 			PushBack(i, Mouse.key[i][2]);
