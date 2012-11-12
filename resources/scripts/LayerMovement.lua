@@ -39,19 +39,19 @@ function Script.update(object, dt)
     local scale = 5;    
     local newPos = {x = position.x, y = position.y, z = position.z};
     
-    if InputManager:isKeyPressed(InputManager.Key['w']) then
+    if InputManager:isKeyDown(InputManager.Key['w']) then
       newPos.y = newPos.y + scale;
-    elseif InputManager:isKeyPressed(InputManager.Key['s']) then
+    elseif InputManager:isKeyDown(InputManager.Key['s']) then
       newPos.y = newPos.y - scale;
     end
     
-    if InputManager:isKeyPressed(InputManager.Key['d']) then
+    if InputManager:isKeyDown(InputManager.Key['d']) then
       newPos.x = newPos.x + scale;
-    elseif InputManager:isKeyPressed(InputManager.Key['a']) then
+    elseif InputManager:isKeyDown(InputManager.Key['a']) then
       newPos.x = newPos.x - scale;
     end
     
-    if InputManager:isKeyPressed(InputManager.Key['SPACE']) then
+    if InputManager:isKeyDown(InputManager.Key['SPACE']) then
       
       newPos.z = newPos.z - scale;
     end

@@ -197,4 +197,23 @@ function Input:isScreenReleased(s)
 	end
 	return false;
 end
+
+function Input:isKeyDown(k)
+	if Input.Keyboard then
+		return Input.Keyboard:isKeyPressed(k) or Input.Keyboard:isKeyTriggered(k);
+	end
+end
+
+function Input:isButtonDown(b)
+	if Input.Mouse then
+		return Input.Mouse:isKeyPressed(b) or Input.Mouse:isKeyTriggered(b);
+	end
+end
+
+function Input:isScreenDown(s)
+	if Input.Android then
+		return Input.Android:isKeyPressed(s) or Input.Android:isKeyTriggered(s);
+	end
+end
+
 return Input;
