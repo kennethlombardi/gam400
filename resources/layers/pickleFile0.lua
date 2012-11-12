@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="Layer",
-		["name"]="pickleFileDiff0.lua",
+		["name"]="Layer0",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -32,6 +32,7 @@ deserialize ("Layer",
 		["scale"]={9},
 		["shaderName"]="shader",
 		["scripts"]={10},
+		["texture"]="rock.png",
 	},
 
 	{--Entry Number: {6}
@@ -41,6 +42,7 @@ deserialize ("Layer",
 		["scale"]={12},
 		["shaderName"]="shader",
 		["scripts"]={13},
+		["texture"]="rock.png",
 	},
 
 	{--Entry Number: {7}
@@ -50,11 +52,12 @@ deserialize ("Layer",
 		["scale"]={15},
 		["shaderName"]="shader",
 		["scripts"]={16},
+		["texture"]="rock.png",
 	},
 
 	{--Entry Number: {8}
-		["y"]=178,
-		["x"]=159,
+		["y"]=104,
+		["x"]=101,
 		["z"]=-1000,
 	},
 
@@ -69,8 +72,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {11}
-		["y"]=-203,
-		["x"]=412,
+		["y"]=252,
+		["x"]=-190,
 		["z"]=-1000,
 	},
 
@@ -85,8 +88,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {14}
-		["y"]=-32,
-		["x"]=311,
+		["y"]=-276,
+		["x"]=231,
 		["z"]=-1000,
 	},
 

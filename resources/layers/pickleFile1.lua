@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="LayerDD",
-		["name"]="pickleFileDiff1.lua",
+		["name"]="Layer1",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -32,7 +32,7 @@ deserialize ("Layer",
 		["position"]={8},
 		["scripts"]={9},
 		["textSize"]=24,
-		["string"]="dt 0.016667 : FPS 60.164944",
+		["string"]="This is text in a level file",
 	},
 
 	{--Entry Number: {6}

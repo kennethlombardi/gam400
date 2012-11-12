@@ -151,15 +151,11 @@ function MOAIPropCubeCreator:create(properties)
 	local ShapeLibrary = require "ShapesLibrary";
 
 	properties.scale = properties.scale or propPrototype.scale;
-	local cubeMesh = ShapeLibrary.makeCube("../textures/moai.png");
+	local cubeMesh = ShapeLibrary.makeCube(properties.texture);
 
 	local shader = Factory:create("Shader", properties.shaderName);
 	cubeMesh:setShader(shader);
 	propPrototype:setShaderName(properties.shaderName);
-	
-	--cubeMesh:setShader(MOAIShaderMgr.getShader ( MOAIShaderMgr.MESH_SHADER ))
-	--propPrototype:getUnderlyingType():moveScl(100, 100, 100, 5);
-	--propPrototype:getUnderlyingType():moveRot(1080, 1080, 1080, 20);
 	
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);

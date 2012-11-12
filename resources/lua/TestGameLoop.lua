@@ -27,8 +27,8 @@ local function initialize()
 end
 
 local function preShutdown()
-	--require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
-	--require("LayerManager"):serializeLayerToFile(require("LayerManager"):getLayerIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
+	require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
+	require("LayerManager"):serializeLayerToFile(require("LayerManager"):getLayerIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
 end
 
 local function shutdown()
@@ -62,7 +62,7 @@ function gamesLoop ()
 		done = require("InputManager"):IsKeyTriggered(require("InputManager").Key["esc"]);
 		coroutine.yield()
 	end
-	
+
 	preShutdown();
 	shutdown();
 	os.exit();
