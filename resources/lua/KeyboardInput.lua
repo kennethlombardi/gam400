@@ -7,7 +7,7 @@ end
 
 --3 = prev state, 2 = curr state, 1 = changed
 
-local function PushBack(key, pressed)
+local function PushBack(key, pressed)	
 	Keyboard.key[key][1] = true;	
 	Keyboard.key[key][3] = Keyboard.key[key][2];
 	Keyboard.key[key][2] = pressed;
@@ -49,7 +49,7 @@ function Keyboard:isKeyTriggered(key)
 end
 
 function Keyboard:update(dt)
-	for i =8, 127, 1 do
+	for i =0, 255, 1 do
 		if Keyboard.key[i][1] == false then
 			PushBack(i, Keyboard.key[i][2]);
 		end

@@ -37,12 +37,13 @@ local function shutdown()
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
 	require("SoundManager"):shutdown();
+	require("ShapesLibrary"):shutdown();
 	
 	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):reportLeaks();
 	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):reportHistogram();
-
+	
 	require("SimulationManager"):shutdown();
 end
 

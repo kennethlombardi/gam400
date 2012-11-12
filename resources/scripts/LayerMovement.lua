@@ -34,6 +34,44 @@ function Script.update(object, dt)
     
     object:setLoc(newPos.x, newPos.y, newPos.z);
   end
+  
+  if InputManager.Keyboard then    
+    local scale = 5;    
+    local newPos = {x = position.x, y = position.y, z = position.z};
+    
+    if InputManager:isKeyPressed(InputManager.Key['w']) then
+      newPos.y = newPos.y + scale;
+    elseif InputManager:isKeyPressed(InputManager.Key['s']) then
+      newPos.y = newPos.y - scale;
+    end
+    
+    if InputManager:isKeyPressed(InputManager.Key['d']) then
+      newPos.x = newPos.x + scale;
+    elseif InputManager:isKeyPressed(InputManager.Key['a']) then
+      newPos.x = newPos.x - scale;
+    end
+    
+    if InputManager:isKeyPressed(InputManager.Key['SPACE']) then
+      
+      newPos.z = newPos.z - scale;
+    end
+    
+    local limit = 500;
+    
+    if newPos.x > limit then
+      newPos.x = limit;
+    elseif newPos.x < -limit then
+      newPos.x = -limit;
+    end
+    
+    if newPos.y > limit then
+      newPos.y = limit;
+    elseif newPos.y < -limit then
+      newPos.y = -limit;
+    end
+        
+    object:setLoc(newPos.x, newPos.y, newPos.z);
+  end
 	
 end
 
