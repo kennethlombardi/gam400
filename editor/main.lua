@@ -25,7 +25,7 @@ for i = 1, objectCount do
 		scale = scale,
 		scripts = {"PropMovement.lua"},
 		shaderName = "shader",
-		texture = "rock.png",
+		textureName = "rock.png",
 	}
 	table.insert(layer1.propContainer, prop);
 end

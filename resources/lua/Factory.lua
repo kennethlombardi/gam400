@@ -139,34 +139,20 @@ function MOAIPropCreator:create(properties)
 
 	return propPrototype;
 end
-
-function MOAIPropCreator:createFromFile(fileName)
-	print("Trying to create prop from file? Maybe soon.");
-end
 --
 
 -- MOAIPropCubeCreator
 function MOAIPropCubeCreator:create(properties)
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
 	local ShapeLibrary = require "ShapesLibrary";
-
-	properties.scale = properties.scale or propPrototype.scale;
-	local cubeMesh = ShapeLibrary.makeCube(properties.texture);
-
+	local cubeMesh = ShapeLibrary.makeCube(properties.textureName);
 	local shader = Factory:create("Shader", properties.shaderName);
-	cubeMesh:setShader(shader);
-	propPrototype:setShaderName(properties.shaderName);
-	
+
+	propPrototype:setShader(shader, properties.shaderName);
 	propPrototype:getUnderlyingType():setDeck(cubeMesh);
 	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
-	propPrototype:setScl(properties.scale.x, properties.scale.y, properties.scale.z);
 
-	
 	return propPrototype;
-end
-
-function MOAIPropCubeCreator:createFromFile(filename)
-	
 end
 --
 
@@ -178,9 +164,10 @@ function MOAIPropPrototypeCreator:create(properties)
 	newObject:setName(properties.name);
 	newObject:setType(properties.type);
 	properties.scale = properties.scale or newObject.scale;
-	newObject:setScale(properties.scale.x, properties.scale.y, properties.scale.z);
+	newObject:setScl(properties.scale.x, properties.scale.y, properties.scale.z);
 	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
-	
+	newObject:setTextureName(properties.textureName);
+
 	-- register scripts
 	for k,scriptName in pairs(properties.scripts or {}) do
 		newObject:registerScript(Factory:createFromFile("Script", scriptName));
@@ -214,7 +201,7 @@ function MOAITextBoxCreator:create(properties)
 	newObject:setUnderlyingType(MOAITextBox.new());
 	newObject:setName(properties.name);
 	newObject:setType(properties.type);
-	newObject:setScale(properties.scale.x, properties.scale.y, properties.scale.z);
+	newObject:setScl(properties.scale.x, properties.scale.y, properties.scale.z);
 	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	newObject:setFont(require("ResourceManager"):load("Font", properties.fileName));
 

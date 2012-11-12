@@ -31,8 +31,9 @@ deserialize ("Layer",
 		["name"]="TextBox#1",
 		["position"]={8},
 		["scripts"]={9},
+		["string"]="dt 0.016667 : FPS 20.321444",
 		["textSize"]=24,
-		["string"]="dt 0.016667 : FPS 60.649574",
+		["texture"]="moai.png",
 	},
 
 	{--Entry Number: {6}

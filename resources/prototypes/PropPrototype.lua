@@ -5,6 +5,7 @@ local PropPrototype = {
 	scale = {x = 1, y = 1, z = 1},
 	position = {x = 0, y = 0, z = 0},
 	shaderName = "ken",
+	textureName = "moai.png",
 }
 
 function PropPrototype:allocate()
@@ -15,6 +16,7 @@ function PropPrototype:allocate()
 		scale = {x = 1, y = 1, z = 1},
 		position = {x = 0, y = 0, z = 0},
 		shaderName = "ken",
+		textureName = "moai.png",
 	}
 	return object;
 end
@@ -41,6 +43,7 @@ function PropPrototype:baseSerialize(properties)
 	properties.type = self.type;
 	properties.scale = self.scale;
 	properties.shaderName = self.shaderName;
+	properties.texture = self.textureName
 	return properties;
 end
 
@@ -54,6 +57,10 @@ function PropPrototype:baseSetScl(x, y, z)
 	self.scale.x = x;
 	self.scale.y = y;
 	self.scale.z = z;
+end
+
+function PropPrototype:baseSetShader(shader, shaderName)
+	self.shaderName = shaderName;
 end
 
 function PropPrototype:contains(x, y, z)
@@ -85,16 +92,20 @@ function PropPrototype:serialize(properties)
 	return self:baseSerialize(properties);
 end
 
-function PropPrototype:setScale(x, y, z)
+function PropPrototype:setScl(x, y, z)
 	self:baseSetScl(x, y, z);
 end
 
-function PropPrototype:setShaderName(shaderName)
-	self.shaderName = shaderName;
+function PropPrototype:setShader(shader, shaderName)
+	self:baseSetShader(shader, shaderName);
 end
 
 function PropPrototype:setType(type)
 	self.type = type;
+end
+
+function PropPrototype:setTextureName(textureName)
+	self.textureName = textureName;
 end
 
 function PropPrototype:setUnderlyingType(newObjectReference)

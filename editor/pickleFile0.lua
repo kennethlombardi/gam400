@@ -32,7 +32,7 @@ deserialize ("Layer",
 		["scale"]={9},
 		["shaderName"]="shader",
 		["scripts"]={10},
-		["texture"]="rock.png",
+		["textureName"]="rock.png",
 	},
 
 	{--Entry Number: {6}
@@ -42,7 +42,7 @@ deserialize ("Layer",
 		["scale"]={12},
 		["shaderName"]="shader",
 		["scripts"]={13},
-		["texture"]="rock.png",
+		["textureName"]="rock.png",
 	},
 
 	{--Entry Number: {7}
@@ -52,12 +52,12 @@ deserialize ("Layer",
 		["scale"]={15},
 		["shaderName"]="shader",
 		["scripts"]={16},
-		["texture"]="rock.png",
+		["textureName"]="rock.png",
 	},
 
 	{--Entry Number: {8}
-		["y"]=104,
-		["x"]=101,
+		["y"]=207,
+		["x"]=204,
 		["z"]=-1000,
 	},
 
@@ -72,8 +72,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {11}
-		["y"]=252,
-		["x"]=-190,
+		["y"]=-173,
+		["x"]=8,
 		["z"]=-1000,
 	},
 
@@ -88,8 +88,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {14}
-		["y"]=-276,
-		["x"]=231,
+		["y"]=10,
+		["x"]=-154,
 		["z"]=-1000,
 	},
 

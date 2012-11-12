@@ -44,6 +44,11 @@ function MOAIPropPrototype:setScl(x, y, z)
 	self.underlyingType:setScl(x, y, z);
 end
 
+function MOAIPropPrototype:setShader(shader, shaderName)
+	self:baseSetShader(shader, 	shaderName);
+	self.underlyingType:setShader(shader);
+end
+
 function MOAIPropPrototype:update(dt)
 	self:baseUpdate(dt);
 	for k,script in pairs(self.scripts) do
