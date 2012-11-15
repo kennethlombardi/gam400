@@ -6,6 +6,7 @@ local PropPrototype = {
 	position = {x = 0, y = 0, z = 0},
 	shaderName = "ken",
 	textureName = "moai.png",
+	rotation = {x = 0, y = 0, z = 0},
 }
 
 function PropPrototype:allocate()
@@ -17,6 +18,7 @@ function PropPrototype:allocate()
 		position = {x = 0, y = 0, z = 0},
 		shaderName = "ken",
 		textureName = "moai.png",
+		rotation = {x = 0, y = 0, z = 0},
 	}
 	return object;
 end
@@ -43,7 +45,8 @@ function PropPrototype:baseSerialize(properties)
 	properties.type = self.type;
 	properties.scale = self.scale;
 	properties.shaderName = self.shaderName;
-	properties.texture = self.textureName
+	properties.textureName = self.textureName
+	properties.rotation = self.rotation;
 	return properties;
 end
 
@@ -51,6 +54,12 @@ function PropPrototype:baseSetLoc(x, y, z)
 	self.position.x = x;
 	self.position.y = y;
 	self.position.z = z;
+end
+
+function PropPrototype:baseSetRot(x, y, z)
+	self.rotation.x = x;
+	self.rotation.y = y;
+	self.rotation.z = z;
 end
 
 function PropPrototype:baseSetScl(x, y, z)

@@ -6,6 +6,7 @@ function MOAIPropPrototype:allocate()
 	object = MOAIPropPrototype:new{
 		position = {x = 0, y = 0, z = 0},
 		scale = {x = 1, y = 1, z = 1},
+		rotation = {x = 0, y = 0, z = 0},
 		scripts = {},
 		shaderName = "ken",
 	}
@@ -37,6 +38,11 @@ end
 function MOAIPropPrototype:setLoc(newX, newY, newZ)
 	self:baseSetLoc(newX, newY, newZ);
 	self.underlyingType:setLoc(newX, newY, newZ);
+end
+
+function MOAIPropPrototype:setRot(x, y, z)
+	self:baseSetRot(x, y, z);
+	self.underlyingType:setRot(x, y, z);
 end
 
 function MOAIPropPrototype:setScl(x, y, z)

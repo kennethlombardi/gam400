@@ -24,16 +24,17 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {5}
-		["type"]="TextBox",
+		["string"]="This is text in a level file",
 		["scale"]={6},
 		["shaderName"]="ken",
-		["rectangle"]={7},
+		["textureName"]="moai.png",
+		["rotation"]={7},
 		["name"]="TextBox#1",
 		["position"]={8},
 		["scripts"]={9},
-		["string"]="dt 0.016667 : FPS 20.321444",
+		["rectangle"]={10},
 		["textSize"]=24,
-		["texture"]="moai.png",
+		["type"]="TextBox",
 	},
 
 	{--Entry Number: {6}
@@ -43,10 +44,9 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {7}
-		["x2"]=300,
-		["y2"]=100,
-		["y1"]=-100,
-		["x1"]=-50,
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
 	},
 
 	{--Entry Number: {8}
@@ -56,7 +56,14 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {9}
-		[1]="PerformanceCounter.lua",
+		[1]="AccelerometerDebug.lua",
+	},
+
+	{--Entry Number: {10}
+		["x2"]=300,
+		["y2"]=100,
+		["y1"]=-100,
+		["x1"]=-50,
 	},
 })
 

@@ -148,6 +148,7 @@ end
 function MOAIPropCubeCreator:create(properties)
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
 	local ShapeLibrary = require "ShapesLibrary";
+	print("Texture", properties.textureName);
 	local cubeMesh = ShapeLibrary.makeCube(properties.textureName);
 	local shader = Factory:create("Shader", properties.shaderName);
 
@@ -169,6 +170,9 @@ function MOAIPropPrototypeCreator:create(properties)
 	properties.scale = properties.scale or newObject.scale;
 	newObject:setScl(properties.scale.x, properties.scale.y, properties.scale.z);
 	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
+	if properties.rotation then
+		newObject:setRot(properties.rotation.x, properties.rotation.y, properties.rotation.z);
+	end
 	newObject:setTextureName(properties.textureName);
 
 	-- register scripts
