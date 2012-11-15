@@ -11,6 +11,7 @@ deserialize ("Layer",
 
 	{--Entry Number: {2}
 		[1]={5},
+    [2]={10},
 	},
 
 	{--Entry Number: {3}
@@ -44,18 +45,53 @@ deserialize ("Layer",
 	{--Entry Number: {7}
 		["x2"]=300,
 		["y2"]=100,
-		["y1"]=-100,
-		["x1"]=-50,
+		["y1"]=0,
+		["x1"]=0,
 	},
 
 	{--Entry Number: {8}
-		["y"]=-200,
-		["x"]=-200,
+		["y"]=250,
+		["x"]=-600,
 		["z"]=0,
 	},
 
 	{--Entry Number: {9}
 		[1]="gameTimer.lua",
+	},
+  
+  {--Entry Number: {10}
+		["type"]="TextBox",
+		["scale"]={11},
+		["shaderName"]="none",
+		["rectangle"]={12},
+		["name"]="TextBox#2",
+		["position"]={13},
+		["scripts"]={14},
+		["textSize"]=24,
+		["string"]="FPS",
+	},
+
+	{--Entry Number: {11}
+		["y"]=1,
+		["x"]=1,
+		["z"]=1,
+	},
+
+	{--Entry Number: {12}
+		["x2"]=300,
+		["y2"]=100,
+		["y1"]=0,
+		["x1"]=0,
+	},
+
+	{--Entry Number: {13}
+		["y"]=250,
+		["x"]=200,
+		["z"]=0,
+	},
+
+	{--Entry Number: {14}
+		[1]="PerformanceCounter.lua",
 	},
 })
 

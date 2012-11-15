@@ -15,7 +15,7 @@ local function initialize()
 
 	-- the hack world
 	bg = require("LayerManager"):createLayerFromFile("skyBox.lua");
-	layer0 = require("LayerManager"):createLayerFromFile("pickleFile0.lua");
+	layer0 = require("LayerManager"):createLayerFromFile("gameLayer.lua");
 	layer1 = require("LayerManager"):createLayerFromFile("gameHud.lua");
 
 	-- simulation state
@@ -25,7 +25,7 @@ local function initialize()
 	require("SoundManager"):play("mono16.wav", false);
 
 	-- some variables
-	require("gameVariables").gameTimer = 100;
+	require("gameVariables").gameTimer = 30;
 
   	print("Initialized");
 end
@@ -70,7 +70,9 @@ local function update(dt)
 		position.y = math.random(- 200, 200);
 		position.z = layerPosition.z - 1500;
 		properties.position = position;		
-		properties.shaderName = "shader"
+		properties.shaderName = "shader";
+		properties.scripts = {"collisionTest.lua"};
+		properties.textureName = "rock.png";
 		newprop = require("Factory"):create("PropCube", properties);
 		require("LayerManager"):getLayerByIndex(layer0):insertPropPersistent(newprop);		
 		require("LayerManager"):getLayerByIndex(layer0):insertProp(newprop);

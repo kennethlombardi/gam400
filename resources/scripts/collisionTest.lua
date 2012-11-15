@@ -5,18 +5,23 @@ local Script = {
 local t = 0;
 function Script.update(object, dt)
   local gameVariables = require("gameVariables");
-	local diff = object:getLoc();
+	local objectPos = object:getLoc();  
 	local playerPosition = gameVariables.playerPosition;
-  diff.x = diff.x - playerPosition.x;
-  diff.y = diff.y - playerPosition.y;
-  diff.z = diff.z - playerPosition.z;
+  local diff = {};    
+  
+  diff.x = objectPos.x - playerPosition.x;
+  diff.y = objectPos.y - playerPosition.y;
+  diff.z = objectPos.z - playerPosition.z;
   
   local distSqrd = diff.x * diff.x + diff.y * diff.y + diff.z * diff.z;
-  local objectRadius = 100;
+  local objectRadius = 150;
+  
   if distSqrd < objectRadius then
-    gameVariables.gameTimer = gameVariables + 5;
+    gameVariables.gameTimer = gameVariables.gameTimer + 3;
+    object:setLoc(objectPos.x, objectPos.x, objectPos.z + 500); 
+    require("SoundManager"):play("mono16.wav", false);
   end
-	--object:setLoc(position.x + step, position.y, position.z); 
+	
 end
 
 return Script;
