@@ -20,6 +20,7 @@ function Script.update(object, dt)
     gameVariables.gameTimer = gameVariables.gameTimer + 3;
     object:setLoc(objectPos.x, objectPos.x, objectPos.z + 500); 
     require("SoundManager"):play("mono16.wav", false);
+    gameVariables.score = gameVariables.score + 100;
   end
 	
 end
