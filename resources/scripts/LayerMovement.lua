@@ -1,11 +1,14 @@
 local Script = {
 	name = "LayerMovement.lua",
 };
-
+local zPressed = 1;
+local zMax = 5;
 function Script.update(object, dt)
 	local position = object:getLoc();
 	local step = 10;
   local InputManager = require("InputManager");
+  local gameVariables = require("gameVariables");
+  gameVariables.lastPosition = {x = position.x, y = position.y, z = position.z};
   if InputManager.Android then
     local move = InputManager.Android.diffAccel;
     local scale = 5;    
@@ -25,7 +28,16 @@ function Script.update(object, dt)
     end
     
     if InputManager:isScreenPressed(0) then
-      newPos.z = newPos.z - scale;
+      if zPressed < zMax then
+        zPressed = zPressed + dt;      
+      end
+      newPos.z = newPos.z - scale*zPressed;
+    else
+      if zPressed > 0 then
+        zPressed = zPressed * .9;
+      else
+        zPressed = 0;
+      end
     end
     
     if InputManager:isScreenTriggered(1) then
@@ -51,10 +63,19 @@ function Script.update(object, dt)
       newPos.x = newPos.x - scale;
     end
     
-    if InputManager:isKeyDown(InputManager.Key['SPACE']) then
-      
-      newPos.z = newPos.z - scale;
-    end
+    if InputManager:isKeyDown(InputManager.Key['SPACE']) then      
+      if zPressed < zMax then
+        zPressed = zPressed + scale*dt;      
+      end
+      newPos.z = newPos.z - scale*zPressed;
+    else
+      if zPressed > 1 then
+        zPressed = zPressed - scale*dt;
+      else
+        zPressed = 1;
+      end
+      newPos.z = newPos.z - scale*zPressed;
+    end    
     
     local limit = 500;
     
@@ -68,9 +89,9 @@ function Script.update(object, dt)
       newPos.y = limit;
     elseif newPos.y < -limit then
       newPos.y = -limit;
-    end
-        
+    end    
     object:setLoc(newPos.x, newPos.y, newPos.z);
+    gameVariables.playerPosition = {x = newPos.x, y = newPos.y, z = newPos.z};
   end
 	
 end
