@@ -51,7 +51,11 @@ deserialize ("Layer",
 	{--Entry Number: {15}
 		["y"]=0,
 		["x"]=-1500,
+<<<<<<< HEAD
 >>>>>>> 693b545ace6d81163b5c4443266abe7223555d1e
+=======
+>>>>>>> origin
+>>>>>>> editor
 		["z"]=0,
 	},
 
