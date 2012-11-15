@@ -14,7 +14,7 @@ height = 720;
 objectCount = 1;
 for i = 1, objectCount do
 	position = {x = 0, y = 0, z = -1000};
-	scale = {x = 100, y = 100, z = 100};
+	scale = {x = 500, y = 500, z = 500};
 
 	prop = {
 		type = "PropCube",

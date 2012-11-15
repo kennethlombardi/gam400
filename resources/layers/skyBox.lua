@@ -47,9 +47,9 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {8}
-		["y"]=100,
-		["x"]=100,
-		["z"]=100,
+		["y"]=500,
+		["x"]=500,
+		["z"]=500,
 	},
 
 	{--Entry Number: {9}
