@@ -71,7 +71,7 @@ table.insert(layers, layer2);
 local function pickleThis()
 	layerCount = 0;
 	for k,v in pairs(layers) do
-		file = io.open("pickleFile"..layerCount..".lua", "wt");
+		file = io.open(".\\generated\\pickleFile"..layerCount..".lua", "wt");
 		s = "deserialize (\"Layer\",\n";
 		file:write(s);
 		s = pickle(v);
@@ -115,7 +115,7 @@ local function unpickleThis()
 				print(prop.name);
 			end
 		end
-		dofile("pickleFile"..layerCount..".lua");
+		dofile(".\\generated\\pickleFile"..layerCount..".lua");
 		layerCount = layerCount + 1;
 	end
 end

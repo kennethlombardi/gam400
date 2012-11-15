@@ -61,11 +61,7 @@ end
 ----------------------------------------------
 
 function unpickle(s)
-  if type(s) ~= "string" then
-    error("can't unpickle a "..type(s)..", only strings")
-  end
-  local gentables = loadstring("return "..s)
-  local tables = gentables()
+  local tables = s;
   
   for tnum = 1, table.getn(tables) do
     local t = tables[tnum]

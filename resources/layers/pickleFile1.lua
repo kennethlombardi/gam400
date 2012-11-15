@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="LayerDD",
-		["name"]="pickleFileDiff1.lua",
+		["name"]="Layer1",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -24,17 +24,15 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {5}
-		["string"]="This is text in a level file",
+		["type"]="TextBox",
 		["scale"]={6},
 		["shaderName"]="ken",
-		["textureName"]="moai.png",
-		["rotation"]={7},
+		["rectangle"]={7},
 		["name"]="TextBox#1",
 		["position"]={8},
 		["scripts"]={9},
-		["rectangle"]={10},
 		["textSize"]=24,
-		["type"]="TextBox",
+		["string"]="This is text in a level file",
 	},
 
 	{--Entry Number: {6}
@@ -44,9 +42,10 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {7}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
+		["x2"]=300,
+		["y2"]=100,
+		["y1"]=-100,
+		["x1"]=-50,
 	},
 
 	{--Entry Number: {8}
@@ -56,14 +55,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {9}
-		[1]="AccelerometerDebug.lua",
-	},
-
-	{--Entry Number: {10}
-		["x2"]=300,
-		["y2"]=100,
-		["y1"]=-100,
-		["x1"]=-50,
+		[1]="PerformanceCounter.lua",
 	},
 })
 
