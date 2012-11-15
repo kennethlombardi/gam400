@@ -1,9 +1,9 @@
-gameVariables = {};
+GameVariables = {};
 
-gameVariables.gameTimer = 0;
-gameVariables.playerPosition = {};
-gameVariables.lastPosition = {};
-gameVariables.speed = 0;
-gameVariables.points = 0;
+GameVariables.gameTimer = 0;
+GameVariables.playerPosition = {x = 0, y = 0, z = 0};
+GameVariables.lastPosition = {x = 0, y = 0, z = 0};
+GameVariables.speed = 0;
+GameVariables.points = 0;
 
-return gameVariables;
+return GameVariables;

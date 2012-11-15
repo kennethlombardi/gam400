@@ -37,6 +37,21 @@ deserialize ("Layer",
 	{--Entry Number: {6}
 		["y"]=0,
 		["x"]=0,
+<<<<<<< HEAD
+=======
+		["z"]=1500,
+	},
+
+	{--Entry Number: {14}
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
+	},
+  --left pos/rot
+	{--Entry Number: {15}
+		["y"]=0,
+		["x"]=-1500,
+>>>>>>> origin
 		["z"]=0,
 	},
 
