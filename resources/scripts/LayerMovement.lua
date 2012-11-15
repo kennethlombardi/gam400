@@ -33,11 +33,12 @@ function Script.update(object, dt)
       end
       newPos.z = newPos.z - scale*zPressed;
     else
-      if zPressed > 0 then
+      if zPressed > 1 then
         zPressed = zPressed * .9;
       else
-        zPressed = 0;
+        zPressed = 1;
       end
+      newPos.z = newPos.z - scale*zPressed;
     end
     
     if InputManager:isScreenTriggered(1) then
@@ -45,6 +46,7 @@ function Script.update(object, dt)
     end	
     
     object:setLoc(newPos.x, newPos.y, newPos.z);
+    gameVariables.playerPosition = {x = newPos.x, y = newPos.y, z = newPos.z};
   end
   
   if InputManager.Keyboard then    
