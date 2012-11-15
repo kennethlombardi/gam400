@@ -17,6 +17,11 @@ function MOAIPropPrototype:contains(x, y, z)
 	return self.underlyingType:inside(x, y, z);
 end
 
+function MOAIPropPrototype:getRot()
+	return self.rotation;
+end
+
+
 function MOAIPropPrototype:registerScript(script)
 	table.insert(self.scripts, script);
 end

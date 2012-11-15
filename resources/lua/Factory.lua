@@ -20,6 +20,9 @@ local MOAIPropCubeCreator = Creator:new();
 local MOAITextBoxCreator = Creator:new();
 local MOAIScriptCreator = Creator:new();
 local MOAIShaderCreator = Creator:new();
+local MOAISphereCreator = Creator:new();
+local MOAIModelCreator = Creator:new();
+local MOAIMeshCreator = Creator:new();
 --
 
 -- MOAILayerDDCreator
@@ -91,6 +94,31 @@ function MOAILayerCreator:createFromFile(fileName)
 end
 --
 
+-- MOAIMeshCreator
+function MOAIMeshCreator:create(properties)
+	local ShapesLibrary = require "ShapesLibrary";
+	if properties.type == "PropCube" then
+		return ShapesLibrary.makeCube(properties.textureName);
+	elseif properties.type == "Sphere" then
+		return ShapesLibrary.makeSphere(properties.textureName);
+	end
+	return ShapesLibrary.makeCube(properties.textureName);
+end
+--
+
+-- MOAIModelCreator
+function MOAIModelCreator:create(properties)
+	local propPrototype = Factory:create("MOAIPropPrototype", properties);
+	local cubeMesh = Factory:create("Mesh", {type = properties.type, textureName = properties.textureName});
+	local shader = Factory:create("Shader", properties.shaderName);
+
+	propPrototype:setShader(shader, properties.shaderName);
+	propPrototype:getUnderlyingType():setDeck(cubeMesh);
+	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
+	return propPrototype;
+end
+--
+
 -- MOAIPropCreator
 function MOAIPropCreator:create(properties)
 	local file = assert ( io.open ( 'shader.vsh', mode ))
@@ -146,17 +174,7 @@ end
 
 -- MOAIPropCubeCreator
 function MOAIPropCubeCreator:create(properties)
-	local propPrototype = Factory:create("MOAIPropPrototype", properties);
-	local ShapeLibrary = require "ShapesLibrary";
-	print("Texture", properties.textureName);
-	local cubeMesh = ShapeLibrary.makeCube(properties.textureName);
-	local shader = Factory:create("Shader", properties.shaderName);
-
-	propPrototype:setShader(shader, properties.shaderName);
-	propPrototype:getUnderlyingType():setDeck(cubeMesh);
-	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
-
-	return propPrototype;
+	return Factory:create("Model", properties);
 end
 --
 
@@ -186,7 +204,7 @@ end
 
 -- MOAIScriptCreator
 function MOAIScriptCreator:create(properties)
-	print("MOAIScriptCreator:create is UNIMPLEMENTED");
+	Factory:createFromFile("Script", properties.fileName);
 end
 
 function MOAIScriptCreator:createFromFile(fileName)
@@ -197,6 +215,12 @@ end
 -- MOAIShaderCreator
 function MOAIShaderCreator:create(fileName) -- Change this to properties soon
 	return require("ResourceManager"):load("Shader", fileName);
+end
+--
+
+-- MOAISphereCreator
+function MOAISphereCreator:create(properties)
+	return Factory:create("Model", properties);
 end
 --
 
@@ -271,6 +295,9 @@ local function initialize()
 	Factory:register("TextBox", MOAITextBoxCreator:new());
 	Factory:register("Script", MOAIScriptCreator:new());
 	Factory:register("Shader", MOAIShaderCreator:new());
+	Factory:register("Sphere", MOAISphereCreator:new());
+	Factory:register("Model", MOAIModelCreator:new());
+	Factory:register("Mesh", MOAIMeshCreator:new());
 end
 
 initialize();

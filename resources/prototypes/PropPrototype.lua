@@ -74,11 +74,15 @@ end
 
 function PropPrototype:contains(x, y, z)
 	print("PropPrototype:contains is UNIMPLEMENTED");
-	return 0;
+	return false;
 end
 
 function PropPrototype:getLoc()
 	return self.position;
+end
+
+function PropPrototype:getRot()
+	return self.rotation;
 end
 
 function PropPrototype:free()

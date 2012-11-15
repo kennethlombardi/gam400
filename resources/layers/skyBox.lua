@@ -25,13 +25,13 @@ deserialize ("Layer",
 
 	{--Entry Number: {5}
 		["rotation"]={6},
-		["type"]="PropCube",
+		["type"]="Sphere",
 		["name"]="Prop1",
 		["position"]={7},
 		["scale"]={8},
 		["shaderName"]="shader",
 		["scripts"]={9},
-		["textureName"]="earth.png",
+		["textureName"]="marsWrap.png",
 	},
 
 	{--Entry Number: {6}
@@ -53,7 +53,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {9}
-		[1]="PropMovement.lua",
+		[1]="earthSpinning.lua",
 	},
 })
 
