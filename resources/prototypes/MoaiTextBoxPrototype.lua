@@ -8,6 +8,7 @@ function MOAITextBoxPrototype:allocate()
 		string = "MOAITextBoxPrototype Text",
 		textSize = 12,
 		rectangle = {x1 = -50, y1 = -50, x2 = 50, y2 = 50},
+    scripts = {},
 	}
 	return object;
 end

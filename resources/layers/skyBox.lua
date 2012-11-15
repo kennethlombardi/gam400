@@ -105,7 +105,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {14}
-		["y"]=90,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
