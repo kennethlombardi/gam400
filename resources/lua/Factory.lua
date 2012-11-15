@@ -21,6 +21,7 @@ local MOAITextBoxCreator = Creator:new();
 local MOAIScriptCreator = Creator:new();
 local MOAIShaderCreator = Creator:new();
 local MOAISphereCreator = Creator:new();
+local MOAITorusCreator = Creator:new();
 local MOAIModelCreator = Creator:new();
 local MOAIMeshCreator = Creator:new();
 --
@@ -101,6 +102,8 @@ function MOAIMeshCreator:create(properties)
 		return ShapesLibrary.makeCube(properties.textureName);
 	elseif properties.type == "Sphere" then
 		return ShapesLibrary.makeSphere(properties.textureName);
+	elseif properties.type == "Torus" then
+		return ShapesLibrary.makeTorus(properties.textureName);
 	end
 	return ShapesLibrary.makeCube(properties.textureName);
 end
@@ -202,6 +205,12 @@ function MOAIPropPrototypeCreator:create(properties)
 end
 --
 
+-- MOAIPropTorusCreator
+function MOAITorusCreator:create(properties)
+	return Factory:create("Model", properties);
+end
+--
+
 -- MOAIScriptCreator
 function MOAIScriptCreator:create(properties)
 	Factory:createFromFile("Script", properties.fileName);
@@ -296,6 +305,7 @@ local function initialize()
 	Factory:register("Script", MOAIScriptCreator:new());
 	Factory:register("Shader", MOAIShaderCreator:new());
 	Factory:register("Sphere", MOAISphereCreator:new());
+	Factory:register("Torus", MOAITorusCreator:new());
 	Factory:register("Model", MOAIModelCreator:new());
 	Factory:register("Mesh", MOAIMeshCreator:new());
 end
