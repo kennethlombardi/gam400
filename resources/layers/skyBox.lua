@@ -25,7 +25,7 @@ deserialize ("Layer",
 
 	{--Entry Number: {5}
 		["rotation"]={6},
-		["type"]="Sphere",
+		["type"]="Torus",
 		["name"]="Prop1",
 		["position"]={7},
 		["scale"]={8},
