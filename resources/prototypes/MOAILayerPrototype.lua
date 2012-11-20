@@ -85,6 +85,14 @@ function MOAILayerPrototype:setLoc(newX, newY, newZ)
 	end
 end
 
+function MOAILayerPrototype:setRot(newX, newY, newZ)
+	self.rotation = {x = newX, y = newY, z = newZ}
+	if self.camera ~= nil then
+		self.camera:setRot(newX, newY, newZ);
+	else
+	end
+end
+
 function MOAILayerPrototype:serialize(properties)
 	properties = properties or {}
 	self:serializeBase(properties);	--Serialize the parent data

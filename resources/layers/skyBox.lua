@@ -43,7 +43,7 @@ deserialize ("Layer",
 	{--Entry Number: {7}
 		["y"]=0,
 		["x"]=0,
-		["z"]=-1000,
+		["z"]=-3000,
 	},
 
 	{--Entry Number: {8}

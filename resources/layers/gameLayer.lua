@@ -27,29 +27,29 @@ deserialize ("Layer",
 
 	{--Entry Number: {5}
 		["rotation"]={8},
-		["type"]="PropCube",
+		["type"]="Sphere",
 		["name"]="Prop1",
 		["position"]={9},
 		["scale"]={10},
 		["shaderName"]="shader",
 		["scripts"]={11},
-		["textureName"]="rock.png",
+		["textureName"]="marsWrap.png",
 	},
 
 	{--Entry Number: {6}
 		["rotation"]={12},
-		["type"]="PropCube",
+		["type"]="Sphere",
 		["name"]="Prop2",
 		["position"]={13},
 		["scale"]={14},
 		["shaderName"]="shader",
 		["scripts"]={15},
-		["textureName"]="rock.png",
+		["textureName"]="earthWrap.png",
 	},
 
 	{--Entry Number: {7}
 		["rotation"]={16},
-		["type"]="PropCube",
+		["type"]="Sphere",
 		["name"]="Prop3",
 		["position"]={17},
 		["scale"]={18},
@@ -61,67 +61,67 @@ deserialize ("Layer",
 	{--Entry Number: {8}
 		["y"]=0,
 		["x"]=0,
-		["z"]=100,
+		["z"]=0,
 	},
 
 	{--Entry Number: {9}
-		["y"]=207,
-		["x"]=204,
-		["z"]=-1000,
+		["y"]=0,
+		["x"]=0,
+		["z"]=-5000,
 	},
 
 	{--Entry Number: {10}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=1000,
+		["x"]=1000,
+		["z"]=1000,
 	},
 
 	{--Entry Number: {11}
-		[1]="collisionTest.lua",
+		[1]="earthSpinning.lua",
 	},
 
 	{--Entry Number: {12}
 		["y"]=0,
 		["x"]=0,
-		["z"]=100,
+		["z"]=20,
 	},
 
 	{--Entry Number: {13}
-		["y"]=-173,
-		["x"]=8,
-		["z"]=-1000,
+		["y"]=2000,
+		["x"]=3380,
+		["z"]=-8000,
 	},
 
 	{--Entry Number: {14}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=1000,
+		["x"]=1000,
+		["z"]=1000,
 	},
 
 	{--Entry Number: {15}
-		[1]="collisionTest.lua",
+		[1]="earthSpinning.lua",
 	},
 
 	{--Entry Number: {16}
-		["y"]=0,
-		["x"]=0,
-		["z"]=100,
+		["y"]=40,
+		["x"]=10,
+		["z"]=30,
 	},
 
 	{--Entry Number: {17}
-		["y"]=10,
-		["x"]=-154,
-		["z"]=-1000,
+		["y"]=-1034,
+		["x"]=-3400,
+		["z"]=-9000,
 	},
 
 	{--Entry Number: {18}
-		["y"]=10,
-		["x"]=10,
-		["z"]=10,
+		["y"]=1000,
+		["x"]=1000,
+		["z"]=1000,
 	},
 
 	{--Entry Number: {19}
-		[1]="collisionTest.lua",
+		[1]="earthSpinning.lua",
 	},
 })
 
