@@ -14,7 +14,7 @@ local function initialize()
 	require("SimulationManager"):setHistogramEnabled(true);
 
 	-- the hack world
-	bg = require("LayerManager"):createLayerFromFile("skyBox.lua");
+	--bg = require("LayerManager"):createLayerFromFile("skyBox.lua");
 	layer0 = require("LayerManager"):createLayerFromFile("gameLayer.lua");
 	layer1 = require("LayerManager"):createLayerFromFile("gameHud.lua");
 
@@ -22,7 +22,7 @@ local function initialize()
 	MOAIGfxDevice.setClearDepth(true);
 	
 	-- song
-	require("SoundManager"):play("mono16.wav", false);
+	--require("SoundManager"):play("mono16.wav", false);
 
 	-- some variables
 	require("gameVariables").gameTimer = 30;
