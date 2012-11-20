@@ -2,29 +2,29 @@ dofile("Pickle.lua")
 
 layer1 = {
 	type = "Layer",
-	name = "starfield",
+	name = "mainMenu",
 	visible = "true",
 	propContainer = {},
 	position = {x = 0, y = 0, z = 0},
-	scripts = {"starfield.lua"}
+	scripts = {"mainMenu.lua"}
 };
 
 width = 1280;
 height = 720;
-objectCount = 3;
+objectCount = 1;
 for i = 1, objectCount do
-	position = {x = math.random(-300, 300), y = math.random(-300, 300), z = -1000};
-	scale = {x = 10, y = 10, z = 10};
-
+	position = {x = 0, y = 0, z = 0};
+	scale = {x = 10, y = 10, z = 1};
+	rotation = {x = 0, y = 0, z = 0};
 	prop = {
-		type = "PropCube",
+		type = "Prop",
 		name = "Prop"..i,
 		position = position,
 		scale = scale,
-		scripts = {"PropMovement.lua"},
-		shaderName = "shader",
+		scripts = {},
+		shaderName = "basic2d",
 		textureName = "rock.png",
-		rotation = {x = 0, y = 0, z = 0},
+		rotation = rotation,
 	}
 	table.insert(layer1.propContainer, prop);
 end
@@ -35,7 +35,7 @@ table.insert(layers, layer1);
 local function pickleThis()
 	layerCount = 0;
 	for k,v in pairs(layers) do
-		file = io.open(".\\generated\\starfield"..".lua", "wt");
+		file = io.open(".\\generated\\mainMenu"..".lua", "wt");
 		s = "deserialize (\"Layer\",\n";
 		file:write(s);
 		s = pickle(v);

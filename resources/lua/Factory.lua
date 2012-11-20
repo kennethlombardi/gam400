@@ -130,7 +130,6 @@ function MOAIPropCreator:create(properties)
 	gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
-	-- create prop to hook shader to	
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
 	propPrototype:getUnderlyingType():setDeck(gfxQuad);
 

@@ -15,7 +15,7 @@ local function initialize()
 
 	-- the hack world
 	layer0 = require("LayerManager"):createLayerFromFile("starfield.lua");
-	layer1 = require("LayerManager"):createLayerFromFile("skybox.lua");
+	layer1 = require("LayerManager"):createLayerFromFile("mainMenu.lua");
 
 	-- simulation state
 	MOAIGfxDevice.setClearDepth(true);
