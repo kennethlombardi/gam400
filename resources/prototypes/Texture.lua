@@ -32,6 +32,11 @@ function Texture:setName(name)
 	self.name = name;
 end
 
+function Texture:setSize(x, y)
+	self.size.x = x;
+	self.size.y = y;
+end
+
 function Texture:setUnderlyingType(underlyingType)
 	self.underlyingType = underlyingType;
 end

@@ -26,7 +26,7 @@ deserialize ("Layer",
 	{--Entry Number: {5}
 		["rotation"]={6},
 		["type"]="Prop",
-		["name"]="Prop1",
+		["name"]="playButton",
 		["position"]={7},
 		["scale"]={8},
 		["shaderName"]="basic2d",
@@ -47,8 +47,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {8}
-		["y"]=10,
-		["x"]=10,
+		["y"]=1,
+		["x"]=1,
 		["z"]=1,
 	},
 

@@ -4,6 +4,11 @@ MOAILayerPrototype = Layer:new();
 
 local windowManager = require "WindowManager";
 
+function MOAILayerPrototype:addToPartition(prop)
+	local partition = self.underlyingType:getPartition();
+	partition:insertProp(prop:getUnderlyingType());
+end
+
 function MOAILayerPrototype:allocate()
     local object = MOAILayerPrototype:new {
         propContainer = {},
@@ -31,23 +36,26 @@ function MOAILayerPrototype:getLoc()
 	return self.position;
 end
 
--- Get the partition
--- Insert prop into partition
-function MOAILayerPrototype:insertProp(prop)
-	if self.underlyingType == nil then 
-		print("Trying to insert prop into MOAILayerPrototype without underlying type"); 
-		return;
-	end;
-	local partition = self.underlyingType:getPartition();
-	partition:insertProp(prop:getUnderlyingType());
+function MOAILayerPrototype:getPropByName(name)
+	return self.propContainer:getPropByName(name);
 end
 
-function MOAILayerPrototype:insertPropPersistent(prop)
-	self:insertProp(prop);
+function MOAILayerPrototype:insertProp(prop)
+	self:addToPartition(prop);
 	self.propContainer:insertProp(prop);
 end
 
+function MOAILayerPrototype:insertPropPersistent(prop)
+	self:addToPartition(prop);
+	self.propContainer:insertPropPersistent(prop);
+end
+
 function MOAILayerPrototype:pick(windowX, windowY, props)
+	print("MOAILayerPrototype:pick has been deprecated. Use pickForRay");
+	return self:pickForRay(windowX, windowY, props);
+end
+
+function MOAILayerPrototype:pickForRay(windowX, windowY, props)
 	props = props or {};
 	local function toTable ( ... )
     	return arg;
@@ -57,6 +65,18 @@ function MOAILayerPrototype:pick(windowX, windowY, props)
 	self.propContainer:getPropsForRawList(pickListRaw, props);
 	return props;
 end
+
+function MOAILayerPrototype:pickForPoint(windowX, windowY, props)
+	props = props or {};
+	local function toTable ( ... )
+    	return arg;
+	end
+	local originX, originY, originZ, directionX, directionY, directionZ = self.underlyingType:wndToWorld(windowX, windowY, 0);
+	local pickListRaw = toTable(self.underlyingType:getPartition():propListForPoint(originX, originY, originZ, directionX, directionY, directionZ));
+	self.propContainer:getPropsForRawList(pickListRaw, props);
+	return props;
+end
+
 
 function MOAILayerPrototype:removeProp(prop)
 	local partition = self.underlyingType:getPartition();
@@ -133,12 +153,11 @@ function MOAILayerPrototype:update(dt)
 	if Input.Mouse then
 		local x = Input.Mouse.windowX;
 		local y = Input.Mouse.windowY;
-		if Input.Mouse:isKeyPressed(1) then
-			local objects = self:pick(x, y);
+		if Input.Mouse:isKeyPressed(0) then
+			local objects = self:pickForRay(x, y);
 			for k,v in pairs(objects) do
 				if type(v) ~= "number" then
-					v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
-					self:removePropPersistent(v);
+					--v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
 				end
 			end
 		end

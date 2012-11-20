@@ -25,13 +25,13 @@ deserialize ("Layer",
 
 	{--Entry Number: {5}
 		["rotation"]={6},
-		["type"]="Torus",
+		["type"]="PropCube",
 		["name"]="Prop1",
 		["position"]={7},
 		["scale"]={8},
 		["shaderName"]="shader",
 		["scripts"]={9},
-		["textureName"]="marsWrap.png",
+		["textureName"]="earth.png",
 	},
 
 	{--Entry Number: {6}
@@ -43,7 +43,7 @@ deserialize ("Layer",
 	{--Entry Number: {7}
 		["y"]=0,
 		["x"]=0,
-		["z"]=-3000,
+		["z"]=-1000,
 	},
 
 	{--Entry Number: {8}
@@ -53,7 +53,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {9}
-		[1]="earthSpinning.lua",
+		[1]="PropMovement.lua",
 	},
 })
 

@@ -42,15 +42,15 @@ function MOAILayerCreator:create(properties)
 	local newMoaiLayer = MOAILayer.new();
 	local newMoaiPartition = MOAIPartition.new();
 	newMoaiLayer:setPartition(newMoaiPartition);
-	newLayer:setUnderlyingType( newMoaiLayer );
+	newLayer:setUnderlyingType(newMoaiLayer);
 	local propContainer = Factory:create("PropContainer");
 
 	-- fill the prop container then insert into layer
 	for k,v in pairs(properties.propContainer) do 
 		local newProp = Factory:create(v.type, v);
-		propContainer:insertProp( newProp );
+		propContainer:insertPropPersistent(newProp);
 	end
-	newLayer:setPropContainer( propContainer );
+	newLayer:setPropContainer(propContainer);
 
 	-- viewport
     local windowManager = require "WindowManager";
@@ -128,7 +128,11 @@ function MOAIPropCreator:create(properties)
 	local gfxQuad = MOAIGfxQuad2D.new ()
 	local texture = require("ResourceManager"):load("Texture", properties.textureName);
 	gfxQuad:setTexture(texture:getUnderlyingType());
-	gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
+	gfxQuad:setRect(
+		-texture:getSize().x * properties.scale.x, 
+		-texture:getSize().y * properties.scale.y, 
+		texture:getSize().x * properties.scale.x, 
+		texture:getSize().y * properties.scale.y );
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);

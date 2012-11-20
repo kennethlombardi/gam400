@@ -18,6 +18,8 @@ local function initialize()
 	layer1 = require("LayerManager"):createLayerFromFile("mainMenu.lua");
 
 	-- simulation state
+	MOAIDebugLines.setStyle ( MOAIDebugLines.PROP_MODEL_BOUNDS, 2, 1, 1, 1 )
+	MOAIDebugLines.setStyle ( MOAIDebugLines.PROP_WORLD_BOUNDS, 1, 0.5, 0.5, 0.5 )
 	MOAIGfxDevice.setClearDepth(true);
 	
 	-- song

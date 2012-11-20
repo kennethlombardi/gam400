@@ -73,7 +73,7 @@ ShapesLibrary.cubeMesh = makeCubeMesh();
 function ShapesLibrary.makeCube(texture)
   local ResourceManager = require("ResourceManager");
   local mesh = MOAIMesh.new();
-  mesh:setTexture(ResourceManager:load("Texture", texture));
+  mesh:setTexture(ResourceManager:load("Texture", texture):getUnderlyingType());
   mesh:setVertexBuffer(ShapesLibrary.cubeMesh);
   mesh:setPrimType(MOAIMesh.GL_TRIANGLES);
   

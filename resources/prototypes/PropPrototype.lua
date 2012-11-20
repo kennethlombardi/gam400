@@ -81,6 +81,10 @@ function PropPrototype:getLoc()
 	return self.position;
 end
 
+function PropPrototype:getName()
+	return self.name;
+end
+
 function PropPrototype:getRot()
 	return self.rotation;
 end

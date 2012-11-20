@@ -8,6 +8,7 @@ function PropContainerPrototype:allocate()
 		props = {},
 		propsByIndex = {},
 		currentIndex = 1,
+		propsByName = {},
 	}
 	return object;
 end
@@ -45,10 +46,26 @@ function PropContainerPrototype:getPropsForRawList(rawList, cookedList)
 	return cookedList;
 end
 
+function PropContainerPrototype:registerPropByName(prop, name)
+	self.propsByName[name] = prop;
+end
+
 function PropContainerPrototype:insertProp(prop)
+	self:registerPropByName(prop, prop:getName());
+end
+
+function PropContainerPrototype:insertPropPersistent(prop)
 	local index = self:nextIndex();
     self:decorateProp(prop, "index", index);
 	table.insert(self.props, index, prop);
+	self:registerPropByName(prop, prop:getName());	
+end
+
+function PropContainerPrototype:getPropByName(name)
+	for k,v in ipairs(self.propsByName) do
+		print(k, v);
+	end
+	return self.propsByName[name];
 end
 
 function PropContainerPrototype:new(object)
