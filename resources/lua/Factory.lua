@@ -125,8 +125,9 @@ end
 -- MOAIPropCreator
 function MOAIPropCreator:create(properties)
 	-- gfx quad with texture
-	local gfxQuad = MOAIGfxQuad2D.new ()	
-	gfxQuad:setTexture(require("ResourceManager"):load("Texture", properties.textureName));
+	local gfxQuad = MOAIGfxQuad2D.new ()
+	local texture = require("ResourceManager"):load("Texture", properties.textureName);
+	gfxQuad:setTexture(texture:getUnderlyingType());
 	gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 

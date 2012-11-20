@@ -1,7 +1,7 @@
 dofile("Pickle.lua")
 
 layer1 = {
-	type = "Layer",
+	type = "LayerDD",
 	name = "mainMenu",
 	visible = "true",
 	propContainer = {},
@@ -23,7 +23,7 @@ for i = 1, objectCount do
 		scale = scale,
 		scripts = {},
 		shaderName = "basic2d",
-		textureName = "rock.png",
+		textureName = "startOn.png",
 		rotation = rotation,
 	}
 	table.insert(layer1.propContainer, prop);

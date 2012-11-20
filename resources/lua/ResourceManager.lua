@@ -102,9 +102,16 @@ function MOAITextureCreator:load(fileName)
 	local path = "../textures/"..fileName;
 	local texture = ResourceManager:getFromCache(path);
 	if texture == nil then
-		texture = MOAITexture.new();
-		texture:load(path);
+		print("Filename", fileName, "didn't exist")
+		texture = require("MOAITexture"):allocate();
+		moaiTexture = MOAITexture.new();
+		print("Created then with moaiTexture ", moaiTexture, "to path", path)
+		texture:setUnderlyingType(moaiTexture);
+		moaiTexture:load(path);
+		texture:setName(fileName);
 		ResourceManager:addToCache(path, texture);
+	else
+		print("Filename", fileName, "already existed")
 	end
 	--TODO: If texture loading fails from file, create new MOAIImage with some garbage
 	--		to ensure that at least something is registered correctly.
