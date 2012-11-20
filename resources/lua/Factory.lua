@@ -124,52 +124,15 @@ end
 
 -- MOAIPropCreator
 function MOAIPropCreator:create(properties)
-	local file = assert ( io.open ( 'shader.vsh', mode ))
-	vsh = file:read ( '*all' )
-	file:close ()
-
-	local file = assert ( io.open ( 'shader.fsh', mode ))
-	fsh = file:read ( '*all' )
-	file:close ()
-
+	-- gfx quad with texture
 	local gfxQuad = MOAIGfxQuad2D.new ()	
-	gfxQuad:setTexture(require("ResourceManager"):load("Texture", "spacebox/space_front5.png"));
-	gfxQuad:setRect ( -64, -64, 64, 64 )
-	if type(properties.scale) == 'table' then
-		gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
-	end	
+	gfxQuad:setTexture(require("ResourceManager"):load("Texture", properties.textureName));
+	gfxQuad:setRect(-properties.scale.x, -properties.scale.y, properties.scale.x, properties.scale.y);
 	gfxQuad:setUVRect ( 0, 1, 1, 0 )
 
 	-- create prop to hook shader to	
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
-	propPrototype:setLoc(properties.position.x, properties.position.y, properties.position.z);
 	propPrototype:getUnderlyingType():setDeck(gfxQuad);
-	propPrototype:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
-	if type(properties.rotation) == 'table' then
-		propPrototype:getUnderlyingType():setRot(properties.rotation.x, properties.rotation.y, properties.rotation.z);
-	end
-
-	local color = MOAIColor.new ()
-	color:setColor ( 0, 0, 1, 0 )
-	color:seekColor(1, 1, 1, 1, 5, MOAIEaseType.LINEAR);
-
-	local shader = MOAIShader.new ()
-	shader:reserveUniforms ( 1 )
-	shader:declareUniform ( 1, 'maskColor', MOAIShader.UNIFORM_COLOR )
-	shader:setAttrLink ( 1, color, MOAIColor.COLOR_TRAIT )
-	shader:setVertexAttribute ( 1, 'position' )
-	shader:setVertexAttribute ( 2, 'uv' )
-	shader:setVertexAttribute ( 3, 'color' )	
-	shader:load ( vsh, fsh )
-	
-	-- scripts
-	for k,scriptName in pairs(properties.scripts or {}) do
-		propPrototype:registerScript(Factory:createFromFile("Script", scriptName));
-	end
-
-	if properties.shaderName ~= "skybox" then
-		gfxQuad:setShader ( shader )
-	end
 
 	return propPrototype;
 end
@@ -185,6 +148,7 @@ end
 function MOAIPropPrototypeCreator:create(properties)
 	local propPrototype = require "MOAIPropPrototype";
 	local newObject = propPrototype:allocate();
+
 	newObject:setUnderlyingType(MOAIProp.new());
 	newObject:setName(properties.name);
 	newObject:setType(properties.type);
@@ -195,11 +159,16 @@ function MOAIPropPrototypeCreator:create(properties)
 		newObject:setRot(properties.rotation.x, properties.rotation.y, properties.rotation.z);
 	end
 	newObject:setTextureName(properties.textureName);
+	newObject:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
 
 	-- register scripts
 	for k,scriptName in pairs(properties.scripts or {}) do
 		newObject:registerScript(Factory:createFromFile("Script", scriptName));
 	end
+
+	-- shader
+	local shader = Factory:create("Shader", properties.shaderName);
+	newObject:setShader(shader, properties.shaderName);
 
 	return newObject;
 end
