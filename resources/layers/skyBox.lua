@@ -25,13 +25,13 @@ deserialize ("Layer",
 
 	{--Entry Number: {5}
 		["rotation"]={6},
-		["type"]="PropCube",
-		["name"]="Prop1",
+		["type"]="Sphere",
+		["name"]="skybox",
 		["position"]={7},
 		["scale"]={8},
 		["shaderName"]="shader",
 		["scripts"]={9},
-		["textureName"]="earth.png",
+		["textureName"]="space.png",
 	},
 
 	{--Entry Number: {6}
@@ -43,17 +43,17 @@ deserialize ("Layer",
 	{--Entry Number: {7}
 		["y"]=0,
 		["x"]=0,
-		["z"]=-1000,
+		["z"]=0,
 	},
 
 	{--Entry Number: {8}
-		["y"]=500,
-		["x"]=500,
-		["z"]=500,
+		["y"]=10000,
+		["x"]=10000,
+		["z"]=10000,
 	},
 
 	{--Entry Number: {9}
-		[1]="PropMovement.lua",
+		[1]="FollowPlayer.lua",
 	},
 })
 
