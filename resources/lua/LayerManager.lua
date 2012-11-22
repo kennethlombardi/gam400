@@ -21,15 +21,23 @@ function LayerManager:createLayerFromFile(layerFileName)
 	return nextIndex;
 end
 
-function LayerManager:removeLayerByIndex(layerIndex)
-	self.layers[layerIndex]:free();
-	self.layers[layerIndex] = nil;
+function LayerManager:getAllLayers()
+	local allLayers = {};
+	for k,v in pairs(self.layers) do
+		table.insert(allLayers, v)
+	end
+	return allLayers;
+end
+
+function LayerManager:getAllLayerIndices()
+	local layerIndices = {};
+	for k,v in pairs(self.layerIndicesByName) do
+		table.insert(layerIndices, v);
+	end
+	return layerIndices;
 end
 
 function LayerManager:getLayerByIndex(layerIndex)
-	if self.layers[layerIndex] == nil then
-		print("getLayerByIndex["..layerIndex.."] is nil");
-	end
 	return self.layers[layerIndex];
 end
 
@@ -37,8 +45,17 @@ function LayerManager:getLayerIndexByName(layerName)
 	return self.layerIndicesByName[layerName];
 end
 
+function LayerManager:removeLayerByName(layerName)
+	self:removeLayerByIndex(self:getLayerIndexByName(layerName));
+end
+
 function LayerManager:getLayerByName(layerName)
 	return self:getLayerByIndex(self.layerIndicesByName[layerName]);
+end
+
+function LayerManager:removeLayerByIndex(layerIndex)
+	self.layers[layerIndex]:free();
+	self.layers[layerIndex] = nil;
 end
 
 function LayerManager:serializeLayerToFile(layerIndex, fileName)

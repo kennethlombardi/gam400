@@ -31,7 +31,13 @@ end
 function MessageManager:update(dt)
 	for messageType, payload in pairs(self.messageQueue) do
 		for _, callback in pairs(self.listeners[messageType]) do
-			callback(payload)
+			if #payload > 0 then
+				for k,v in pairs(payload) do
+					callback(v)
+				end
+			else
+				callback(payload)
+			end
 		end
 	end
 	self.messageQueue = {};
@@ -39,5 +45,6 @@ end
 
 MessageManager:register("GAME_INITIALIZED");
 MessageManager:register("CLICKED_PLAY_BUTTON");
+MessageManager:register("LAYER_FINISHED_TRANSITION");
 
 return MessageManager

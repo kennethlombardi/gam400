@@ -2,7 +2,7 @@ dofile("Pickle.lua")
 
 layer1 = {
 	type = "Layer",
-	name = "skybox",
+	name = "skybox.lua",
 	visible = "true",
 	propContainer = {},
 	position = {x = 0, y = 0, z = 0},

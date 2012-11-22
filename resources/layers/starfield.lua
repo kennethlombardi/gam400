@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="Layer",
-		["name"]="starfield",
+		["name"]="starfield.lua",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -65,8 +65,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {9}
-		["y"]=-135,
-		["x"]=-183,
+		["y"]=208,
+		["x"]=-98,
 		["z"]=-1000,
 	},
 
@@ -87,8 +87,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {13}
-		["y"]=-236,
-		["x"]=-266,
+		["y"]=59,
+		["x"]=-249,
 		["z"]=-1000,
 	},
 
@@ -109,8 +109,8 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {17}
-		["y"]=-286,
-		["x"]=222,
+		["y"]=16,
+		["x"]=-145,
 		["z"]=-1000,
 	},
 

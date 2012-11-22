@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="LayerDD",
-		["name"]="mainMenu",
+		["name"]="mainMenu.lua",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},

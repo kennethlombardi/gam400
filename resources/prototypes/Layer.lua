@@ -24,16 +24,20 @@ function Layer:baseUpdate(dt)
     self.propContainer:update(dt);
 end
 
+function Layer:clearAllScripts()
+    self.scripts = {};
+end
+
 function Layer:free() 
     self:baseFree();
 end
 
 function Layer:getName()
-    return self["name"];
+    return self.name;
 end
 
 function Layer:getUnderlyingType()
-    return self["underlyingType"];
+    return self.underlyingType;
 end
 
 function Layer:getPropForIndex(index)
@@ -46,6 +50,7 @@ function Layer:hide()
 end
 
 function Layer:insertProp(prop)
+    print("Layer:insertProp is UNIMPLEMENTED");
 end
 
 function Layer:new(object)
@@ -56,10 +61,27 @@ function Layer:new(object)
 end
 
 function Layer:pick()
+    print("Layer:pick is UNIMPLEMENTED");
 end
 
 function Layer:registerScript(script)
     table.insert(self.scripts, script);
+end
+
+function Layer:replaceAllScripts(with)
+    self:clearAllScripts();
+    self:registerScript(with);
+    print("Replacing all scripts with", with)
+end
+
+function Layer:replaceScript(script, with)
+    for k,v in ipairs(self.scripts) do
+        if v.name == script.name then
+            self.scripts[k] = with;
+            return;
+        end
+    end
+    print("Script", script.name, "not found to be replaced with", with.name);
 end
 
 function Layer:serialize(properties)

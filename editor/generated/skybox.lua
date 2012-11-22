@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="Layer",
-		["name"]="skybox",
+		["name"]="skybox.lua",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
