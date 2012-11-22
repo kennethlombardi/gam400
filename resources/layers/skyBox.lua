@@ -14,7 +14,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
-		[1]="skybox.lua",
+		[1]="none",
 	},
 
 	{--Entry Number: {4}
@@ -47,13 +47,13 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {8}
-		["y"]=10000,
-		["x"]=10000,
-		["z"]=10000,
+		["y"]=20000,
+		["x"]=20000,
+		["z"]=20000,
 	},
 
 	{--Entry Number: {9}
-		[1]="FollowPlayer.lua",
+		[1]="skybox.lua",
 	},
 })
 

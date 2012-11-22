@@ -21,6 +21,12 @@ function MOAIPropPrototype:getRot()
 	return self.rotation;
 end
 
+function MOAIPropPrototype:moveLoc(newX, newY, newZ, length, ease)
+	if not ease then
+		ease = MOAIEaseType.SMOOTH;
+	end	
+	self.underlyingType:moveLoc(newX, newY, newZ, length, ease);
+end
 
 function MOAIPropPrototype:registerScript(script)
 	table.insert(self.scripts, script);

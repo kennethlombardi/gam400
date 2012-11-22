@@ -6,11 +6,10 @@ local zMax = 5;
 local xRot = 0;
 local yRot = 0;
 function Script.update(object, dt)
-	local position = object:getLoc();
+	local position = object:getLoc();  
 	local step = 10;
   local InputManager = require("InputManager");
-  local gameVariables = require("gameVariables");
-  gameVariables.lastPosition = {x = position.x, y = position.y, z = position.z};
+  local gameVariables = require("GameVariables");  
   if InputManager.Android then
     local move = InputManager.Android.diffAccel;
     local scale = 5;    
@@ -65,7 +64,7 @@ function Script.update(object, dt)
     end	
     object:setRot(xRot, yRot, 0);
     object:setLoc(newPos.x, newPos.y, newPos.z);
-    gameVariables.playerPosition = {x = newPos.x, y = newPos.y, z = newPos.z};
+    gameVariables:SetPlayerPos(newPos);
   end
   
   if InputManager.Keyboard then    
@@ -150,7 +149,7 @@ function Script.update(object, dt)
     end    
     object:setRot(xRot,yRot,0);--newPos.x - position.x, newPos.y - position.y, 0);
     object:setLoc(newPos.x, newPos.y, newPos.z);
-    gameVariables.playerPosition = {x = newPos.x, y = newPos.y, z = newPos.z};
+    gameVariables:SetPlayerPos(newPos);
   end
 	
 end

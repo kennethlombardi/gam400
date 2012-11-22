@@ -167,7 +167,7 @@ function MOAIPropPrototypeCreator:create(properties)
 
 	-- register scripts
 	for k,scriptName in pairs(properties.scripts or {}) do
-		newObject:registerScript(Factory:createFromFile("Script", scriptName));
+			newObject:registerScript(Factory:createFromFile("Script", scriptName));
 	end
 
 	-- shader

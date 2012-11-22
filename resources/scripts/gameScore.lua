@@ -4,8 +4,8 @@ local Script = {
 
 local t = 0;
 function Script.update(object, dt)  
-  gameVariables = require("gameVariables");  
-  object:setText(string.format('Score: %d', gameVariables.score));  
+  gameVariables = require("GameVariables");  
+  object:setText(string.format('Score: %d', GameVariables:GetScore()));  
 end
 
 return Script;
