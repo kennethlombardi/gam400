@@ -17,7 +17,7 @@ function Script.update(object, dt)
 			end
 		else
 			-- pick prop with name "playButton"
-			object:getPropByName("playButton"):getUnderlyingType():moveRot(0, 0, 1, 0.125, MOAIEaseType.EASE_IN);
+			object:getPropByName("playButton"):getUnderlyingType():moveRot( 0, 0, 1, 0.125, MOAIEaseType.EASE_IN )
 		end
 	end
 end
