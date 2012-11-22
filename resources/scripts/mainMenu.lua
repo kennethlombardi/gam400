@@ -11,13 +11,11 @@ function Script.update(object, dt)
 			local objects = object:pickForPoint(x, y);
 			for k,v in pairs(objects) do
 				if type(v) ~= "number" then
-					v.underlyingType:setTexture(require("ResourceManager"):load("Texture", "rock.png"):getUnderlyingType());
-					v.underlyingType:moveRot( 0, 0, 1, 0.125, MOAIEaseType.EASE_IN )
+					if v.name == "playButton" then
+						require("MessageManager"):send("CLICKED_PLAY_BUTTON");
+					end
 				end
 			end
-		else
-			-- pick prop with name "playButton"
-			object:getPropByName("playButton"):getUnderlyingType():moveRot( 0, 0, 1, 0.125, MOAIEaseType.EASE_IN )
 		end
 	end
 end

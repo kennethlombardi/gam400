@@ -1,9 +1,11 @@
 local function preInitialize()
 	-- require managers to perform singleton initialization
-	require "SimulationManager";
-	require "WindowManager";
-	require "ResourceManager";
-	require "LayerManager";
+	require("MessageManager");
+	require("SimulationManager");
+	require("WindowManager");
+	require("ResourceManager");
+	require("LayerManager");
+	require("SceneManager");
 	require("SoundManager");
 	
  	print("PreInitialized");
@@ -12,10 +14,6 @@ end
 local function initialize()
 	require("SimulationManager"):setLeakTrackingEnabled(true);
 	require("SimulationManager"):setHistogramEnabled(true);
-
-	-- the hack world
-	layer0 = require("LayerManager"):createLayerFromFile("starfield.lua");
-	layer1 = require("LayerManager"):createLayerFromFile("mainMenu.lua");
 
 	-- simulation state
 	MOAIDebugLines.setStyle ( MOAIDebugLines.PROP_MODEL_BOUNDS, 2, 1, 1, 1 )
@@ -26,6 +24,7 @@ local function initialize()
 	--require("SoundManager"):play("mono16.wav", false);
 
   	print("Initialized");
+  	require("MessageManager"):send("GAME_INITIALIZED");
 end
 
 local function preShutdown()
@@ -38,7 +37,9 @@ local function shutdown()
 	require("ResourceManager"):shutdown();
 	require("WindowManager"):shutdown();
 	require("SoundManager"):shutdown();
-	
+	require("SceneManager"):shutdown();
+	require("ShapesLibrary"):shutdown();
+
 	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):reportLeaks();
 	require("SimulationManager"):forceGarbageCollection();
@@ -48,8 +49,10 @@ local function shutdown()
 end
 
 local function update(dt)
+	require("MessageManager"):update(dt);
 	require("InputManager"):update(dt);
 	require("LayerManager"):update(dt);
+	require("SceneManager"):update(dt);
 	require("SoundManager"):update(dt);
 end
 
