@@ -30,6 +30,9 @@ end
 
 function SceneManager.onLayerFinishedTransition(payload)
 	LayerManager:removeLayerByName(payload);
+	if payload == "mainMenu.lua" then
+		require("LayerManager"):createLayerFromFile("gameHud.lua");
+	end
 end
 
 MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);

@@ -133,11 +133,11 @@ function MOAIPropCreator:create(properties)
 		-texture:getSize().y * properties.scale.y, 
 		texture:getSize().x * properties.scale.x, 
 		texture:getSize().y * properties.scale.y );
-	gfxQuad:setUVRect ( 0, 1, 1, 0 )
+	gfxQuad:setUVRect(0, 1, 1, 0)
 
 	local propPrototype = Factory:create("MOAIPropPrototype", properties);
 	propPrototype:getUnderlyingType():setDeck(gfxQuad);
-
+	propPrototype:setSize(texture:getSize().x, texture:getSize().y, 1);
 	return propPrototype;
 end
 --
@@ -157,11 +157,13 @@ function MOAIPropPrototypeCreator:create(properties)
 	newObject:setName(properties.name);
 	newObject:setType(properties.type);
 	properties.scale = properties.scale or newObject.scale;
+	properties.size = properties.size or newObject.size;
+	properties.rotation = properties.rotation or newObject.rotation;
+	newObject:setSize(properties.size.x, properties.size.y, properties.size.z);
 	newObject:setScl(properties.scale.x, properties.scale.y, properties.scale.z);
 	newObject:setLoc(properties.position.x, properties.position.y, properties.position.z);
-	if properties.rotation then
-		newObject:setRot(properties.rotation.x, properties.rotation.y, properties.rotation.z);
-	end
+	newObject:setRot(properties.rotation.x, properties.rotation.y, properties.rotation.z);
+
 	newObject:setTextureName(properties.textureName);
 	newObject:getUnderlyingType():setDepthTest(MOAIProp.DEPTH_TEST_LESS_EQUAL);
 

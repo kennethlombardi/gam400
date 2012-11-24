@@ -4,6 +4,7 @@ local PropPrototype = {
 	type = "PropPrototypeType",
 	scale = {x = 1, y = 1, z = 1},
 	position = {x = 0, y = 0, z = 0},
+	size = {x = 1, y = 1, z = 1},
 	shaderName = "ken",
 	textureName = "moai.png",
 	rotation = {x = 0, y = 0, z = 0},
@@ -16,6 +17,7 @@ function PropPrototype:allocate()
 		type = "PropPrototypeType",
 		scale = {x = 1, y = 1, z = 1},
 		position = {x = 0, y = 0, z = 0},
+		size = {x = 1, y = 1, z = 1},
 		shaderName = "ken",
 		textureName = "moai.png",
 		rotation = {x = 0, y = 0, z = 0},
@@ -72,11 +74,6 @@ function PropPrototype:baseSetShader(shader, shaderName)
 	self.shaderName = shaderName;
 end
 
-function PropPrototype:contains(x, y, z)
-	print("PropPrototype:contains is UNIMPLEMENTED");
-	return false;
-end
-
 function PropPrototype:getLoc()
 	return self.position;
 end
@@ -87,6 +84,18 @@ end
 
 function PropPrototype:getRot()
 	return self.rotation;
+end
+
+function PropPrototype:getScl()
+	return self.scale;
+end
+
+function PropPrototype:getSize()
+	return self.size;
+end
+
+function PropPrototype:getType()
+	return self.type;
 end
 
 function PropPrototype:free()
@@ -115,6 +124,12 @@ end
 
 function PropPrototype:setShader(shader, shaderName)
 	self:baseSetShader(shader, shaderName);
+end
+
+function PropPrototype:setSize(x, y, z)
+	self.size.x = x;
+	self.size.y = y;
+	self.size.z = z;
 end
 
 function PropPrototype:setType(type)

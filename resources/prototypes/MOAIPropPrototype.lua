@@ -5,6 +5,7 @@ local MOAIPropPrototype = PropPrototype:allocate();
 function MOAIPropPrototype:allocate()
 	object = MOAIPropPrototype:new{
 		position = {x = 0, y = 0, z = 0},
+		size = {x = 1, y = 1, z = 1},
 		scale = {x = 1, y = 1, z = 1},
 		rotation = {x = 0, y = 0, z = 0},
 		scripts = {},
@@ -13,19 +14,19 @@ function MOAIPropPrototype:allocate()
 	return object;
 end
 
-function MOAIPropPrototype:contains(x, y, z)
-	return self.underlyingType:inside(x, y, z);
+function MOAIPropPrototype:getScl()
+	self.scale.x, self.scale.y, self.scale.z = self.underlyingType:getScl();
+	return self.scale;
 end
 
 function MOAIPropPrototype:getRot()
+	self.rotation.x, self.rotation.y, self.rotation.z = self.underlyingType:getRot();
 	return self.rotation;
 end
 
-function MOAIPropPrototype:moveLoc(newX, newY, newZ, length, ease)
-	if not ease then
-		ease = MOAIEaseType.SMOOTH;
-	end	
-	self.underlyingType:moveLoc(newX, newY, newZ, length, ease);
+function MOAIPropPrototype:moveLoc(x, y, z, length, ease)
+	ease = ease or MOAIEaseType.SMOOTH;
+	self.underlyingType:moveLoc(x, y, z, length, ease);
 end
 
 function MOAIPropPrototype:registerScript(script)
@@ -36,6 +37,8 @@ function MOAIPropPrototype:serialize(properties)
 	properties = properties or {};
 	self:baseSerialize(properties);
 	properties.scripts = {};
+	properties.rotation.x, properties.rotation.y, properties.rotation.z = self.underlyingType:getRot();
+	properties.position.x, properties.position.y, properties.position.z = self.underlyingType:getLoc();
 	for k,script in pairs(self.scripts) do
 		table.insert(properties.scripts, script.name)
 	end
@@ -46,9 +49,9 @@ function MOAIPropPrototype:setName(name)
 	self.name = name;
 end
 
-function MOAIPropPrototype:setLoc(newX, newY, newZ)
-	self:baseSetLoc(newX, newY, newZ);
-	self.underlyingType:setLoc(newX, newY, newZ);
+function MOAIPropPrototype:setLoc(x, y, z)
+	self:baseSetLoc(x, y, z);
+	self.underlyingType:setLoc(x, y, z);
 end
 
 function MOAIPropPrototype:setRot(x, y, z)

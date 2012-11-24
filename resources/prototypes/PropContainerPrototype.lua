@@ -61,10 +61,11 @@ function PropContainerPrototype:insertPropPersistent(prop)
 	self:registerPropByName(prop, prop:getName());	
 end
 
+function PropContainerPrototype:getAllProps()
+	return self.props;
+end
+
 function PropContainerPrototype:getPropByName(name)
-	for k,v in ipairs(self.propsByName) do
-		print(k, v);
-	end
 	return self.propsByName[name];
 end
 

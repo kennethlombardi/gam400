@@ -32,6 +32,10 @@ function MOAILayerPrototype:free()
 	self.camera = nil;
 end
 
+function MOAILayerPrototype:getAllProps()
+	return self.propContainer:getAllProps();
+end
+
 function MOAILayerPrototype:getLoc()
 	return self.position;
 end

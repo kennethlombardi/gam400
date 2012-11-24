@@ -4,6 +4,7 @@ local Script = {
 
 function Script.update(object, dt)
 	Input = require("InputManager");
+
 	if Input.Mouse then
 		local x = Input.Mouse.windowX;
 		local y = Input.Mouse.windowY;

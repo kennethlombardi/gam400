@@ -28,7 +28,7 @@ local function initialize()
 end
 
 local function preShutdown()
-	--require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
+	require("LayerManager"):getLayerByName("mainMenu.lua"):serializeToFile("mainMenuDiff.lua");
 	--require("LayerManager"):serializeLayerToFile(require("LayerManager"):getLayerIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
 end
 

@@ -1,5 +1,6 @@
 local function preInitialize()
   -- require managers to perform singleton initialization
+  require("MessageManager");
   require "SimulationManager";
   require "WindowManager";
   require "ResourceManager";
