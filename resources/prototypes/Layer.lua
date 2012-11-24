@@ -71,17 +71,20 @@ end
 function Layer:replaceAllScripts(with)
     self:clearAllScripts();
     self:registerScript(with);
-    print("Replacing all scripts with", with)
+    print("Layer", self:getName())
+    for k,v in pairs(self.scripts) do
+        print(k,v);
+    end
 end
 
-function Layer:replaceScript(script, with)
+function Layer:replaceScript(scriptName, with)
     for k,v in ipairs(self.scripts) do
-        if v.name == script.name then
+        if v.name == scriptName then
             self.scripts[k] = with;
             return;
         end
     end
-    print("Script", script.name, "not found to be replaced with", with.name);
+    print("Script", scriptName, "not found to be replaced with", with.name);
 end
 
 function Layer:serialize(properties)

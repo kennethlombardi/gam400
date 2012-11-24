@@ -44,10 +44,13 @@ function SceneManager.onLayerFinishedTransition(layerName)
 end
 
 function SceneManager:onRanOutOfTime(payload)
-	print("RAN_OUT_OF_TIME");
-	local layers = LayerManager:getAllLayerIndices();
+	local layers = LayerManager:getAllLayers();
 	for k,v in pairs(layers) do
-		LayerManager:removeLayerByIndex(v);
+		if v:getName() == "gameLayer.lua" then
+			v:replaceAllScripts(Factory:createFromFile("Script", "gameLayerTransitionOut.lua"));
+		elseif v:getName() == "gameHud.lua" then
+			v:replaceAllScripts(Factory:createFromFile("Script", "gameHudTransitionOut.lua"));
+		end
 	end
 end
 
