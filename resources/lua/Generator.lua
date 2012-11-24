@@ -15,12 +15,14 @@ function gen:SpawnTorus(x, y)
   local properties = {};
   properties.type = "Torus";
   properties.name = "Torus"..(gen.spawned);
-  local layerPosition = require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):getLoc();
+  local activeLayerIndex = require("GameVariables"):GetLayer();
+  local activeLayer = require("LayerManager"):getLayerByIndex(activeLayerIndex);
+  local activeLayerPosition = activeLayer:getLoc(); 
   local position = {};
   properties.scale = {x = 15, y = 3, z = 15};		
   position.x = x or math.random(- 200, 200);
   position.y = y or math.random(- 200, 200);
-  position.z = layerPosition.z - 1500;
+  position.z = activeLayerPosition.z - 1500;
   properties.position = position;		
   properties.rotation = {x = 90, y = 0, z = 0};
   properties.shaderName = "shader";

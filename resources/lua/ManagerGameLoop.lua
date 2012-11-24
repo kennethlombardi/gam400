@@ -1,33 +1,25 @@
 local function preInitialize()
   -- require managers to perform singleton initialization
   require("MessageManager");
-  require "SimulationManager";
-  require "WindowManager";
-  require "ResourceManager";
-  require "LayerManager";
+  require("SimulationManager");
+  require("WindowManager");
+  require("ResourceManager");
+  require("LayerManager");
+  require("SceneManager");
   require("SoundManager");
   require("InputManager");
-   print("PreInitialized");
+  print("PreInitialized");
 end
 
 local function initialize()
   require("SimulationManager"):setLeakTrackingEnabled(true);
   require("SimulationManager"):setHistogramEnabled(true);
 
-  -- the hack world
-  bg = require("LayerManager"):createLayerFromFile("skyBox.lua");
-  layer0 = require("LayerManager"):createLayerFromFile("gameLayer.lua");
-  require("GameVariables"):SetLayer(layer0);
-  layer1 = require("LayerManager"):createLayerFromFile("gameHud.lua");
-
   -- simulation state
   MOAIGfxDevice.setClearDepth(true);
-  
-  -- song
-  require("SoundManager"):play("mono16.wav", false);
 
-  -- some variables
-  require("GameVariables"):SetGameTimer(30);
+
+  require("MessageManager"):send("GAME_INITIALIZED");
 
   print("Initialized");
 end
@@ -43,6 +35,7 @@ local function shutdown()
   require("ResourceManager"):shutdown();
   require("WindowManager"):shutdown();
   require("SoundManager"):shutdown();
+  require("SceneManager"):shutdown();
   require("ShapesLibrary"):shutdown();  
   require("SimulationManager"):forceGarbageCollection();
   require("SimulationManager"):reportLeaks();
@@ -51,18 +44,13 @@ local function shutdown()
   
   require("SimulationManager"):shutdown();
 end
-local spawnTimer = 0;
+
 local function update(dt)
+  require("MessageManager"):update(dt);
   require("InputManager"):update(dt);
   require("LayerManager"):update(dt);
+  require("SceneManager"):update(dt);
   require("SoundManager"):update(dt);
-  
-  spawnTimer = spawnTimer + dt;
-  
-  if spawnTimer > 1 then    
-    spawnTimer = 0;
-    require("Generator"):SpawnObject(0,0);    
-  end
 end
 
 

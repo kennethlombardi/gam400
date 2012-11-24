@@ -4,6 +4,6 @@ local ConfigurationManager = require "ConfigurationManager";
 -- window must exist before main thread can run
 WindowManager:openWindow("W.A.T.");
 
--- create and run the game loop thread
+-- create and run the game wloop thread
 mainThread = MOAIThread.new();
 mainThread:run(require(ConfigurationManager:getValue("mainThread")));

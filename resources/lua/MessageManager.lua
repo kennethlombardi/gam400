@@ -30,7 +30,7 @@ end
 
 function MessageManager:update(dt)
 	for messageType, payload in pairs(self.messageQueue) do
-		for _, callback in pairs(self.listeners[messageType]) do
+		for _, callback in pairs(self.listeners[messageType] or {}) do
 			if #payload > 0 then
 				for k,v in pairs(payload) do
 					callback(v)
