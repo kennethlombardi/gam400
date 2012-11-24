@@ -17,7 +17,9 @@ function SceneManager:update(dt)
 		spawnTimer = spawnTimer + dt;
 		if spawnTimer > 1 then    
 			spawnTimer = 0;
-			require("Generator"):SpawnObject(0,0);    
+			local newprop = require("Generator"):spawnObject(0,0);  
+			LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);		
+			LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 		end
 	end
 end
@@ -35,7 +37,11 @@ function SceneManager.onGameInitialized(payload)
 	require("SoundManager"):play("mono16.wav", false);
 
 	-- some variables
+<<<<<<< HEAD
 	require("GameVariables"):SetGameTimer(1);
+=======
+	require("GameVariables"):set("Timer",30);
+>>>>>>> 63c8c782bb847e49abff8b54abcfe9dadf1a178e
 
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");
@@ -44,8 +50,7 @@ end
 function SceneManager.onLayerFinishedTransition(layerName)
 	LayerManager:removeLayerByName(layerName);
 	if layerName == "mainMenu.lua" then
-		local layer0 = require("LayerManager"):createLayerFromFile("gameLayer.lua");
-		require("GameVariables"):SetLayer(layer0);
+		local layer0 = require("LayerManager"):createLayerFromFile("gameLayer.lua");		
 		require("LayerManager"):createLayerFromFile("gameHud.lua");
 		--require("LayerManager"):createLayerFromFile("skyBox.lua");
 	end

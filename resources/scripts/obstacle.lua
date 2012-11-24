@@ -4,7 +4,7 @@ local Script = {
 function Script.update(object, dt)
   local gameVariables = require("GameVariables");  
   local objectPos = object:getLoc();  
-  local playerPosition = gameVariables:GetPlayerPos();
+  local playerPosition = gameVariables:get("Position");
   local diff = {};    
   
   diff.z = objectPos.z - playerPosition.z;

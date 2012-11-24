@@ -30,13 +30,14 @@ local function preShutdown()
 end
 
 local function shutdown()
-  require("GameVariables"):shutdown();
+  
   require("LayerManager"):shutdown();
   require("ResourceManager"):shutdown();
   require("WindowManager"):shutdown();
   require("SoundManager"):shutdown();
   require("SceneManager"):shutdown();
   require("ShapesLibrary"):shutdown();  
+  require("GameVariables"):shutdown();  
   require("SimulationManager"):forceGarbageCollection();
   require("SimulationManager"):reportLeaks();
   require("SimulationManager"):forceGarbageCollection();

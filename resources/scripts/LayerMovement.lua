@@ -64,7 +64,7 @@ function Script.update(object, dt)
     end	
     object:setRot(xRot, yRot, 0);
     object:setLoc(newPos.x, newPos.y, newPos.z);
-    gameVariables:SetPlayerPos(newPos);
+    gameVariables:set("Position", newPos);
   end
   
   if InputManager.Keyboard then    
@@ -149,7 +149,7 @@ function Script.update(object, dt)
     end    
     object:setRot(xRot,yRot,0);--newPos.x - position.x, newPos.y - position.y, 0);
     object:setLoc(newPos.x, newPos.y, newPos.z);
-    gameVariables:SetPlayerPos(newPos);
+    gameVariables:set("Position", newPos);
   end
 	
 end
