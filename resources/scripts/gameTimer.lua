@@ -4,21 +4,13 @@ local Script = {
 
 local t = 0;
 function Script.update(object, dt)  
-<<<<<<< HEAD
 	gameVariables = require("GameVariables");
-	gameVariables:AddGameTimer(-dt);
-	if (gameVariables:GetGameTimer() < 0) then
+	gameVariables:add("Timer", -dt);
+	if (gameVariables:get("Timer") < 0) then
 		require("MessageManager"):send("RAN_OUT_OF_TIME");
 	end
-	object:setText(string.format('Time Remaining: %d', gameVariables:GetGameTimer()));  
-=======
-  gameVariables = require("GameVariables");
-  gameVariables:add("Timer", -dt);
-  if (gameVariables:get("Timer") < 0) then
-    os.exit();
-  end
-  object:setText(string.format('Time Remaining: %d', gameVariables:get("Timer")));  
->>>>>>> 63c8c782bb847e49abff8b54abcfe9dadf1a178e
+	object:setText(string.format('Time Remaining: %d', gameVariables:get("Timer")));  
+
 end
 
 return Script;
