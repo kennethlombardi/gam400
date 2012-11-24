@@ -60,11 +60,18 @@ end
 function LayerManager:removeLayerByIndex(layerIndex)
 	self.layers[layerIndex]:free();
 	self.layers[layerIndex] = nil;
+	-- HACK
+	-- Find a better way to look up by index and name
+	for k,v in pairs(self.layerIndicesByName) do
+		if v == layerIndex then
+			self.layerIndicesByName[k] = nil
+		end
+	end
 end
 
 function LayerManager:serializeLayerToFile(layerIndex, fileName)
 	if self.layers[layerIndex] == nil then
-		print("serializeToFile["..layerIndex.."] is nil");
+		print("Layer index", layerIndex, "is nil");
 		return;
 	end
 	self.layers[layerIndex]:serializeToFile(fileName);

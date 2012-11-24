@@ -10,18 +10,9 @@ function SceneManager:shutdown()
 	Factory = nil;
 end
 
-local spawnTimer = 0;
-function SceneManager:update(dt)
 
-	if LayerManager:getLayerByName("gameLayer.lua") ~= nil then
-		spawnTimer = spawnTimer + dt;
-		if spawnTimer > 1 then    
-			spawnTimer = 0;
-			local newprop = require("Generator"):spawnObject(0,0);  
-			LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);		
-			LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
-		end
-	end
+function SceneManager:update(dt)
+	
 end
 
 function SceneManager.onClickedPlayButton(payload)
@@ -37,7 +28,7 @@ function SceneManager.onGameInitialized(payload)
 	require("SoundManager"):play("mono16.wav", false);
 
 	-- some variables
-	require("GameVariables"):set("Timer",30);
+	require("GameVariables"):set("Timer",3);
 
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");
@@ -56,7 +47,7 @@ function SceneManager:onRanOutOfTime(payload)
 	print("RAN_OUT_OF_TIME");
 	local layers = LayerManager:getAllLayerIndices();
 	for k,v in pairs(layers) do
-		--LayerManager:removeLayerByIndex(v)
+		LayerManager:removeLayerByIndex(v);
 	end
 end
 

@@ -5,7 +5,18 @@ local zPressed = 1;
 local zMax = 5;
 local xRot = 0;
 local yRot = 0;
+local LayerManager = require("LayerManager");
+local spawnTimer = 0;
+
 function Script.update(object, dt)
+    spawnTimer = spawnTimer + dt;
+    if spawnTimer > 1 then    
+        spawnTimer = 0;
+        local newprop = require("Generator"):spawnObject(0,0);  
+        object:insertPropPersistent(newprop);
+        object:insertProp(newprop);
+    end
+    
 	local position = object:getLoc();  
 	local step = 10;
   local InputManager = require("InputManager");
