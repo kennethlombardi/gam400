@@ -1,44 +1,41 @@
 gen = {};
 gen.spawned = 1;
 
-function gen:SpawnObject(x, y)
+function gen:spawnObject(x, y)
   local obj = math.random(0, 10);
   obj = obj - 5;
   if obj >= 0 then
-    gen:SpawnTorus(x, y);
+    return gen:spawnTorus(x, y);
   else
-    gen:SpawnSphere(x, y);
+    return gen:spawnSphere(x, y);
   end
 end
 
-function gen:SpawnTorus(x, y)
+function gen:spawnTorus(x, y)
   local properties = {};
   properties.type = "Torus";
-  properties.name = "Torus"..(gen.spawned);
-  local activeLayerIndex = require("GameVariables"):GetLayer();
-  local activeLayer = require("LayerManager"):getLayerByIndex(activeLayerIndex);
-  local activeLayerPosition = activeLayer:getLoc(); 
+  properties.name = "Torus"..(gen.spawned);  
+  local layerPosition = require("LayerManager"):getLayerByName("gameLayer.lua"):getLoc();
   local position = {};
   properties.scale = {x = 15, y = 3, z = 15};		
   position.x = x or math.random(- 200, 200);
   position.y = y or math.random(- 200, 200);
-  position.z = activeLayerPosition.z - 1500;
+  position.z = layerPosition.z - 1500;
   properties.position = position;		
   properties.rotation = {x = 90, y = 0, z = 0};
   properties.shaderName = "shader";
   properties.scripts = {"ring.lua"};
   properties.textureName = "pinkSquare.png";
-  newprop = require("Factory"):create("Torus", properties);
-  require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertPropPersistent(newprop);		
-  require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertProp(newprop);
+  newprop = require("Factory"):create("Torus", properties); 
   gen.spawned = gen.spawned + 1;
+  return newprop;
 end
 
-function gen:SpawnSphere(x, y)
+function gen:spawnSphere(x, y)
   local properties = {};
   properties.type = "Sphere";
   properties.name = "Sphere"..(gen.spawned);
-  local layerPosition = require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):getLoc();
+  local layerPosition = require("LayerManager"):getLayerByName("gameLayer.lua"):getLoc();
   local position = {};
   properties.scale = {x = 15, y = 15, z = 15};		
   position.x = x or math.random(- 200, 200);
@@ -49,10 +46,9 @@ function gen:SpawnSphere(x, y)
   properties.shaderName = "shader";
   properties.scripts = {"obstacle.lua"};
   properties.textureName = "rock.png";
-  newprop = require("Factory"):create("Sphere", properties);
-  require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertPropPersistent(newprop);		
-  require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertProp(newprop);
+  newprop = require("Factory"):create("Sphere", properties);  
   gen.spawned = gen.spawned + 1;
+  return newprop;
 end
 
 function NormalRnd(minVal, maxVal, count)
