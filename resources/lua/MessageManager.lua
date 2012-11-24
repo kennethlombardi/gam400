@@ -46,5 +46,6 @@ end
 MessageManager:register("GAME_INITIALIZED");
 MessageManager:register("CLICKED_PLAY_BUTTON");
 MessageManager:register("LAYER_FINISHED_TRANSITION");
+MessageManager:register("RAN_OUT_OF_TIME");
 
 return MessageManager

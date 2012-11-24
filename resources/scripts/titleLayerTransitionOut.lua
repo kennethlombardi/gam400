@@ -13,7 +13,6 @@ function Script.update(layer, dt)
 	if playButton and playButton:getType() == "Prop" then
 		local fudge = 500;
 		if playButton:getLoc().x > require("WindowManager").screenWidth / 2 + playButton:getSize().x / 2 + fudge then
-			print("OUT OF SCREEN", playButton:getLoc().x, playButton:getSize().x, playButton:getScl().x)
 			require("MessageManager"):send("LAYER_FINISHED_TRANSITION", layer:getName());
 		end
 	end

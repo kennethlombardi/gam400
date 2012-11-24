@@ -28,7 +28,7 @@ function gen:SpawnTorus(x, y)
   properties.shaderName = "shader";
   properties.scripts = {"ring.lua"};
   properties.textureName = "pinkSquare.png";
-  newprop = require("Factory"):create("Torus", properties);
+  local newprop = require("Factory"):create("Torus", properties);
   require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertPropPersistent(newprop);		
   require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertProp(newprop);
   gen.spawned = gen.spawned + 1;
@@ -49,7 +49,7 @@ function gen:SpawnSphere(x, y)
   properties.shaderName = "shader";
   properties.scripts = {"obstacle.lua"};
   properties.textureName = "rock.png";
-  newprop = require("Factory"):create("Sphere", properties);
+  local newprop = require("Factory"):create("Sphere", properties);
   require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertPropPersistent(newprop);		
   require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):insertProp(newprop);
   gen.spawned = gen.spawned + 1;

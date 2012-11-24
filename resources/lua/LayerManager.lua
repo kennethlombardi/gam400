@@ -32,6 +32,9 @@ end
 function LayerManager:getAllLayerIndices()
 	local layerIndices = {};
 	for k,v in pairs(self.layerIndicesByName) do
+		if self:getLayerByIndex(v) == nil then
+			print("Layer at index", v, "is nil with name", k);
+		end
 		table.insert(layerIndices, v);
 	end
 	return layerIndices;
@@ -47,6 +50,7 @@ end
 
 function LayerManager:removeLayerByName(layerName)
 	self:removeLayerByIndex(self:getLayerIndexByName(layerName));
+	self.layerIndicesByName[layerName] = nil;
 end
 
 function LayerManager:getLayerByName(layerName)
@@ -67,8 +71,9 @@ function LayerManager:serializeLayerToFile(layerIndex, fileName)
 end
 
 function LayerManager:shutdown()
-	for i,v in ipairs(self.layers) do
-		self:removeLayerByIndex(i);
+	local layerIndices = LayerManager:getAllLayerIndices();
+	for k,v in pairs(layerIndices) do
+		self:removeLayerByIndex(v);
 	end
 	self.layers = nil;
 	Factory = nil;
