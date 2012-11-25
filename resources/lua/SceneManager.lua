@@ -28,7 +28,7 @@ function SceneManager.onGameInitialized(payload)
 	require("SoundManager"):play("mono16.wav", false);
 
 	-- some variables
-	require("GameVariables"):set("Timer",3);
+	require("GameVariables"):set("Timer", 3);
 
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");
@@ -36,10 +36,14 @@ end
 
 function SceneManager.onLayerFinishedTransition(layerName)
 	LayerManager:removeLayerByName(layerName);
+	print(layerName, "removed itself");
 	if layerName == "mainMenu.lua" then
-		local layer0 = require("LayerManager"):createLayerFromFile("gameLayer.lua");		
+		require("LayerManager"):createLayerFromFile("gameLayer.lua");		
 		require("LayerManager"):createLayerFromFile("gameHud.lua");
-		--require("LayerManager"):createLayerFromFile("skyBox.lua");
+	end
+
+	if layerName == "outOfTime.lua" then
+		require("MessageManager"):send("GAME_INITIALIZED");
 	end
 end
 
@@ -52,6 +56,8 @@ function SceneManager:onRanOutOfTime(payload)
 			v:replaceAllScripts(Factory:createFromFile("Script", "gameHudTransitionOut.lua"));
 		end
 	end
+	print("creating outoftimelayer")
+	LayerManager:createLayerFromFile("outOfTime.lua");
 end
 
 MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);

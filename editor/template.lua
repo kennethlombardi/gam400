@@ -29,22 +29,15 @@ for i = 1, objectCount do
 	table.insert(layer1.propContainer, prop);
 end
 
-layers = {};
-table.insert(layers, layer1);
-
 local function pickleThis()
-	layerCount = 0;
-	for k,v in pairs(layers) do
-		file = io.open(".\\generated\\starfield"..".lua", "wt");
-		s = "deserialize (\"Layer\",\n";
-		file:write(s);
-		s = pickle(v);
-		file:write(s);
-		s = ")\n\n";
-		file:write(s);
-		file:close();
-		layerCount = layerCount + 1;
-	end
+    file = io.open(".\\generated\\starfield"..".lua", "wt");
+    s = "deserialize (\"Layer\",\n";
+    file:write(s);
+    s = pickle(layer1);
+    file:write(s);
+    s = ")\n\n";
+    file:write(s);
+    file:close();
 end
 
 pickleThis();

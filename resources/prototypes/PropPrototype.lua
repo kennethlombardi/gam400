@@ -8,6 +8,7 @@ local PropPrototype = {
 	shaderName = "ken",
 	textureName = "moai.png",
 	rotation = {x = 0, y = 0, z = 0},
+	scripts = {},
 }
 
 function PropPrototype:allocate()
@@ -21,19 +22,15 @@ function PropPrototype:allocate()
 		shaderName = "ken",
 		textureName = "moai.png",
 		rotation = {x = 0, y = 0, z = 0},
+		scripts = {},
 	}
 	return object;
 end
 
 function PropPrototype:baseUpdate(dt)
-
-end
-
-function PropPrototype:new(object)
-	object = object or {};
-	setmetatable(object, self);
-	self.__index = self;
-	return object;
+	for k,script in pairs(self.scripts) do
+		script.update(self, dt);
+	end
 end
 
 function PropPrototype:baseFree()
@@ -64,6 +61,10 @@ function PropPrototype:baseSetRot(x, y, z)
 	self.rotation.z = z;
 end
 
+function PropPrototype:clearAllScripts()
+	self.scripts = {};
+end
+
 function PropPrototype:baseSetScl(x, y, z)
 	self.scale.x = x;
 	self.scale.y = y;
@@ -72,6 +73,10 @@ end
 
 function PropPrototype:baseSetShader(shader, shaderName)
 	self.shaderName = shaderName;
+end
+
+function PropPrototype:free()
+	self:baseFree();
 end
 
 function PropPrototype:getLoc()
@@ -98,12 +103,24 @@ function PropPrototype:getType()
 	return self.type;
 end
 
-function PropPrototype:free()
-	self:baseFree();
-end
-
 function PropPrototype:getUnderlyingType()
 	return self.underlyingType;
+end
+
+function PropPrototype:new(object)
+	object = object or {};
+	setmetatable(object, self);
+	self.__index = self;
+	return object;
+end
+
+function PropPrototype:registerScript(script)
+	table.insert(self.scripts, script);
+end
+
+function PropPrototype:replaceAllScripts(with)
+    self:clearAllScripts();
+    self:registerScript(with);
 end
 
 function PropPrototype:setLoc(x, y, z)

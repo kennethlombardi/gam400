@@ -29,10 +29,6 @@ function MOAIPropPrototype:moveLoc(x, y, z, length, ease)
 	self.underlyingType:moveLoc(x, y, z, length, ease);
 end
 
-function MOAIPropPrototype:registerScript(script)
-	table.insert(self.scripts, script);
-end
-
 function MOAIPropPrototype:serialize(properties)
 	properties = properties or {};
 	self:baseSerialize(properties);
@@ -71,9 +67,6 @@ end
 
 function MOAIPropPrototype:update(dt)
 	self:baseUpdate(dt);
-	for k,script in pairs(self.scripts) do
-		script.update(self, dt);
-	end
 end
 
 return MOAIPropPrototype;

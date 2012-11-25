@@ -17,7 +17,7 @@ function Layer:baseFree()
     self.propContainer = nil;
 end
 
-function Layer:baseUpdate(dt) 
+function Layer:baseUpdate(dt)
     for k,v in pairs(self.scripts) do
         v.update(self, dt);
     end
