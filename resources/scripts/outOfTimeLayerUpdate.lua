@@ -8,6 +8,7 @@ function Script.update(layer, dt)
     print(timeElapsed)
     if timeElapsed > 2 then
         layer:replaceAllScripts(require("Factory"):createFromFile("Script", "outOfTimeLayerTransitionOut.lua"));
+        timeElapsed = 0;
         return;
     end
 end
