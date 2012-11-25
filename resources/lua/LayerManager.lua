@@ -38,6 +38,13 @@ function LayerManager:getLayerIndexByName(layerName)
 	return self.layersByName[layerName];
 end
 
+function LayerManager:removeAllLayers()
+	local layerIndices = self:getAllLayerIndices();
+	for i,index in ipairs(layerIndices) do
+		self:removeLayerByIndex(index)
+	end
+end
+
 function LayerManager:removeLayerByName(layerName)
 	self.layersByName[layerName]:free();
 	self.layersByName[layerName] = nil;
@@ -56,10 +63,7 @@ function LayerManager:serializeLayerToFile(layerIndex, fileName)
 end
 
 function LayerManager:shutdown()
-	local layerIndices = self:getAllLayerIndices();
-	for i,index in ipairs(layerIndices) do
-		self:removeLayerByIndex(index)
-	end
+	self:removeAllLayers();
 	Factory = nil;
 	self.layersByName = nil;
 end

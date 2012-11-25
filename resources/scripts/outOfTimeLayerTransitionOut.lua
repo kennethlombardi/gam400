@@ -10,7 +10,7 @@ function Script.update(layer, dt)
         local size = 1000;
         if position.x > require("WindowManager").screenWidth / 2 + size / 2 then
             require("MessageManager"):send("LAYER_FINISHED_TRANSITION", layer:getName());
-            layer:replaceAllScripts("");
+            layer:clearAllScripts();
         end
     end
 end
