@@ -71,10 +71,6 @@ end
 function Layer:replaceAllScripts(with)
     self:clearAllScripts();
     self:registerScript(with);
-    print("Layer", self:getName())
-    for k,v in pairs(self.scripts) do
-        print(k,v);
-    end
 end
 
 function Layer:replaceScript(scriptName, with)

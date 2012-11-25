@@ -1,9 +1,6 @@
-local WindowManager = require "WindowManager";
-local ConfigurationManager = require "ConfigurationManager";
-
 -- window must exist before main thread can run
-WindowManager:openWindow("W.A.T.");
+require("WindowManager"):openWindow("Fall 2012");
 
 -- create and run the game wloop thread
 mainThread = MOAIThread.new();
-mainThread:run(require(ConfigurationManager:getValue("mainThread")));
+mainThread:run(require(require("ConfigurationManager"):getValue("mainThread")));
