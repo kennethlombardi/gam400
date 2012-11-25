@@ -28,7 +28,7 @@ height = 720;
 --]]
 prop = {
 	type = "TextBox",
-	name = "outOfTime",
+	name = "outOfTimeText",
     position = {x = 0, y = 0, z = 0};
     scale = {x = 1, y = 1, z = 1};
     rotation = {x = 0, y = 0, z = 0};
@@ -37,6 +37,7 @@ prop = {
 	shaderName = "none",
     textSize = 72,
     string = "Out Of Time!!",
+    justification = "center_justify",
 }
 table.insert(layer1.propContainer, prop);
 
