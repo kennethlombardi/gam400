@@ -100,8 +100,6 @@ end
 function MOAIFileSystemFileStreamHandler:load(fullPath, mode)
 	local stream = MOAIFileStream.new();
 	local success = stream:open(fullPath, self.fileOpenModes[mode]);
-	print("success", success);
-	print("stream", stream);
 	return stream;
 end
 --

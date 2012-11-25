@@ -31,7 +31,7 @@ deserialize ("Layer",
 		["scale"]={8},
 		["shaderName"]="basic2d",
 		["scripts"]={9},
-		["textureName"]="startOff.png",
+		["textureName"]="startOn.png",
 	},
 
 	{--Entry Number: {6}

@@ -52,6 +52,7 @@ local Handler = Creator:new();
 local MOAIFileHandler = Handler:new();
 local MOAIConfigurationHandler = Handler:new();
 local MOAIScriptHandler = Handler:new();
+local MOAIUserDataHandler = Handler:new();
 --
 
 -- MOAIConfigurationHandler
@@ -76,6 +77,25 @@ function MOAIFileHandler:load(fullPath)
 		file = FileSystem:load("File", fullPath);
 	end
 	ResourceManager:addToCache(fullPath, file);
+end
+--
+
+-- MOAIUserDataHandler
+function MOAIUserDataHandler:load(fileName)
+	dofile("Pickle.lua");
+	local configuration = {};
+	function deserialize(args)
+		configuration = args;
+	end
+	local fullPath = "../userData/"..fileName;
+	if require("FileSystem"):checkFileExists(fullPath) then
+		dofile(fullPath);
+	end
+	local cucumber = unpickle(configuration);
+	for k,v in pairs(cucumber) do
+		print(k,v)
+	end
+	return cucumber;
 end
 --
 
@@ -167,6 +187,7 @@ end
 local function init()
 	ResourceManager:register("Texture", MOAITextureCreator:new());
 	ResourceManager:register("Configuration", MOAIConfigurationHandler:new());
+	ResourceManager:register("UserData", MOAIUserDataHandler:new());
 	ResourceManager:register("Font", MOAIFontCreator:new());
 	ResourceManager:register("Script", MOAIScriptHandler:new());
 	ResourceManager:register("Shader", MOAIShaderCreator:new());
