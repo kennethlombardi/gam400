@@ -26,7 +26,7 @@ function LayerManager:getAllLayers()
 	local allLayers = {};
 	for k,v in pairs(self.layersByName) do
 		table.insert(allLayers, v)
-	end
+	end 
 	return allLayers;
 end
 
