@@ -12,6 +12,7 @@ layer1 = {
 width = 1280;
 height = 720;
 
+-- retry button
 prop = {
 	type = "Prop",
 	name = "retryButton",
@@ -24,6 +25,7 @@ prop = {
 }
 table.insert(layer1.propContainer, prop);
 
+-- retry text
 local yFudge = 50;
 retryText = {
 	type = "TextBox",

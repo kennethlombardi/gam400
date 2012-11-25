@@ -22,7 +22,7 @@ prop = {
 	scale = scale,
 	scripts = {},
 	shaderName = "basic2d",
-	textureName = "startOn.png",
+	textureName = "startOff.png",
 	rotation = rotation,
 }
 table.insert(layer1.propContainer, prop);
