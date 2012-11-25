@@ -1,7 +1,7 @@
 deserialize ({
 	{--Entry Number: {1}
-		["mainThread"]="TestGameLoop",
-		["highScore"]=42,
+		["highScore"]=43,
+		["currentScore"]=0,
 	},
 })
 

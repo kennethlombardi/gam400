@@ -103,6 +103,7 @@ end
 function MOAIFontCreator:createFromFile(fileName)
 	properties = {
 		name = "arial-rounded.ttf",
+		--name = "horrendo.ttf",
 		characterSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!",
 		points = 12,
 		dpi = 144,
