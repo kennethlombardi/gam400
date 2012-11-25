@@ -60,9 +60,20 @@ function SceneManager:onRanOutOfTime(payload)
 	LayerManager:createLayerFromFile("outOfTime.lua");
 end
 
+function SceneManager.test(payload)
+	for i = 1, 10 do
+		local index = LayerManager:createLayerFromFile("gameLayer.lua");
+		--LayerManager:removeLayerByName("gameLayer.lua");
+		--LayerManager:removeLayerByIndex(index);
+		print("not done")
+	end
+	print("Done")
+end
+
 MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);
 MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
 MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedTransition);
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);
+MessageManager:listen("TEST", SceneManager.test);
 
 return SceneManager

@@ -1,94 +1,71 @@
 local LayerManager = {
-	layers = {},
-	layerIndicesByName = {},
-	currentLayerIndex = 0,
+	layersByName = {},
 }
 
 local Factory = require "Factory";
 
-function LayerManager:nextIndex()
-	self.currentLayerIndex = self.currentLayerIndex + 1;
-	return self.currentLayerIndex;
+function LayerManager:createLayerFromFile(layerFileName)
+	-- not supporting duplicate named layers right now
+	if self.layersByName[layerFileName] ~= nil then
+		self.layersByName[layerFileName]:free();
+		self.layersByName[layerFileName] = nil;
+	end
+	self.layersByName[layerFileName] = Factory:createFromFile("Layer", layerFileName);
+	return layerFileName;
 end
 
-function LayerManager:createLayerFromFile(layerFileName)
-	local nextIndex = self:nextIndex();
-	table.insert(self.layers, nextIndex, Factory:createFromFile("Layer", layerFileName));
-
-	-- Save the layer name as a hash for the index to allow quick retrieval of layers by name
-	self.layerIndicesByName[layerFileName] = nextIndex;
-
-	return nextIndex;
+function LayerManager:getAllLayerIndices()
+	local allLayerIndices = {};
+	for k,v in pairs(self.layersByName) do
+		table.insert(allLayerIndices, k);
+	end
+	return allLayerIndices;
 end
 
 function LayerManager:getAllLayers()
 	local allLayers = {};
-	for k,v in pairs(self.layers) do
+	for k,v in pairs(self.layersByName) do
 		table.insert(allLayers, v)
 	end
 	return allLayers;
 end
 
-function LayerManager:getAllLayerIndices()
-	local layerIndices = {};
-	for k,v in pairs(self.layerIndicesByName) do
-		if self:getLayerByIndex(v) == nil then
-			print("Layer at index", v, "is nil with name", k);
-		end
-		table.insert(layerIndices, v);
-	end
-	return layerIndices;
-end
-
 function LayerManager:getLayerByIndex(layerIndex)
-	return self.layers[layerIndex];
+	return self.layersByName[layerIndex];
 end
 
 function LayerManager:getLayerIndexByName(layerName)
-	return self.layerIndicesByName[layerName];
+	return self.layersByName[layerName];
 end
 
 function LayerManager:removeLayerByName(layerName)
-	self:removeLayerByIndex(self:getLayerIndexByName(layerName));
-	self.layerIndicesByName[layerName] = nil;
+	self.layersByName[layerName]:free();
+	self.layersByName[layerName] = nil;
 end
 
 function LayerManager:getLayerByName(layerName)
-	return self:getLayerByIndex(self.layerIndicesByName[layerName]);
+	return self.layersByName[layerName];
 end
 
 function LayerManager:removeLayerByIndex(layerIndex)
-	self.layers[layerIndex]:free();
-	self.layers[layerIndex] = nil;
-	-- HACK
-	-- Find a better way to look up by index and name
-	for k,v in pairs(self.layerIndicesByName) do
-		if v == layerIndex then
-			self.layerIndicesByName[k] = nil
-		end
-	end
+	self:removeLayerByName(layerIndex);
 end
 
 function LayerManager:serializeLayerToFile(layerIndex, fileName)
-	if self.layers[layerIndex] == nil then
-		print("Layer index", layerIndex, "is nil");
-		return;
-	end
-	self.layers[layerIndex]:serializeToFile(fileName);
+	self.layersByName[layerIndex]:serializeToFile(fileName);
 end
 
 function LayerManager:shutdown()
-	local layerIndices = LayerManager:getAllLayerIndices();
-	for k,v in pairs(layerIndices) do
-		self:removeLayerByIndex(v);
+	local layerIndices = self:getAllLayerIndices();
+	for i,index in ipairs(layerIndices) do
+		self:removeLayerByIndex(index)
 	end
-	self.layers = nil;
 	Factory = nil;
-	self.layerIndicesByName = nil;
+	self.layersByName = nil;
 end
 
 function LayerManager:update(dt)
-	for k,v in pairs(self.layers) do
+	for k,v in pairs(self.layersByName) do
 		v:update(dt);
 	end
 end

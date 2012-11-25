@@ -24,7 +24,7 @@ local function initialize()
 	--require("SoundManager"):play("mono16.wav", false);
 
   	print("Initialized");
-  	require("MessageManager"):send("GAME_INITIALIZED");
+  	require("MessageManager"):send("TEST");
 end
 
 local function preShutdown()
