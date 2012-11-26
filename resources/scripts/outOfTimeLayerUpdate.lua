@@ -5,7 +5,7 @@ local Script = {
 local timeElapsed = 0;
 function Script.update(layer, dt)
 	timeElapsed = timeElapsed + dt;
-    if timeElapsed > 2 then
+    if timeElapsed > 1 then
         layer:replaceAllScripts(require("Factory"):createFromFile("Script", "outOfTimeLayerTransitionOut.lua"));
         timeElapsed = 0;
         return;

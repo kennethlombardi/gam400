@@ -12,18 +12,32 @@ layer1 = {
 width = 1280;
 height = 720;
 
-position = {x = 0, y = 0, z = 0};
-scale = {x = 1, y = 1, z = 1};
-rotation = {x = 0, y = 0, z = 0};
+
+--[[
+{--Entry Number: {5}
+		["type"]="TextBox",
+		["scale"]={6},
+		["shaderName"]="none",
+		["rectangle"]={7},
+		["name"]="TextBox#1",
+		["position"]={8},
+		["scripts"]={9},
+		["textSize"]=24,
+		["string"]="Time Remaining",
+	},
+--]]
 prop = {
-	type = "Prop",
-	name = "outOfTime",
-	position = position,
-	scale = scale,
+	type = "TextBox",
+	name = "outOfTimeText",
+    position = {x = 0, y = 0, z = 0};
+    scale = {x = 1, y = 1, z = 1};
+    rotation = {x = 0, y = 0, z = 0};
+    rectangle = {x1 = -300, x2 = 300, y1 = -100, y2 = 100},
 	scripts = {},
-	shaderName = "basic2d",
-	textureName = "startOn.png",
-	rotation = rotation,
+	shaderName = "none",
+    textSize = 72,
+    string = "Out Of Time!!",
+    justification = "center_justify",
 }
 table.insert(layer1.propContainer, prop);
 

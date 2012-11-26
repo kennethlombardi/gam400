@@ -225,7 +225,15 @@ function MOAITextBoxCreator:create(properties)
 						properties.rectangle.y1, 
 						properties.rectangle.x2, 
 						properties.rectangle.y2 );
-	newObject:getUnderlyingType():setAlignment(MOAITextBox.LEFT_JUSTIFY)
+	
+	if properties.justification == "left_justify" then
+		newObject:getUnderlyingType():setAlignment(MOAITextBox.LEFT_JUSTIFY)
+	elseif properties.justification == "center_justify" then
+		newObject:getUnderlyingType():setAlignment(MOAITextBox.CENTER_JUSTIFY)
+	else 
+		newObject:getUnderlyingType():setAlignment(MOAITextBox.LEFT_JUSTIFY)
+	end
+
 	newObject:getUnderlyingType():setYFlip(true)
 	newObject:setText(properties.string);
 

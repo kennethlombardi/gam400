@@ -16,6 +16,10 @@ function Texture:allocate()
 	return object
 end
 
+function Texture:free()
+	self.underlyingType = nil;
+end
+
 function Texture:getName()
 	return self.name;
 end

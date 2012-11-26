@@ -3,6 +3,7 @@ local SceneManager = {}
 local MessageManager = require("MessageManager");
 local LayerManager = require("LayerManager");
 local Factory = require("Factory");
+local UserDataManager = require("UserDataManager");
 
 function SceneManager:shutdown()
 	MessageManager = nil;
@@ -47,6 +48,11 @@ function SceneManager.onLayerFinishedTransition(layerName)
 	if layerName == "outOfTime.lua" then
 		LayerManager:removeAllLayers();
 		LayerManager:createLayerFromFile("results.lua");
+		local currentScore = UserDataManager:get("currentScore");
+		local highScore = UserDataManager:get("highScore");
+		if currentScore > highScore then
+			UserDataManager:set("highScore", currentScore);
+		end
 	end
 
 	if layerName == "results.lua" then
@@ -69,13 +75,6 @@ function SceneManager:onRanOutOfTime(payload)
 end
 
 function SceneManager.test(payload)
-	for i = 1, 10 do
-		local index = LayerManager:createLayerFromFile("gameLayer.lua");
-		--LayerManager:removeLayerByName("gameLayer.lua");
-		--LayerManager:removeLayerByIndex(index);
-		print("not done")
-	end
-	print("Done")
 end
 
 MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);

@@ -223,7 +223,7 @@ ShapesLibrary.torusMesh = makeTorusMesh();
 function ShapesLibrary.makeTorus(texture)
   local ResourceManager = require("ResourceManager");
   local mesh = MOAIMesh.new();
-  mesh:setTexture(ResourceManager:load("Texture", texture));
+  mesh:setTexture(ResourceManager:load("Texture", texture):getUnderlyingType());
   mesh:setVertexBuffer(ShapesLibrary.torusMesh);
   mesh:setPrimType(MOAIMesh.GL_TRIANGLES);
   

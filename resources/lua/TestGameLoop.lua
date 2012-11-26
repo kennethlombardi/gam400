@@ -1,5 +1,7 @@
 local function preInitialize()
 	-- require managers to perform singleton initialization
+	require("ConfigurationManager");
+  	require("UserDataManager");
 	require("MessageManager");
 	require("SimulationManager");
 	require("WindowManager");
@@ -39,6 +41,8 @@ local function shutdown()
 	require("SoundManager"):shutdown();
 	require("SceneManager"):shutdown();
 	require("ShapesLibrary"):shutdown();
+	require("ConfigurationManager"):shutdown();
+	require("UserDataManager"):shutdown();
 
 	require("SimulationManager"):forceGarbageCollection();
 	require("SimulationManager"):reportLeaks();

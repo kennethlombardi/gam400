@@ -2,12 +2,15 @@ local ConfigurationManager = { configuration = {} }
 local FileSystem = require "FileSystem";
 local ResourceManager = require "ResourceManager";
 
-function ConfigurationManager:getValue(key)
+function ConfigurationManager:get(key)
 	return self.configuration[key];
 end
 
 function ConfigurationManager:set(key, value)
 	self.configuration[key] = value;
+end
+
+function ConfigurationManager:shutdown()
 end
 
 function init()
