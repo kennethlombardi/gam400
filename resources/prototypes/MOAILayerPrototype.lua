@@ -44,12 +44,24 @@ function MOAILayerPrototype:getPropByName(name)
 	return self.propContainer:getPropByName(name);
 end
 
+function MOAILayerPrototype:setOnDestroyCallback(prop)
+	local this = self;
+	local callback = function()
+						this:removeProp(prop);
+						print("Prop tried to destroy itself")
+					 end
+	prop.destroy = callback;
+	return callback;
+end
+
 function MOAILayerPrototype:insertProp(prop)
+	self:setOnDestroyCallback(prop);
 	self:addToPartition(prop);
 	self.propContainer:insertProp(prop);
 end
 
 function MOAILayerPrototype:insertPropPersistent(prop)
+	self:setOnDestroyCallback(prop);
 	self:addToPartition(prop);
 	self.propContainer:insertPropPersistent(prop);
 end
@@ -125,9 +137,9 @@ end
 
 function Layer:setPropContainer(propContainer)
     self.propContainer = propContainer;
-    for i,prop in pairs(propContainer.props) do
-        self:insertProp(prop);
-    end
+    --for i,prop in pairs(propContainer.props) do
+        --self:insertProp(prop);
+    --end
 end
 
 function MOAILayerPrototype:setViewport(viewport)
