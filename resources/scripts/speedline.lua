@@ -29,7 +29,7 @@ function Script.update(object, dt)
   end
   -- do a check to delete once they are flown by
   local objectPos = object:getLoc();  
-  local playerPosition = gameVariables:get("Position");
+  local playerPosition = require("GameVariables"):get("Position");
   local diff = {};    
   
   diff.z = objectPos.z - playerPosition.z;
