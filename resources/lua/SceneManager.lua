@@ -35,7 +35,7 @@ function SceneManager.onGameInitialized(payload)
 
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");
-			--LayerManager:createLayerFromFile("skyBox.lua");
+			LayerManager:createLayerFromFile("skyBox.lua");
 end
 
 function SceneManager.onLayerFinishedTransition(layerName)
@@ -45,7 +45,7 @@ function SceneManager.onLayerFinishedTransition(layerName)
 		LayerManager:removeAllLayers();
 		LayerManager:createLayerFromFile("gameLayer.lua");		
 		LayerManager:createLayerFromFile("gameHud.lua");
-
+LayerManager:createLayerFromFile("skyBox.lua");
 	end
 
 	if layerName == "outOfTime.lua" then
