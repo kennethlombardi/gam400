@@ -3,7 +3,7 @@ deserialize ("Layer",
 	{--Entry Number: {1}
 		["visible"]="true",
 		["type"]="Layer",
-		["name"]="skybox.lua",
+		["name"]="skybox",
 		["propContainer"]={2},
 		["scripts"]={3},
 		["position"]={4},
@@ -14,7 +14,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
-		[1]="skybox.lua",
+		[1]="none",
 	},
 
 	{--Entry Number: {4}
@@ -25,13 +25,13 @@ deserialize ("Layer",
 
 	{--Entry Number: {5}
 		["rotation"]={6},
-		["type"]="PropCube",
-		["name"]="Prop1",
+		["type"]="Sphere",
+		["name"]="skybox",
 		["position"]={7},
 		["scale"]={8},
 		["shaderName"]="shader",
 		["scripts"]={9},
-		["textureName"]="earth.png",
+		["textureName"]="space.png",
 	},
 
 	{--Entry Number: {6}
@@ -43,17 +43,16 @@ deserialize ("Layer",
 	{--Entry Number: {7}
 		["y"]=0,
 		["x"]=0,
-		["z"]=-1000,
+		["z"]=0,
 	},
 
 	{--Entry Number: {8}
-		["y"]=500,
-		["x"]=500,
-		["z"]=500,
+		["y"]=20000,
+		["x"]=20000,
+		["z"]=20000,
 	},
 
 	{--Entry Number: {9}
-		[1]="PropMovement.lua",
+		[1]="skybox.lua",
 	},
 })
-
