@@ -32,7 +32,7 @@ function SceneManager.onGameInitialized(payload)
 
 	-- some variables
 	require("GameVariables"):set("Timer", 20);
-    LayerManager:createLayerFromFile("skyBox.lua");
+  LayerManager:createLayerFromFile("skyBox.lua");
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");
 end
@@ -41,6 +41,8 @@ function SceneManager.onLayerFinishedTransition(layerName)
 	LayerManager:removeLayerByName(layerName);
 	print(layerName, "removed itself");
 	if layerName == "mainMenu.lua" then
+		LayerManager:removeAllLayers();
+		LayerManager:createLayerFromFile("skyBox.lua");
 		LayerManager:createLayerFromFile("gameLayer.lua");		
 		LayerManager:createLayerFromFile("gameHud.lua");
 	end

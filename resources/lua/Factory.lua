@@ -46,11 +46,24 @@ function MOAILayerCreator:create(properties)
 	local propContainer = Factory:create("PropContainer");
 
 	-- fill the prop container then insert into layer
+	--for k,v in pairs(properties.propContainer) do 
+	--	local newProp = Factory:create(v.type, v);
+	--	propContainer:insertPropPersistent(newProp);
+	--end
+	--newLayer:setPropContainer(propContainer);
+
+
+	newLayer:setPropContainer(propContainer);
 	for k,v in pairs(properties.propContainer) do 
 		local newProp = Factory:create(v.type, v);
-		propContainer:insertPropPersistent(newProp);
+		--propContainer:insertPropPersistent(newProp);
+		newLayer:insertPropPersistent(newProp);
 	end
-	newLayer:setPropContainer(propContainer);
+	
+
+
+
+
 
 	-- viewport
     local windowManager = require "WindowManager";

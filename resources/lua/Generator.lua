@@ -90,10 +90,10 @@ function gen:spawnPattern(x, y, z)
   properties.rotation = {x = 0, y = 0, z = 0}
   properties.shaderName = "shader";
   
-  if pattern >= 0 then
-    return gen:patternRow(properties);
-  else
+  if pattern >= 5 then
     return gen:patternOsc(properties);
+  else
+    return gen:patternRow(properties);
   end
 end
 
@@ -116,14 +116,17 @@ end
 
 function gen:patternOsc(properties)
   local objTable = {};
-  table.insert(properties.scripts, "oscillate.lua");
+  table.insert(properties.scripts, "oscillate.lua");  
   for i = 1, 5 do
+    properties.rotation.z = math.random(0,359);
     local obj = math.random(0, 10);
     if obj >= 5 then
       table.insert(objTable, gen:spawnTorus(properties));
     else
       table.insert(objTable, gen:spawnSphere(properties));
     end    
+    properties.position.x = properties.position.x + NormalRnd(- 10, 10);
+    properties.position.y = properties.position.y + NormalRnd(- 10, 10);
     properties.position.z = properties.position.z - 500;
   end
   return objTable;

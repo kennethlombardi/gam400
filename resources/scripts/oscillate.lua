@@ -1,14 +1,15 @@
 local Script = {
 	name = "oscillate.lua",
 };
-
+local t = 0;
 function Script.update(object, dt)    
+  local originalRot = object:getRot();
   local originalPos = object:getLoc();
   local rndAngle = math.random(0, 359);
-  local t = 0;
+  
   local radtodeg = 3.14/180;
-  t = t + 10*dt;
-  object:setLoc(originalPos.x + 10*math.cos(rndAngle)*math.cos(t*radtodeg) , originalPos.y + 10*math.cos(rndAngle)*math.cos(t*radtodeg), originalPos.z);             
+  t = t + 5*dt;
+  object:setLoc(100*math.cos(t*radtodeg)*math.cos(originalRot.z),  100*math.cos(t*radtodeg)*math.sin(originalRot.z), originalPos.z);             
 end
 
 return Script;
