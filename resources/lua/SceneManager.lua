@@ -30,7 +30,7 @@ function SceneManager.onGameInitialized(payload)
 	require("SoundManager"):play("mono16.wav", false);
 
 	-- some variables
-	require("GameVariables"):set("Timer", 1);
+	require("GameVariables"):set("Timer", 20);
 
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");

@@ -7,17 +7,35 @@ local xRot = 0;
 local yRot = 0;
 local LayerManager = require("LayerManager");
 local spawnTimer = 0;
-
+local spawnTimer2 = 0;
 function Script.update(object, dt)
     spawnTimer = spawnTimer + dt;
-    if spawnTimer > 1 then    
+    spawnTimer2 = spawnTimer2 + 2*dt;
+    local position = object:getLoc();
+    
+    if spawnTimer > 1 then   
+      if math.random(0, 10) > 1 then
+        spawnTimer = -5;
+        local newprops = require("Generator"):spawnPattern(nil, nil, position.z - 1500);  
+        for i = 1, #newprops do
+          object:insertPropPersistent(newprops[i]);
+          object:insertProp(newprops[i]);
+        end
+      else     
         spawnTimer = 0;
-        local newprop = require("Generator"):spawnObject(0,0);  
+        local newprop = require("Generator"):spawnObject(nil, nil, position.z - 1500);  
         object:insertPropPersistent(newprop);
         object:insertProp(newprop);
+      end
     end
     
-	local position = object:getLoc();  
+    if spawnTimer2 > 1 then
+      spawnTimer2 = 0;    
+      local newprop = require("Generator"):spawnCube(position.z - 3000);  
+      object:insertPropPersistent(newprop);
+      object:insertProp(newprop);
+    end
+    
 	local step = 10;
   local InputManager = require("InputManager");
   local gameVariables = require("GameVariables");  
