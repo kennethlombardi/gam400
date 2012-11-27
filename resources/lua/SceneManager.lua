@@ -37,6 +37,44 @@ function SceneManager.onGameInitialized(payload)
 	LayerManager:createLayerFromFile("mainMenu.lua");
 end
 
+function SceneManager.onAddTimer(pos)
+	-- properties = {};
+  -- properties.scale = {x = 1000, y = 1000, z = 1000};
+  -- properties.position = {};
+  -- properties.position.x = pos.x;
+  -- properties.position.y = pos.y;
+  -- properties.position.z = pos.z;
+  -- properties.scripts = "timeToLive.lua";
+  -- properties.type = "TextBox";
+  -- properties.name = "TextBox";    
+  -- properties.string = "+1";
+  -- properties.textSize = 24;
+  -- properties.shaderName = "none";
+  -- properties.rectangle = {x2 = 300, y2 = 100, x1 = 0, y1 = 0};
+  -- local newprop = require("Factory"):create("TextBox", properties); 
+  -- LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+  -- LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+end
+
+function SceneManager.onSubTimer(pos)
+	-- properties = {};
+  -- properties.scale = {x = 1000, y = 1000, z = 1000};
+  -- properties.position = {};
+  -- properties.position.x = pos.x;
+  -- properties.position.y = pos.y;
+  -- properties.position.z = pos.z;
+  -- properties.scripts = "timeToLive.lua";
+  -- properties.type = "TextBox";
+  -- properties.name = "TextBox";    
+  -- properties.string = "-1";
+  -- properties.textSize = 24;
+  -- properties.shaderName = "none";
+  -- properties.rectangle = {x2 = 300, y2 = 100, x1 = 0, y1 = 0};
+  -- local newprop = require("Factory"):create("TextBox", properties); 
+  -- LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+  -- LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+end
+
 function SceneManager.onLayerFinishedTransition(layerName)
 	LayerManager:removeLayerByName(layerName);
 	print(layerName, "removed itself");
@@ -84,6 +122,8 @@ MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
 MessageManager:listen("CLICKED_RETRY_BUTTON", SceneManager.onClickedRetryButton);
 MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedTransition);
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);
+MessageManager:listen("ADD_TIMER", SceneManager.onAddTimer);
+MessageManager:listen("SUB_TIMER", SceneManager.onSubTimer);
 MessageManager:listen("TEST", SceneManager.test);
 
 return SceneManager
