@@ -78,7 +78,7 @@ function NormalRnd(minVal, maxVal, count)
 end;
 
 function gen:spawnPattern(x, y, z)
-  local pattern = math.random(0, 10);
+  local pattern = math.random(1, 3);
   
   properties = {};
   properties.scale = {x = 15, y = 15, z = 15};
@@ -90,9 +90,11 @@ function gen:spawnPattern(x, y, z)
   properties.rotation = {x = 0, y = 0, z = 0}
   properties.shaderName = "shader";
   
-  if pattern >= 5 then
+  if pattern == 1 then
+    return gen:patternSpn(properties);
+  elseif pattern == 2 then
     return gen:patternOsc(properties);
-  else
+  elseif pattern == 3 then
     return gen:patternRow(properties);
   end
 end
@@ -127,6 +129,23 @@ function gen:patternOsc(properties)
     end    
     properties.position.x = properties.position.x + NormalRnd(- 10, 10);
     properties.position.y = properties.position.y + NormalRnd(- 10, 10);
+    properties.position.z = properties.position.z - 500;
+  end
+  return objTable;
+end
+
+function gen:patternSpn(properties)
+  local objTable = {};
+  table.insert(properties.scripts, "spin.lua");  
+  local rndAngle = math.random(0,359);
+  for i = 1, 5 do          
+    local obj = math.random(0, 10);
+    if obj >= 5 then
+      table.insert(objTable, gen:spawnTorus(properties));
+    else
+      table.insert(objTable, gen:spawnSphere(properties));
+    end        
+    properties.rotation.z = properties.rotation.z + 50; 
     properties.position.z = properties.position.z - 500;
   end
   return objTable;

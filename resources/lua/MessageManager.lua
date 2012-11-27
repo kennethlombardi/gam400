@@ -48,6 +48,8 @@ MessageManager:register("CLICKED_PLAY_BUTTON");
 MessageManager:register("CLICKED_RETRY_BUTTON");
 MessageManager:register("LAYER_FINISHED_TRANSITION");
 MessageManager:register("RAN_OUT_OF_TIME");
+MessageManager:register("ADD_TIMER");
+MessageManager:register("SUB_TIMER");
 MessageManager:register("TEST");
 
 

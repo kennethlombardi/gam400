@@ -10,7 +10,7 @@ local spawnTimer = 0;
 local spawnTimer2 = 0;
 function Script.update(object, dt)
     spawnTimer = spawnTimer + dt;
-    spawnTimer2 = spawnTimer2 + 2*dt;
+    spawnTimer2 = spawnTimer2 + dt;
     local position = object:getLoc();
     
     if spawnTimer > 1 then   
@@ -29,7 +29,7 @@ function Script.update(object, dt)
       end
     end
     
-    if spawnTimer2 > 1 then
+    if spawnTimer2 > .3 then
       spawnTimer2 = 0;    
       local newprop = require("Generator"):spawnCube(position.z - 3000);  
       object:insertPropPersistent(newprop);

@@ -55,7 +55,7 @@ deserialize ("Layer",
 		["scale"]={18},
 		["shaderName"]="shader",
 		["scripts"]={19},
-		["textureName"]="earthWrap.png",
+		["textureName"]="rock.png",
 	},
 
 	{--Entry Number: {8}
