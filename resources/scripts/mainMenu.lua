@@ -13,6 +13,7 @@ function Script.update(object, dt)
 			for k,v in pairs(objects) do
 				if type(v) ~= "number" then
 					if v.name == "playButton" then
+						--v:destroy();
 						require("MessageManager"):send("CLICKED_PLAY_BUTTON");
 					end
 				end

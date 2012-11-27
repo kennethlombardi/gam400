@@ -156,7 +156,7 @@ function MOAIScriptHandler:load(fileName)
 	else
 		-- script is a do nothing anonymous function
 		script = {update = function() end, name = "AnonymousScript"};
-		print("Script is an anonymous do nothing");
+		print("Script", fileName, "was replaced with an anonymous do nothing");
 	end
 	return script;
 end

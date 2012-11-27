@@ -47,7 +47,7 @@ end
 function MOAILayerPrototype:setOnDestroyCallback(prop)
 	local this = self;
 	local callback = function()
-						this:removeProp(prop);
+						this:removePropPersistent(prop);
 						print("Prop destroyed itself from layer", this:getName())
 					 end
 	prop.destroy = callback;
