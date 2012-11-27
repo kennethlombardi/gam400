@@ -13,17 +13,17 @@ width = 1280;
 height = 720;
 objectCount = 1;
 for i = 1, objectCount do
-	position = {x = 0, y = 0, z = -1000};
-	scale = {x = 500, y = 500, z = 500};
+	position = {x = 0, y = 0, z = 0};
+	scale = {x = 20000, y = 20000, z = 20000};
 
 	prop = {
-		type = "PropCube",
-		name = "Prop"..i,
+		type = "Sphere",
+		name = "skybox"..i,
 		position = position,
 		scale = scale,
-		scripts = {"PropMovement.lua"},
+		scripts = {"skybox.lua"},
 		shaderName = "shader",
-		textureName = "earth.png",
+		textureName = "space.png",
 		rotation = {x = 0, y = 0, z = 0},
 	}
 	table.insert(layer1.propContainer, prop);

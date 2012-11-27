@@ -37,6 +37,7 @@ function Script.update(object, dt)
   diff.y = objectPos.y - playerPosition.y;
     
   if diff.z > 30 then  --past object
+    object:destroy();
     --need to register message with layer to delete object, would be better
     --require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removeProp(object);
     --require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removePropPersistent(object);		         

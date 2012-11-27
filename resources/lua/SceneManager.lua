@@ -32,10 +32,9 @@ function SceneManager.onGameInitialized(payload)
 
 	-- some variables
 	require("GameVariables"):set("Timer", 20);
-
+  LayerManager:createLayerFromFile("skyBox.lua");
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");
-			LayerManager:createLayerFromFile("skyBox.lua");
 end
 
 function SceneManager.onLayerFinishedTransition(layerName)
