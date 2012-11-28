@@ -1,8 +1,6 @@
 local Mouse = {};
-Mouse.windowX = 0;
-Mouse.windowY = 0;
-Mouse.worldX = 0;
-Mouse.worldY = 0;
+Mouse.window = {x = 0, y = 0};
+Mouse.world = {x = 0, y = 0};
 Mouse.velX = 0;
 Mouse.velY = 0;
 Mouse.key = {};
@@ -56,16 +54,17 @@ function Mouse:update(dt)
 		end
 		Mouse.key[i][1] = false;	
 	end	
+  Mouse:setWorldPos();
 end
 
 
 MOAIInputMgr.device.pointer:setCallback(
 	function()		
-		local lastX = Mouse.windowX;
-		local lastY = Mouse.windowY;	
-		Mouse.windowX, Mouse.windowY = MOAIInputMgr.device.pointer:getLoc();
-		Mouse.velX = Mouse.windowX - lastX;
-		Mouse.velY = Mouse.windowY - lastY;
+		local lastX = Mouse.window.x;
+		local lastY = Mouse.window.y;	
+		Mouse.window.x, Mouse.window.y = MOAIInputMgr.device.pointer:getLoc();
+		Mouse.velX = Mouse.window.x - lastX;
+		Mouse.velY = Mouse.window.y - lastY;
 	end
 )	
 
@@ -90,12 +89,19 @@ MOAIInputMgr.device.mouseRight:setCallback(
 	end
 )
 
---local function Update(layer)
-	
-	--Mouse.worldX, Mouse.worldY = layer:wndToWorld(Mouse.windowX, Mouse.windowY);	
-	--camera:setLoc(500,5,1280);
-	--camera:setRot((Mouse.windowY-360)/50, (Mouse.windowX-640)/50, 0);
---end
+function Mouse:setWorldPos()  
+  Mouse.world.x = Mouse.window.x - require("WindowManager").screenWidth/2;  
+  Mouse.world.y = (Mouse.window.y * (-1)) + require("WindowManager").screenHeight/2;
+  local epsilon = 30;
+  if math.abs(Mouse.world.x) < epsilon then
+    Mouse.world.x = 0;
+  end
+  if math.abs(Mouse.world.y) < epsilon then
+    Mouse.world.y = 0;
+  end
+  Mouse.world.x = Mouse.world.x / 640;
+  Mouse.world.y = Mouse.world.y / 360;
+end
 
 
 return Mouse;

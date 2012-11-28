@@ -15,7 +15,8 @@ function Script.update(object, dt)
         return;
 	end
 	object:setText(string.format('Time Remaining: %d', gameVariables:get("Timer")));  
-
+  -- local Input = require("InputManager")
+  -- object:setText(string.format('x = %f y = %f z = %f', Input.Android.diffAccel.x, Input.Android.diffAccel.y, Input.Android.diffAccel.z));
 end
 
 return Script;

@@ -7,8 +7,9 @@ function Script.update(object, dt)
   object:setLoc(objectPos.x, objectPos.y, objectPos.z);  
   local playPos = require("GameVariables"):get("Position");
   if math.abs(objectPos.z - playPos.z) >= 2000 then
+    object:clearAllScripts();
     object:destroy();
-    require("GameVariables"):add("Timer", -1); 
+    require("GameVariables"):add("Timer", -5); 
     require("MessageManager"):send("SUB_TIMER", objectPos);
     --play explosion, show -1
   end    
