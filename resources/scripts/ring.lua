@@ -23,6 +23,7 @@ function Script.update(object, dt)
     local distSqrd = diff.x * diff.x + diff.y * diff.y + diff.z * diff.z;
     local objectRadius = 200;
     if distSqrd < objectRadius then        --collided
+      --require("GameVariables"):add("Timer", 2); 
       object:replaceAllScripts(require("Factory"):createFromFile("Script", "flyForwardExplodeP.lua"));
       --object:moveLoc(0, 0, -5000, 1, nil);   
       --object:setLoc(objectPos.x, objectPos.y, objectPos.z + 200);

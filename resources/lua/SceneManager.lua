@@ -38,41 +38,43 @@ function SceneManager.onGameInitialized(payload)
 end
 
 function SceneManager.onAddTimer(pos)
-	-- properties = {};
-  -- properties.scale = {x = 1000, y = 1000, z = 1000};
-  -- properties.position = {};
-  -- properties.position.x = pos.x;
-  -- properties.position.y = pos.y;
-  -- properties.position.z = pos.z;
-  -- properties.scripts = "timeToLive.lua";
-  -- properties.type = "TextBox";
-  -- properties.name = "TextBox";    
-  -- properties.string = "+1";
-  -- properties.textSize = 24;
-  -- properties.shaderName = "none";
-  -- properties.rectangle = {x2 = 300, y2 = 100, x1 = 0, y1 = 0};
-  -- local newprop = require("Factory"):create("TextBox", properties); 
-  -- LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
-  -- LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+  properties = {};
+  properties.scale = {x = 3000, y = 3000, z = 3000};
+  properties.position = {};
+  properties.position.x = pos.x;
+  properties.position.y = pos.y;
+  properties.position.z = pos.z;
+  properties.scripts = {"timeToLive.lua"};
+  properties.type = "TextBox";
+  properties.name = "TextBox";    
+  properties.string = "<c:00FF00>+2";
+  properties.textSize = 48;
+  properties.shaderName = "none";
+  properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
+  local newprop = require("Factory"):create("TextBox", properties); 
+  
+  LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+  LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 
 function SceneManager.onSubTimer(pos)
-	-- properties = {};
-  -- properties.scale = {x = 1000, y = 1000, z = 1000};
-  -- properties.position = {};
-  -- properties.position.x = pos.x;
-  -- properties.position.y = pos.y;
-  -- properties.position.z = pos.z;
-  -- properties.scripts = "timeToLive.lua";
-  -- properties.type = "TextBox";
-  -- properties.name = "TextBox";    
-  -- properties.string = "-1";
-  -- properties.textSize = 24;
-  -- properties.shaderName = "none";
-  -- properties.rectangle = {x2 = 300, y2 = 100, x1 = 0, y1 = 0};
-  -- local newprop = require("Factory"):create("TextBox", properties); 
-  -- LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
-  -- LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+	properties = {};
+  properties.scale = {x = 3000, y = 3000, z = 3000};
+  properties.position = {};
+  properties.position.x = pos.x;
+  properties.position.y = pos.y;
+  properties.position.z = pos.z;
+  properties.scripts = {"timeToLive.lua"};
+  properties.type = "TextBox";
+  properties.name = "TextBox";    
+  properties.string = "<c:FF0000>-5";
+  properties.textSize = 48;
+  properties.shaderName = "none";
+  properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
+  local newprop = require("Factory"):create("TextBox", properties); 
+  
+  LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+  LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 
 function SceneManager.onLayerFinishedTransition(layerName)

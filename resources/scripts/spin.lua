@@ -7,7 +7,7 @@ function Script.update(object, dt)
   local originalPos = object:getLoc();
   
   local radtodeg = 3.14/180;
-  t = t + dt;
+  t = t + 3*dt;
   object:setLoc(originalRot.z*math.cos(t*radtodeg),  originalRot.z*math.sin(t*radtodeg), originalPos.z);             
 end
 

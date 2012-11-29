@@ -4,7 +4,9 @@ local Script = {
 
 function Script.update(object, dt)  
   local objectScl = object:getScl();
-  object:setScl(objectScl.x*.8, objectScl.y*.8, objectScl.z*.8);
+  local objectLoc = object:getLoc();
+  object:setScl(objectScl.x*.95, objectScl.y*.95, objectScl.z*.95);
+  object:setLoc(objectLoc.x, objectLoc.y + 30*dt, objectLoc.z);
   if objectScl.x < 10 then
     object:destroy();
     object:clearAllScripts();
