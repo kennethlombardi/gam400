@@ -69,7 +69,7 @@ function Script.update(object, dt)
     newPos.y = -limit;
   end
 
-  rotLimit = scale/2;
+  rotLimit = scale;
   if xRot > rotLimit then
     xRot = rotLimit;
   elseif xRot < -rotLimit then

@@ -48,7 +48,7 @@ function gen:spawnTorus(properties)
   properties.scale.y = 3;  
   properties.rotation.x = 90;  
   table.insert(properties.scripts,"ring.lua");  
-  properties.textureName = "pinkSquare.png";
+  properties.textureName = "goldSquare.png";
   local newprop = require("Factory"):create("Torus", properties); 
   gen.spawned = gen.spawned + 1;
   return newprop;
