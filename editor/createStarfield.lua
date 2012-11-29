@@ -17,8 +17,8 @@ for i = 1, objectCount do
 	scale = {x = 3, y = 3, z = 3};
   local randx = math.random(600, 800);
   position.z = -1000
-  local angle = (1, 360);
-  poisition.x = randx * math.cos(angle);
+  local angle = math.random(1, 360);
+  position.x = randx * math.cos(angle);
   position.y = randx * math.sin(angle);
 	prop = {
 		type = "PropCube",
