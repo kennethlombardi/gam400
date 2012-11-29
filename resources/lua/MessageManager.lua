@@ -44,6 +44,7 @@ function MessageManager:update(dt)
 end
 
 MessageManager:register("GAME_INITIALIZED");
+MessageManager:register("START_GAME");
 MessageManager:register("CLICKED_PLAY_BUTTON");
 MessageManager:register("CLICKED_RETRY_BUTTON");
 MessageManager:register("LAYER_FINISHED_TRANSITION");
