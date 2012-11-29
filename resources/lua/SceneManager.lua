@@ -89,7 +89,7 @@ function SceneManager.onLayerFinishedTransition(layerName)
 	if layerName == "outOfTime.lua" then
 		LayerManager:removeAllLayers();
 		LayerManager:createLayerFromFile("results.lua");
-		local currentScore = UserDataManager:get("currentScore");
+		local currentScore = require("GameVariables"):get("Distance");
 		local highScore = UserDataManager:get("highScore");
 		if currentScore > highScore then
 			UserDataManager:set("highScore", currentScore);
@@ -125,6 +125,7 @@ MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedT
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);
 MessageManager:listen("ADD_TIMER", SceneManager.onAddTimer);
 MessageManager:listen("SUB_TIMER", SceneManager.onSubTimer);
+MessageManager:listen("SHAKE_SCREEN", SceneManager.onShakeScreen);
 MessageManager:listen("TEST", SceneManager.test);
 
 return SceneManager

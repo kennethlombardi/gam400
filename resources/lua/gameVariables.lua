@@ -27,7 +27,6 @@ GameVariables:register("Timer", 0);
 GameVariables:register("Position", {x=0, y=0, z=0});
 GameVariables:register("LastPosition", {x=0, y=0, z=0});
 GameVariables:register("Speed", 0);
-GameVariables:register("Score", 0);
 GameVariables:register("HighScore", 0);
 GameVariables:register("Distance", 0);
 GameVariables:register("Layer", 0);	

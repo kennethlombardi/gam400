@@ -166,17 +166,14 @@ end
 
 function MOAILayerPrototype:update(dt)
 	Input = require("InputManager");
-	if Input.Mouse then
-		local x = Input.Mouse.windowX;
-		local y = Input.Mouse.windowY;
-		if Input.Mouse:isKeyPressed(0) then
-			local objects = self:pickForRay(x, y);
-			for k,v in pairs(objects) do
-				if type(v) ~= "number" then
-					--v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
-				end
-			end
-		end
+  local pos = Input:getWindowPos();  
+  if Input:isPressed() then
+    local objects = self:pickForRay(pos.x, pos.y);
+    for k,v in pairs(objects) do
+      if type(v) ~= "number" then
+        --v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
+      end
+    end
 	end
 
 	self:baseUpdate(dt);

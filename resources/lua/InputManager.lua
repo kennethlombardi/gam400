@@ -2,8 +2,8 @@ local Input = {};
 Input.Mouse = nil;
 Input.Keyboard = nil;
 Input.Android = nil;
-Key = {};
 
+Key = {};
 Key["backspace"] = 8;
 --Key["tab"] = 9;
 --Key["enter"] = 13;
@@ -116,6 +116,45 @@ end
 
 if MOAIInputMgr.device.touch then
 	Input.Android = require "AndroidInput";		
+end
+-- MOUSE ANDROID COMBINE
+function Input:isPressed()
+  return Input:isButtonPressed(0) or Input:isScreenPressed(0);
+end
+
+function Input:isReleased()
+  return Input:isButtonReleased(0) or Input:isScreenReleased(0);
+end
+
+function Input:isTriggered()
+  return Input:isButtonTriggered(0) or Input:isScreenTriggered(0);
+end
+
+function Input:getWindowPos()
+  if Input.Android then
+    return Input.Android.window;
+  elseif Input.Mouse then
+    return Input.Mouse.window;  
+  end
+end
+
+function NormalizeVec(v)  
+  local mag = v.x * v.x + v.y * v.y;
+  mag = math.sqrt(mag);
+  local newv = {x = 0, y = 0};
+  if mag > .005 then  
+    newv.x = v.x / mag;
+    newv.y = v.y / mag;
+  end
+  return newv;
+end
+
+function Input:getMove()
+  if Input.Android then
+    return Input.Android.diffAccel;
+  elseif Input.Mouse then
+    return Input.Mouse.world;
+  end
 end
 
 function Input:update(dt)

@@ -2,10 +2,10 @@ local Script = {
 	name = "yourScoreTextUpdate.lua",
 };
 
-userData = require("UserDataManager");
+gameVariables = require("GameVariables");
 
 function Script.update(prop, dt)
-    prop:setText(string.format('Your Score: %d', userData:get("currentScore")));
+    prop:setText(string.format('Your Score: %d', gameVariables:get("Distance")));
 end
 
 return Script;

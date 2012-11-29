@@ -64,6 +64,16 @@ function Android:update(dt)
 	Android.diffAccel.x = Android.accel.x - Android.baseAccel.x;
 	Android.diffAccel.y = Android.accel.y - Android.baseAccel.y;
 	Android.diffAccel.z = Android.accel.z - Android.baseAccel.z;
+  local epsilon = .0001;
+  if math.abs(Android.diffAccel.x) <= epsilon then
+    Android.diffAccel.x = 0;
+  end
+  if math.abs(Android.diffAccel.y) <= epsilon then
+    Android.diffAccel.y = 0;    
+  end
+  if math.abs(Android.diffAccel.z) <= epsilon then
+    Android.diffAccel.z = 0;
+  end
 end
 
 function Android:reCal() --recalibrate
@@ -96,8 +106,8 @@ MOAIInputMgr.device.touch:setCallback (
 
  MOAIInputMgr.device.level:setCallback(  --gyro
 	function(x, y, z)
-	  Android.accel.x = x;
-	  Android.accel.y = y;
+	  Android.accel.x = y;
+	  Android.accel.y = -x;
 	  Android.accel.z = z;
 	end
 )

@@ -4,7 +4,7 @@ local Script = {
 
 local t = 0;
 function Script.update(object, dt)  
-  object:setText(string.format('Score: %d', require("UserDataManager"):get("currentScore")));  
+  object:setText(string.format('Distance: %d', require("GameVariables"):get("Distance")));  
 end
 
 return Script;
