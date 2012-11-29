@@ -11,19 +11,23 @@ layer1 = {
 
 width = 1280;
 height = 720;
-objectCount = 3;
+objectCount = 10;
 for i = 1, objectCount do
-	position = {x = math.random(-300, 300), y = math.random(-300, 300), z = -1000};
-	scale = {x = 10, y = 10, z = 10};
-
+	position = {};
+	scale = {x = 3, y = 3, z = 3};
+  local randx = math.random(600, 800);
+  position.z = -1000
+  local angle = (1, 360);
+  poisition.x = randx * math.cos(angle);
+  position.y = randx * math.sin(angle);
 	prop = {
 		type = "PropCube",
 		name = "Prop"..i,
 		position = position,
 		scale = scale,
-		scripts = {"PropMovement.lua"},
+		scripts = {"speedline.lua"},
 		shaderName = "shader",
-		textureName = "rock.png",
+		textureName = "whiteSquare.png",
 		rotation = {x = 0, y = 0, z = 0},
 	}
 	table.insert(layer1.propContainer, prop);

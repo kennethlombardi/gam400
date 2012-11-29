@@ -8,13 +8,13 @@ function Script.update(object, dt)
   local scale = 5;
   local limit = 5000;
   if Input:isPressed() then
-    if objectScl.y < limit then
-      object:setScl(objectScl.x, objectScl.y *1.2, objectScl.z);
+    if objectScl.z < limit then
+      object:setScl(objectScl.x, objectScl.y, objectScl.z*1.2);
       object:setLoc(objectPos.x, objectPos.y, objectPos.z - dt);
     end
   else
-    if objectScl.y > scale then
-      object:setScl(objectScl.x, objectScl.y*.8, objectScl.z);
+    if objectScl.z > scale then
+      object:setScl(objectScl.x, objectScl.y, objectScl.z*.8);
     end
   end
   -- do a check to delete once they are flown by
@@ -26,7 +26,7 @@ function Script.update(object, dt)
     
   if diff.z > 30 then  --past object
     object:destroy();
-    object:clearAllScripts();
+    object:clearAllScripts();    
     --need to register message with layer to delete object, would be better
     --require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removeProp(object);
     --require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removePropPersistent(object);		         

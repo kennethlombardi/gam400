@@ -80,9 +80,10 @@ function SceneManager.onLayerFinishedTransition(layerName)
 	print(layerName, "removed itself");
 	if layerName == "mainMenu.lua" then
 		LayerManager:removeAllLayers();
+
 		LayerManager:createLayerFromFile("skyBox.lua");
-		LayerManager:createLayerFromFile("gameLayer.lua");		
-		LayerManager:createLayerFromFile("gameHud.lua");
+		LayerManager:createLayerFromFile("gameLayer.lua");	
+		LayerManager:createLayerFromFile("gameHud.lua");	
 	end
 
 	if layerName == "outOfTime.lua" then

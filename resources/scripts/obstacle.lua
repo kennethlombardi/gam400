@@ -14,7 +14,8 @@ function Script.update(object, dt)
   if diff.z > -20 then --getting closer to object, let's go ahead and start checking collision
     --!!!!!!!!!!!!!!!!!!!!!!ONCE POSITION IS FIXED WITH MOVELOC, PUT THIS BACK IN----------------------------------
      if diff.z > 30 then --past object
-      object:destroy();      
+      object:destroy(); 
+      object:clearAllScripts();
       return;
      end
     local distSqrd = diff.x * diff.x + diff.y * diff.y + diff.z * diff.z;

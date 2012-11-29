@@ -35,8 +35,6 @@ function gen:spawnCube(z) --speed lines
   
   properties.type = "PropCube";
   properties.name = "PropCube"..(gen.spawned);    
-  properties.scale.y = 3;  
-  properties.rotation.x = 90;  
   table.insert(properties.scripts, "speedline.lua");
   properties.textureName = "whiteSquare.png";
   local newprop = require("Factory"):create("PropCube", properties); 

@@ -15,6 +15,7 @@ function Script.update(object, dt)
     --!!!!!!!!!!!!!!!!!!!!!!ONCE POSITION IS FIXED WITH MOVELOC, PUT THIS BACK IN----------------------------------
      if diff.z > 30 then --past object
       object:destroy();
+      object:clearAllScripts();
       -- require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removeProp(object);
       -- require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removePropPersistent(object);		         
       return;

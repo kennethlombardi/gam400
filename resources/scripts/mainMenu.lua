@@ -3,7 +3,7 @@ local Script = {
 };
 
 function Script.update(object, dt)
-	Input = require("InputManager");	
+  Input = require("InputManager");	
   local pos = Input:getWindowPos();  
   if Input:isPressed() then
     local objects = object:pickForPoint(pos.x, pos.y);
