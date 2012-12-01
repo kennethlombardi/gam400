@@ -8,6 +8,7 @@ local yRot = 0;
 local LayerManager = require("LayerManager");
 local lastZSpawn = 0;
 local spawnTimer2 = 0;
+local shakeTimer = 0;
 function Script.update(object, dt)
     
   spawnTimer2 = spawnTimer2 + dt;
@@ -15,33 +16,40 @@ function Script.update(object, dt)
   
   if math.abs(lastZSpawn - position.z) > 5000 then
     lastZSpawn = 0
+    shakeTimer = 0;
   end
   
   if lastZSpawn - position.z > 500 then   
     if math.random(0, 10) > 1 then
-      lastZSpawn = position.z -2500;
-      local newprops = require("Generator"):spawnPattern(nil, nil, position.z - 1500);  
+      lastZSpawn = position.z -2000;
+      local newprops = require("Generator"):spawnPattern(nil, nil, position.z - 3500);  
       for i = 1, #newprops do
         object:insertPropPersistent(newprops[i]);
         object:insertProp(newprops[i]);
       end
     else     
-      lastZSpawn = position.z - 1500;
-      local newprop = require("Generator"):spawnObject(nil, nil, position.z - 1500);  
+      lastZSpawn = position.z - 1000;
+      local newprop = require("Generator"):spawnObject(nil, nil, position.z - 3500);  
       object:insertPropPersistent(newprop);
       object:insertProp(newprop);
     end
   end
   
-  if spawnTimer2 > .3 then
+  if spawnTimer2 > .2 then
     spawnTimer2 = 0;    
-    local newprop = require("Generator"):spawnCube(position.z - 3000);  
+    local newprop = require("Generator"):spawnCube(position.z - 5000);  
     object:insertPropPersistent(newprop);
     object:insertProp(newprop);
   end
   
   local InputManager = require("InputManager");
   local gameVariables = require("GameVariables");    
+  
+  if gameVariables:get("ShakeCamera") then
+    shakeTimer = 3.141592654;
+    gameVariables:set("ShakeCamera", false);
+  end
+  
   if InputManager.Android then
     if InputManager:isScreenTriggered(1) then
       InputManager:reCal();
@@ -55,7 +63,13 @@ function Script.update(object, dt)
   local limit = 500;
   scale = 10;
   yRot = yRot - move.x*scale*dt;
-  xRot = xRot + move.y*scale*dt;
+  xRot = xRot + move.y*scale*dt;  
+  if shakeTimer > 0 then
+    zRot = 3*math.cos(shakeTimer*180/3.14152654)
+    shakeTimer = shakeTimer - 5*dt;
+  else
+    zRot = 0;
+  end
   
   if newPos.x > limit then
     newPos.x = limit;
@@ -95,8 +109,8 @@ function Script.update(object, dt)
     end
     
   end
-  newPos.z = newPos.z - 5*zPressed;
-  object:setRot(xRot, yRot, 0);
+  newPos.z = newPos.z - 10*zPressed;
+  object:setRot(xRot, yRot, zRot);
   object:setLoc(newPos.x, newPos.y, newPos.z);
   gameVariables:set("Position", newPos);
   gameVariables:set("Distance", -newPos.z); 

@@ -12,7 +12,6 @@ deserialize ("Layer",
 	{--Entry Number: {2}
 		[1]={5},
 		[2]={6},
-		[3]={7},
 	},
 
 	{--Entry Number: {3}
@@ -26,101 +25,68 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {5}
-		["rotation"]={8},
-		["type"]="Sphere",
-		["name"]="mars",
-		["position"]={9},
-		["scale"]={10},
-		["shaderName"]="shader",
-		["scripts"]={11},
-		["textureName"]="marsWrap.png",
-	},
-
-	{--Entry Number: {6}
-		["rotation"]={12},
+		["rotation"]={7},
 		["type"]="Sphere",
 		["name"]="earth",
-		["position"]={13},
-		["scale"]={14},
+		["position"]={8},
+		["scale"]={9},
 		["shaderName"]="shader",
-		["scripts"]={15},
+		["scripts"]={10},
 		["textureName"]="earthWrap.png",
 	},
 
-	{--Entry Number: {7}
-		["rotation"]={16},
+	{--Entry Number: {6}
+		["rotation"]={11},
 		["type"]="Sphere",
 		["name"]="rock",
-		["position"]={17},
-		["scale"]={18},
+		["position"]={12},
+		["scale"]={13},
 		["shaderName"]="shader",
-		["scripts"]={19},
-		["textureName"]="rock.png",
+		["scripts"]={14},
+		["textureName"]="marsWrap.png",
 	},
 
-	{--Entry Number: {8}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
-	},
-
-	{--Entry Number: {9}
-		["y"]=0,
-		["x"]=0,
-		["z"]=-5000,
-	},
-
-	{--Entry Number: {10}
-		["y"]=1000,
-		["x"]=1000,
-		["z"]=1000,
-	},
-
-	{--Entry Number: {11}
-		[1]="earthSpinning.lua",
-	},
-
-	{--Entry Number: {12}
+	{--Entry Number: {7}
 		["y"]=0,
 		["x"]=0,
 		["z"]=20,
 	},
 
-	{--Entry Number: {13}
+	{--Entry Number: {8}
 		["y"]=2000,
 		["x"]=3380,
 		["z"]=-8000,
 	},
 
-	{--Entry Number: {14}
+	{--Entry Number: {9}
 		["y"]=1000,
 		["x"]=1000,
 		["z"]=1000,
 	},
 
-	{--Entry Number: {15}
+	{--Entry Number: {10}
 		[1]="earthSpinning.lua",
 	},
 
-	{--Entry Number: {16}
+	{--Entry Number: {11}
 		["y"]=0,
 		["x"]=0,
 		["z"]=20,
 	},
 
-	{--Entry Number: {17}
+	{--Entry Number: {12}
 		["y"]=-1034,
 		["x"]=-3400,
 		["z"]=-9000,
 	},
 
-	{--Entry Number: {18}
+	{--Entry Number: {13}
 		["y"]=1000,
 		["x"]=1000,
 		["z"]=1000,
 	},
 
-	{--Entry Number: {19}
+	{--Entry Number: {14}
 		[1]="earthSpinning.lua",
 	},
 })

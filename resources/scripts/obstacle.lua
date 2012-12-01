@@ -24,6 +24,7 @@ function Script.update(object, dt)
       --require("GameVariables"):add("Timer", -5); 
       require("SoundManager"):play("crash.wav", false);      
       object:replaceAllScripts(require("Factory"):createFromFile("Script", "flyForwardExplodeM.lua"));    
+      require("GameVariables"):set("ShakeCamera", true);
       -- object:moveLoc(0, 0, -5000, 1, nil);   
       -- object:setLoc(objectPos.x, objectPos.y, objectPos.z + 200);      
     end    

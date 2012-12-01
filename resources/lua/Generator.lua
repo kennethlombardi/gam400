@@ -100,7 +100,8 @@ end
 function gen:patternRow(properties)
   local objTable = {};
   
-  for i = 1, 5 do
+  for i = 1, 5 do    
+    properties.scripts = {};
     local obj = math.random(0, 10);
     if obj >= 5 then
       table.insert(objTable, gen:spawnTorus(properties));
@@ -116,8 +117,10 @@ end
 
 function gen:patternOsc(properties)
   local objTable = {};
-  table.insert(properties.scripts, "oscillate.lua");  
-  for i = 1, 5 do
+  
+  for i = 1, 5 do  
+    properties.scripts = {};
+    table.insert(properties.scripts, "oscillate.lua");  
     properties.rotation.z = math.random(0,359);
     local obj = math.random(0, 10);
     if obj >= 5 then
@@ -134,9 +137,11 @@ end
 
 function gen:patternSpn(properties)
   local objTable = {};
-  table.insert(properties.scripts, "spin.lua");  
+  
   local rndAngle = math.random(0,359);
   for i = 1, 5 do          
+    properties.scripts = {};
+    table.insert(properties.scripts, "spin.lua");  
     local obj = math.random(0, 10);
     if obj >= 5 then
       table.insert(objTable, gen:spawnTorus(properties));
