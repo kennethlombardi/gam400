@@ -24,10 +24,11 @@ function Script.update(object, dt)
     local objectRadius = 200;
     if distSqrd < objectRadius then        --collided
       --require("GameVariables"):add("Timer", 2); 
+      require("SoundManager"):play("chime.wav", false);      
       object:replaceAllScripts(require("Factory"):createFromFile("Script", "flyForwardExplodeP.lua"));
       --object:moveLoc(0, 0, -5000, 1, nil);   
       --object:setLoc(objectPos.x, objectPos.y, objectPos.z + 200);
-      --require("SoundManager"):play("mono16.wav", false);      
+      
     end
     --!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!ONCE POSITION IS FIXED WITH MOVELOC, PUT THIS BACK IN----------------------------------
   -- elseif diff.z < -3000 then            

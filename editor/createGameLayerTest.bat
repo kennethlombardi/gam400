@@ -7,7 +7,7 @@
 @echo off
 
 :: run moai
-"C:\cygwin\home\Kenneth\github\gam400\hosts\win32\moai" "%MOAI_CONFIG%\config.lua" "createGameLayerTest.lua"
-copy .\generated\gameLayerTest.lua C:\cygwin\home\Kenneth\github\gam400\resources\layers
+"..\hosts\win32\moai" "%MOAI_CONFIG%\config.lua" "createGameLayerTest.lua"
+copy .\generated\gameLayerTest.lua ..\resources\layers
 :end
 pause

@@ -7,7 +7,7 @@
 @echo off
 
 :: run moai
-"C:\cygwin\home\Kenneth\github\gam400\hosts\win32\moai" "%MOAI_CONFIG%\config.lua" "createMainMenu.lua"
-copy .\generated\mainMenu.lua C:\cygwin\home\Kenneth\github\gam400\resources\layers
+"..\hosts\win32\moai" "%MOAI_CONFIG%\config.lua" "createMainMenu.lua"
+copy .\generated\mainMenu.lua ..\resources\layers
 :end
 pause

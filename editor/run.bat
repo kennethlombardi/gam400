@@ -7,7 +7,7 @@
 @echo off
 
 :: run moai
-"C:\cygwin\home\Kenneth\github\gam400\hosts\win32\moai" "%MOAI_CONFIG%\config.lua" "main.lua"
-copy generated\pickleFile* C:\cygwin\home\Kenneth\github\gam400\resources\layers
+"..\hosts\win32\moai" "%MOAI_CONFIG%\config.lua" "main.lua"
+copy generated\pickleFile* ..\resources\layers
 :end
 pause

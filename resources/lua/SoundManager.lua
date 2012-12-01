@@ -65,8 +65,11 @@ function MOAIUntzCore:initialize()
 end
 
 function MOAIUntzCore:play(fileName, isLooping)
-	local sound = require("ResourceManager"):load("Sound", fileName);
+	local sound = require("ResourceManager"):load("Sound", fileName);	
 	sound:setVolume(1);
+	if isLooping then
+		sound:setVolume(.2);
+	end
 	sound:setLooping(isLooping);
 	sound:play();
 	table.insert(self.playing, sound);
