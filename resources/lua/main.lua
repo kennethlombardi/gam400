@@ -1,5 +1,5 @@
 -- window must exist before main thread can run
-require("WindowManager"):openWindow("Fall 2012");
+require("WindowManager"):openWindow("Spacecapade");
 
 -- create and run the game wloop thread
 mainThread = MOAIThread.new();

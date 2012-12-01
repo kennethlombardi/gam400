@@ -51,7 +51,7 @@ MessageManager:register("LAYER_FINISHED_TRANSITION");
 MessageManager:register("RAN_OUT_OF_TIME");
 MessageManager:register("ADD_TIMER");
 MessageManager:register("SUB_TIMER");
-MessageManager:register("SHAKE_SCREEN");
+MessageManager:register("CHECKPOINT");
 MessageManager:register("TEST");
 
 

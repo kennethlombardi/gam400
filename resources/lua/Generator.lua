@@ -26,7 +26,7 @@ function gen:spawnCube(z) --speed lines
   properties.position = {};
   local randx = math.random(600, 800);  
   properties.position.z = z;
-  local angle = math.random(1, 359);
+  local angle = math.random(1, 360);
   properties.position.x = randx * math.cos(angle);
   properties.position.y = randx * math.sin(angle);
   properties.scripts = {};

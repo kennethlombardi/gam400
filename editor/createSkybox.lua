@@ -12,9 +12,10 @@ layer1 = {
 width = 1280;
 height = 720;
 objectCount = 1;
+scale = 50000
 for i = 1, objectCount do
 	position = {x = 0, y = 0, z = 0};
-	scale = {x = 20000, y = 20000, z = 20000};
+	scale = {x = scale, y = scale, z = scale};
 
 	prop = {
 		type = "Sphere",

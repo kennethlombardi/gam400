@@ -75,12 +75,13 @@ function MOAILayerCreator:create(properties)
 
     -- camera
     local newCamera = MOAICamera.new();
+	newCamera:setFarPlane(25000);
 
     -- initialize the layer
     newLayer:setViewport(newViewport);
     newLayer:setCamera(newCamera);
     newLayer:setName(properties.name);
-    newLayer:setType(properties.type);
+    newLayer:setType(properties.type);	
     newLayer:setVisible(properties.visible == "true");
 	newLayer:setLoc(properties.position.x, properties.position.y, properties.position.z);--newCamera:getFocalLength(screenWidth)
 

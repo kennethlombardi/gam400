@@ -16,23 +16,46 @@ function SceneManager:update(dt)
 end
 
 function SceneManager.onAddTimer(pos)
-  properties = {};
-  properties.scale = {x = 3000, y = 3000, z = 3000};
-  properties.position = {};
-  properties.position.x = pos.x;
-  properties.position.y = pos.y;
-  properties.position.z = pos.z;
-  properties.scripts = {"timeToLive.lua"};
-  properties.type = "TextBox";
-  properties.name = "TextBox";    
-  properties.string = "<c:00FF00>+2";
-  properties.textSize = 48;
-  properties.shaderName = "none";
-  properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
-  local newprop = require("Factory"):create("TextBox", properties); 
-  
-  LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
-  LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+	properties = {};
+	properties.scale = {x = 3000, y = 3000, z = 3000};
+	properties.position = {};
+	properties.position.x = pos.x;
+	properties.position.y = pos.y;
+	properties.position.z = pos.z;
+	properties.scripts = {"timeToLive.lua"};
+	properties.type = "TextBox";
+	properties.name = "TextBox";    
+	properties.string = "<c:00FF00>+2";
+	properties.textSize = 48;
+	properties.shaderName = "none";
+	properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
+	local newprop = require("Factory"):create("TextBox", properties); 
+
+	LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+end
+
+function SceneManager.onCheckPoint(pos)
+	properties = {};
+	properties.scale = {x = 3000, y = 3000, z = 3000};
+	properties.position = {};
+	properties.position.x = pos.x;
+	properties.position.y = pos.y;
+	properties.position.z = pos.z-3000;
+	properties.scripts = {"timeToLive.lua"};
+	properties.type = "TextBox";
+	properties.name = "TextBox";    
+	checkpoint = "<c:FF0000>C<c:FF00DD>H<c:CC00FF>E<c:5500FF>C<c:00A0FF>K<c:00FFFF>P<c:00FF00>O<c:A0FF00>I<c:FFFF00>N<c:FFA000>T";  
+	distance = string.format('<c:FFFFFF>%d', -pos.z);
+	properties.string = string.format('%s\n%s',checkpoint, distance);
+	properties.textSize = 72;
+	properties.shaderName = "none";
+	properties.justification = "center_justify";
+	properties.rectangle = {x2 = 500, y2 = 0, x1 = -500, y1 = -300};
+	local newprop = require("Factory"):create("TextBox", properties); 
+
+	LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 
 function SceneManager.onClickedPlayButton(payload)
@@ -93,23 +116,23 @@ end
 
 
 function SceneManager.onSubTimer(pos)
-    properties = {};
-    properties.scale = {x = 3000, y = 3000, z = 3000};
-    properties.position = {};
-    properties.position.x = pos.x;
-    properties.position.y = pos.y;
-    properties.position.z = pos.z;
-    properties.scripts = {"timeToLive.lua"};
-    properties.type = "TextBox";
-    properties.name = "TextBox";    
-    properties.string = "<c:FF0000>-5";
-    properties.textSize = 48;
-    properties.shaderName = "none";
-    properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
-    local newprop = require("Factory"):create("TextBox", properties); 
+	properties = {};
+	properties.scale = {x = 3000, y = 3000, z = 3000};
+	properties.position = {};
+	properties.position.x = pos.x;
+	properties.position.y = pos.y;
+	properties.position.z = pos.z;
+	properties.scripts = {"timeToLive.lua"};
+	properties.type = "TextBox";
+	properties.name = "TextBox";    
+	properties.string = "<c:FF0000>-5";
+	properties.textSize = 48;
+	properties.shaderName = "none";
+	properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
+	local newprop = require("Factory"):create("TextBox", properties); 
 
-    LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
-    LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+	LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 
 function SceneManager.onStartGame()
@@ -135,7 +158,7 @@ MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedT
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);
 MessageManager:listen("ADD_TIMER", SceneManager.onAddTimer);
 MessageManager:listen("SUB_TIMER", SceneManager.onSubTimer);
-MessageManager:listen("SHAKE_SCREEN", SceneManager.onShakeScreen);
+MessageManager:listen("CHECKPOINT", SceneManager.onCheckPoint);
 MessageManager:listen("TEST", SceneManager.test);
 
 return SceneManager

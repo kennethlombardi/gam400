@@ -8,7 +8,7 @@ function Script.update(object, dt)
   local rndAngle = math.random(0, 359);
   
   local radtodeg = 3.14/180;
-  t = t + 10*dt;
+  t = t + 5*dt;
   object:setLoc(100*math.cos(t*radtodeg)*math.cos(originalRot.z),  100*math.cos(t*radtodeg)*math.sin(originalRot.z), originalPos.z);             
 end
 
