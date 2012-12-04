@@ -10,6 +10,7 @@ function Script.update(object, dt)
     object:clearAllScripts();
     object:destroy();
     require("GameVariables"):add("Timer", 2);  
+    require("GameVariables"):add("Rings", 1);  
     require("MessageManager"):send("ADD_TIMER", objectPos);
     --play explosion, show +1
   end    

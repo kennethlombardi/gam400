@@ -7,6 +7,7 @@ Android.baseAccel = {x = 0; y = 0; z = 0;};	--base state of gyro (used for calib
 Android.diffAccel = {x = 0; y = 0; z = 0;}; -- diff between accel - base
 Android.key[0] = {false, false, false};
 Android.key[1] = {false, false, false};
+Android.key[2] = {false, false, false};
 
 local function PushBack(key, pressed)
 	Android.key[key][1] = true;
@@ -49,7 +50,7 @@ function Android:isKeyTriggered(key)
 end
 
 function Android:update(dt)
-	for i = 0, 1, 1 do
+	for i = 0, 2, 1 do
 		if Android.key[i][1] == false then
 			PushBack(i, Android.key[i][2]);
 		end
@@ -94,6 +95,8 @@ MOAIInputMgr.device.touch:setCallback (
 			Android.window.y = y;	
 			if x < 100 and y < 100 then
 				PressKey(1);
+			elseif x > 1180 and y > 620 then
+				PressKey(2);
 			else
 				PressKey(0);		
 			end

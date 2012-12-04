@@ -63,7 +63,7 @@ local done = false;
 function gamesLoop ()
   preInitialize();
   initialize();
-  require("InputManager"):reCal();  
+  
   while not done do
     update(require("SimulationManager"):getStep());
     done = require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]);      

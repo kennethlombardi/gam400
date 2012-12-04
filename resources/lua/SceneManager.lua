@@ -4,7 +4,8 @@ local MessageManager = require("MessageManager");
 local LayerManager = require("LayerManager");
 local Factory = require("Factory");
 local UserDataManager = require("UserDataManager");
-
+local GameVariables = require("GameVariables");
+GameVariables:set("HighScore", UserDataManager:get("highScore"));
 function SceneManager:shutdown()
 	MessageManager = nil;
 	LayerManager = nil;
@@ -45,10 +46,11 @@ function SceneManager.onCheckPoint(pos)
 	properties.scripts = {"timeToLive.lua"};
 	properties.type = "TextBox";
 	properties.name = "TextBox";    
-	checkpoint = "<c:FF0000>C<c:FF00DD>H<c:CC00FF>E<c:5500FF>C<c:00A0FF>K<c:00FFFF>P<c:00FF00>O<c:A0FF00>I<c:FFFF00>N<c:FFA000>T";  
-	distance = string.format('<c:FFFFFF>%d', -pos.z);
+	--checkpoint = "<c:FF0000>C<c:FF00DD>H<c:CC00FF>E<c:5500FF>C<c:00A0FF>K<c:00FFFF>P<c:00FF00>O<c:A0FF00>I<c:FFFF00>N<c:FFA000>T";  
+	checkpoint = "CHECKPOINT";
+	distance = string.format('<c:FFFFFF>%d miles traveled!', -pos.z);
 	properties.string = string.format('%s\n%s',checkpoint, distance);
-	properties.textSize = 72;
+	properties.textSize = 56;
 	properties.shaderName = "none";
 	properties.justification = "center_justify";
 	properties.rectangle = {x2 = 500, y2 = 0, x1 = -500, y1 = -300};
@@ -65,7 +67,7 @@ function SceneManager.onClickedPlayButton(payload)
 end
 
 function SceneManager.onClickedRetryButton(payload)
-	print("Clicked retry button");
+	print("Clicked retry button");	
     LayerManager:getLayerByName("results.lua"):replaceAllScripts(require("Factory"):createFromFile("Script", "resultsLayerTransitionOut.lua"));
 end
 
@@ -87,7 +89,7 @@ function SceneManager.onLayerFinishedTransition(layerName)
     if layerName == "outOfTime.lua" then
         LayerManager:removeAllLayers();
         LayerManager:createLayerFromFile("results.lua");
-        local currentScore = require("GameVariables"):get("Distance");
+        local currentScore = require("GameVariables"):get("Score");
         local highScore = UserDataManager:get("highScore");
         if currentScore > highScore then			
             UserDataManager:set("highScore", currentScore);
@@ -141,8 +143,8 @@ function SceneManager.onStartGame()
     require("SoundManager"):play("ambience.wav", true);
 
     -- some variables
-    require("GameVariables"):set("Timer", 30);
-
+    require("GameVariables"):reset();
+	require("InputManager"):reCal();  
     LayerManager:createLayerFromFile("skyBox.lua");
     LayerManager:createLayerFromFile("gameLayer.lua");  
     LayerManager:createLayerFromFile("gameHud.lua");
