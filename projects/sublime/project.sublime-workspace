@@ -323,45 +323,21 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
-			"settings":
-			{
-				"buffer_size": 4747,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
-			"settings":
-			{
-				"buffer_size": 2503,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/ring.lua",
-			"settings":
-			{
-				"buffer_size": 1954,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/obstacle.lua",
-			"settings":
-			{
-				"buffer_size": 1856,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/Moai-Windows.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Discover Packages"
+			]
 		],
 		"width": 400.0
 	},
@@ -380,10 +356,49 @@
 	},
 	"file_history":
 	[
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ManagerGameLoop.lua",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/index.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/app.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/authentication.js",
+		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/layout.jade",
+		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/users/user.jade",
+		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/users/index.jade",
+		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/header.jade",
+		"/C/cygwin/home/Kenneth/github/express/examples/jade/public/stylesheets/style.css",
+		"/C/cygwin/home/Kenneth/github/express/examples/jade/index.js",
+		"/C/cygwin/home/Kenneth/github/express/examples/auth/views/foot.ejs",
+		"/C/cygwin/home/Kenneth/github/express/examples/auth/app.js",
+		"/C/cygwin/home/Kenneth/github/express/examples/auth/pass.js",
+		"/C/cygwin/home/Kenneth/github/express/examples/auth/views/head.ejs",
+		"/C/cygwin/home/Kenneth/github/express/examples/auth/views/login.ejs",
+		"/C/cygwin/home/Kenneth/github/express/examples/view-locals/index.js",
+		"/C/cygwin/home/Kenneth/github/express/examples/view-locals/user.jade",
+		"/C/cygwin/home/Kenneth/github/nodeblox/app.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/user.js",
+		"/C/cygwin/home/Kenneth/github/nodeblox/views/index.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/layout.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/public/stylesheets/style.css",
+		"/C/cygwin/home/Kenneth/github/bootstrap/docs/examples/starter-template.html",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/index.js",
+		"/C/cygwin/home/Kenneth/github/nodeblox/public/js/login.js",
+		"/C/cygwin/home/Kenneth/github/nodeblox/node_modules/bcrypt/node_modules/bindings/bindings.js",
+		"/C/cygwin/home/Kenneth/github/nodeblox/node_modules/bindings/bindings.js",
+		"/C/cygwin/home/Kenneth/github/nodeblox/public/js/index.js",
+		"/C/cygwin/home/Kenneth/github/nodeblox/views/topbar.jade",
+		"/C/cygwin/home/Kenneth/github/nodeblox/views/signupErrorModal.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/package.json",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/public/stylesheets/custom.css",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/start.sh",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/test.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/static/index.html",
+		"/C/cygwin/home/Kenneth/sandbox/webglsample.html",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/mainMenu.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/MessageManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/obstacle.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/ring.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ManagerGameLoop.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
@@ -393,7 +408,6 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/speedline.lua",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment4/facebook.js",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment4/controllers/user.js",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ShapesLibrary.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
@@ -402,7 +416,6 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Generator.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/gameLayer.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/gameVariables.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/obstacle.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameScore.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/editor/createResultsLayer.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
@@ -411,7 +424,6 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ConfigurationManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Pickle.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/MessageManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Texture.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/outOfTimeLayerUpdate.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/outOfTimeLayerTransitionOut.lua",
@@ -471,21 +483,7 @@
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/static/index.html",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/static/index_ajax.html",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/static/index.html",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/static/comet_push.html",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/static/index_comet.html",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/static/index_ajax.html",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/MVC_app.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/app.js",
-		"/C/cygwin/home/Kenneth/github/1791080/app.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/public/index.html",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/pickleFileDiff.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/pickleFile.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/backup.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/shader.fsh",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/shader.vsh",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayer.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ObjectFactory.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/background.lua"
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/Demo_mongoose/static/comet_push.html"
 	],
 	"find":
 	{
@@ -503,6 +501,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"message",
+			"===",
 			"--",
 			"torus",
 			"font",
@@ -588,125 +588,19 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
-					"settings":
-					{
-						"buffer_size": 4747,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2753,
-								2753
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1026.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
-					"settings":
-					{
-						"buffer_size": 2503,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 228.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/ring.lua",
-					"settings":
-					{
-						"buffer_size": 1954,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								381,
-								381
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/obstacle.lua",
-					"settings":
-					{
-						"buffer_size": 1856,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1185,
-								1185
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Lua/Lua.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -727,11 +621,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
