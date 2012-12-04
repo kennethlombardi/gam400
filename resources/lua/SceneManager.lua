@@ -89,8 +89,9 @@ function SceneManager.onLayerFinishedTransition(layerName)
         LayerManager:createLayerFromFile("results.lua");
         local currentScore = require("GameVariables"):get("Distance");
         local highScore = UserDataManager:get("highScore");
-        if currentScore > highScore then
+        if currentScore > highScore then			
             UserDataManager:set("highScore", currentScore);
+			UserDataManager:flush();
         end
     end
 
