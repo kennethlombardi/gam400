@@ -69,11 +69,16 @@ function MOAIUntzCore:play(fileName, isLooping)
 	sound:setVolume(1);
 	sound:setLooping(isLooping);
 	sound:play();
-	table.insert(self.playing, sound);
+	self.playing[fileName] = sound;
+end
+
+function MOAIUntzCore:stop(fileName)
+	if self.playing[fileName] ~= nil then
+		self.playing[fileName]:stop();
+	end
 end
 
 function MOAIUntzCore:stopAll(fileName)
-	self:update();
 	for i,v in ipairs(self.playing) do
 		self.playing[i]:stop();
 		self.playing[i] = nil;
