@@ -57,13 +57,13 @@ function Script.update(object, dt)
   end
   
   local move = InputManager:getMove();
-  local scale = 5; 
+  local scale = 10; 
   
   local newPos = {x = position.x + scale*move.x, y =  position.y + scale*move.y, z = position.z};
   local limit = 500;
   scale = 10;
-  yRot = yRot - move.x*scale*dt;
-  xRot = xRot + move.y*scale*dt;  
+  -- yRot = yRot - move.x*scale*dt;
+  -- xRot = xRot + move.y*scale*dt;  
   if shakeTimer > 0 then
     zRot = 3*math.cos(shakeTimer*180/3.14152654)
     shakeTimer = shakeTimer - 5*dt;
@@ -83,18 +83,18 @@ function Script.update(object, dt)
     newPos.y = -limit;
   end
 
-  rotLimit = scale;
-  if xRot > rotLimit then
-    xRot = rotLimit;
-  elseif xRot < -rotLimit then
-    xRot = -rotLimit;
-  end
+  -- rotLimit = scale;
+  -- if xRot > rotLimit then
+    -- xRot = rotLimit;
+  -- elseif xRot < -rotLimit then
+    -- xRot = -rotLimit;
+  -- end
   
-  if yRot > rotLimit then
-    yRot = rotLimit;
-  elseif yRot < -rotLimit then
-    yRot = -rotLimit;
-  end
+  -- if yRot > rotLimit then
+    -- yRot = rotLimit;
+  -- elseif yRot < -rotLimit then
+    -- yRot = -rotLimit;
+  -- end
 
   
   if InputManager:isPressed() then
@@ -109,8 +109,8 @@ function Script.update(object, dt)
     end
     
   end
-  newPos.z = newPos.z - 10*zPressed;
-  object:setRot(xRot, yRot, zRot);
+  newPos.z = newPos.z - scale*zPressed;
+  object:setRot(0, 0, zRot);
   object:setLoc(newPos.x, newPos.y, newPos.z);
   gameVariables:set("Position", newPos);
   gameVariables:set("Distance", -newPos.z); 

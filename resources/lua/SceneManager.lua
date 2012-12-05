@@ -148,6 +148,8 @@ function SceneManager.onStartGame()
     -- song
 	--stop song 
 	--stop woosh
+	require("SoundManager"):stop("woosh.wav");
+	require("SoundManager"):stop("bgm.wav");
     require("SoundManager"):play("bgm.wav", true);
 
     -- some variables

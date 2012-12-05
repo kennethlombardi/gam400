@@ -14,6 +14,7 @@ function Script.update(object, dt)
 	if ( currTime < 0) then
     if triggeredOutOfTime == false then
       object:setText(string.format('Time: <c:FF0000>%d', currTime));  
+      require("SoundManager"):stop("beep.wav");
       require("SoundManager"):play("buzzer.wav", false);
 		  require("MessageManager"):send("RAN_OUT_OF_TIME");
       object:replaceAllScripts(require("Factory"):createFromFile("Script", ""));
@@ -24,7 +25,7 @@ function Script.update(object, dt)
     greenText = flash;
   elseif lastTime - 2 > currTime then
     redText = flash;
-  elseif currTime < 5 and currTime > 0 and redText <= -currTime * .1 then
+  elseif currTime < 5 and currTime > .2 and redText <= -currTime * .1 then
     redText = .1*currTime;
     require("SoundManager"):play("beep.wav", false);    
   end
