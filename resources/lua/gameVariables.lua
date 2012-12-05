@@ -24,7 +24,7 @@ function GameVariables:register(variableName, value)
 end	
 
 function GameVariables:reset()
-  self:set("Timer", 30);
+  self:set("Timer", 5);
   self:set("Rings", 0);
   self:set("Distance", 0);
   self:set("Score", 0);

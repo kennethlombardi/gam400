@@ -48,7 +48,7 @@ function SceneManager.onCheckPoint(pos)
 	properties.name = "TextBox";    
 	--checkpoint = "<c:FF0000>C<c:FF00DD>H<c:CC00FF>E<c:5500FF>C<c:00A0FF>K<c:00FFFF>P<c:00FF00>O<c:A0FF00>I<c:FFFF00>N<c:FFA000>T";  
 	checkpoint = "CHECKPOINT";
-	distance = string.format('<c:FFFFFF>%d miles traveled!', -pos.z);
+	distance = string.format('<c:FFFFFF>%d km traveled!', -pos.z);
 	properties.string = string.format('%s\n%s',checkpoint, distance);
 	properties.textSize = 56;
 	properties.shaderName = "none";
@@ -61,7 +61,8 @@ function SceneManager.onCheckPoint(pos)
 end
 
 function SceneManager.onClickedPlayButton(payload)
-	print("Clicked play button");
+	print("Clicked play button");	
+	require("SoundManager"):play("woosh.wav", false);
 	LayerManager:getLayerByName("mainMenu.lua"):replaceAllScripts(Factory:createFromFile("Script", "titleLayerTransitionOut.lua"));
 	LayerManager:getLayerByName("starfield.lua"):replaceAllScripts(Factory:createFromFile("Script", "starfieldLayerTransitionOut.lua"));
 end
@@ -86,7 +87,7 @@ function SceneManager.onLayerFinishedTransition(layerName)
         MessageManager:send("START_GAME");    
     end
 
-    if layerName == "outOfTime.lua" then
+    if layerName == "outOfTime.lua" then 	
         LayerManager:removeAllLayers();
         LayerManager:createLayerFromFile("results.lua");
         local currentScore = require("GameVariables"):get("Score");
@@ -140,7 +141,9 @@ end
 
 function SceneManager.onStartGame()
     -- song
-    require("SoundManager"):play("ambience.wav", true);
+	--stop song 
+	--stop woosh
+    require("SoundManager"):play("bgm.wav", true);
 
     -- some variables
     require("GameVariables"):reset();

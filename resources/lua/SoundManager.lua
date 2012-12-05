@@ -68,7 +68,7 @@ function MOAIUntzCore:play(fileName, isLooping)
 	local sound = require("ResourceManager"):load("Sound", fileName);	
 	sound:setVolume(1);
 	if isLooping then
-		sound:setVolume(.8);
+		sound:setVolume(.5);
 	end
 	sound:setLooping(isLooping);
 	sound:play();
