@@ -14,7 +14,7 @@ deserialize ("Layer",
     [2]={10},
     [3]={25},
     [4]={30},
-    [5]={35},
+    --[5]={35}, --pause, uncomment back for First Playable!!!!!!!!!!
     --[3]={15},
     --[4]={20},
 	},
