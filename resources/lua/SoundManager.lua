@@ -17,6 +17,10 @@ function SoundManager:shutdown()
 	self.core = nil;
 end
 
+function SoundManager:stop(fileName)
+	self.core:stop(fileName);
+end
+
 function SoundManager:update(dt)
 	self.core:update(dt);
 end
@@ -68,7 +72,7 @@ function MOAIUntzCore:play(fileName, isLooping)
 	local sound = require("ResourceManager"):load("Sound", fileName);	
 	sound:setVolume(1);
 	if isLooping then
-		sound:setVolume(.3);
+		sound:setVolume(.8);
 	end
 	sound:setLooping(isLooping);
 	sound:play();
