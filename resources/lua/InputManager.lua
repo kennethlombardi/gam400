@@ -122,6 +122,11 @@ function Input:isPressed()
   return Input:isButtonPressed(0) or Input:isScreenPressed(0);
 end
 
+function Input:isPausedTriggered()
+	pos = Input:getWindowPos();
+	return Input:isScreenTriggered(2) or (Input:isButtonTriggered(0) and pos.x > 1180 and pos.y > 620);
+end
+
 function Input:isReleased()
   return Input:isButtonReleased(0) or Input:isScreenReleased(0);
 end

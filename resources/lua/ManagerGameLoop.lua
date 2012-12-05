@@ -66,7 +66,7 @@ function gamesLoop ()
   
   while not done do
     update(require("SimulationManager"):getStep());
-    done = require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]);      
+    done = require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]);      	
     coroutine.yield()
   end
   
