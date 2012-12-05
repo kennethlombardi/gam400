@@ -68,18 +68,23 @@ function MOAIUntzCore:play(fileName, isLooping)
 	local sound = require("ResourceManager"):load("Sound", fileName);	
 	sound:setVolume(1);
 	if isLooping then
-		sound:setVolume(.5);
+		sound:setVolume(.3);
 	end
 	sound:setLooping(isLooping);
 	sound:play();
 	table.insert(self.playing, sound);
 end
 
-function MOAIUntzCore:shutdown()
+function MOAIUntzCore:stopAll(fileName)
+	self:update();
 	for i,v in ipairs(self.playing) do
 		self.playing[i]:stop();
 		self.playing[i] = nil;
 	end
+end
+
+function MOAIUntzCore:shutdown()
+	self:stopAll();
 end
 
 function MOAIUntzCore:update(dt)
