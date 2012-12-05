@@ -46,6 +46,7 @@ function LayerManager:removeAllLayers()
 end
 
 function LayerManager:removeLayerByName(layerName)
+	print("Removing layer by name of", layerName)
 	self.layersByName[layerName]:free();
 	self.layersByName[layerName] = nil;
 end

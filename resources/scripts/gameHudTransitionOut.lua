@@ -3,6 +3,7 @@ local Script = {
 };
 
 function Script.update(layer, dt)
+    print("I am gameHudTransitionOut updating myself");
 	local allProps = layer:getAllProps();
     local allFinished = true;
     for k,v in pairs(allProps) do
@@ -14,9 +15,9 @@ function Script.update(layer, dt)
         else
             allFinished = false;
         end
-        if allFinished == true then
-             require("MessageManager"):send("LAYER_FINISHED_TRANSITION", layer:getName());
-        end
+    end
+    if allFinished == true then
+        require("MessageManager"):send("LAYER_FINISHED_TRANSITION", layer:getName());
     end
 end
 
