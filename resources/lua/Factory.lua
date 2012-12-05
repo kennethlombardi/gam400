@@ -245,7 +245,7 @@ function MOAITextBoxCreator:create(properties)
 	elseif properties.justification == "center_justify" then
 		newObject:getUnderlyingType():setAlignment(MOAITextBox.CENTER_JUSTIFY)
 	else 
-		newObject:getUnderlyingType():setAlignment(MOAITextBox.LEFT_JUSTIFY)
+		newObject:getUnderlyingType():setAlignment(MOAITextBox.RIGHT_JUSTIFY)
 	end
 
 	newObject:getUnderlyingType():setYFlip(true)

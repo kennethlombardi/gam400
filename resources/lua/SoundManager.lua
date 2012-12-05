@@ -62,11 +62,14 @@ local MOAIUntzCore = SoundManagerCore:new {
 
 function MOAIUntzCore:initialize()
 	MOAIUntzSystem.initialize();
-end
+end	
 
 function MOAIUntzCore:play(fileName, isLooping)
 	local sound = require("ResourceManager"):load("Sound", fileName);	
 	sound:setVolume(1);
+	if isLooping then
+		sound:setVolume(.3);
+	end
 	sound:setLooping(isLooping);
 	sound:play();
 	self.playing[fileName] = sound;

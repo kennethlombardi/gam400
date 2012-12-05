@@ -21,7 +21,7 @@ local function initialize()
   MOAIGfxDevice.setClearDepth(true);
 
 
-  require("MessageManager"):send("GAME_INITIALIZED");
+  require("MessageManager"):send("SPLASH_SCREEN");
 
   print("Initialized");
 end
@@ -63,7 +63,7 @@ local done = false;
 function gamesLoop ()
   preInitialize();
   initialize();
-  require("InputManager"):reCal();  
+  
   while not done do
     update(require("SimulationManager"):getStep());
     done = require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]);      

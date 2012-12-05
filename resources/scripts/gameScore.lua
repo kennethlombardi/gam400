@@ -4,7 +4,9 @@ local Script = {
 
 local t = 0;
 function Script.update(object, dt)  
-  object:setText(string.format('Distance: %d', require("GameVariables"):get("Distance")));  
+  local gv = require("GameVariables");
+  gv:set("Score", gv:get("Distance") * (gv:get("Rings")*.1 + 1));
+  object:setText(string.format('Curr Score: %d', gv:get("Score")));  
 end
 
 return Script;

@@ -3,7 +3,7 @@ gen.spawned = 1;
 
 function gen:spawnObject(x, y, z)
   local obj = math.random(0, 10);
-  obj = obj - 5;
+  obj = obj - 3;
   properties = {};
   properties.scale = {x = 15, y = 15, z = 15};
   properties.position = {};

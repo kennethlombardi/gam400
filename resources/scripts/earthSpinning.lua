@@ -13,7 +13,7 @@ function Script.update(object, dt)
     object:clearAllScripts();
     position.x = playerPosition.x;
     position.y = playerPosition.y;
-    require("SoundManager"):play("cheer.wav", false);          
+    --require("SoundManager"):play("cheer.wav", false);          
     require("MessageManager"):send("CHECKPOINT", position);
     object:destroy();
   end

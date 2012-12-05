@@ -31,7 +31,7 @@ deserialize ("Layer",
 		["scale"]={8},
 		["shaderName"]="shader",
 		["scripts"]={9},
-		["textureName"]="space.png",
+		["textureName"]="space_m.png",
 	},
 
 	{--Entry Number: {6}
