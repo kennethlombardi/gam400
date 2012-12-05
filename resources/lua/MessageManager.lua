@@ -43,6 +43,7 @@ function MessageManager:update(dt)
 	self.messageQueue = {};
 end
 
+MessageManager:register("SPLASH_SCREEN");
 MessageManager:register("GAME_INITIALIZED");
 MessageManager:register("START_GAME");
 MessageManager:register("CLICKED_PLAY_BUTTON");

@@ -21,7 +21,7 @@ local function initialize()
   MOAIGfxDevice.setClearDepth(true);
 
 
-  require("MessageManager"):send("GAME_INITIALIZED");
+  require("MessageManager"):send("SPLASH_SCREEN");
 
   print("Initialized");
 end

@@ -81,6 +81,11 @@ end
 function SceneManager.onLayerFinishedTransition(layerName)
     LayerManager:removeLayerByName(layerName);
     print(layerName, "removed itself");
+	if layerName == "splashScreen.lua" then
+		LayerManager:removeAllLayers();
+		MessageManager:send("GAME_INITIALIZED");
+	end
+	
     if layerName == "mainMenu.lua" then
         LayerManager:removeAllLayers();
 
@@ -153,9 +158,15 @@ function SceneManager.onStartGame()
     LayerManager:createLayerFromFile("gameHud.lua");
 end
 
+function SceneManager.onSplashStart()      
+    LayerManager:createLayerFromFile("skyBox.lua");
+	LayerManager:createLayerFromFile("splashScreen.lua");
+end
+
 function SceneManager.test(payload)
 end
 
+MessageManager:listen("SPLASH_SCREEN", SceneManager.onSplashStart);
 MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);
 MessageManager:listen("START_GAME", SceneManager.onStartGame);
 MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
