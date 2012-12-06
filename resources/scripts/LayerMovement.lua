@@ -99,15 +99,17 @@ function Script.update(object, dt)
   
   if InputManager:isPressed() then
     if zPressed < zMax then
-      zPressed = zPressed + 3*dt;      
+      zPressed = zPressed + 3*dt;            
     end
+  elseif InputManager:isTriggered() then
+    require("SoundManager"):play("woosh.wav", false); 
   else
+    require("SoundManager"):stop("woosh.wav"); 
     if zPressed > 1 then
       zPressed = zPressed * .9;
     else
       zPressed = 1;
-    end
-    
+    end    
   end
   newPos.z = newPos.z - scale*zPressed;
   object:setRot(0, 0, zRot);
