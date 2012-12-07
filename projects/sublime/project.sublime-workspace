@@ -323,6 +323,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/SoundManager.lua",
+			"settings":
+			{
+				"buffer_size": 2160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
+			"settings":
+			{
+				"buffer_size": 1862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
+			"settings":
+			{
+				"buffer_size": 6669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameHudTransitionOut.lua",
+			"settings":
+			{
+				"buffer_size": 696,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/gameVariables.lua",
+			"settings":
+			{
+				"buffer_size": 1129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameLayerTransitionOut.lua",
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/Moai-Windows.sublime-build",
 	"command_palette":
@@ -356,6 +404,8 @@
 	},
 	"file_history":
 	[
+		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/splashScreen.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/Hud.lua",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/public/stylesheets/style.css",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/header.jade",
 		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/layout.jade",
@@ -481,9 +531,7 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/LayerMovement.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SimulationManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/PropMovement.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/editor/pickleFile0.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/editor/pickleFile1.lua",
-		"/C/Users/Kenneth/Downloads/Taxes09/gif/breasts/1351814313520.gif"
+		"/C/cygwin/home/Kenneth/github/gam400/editor/pickleFile0.lua"
 	],
 	"find":
 	{
@@ -501,6 +549,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gamelayer",
 			"$",
 			"success",
 			"route",
@@ -597,8 +646,171 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/SoundManager.lua",
+					"settings":
+					{
+						"buffer_size": 2160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1402,
+								1402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1026.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
+					"settings":
+					{
+						"buffer_size": 1862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								440,
+								440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
+					"settings":
+					{
+						"buffer_size": 6669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3438,
+								3442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1353.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameHudTransitionOut.lua",
+					"settings":
+					{
+						"buffer_size": 696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/lua/gameVariables.lua",
+					"settings":
+					{
+						"buffer_size": 1129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameLayerTransitionOut.lua",
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Lua/Lua.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

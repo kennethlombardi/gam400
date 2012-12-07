@@ -60,6 +60,10 @@ function SceneManager.onCheckPoint(pos)
 	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 
+function SceneManager.onClickedPauseButton(payload)
+    print("Clicked pause button")
+end
+
 function SceneManager.onClickedPlayButton(payload)
 	print("Clicked play button");	
 	require("SoundManager"):play("woosh.wav", false);
@@ -75,7 +79,7 @@ end
 function SceneManager.onGameInitialized(payload)
     LayerManager:createLayerFromFile("skyBox.lua");
 	LayerManager:createLayerFromFile("starfield.lua");
-	LayerManager:createLayerFromFile("mainMenu.lua");
+	LayerManager:createLayerFromFile("pause.lua");
 end
 
 function SceneManager.onLayerFinishedTransition(layerName)
@@ -172,6 +176,7 @@ MessageManager:listen("SPLASH_SCREEN", SceneManager.onSplashStart);
 MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);
 MessageManager:listen("START_GAME", SceneManager.onStartGame);
 MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
+MessageManager:listen("CLICKED_PAUSE_BUTTON", SceneManager.onClickedPauseButton);
 MessageManager:listen("CLICKED_RETRY_BUTTON", SceneManager.onClickedRetryButton);
 MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedTransition);
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);

@@ -43,17 +43,17 @@ function MessageManager:update(dt)
 	self.messageQueue = {};
 end
 
-MessageManager:register("SPLASH_SCREEN");
-MessageManager:register("GAME_INITIALIZED");
-MessageManager:register("START_GAME");
+MessageManager:register("ADD_TIMER");
+MessageManager:register("CHECKPOINT");
+MessageManager:register("CLICKED_PAUSE_BUTTON");
 MessageManager:register("CLICKED_PLAY_BUTTON");
 MessageManager:register("CLICKED_RETRY_BUTTON");
+MessageManager:register("GAME_INITIALIZED");
 MessageManager:register("LAYER_FINISHED_TRANSITION");
 MessageManager:register("RAN_OUT_OF_TIME");
-MessageManager:register("ADD_TIMER");
+MessageManager:register("SPLASH_SCREEN");
+MessageManager:register("START_GAME");
 MessageManager:register("SUB_TIMER");
-MessageManager:register("CHECKPOINT");
 MessageManager:register("TEST");
-
 
 return MessageManager
