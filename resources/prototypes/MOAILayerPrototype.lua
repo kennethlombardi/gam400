@@ -16,7 +16,7 @@ function MOAILayerPrototype:allocate()
         underlyingType = nil,
         camera = nil,
         scripts = {},
-        currentIndex = 1;
+        currentIndex = 1,
     }
     return object;
 end
@@ -165,17 +165,6 @@ function MOAILayerPrototype:setVisible(visible)
 end
 
 function MOAILayerPrototype:update(dt)
-	Input = require("InputManager");
-  local pos = Input:getWindowPos();  
-  if Input:isPressed() then
-    local objects = self:pickForRay(pos.x, pos.y);
-    for k,v in pairs(objects) do
-      if type(v) ~= "number" then
-        --v.underlyingType:moveLoc( 0.25, 0.25, 100, 0.125, MOAIEaseType.EASE_IN )
-      end
-    end
-	end
-
 	self:baseUpdate(dt);
 end
 

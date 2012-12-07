@@ -14,7 +14,7 @@ deserialize ("Layer",
     [2]={10},
     [3]={25},
     [4]={30},
-    --[5]={35}, --pause, uncomment back for First Playable!!!!!!!!!!
+    [5]={35}, --pause, uncomment back for First Playable!!!!!!!!!!
     --[3]={15},
     --[4]={20},
 	},
@@ -256,7 +256,8 @@ deserialize ("Layer",
 		["z"]=0,
 	},
 
-	{--Entry Number: {37}		
+	{--Entry Number: {37}	
+		"pauseButtonUpdate.lua",	
 	},
 
 	{--Entry Number: {38}

@@ -1,5 +1,6 @@
 local LayerManager = {
 	layersByName = {},
+	allLayersPaused = false,
 }
 
 local Factory = require "Factory";
@@ -36,6 +37,12 @@ end
 
 function LayerManager:getLayerIndexByName(layerName)
 	return self.layersByName[layerName];
+end
+
+function LayerManager:pauseAllLayers(doPause)
+	for k,v in pairs(self.layersByName) do
+		v:pause(doPause);
+	end
 end
 
 function LayerManager:removeAllLayers()

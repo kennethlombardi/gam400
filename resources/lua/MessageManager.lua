@@ -50,6 +50,7 @@ MessageManager:register("CLICKED_PLAY_BUTTON");
 MessageManager:register("CLICKED_RETRY_BUTTON");
 MessageManager:register("GAME_INITIALIZED");
 MessageManager:register("LAYER_FINISHED_TRANSITION");
+MessageManager:register("PAUSE_LAYER_FINISHED_TRANSITION");
 MessageManager:register("RAN_OUT_OF_TIME");
 MessageManager:register("SPLASH_SCREEN");
 MessageManager:register("START_GAME");

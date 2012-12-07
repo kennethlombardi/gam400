@@ -20,9 +20,9 @@ prop = {
 	name = "playButton",
 	position = position,
 	scale = scale,
-	scripts = {},
+	scripts = {"pauseButtonUpdate.lua"},
 	shaderName = "basic2d",
-	textureName = "startOn.png",
+	textureName = "startOff.png",
 	rotation = rotation,
 }
 table.insert(layer1.propContainer, prop);

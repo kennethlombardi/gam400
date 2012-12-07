@@ -7,6 +7,7 @@ local Layer = {
     position = {x = 0, y = 0, z = 0},
     scripts = {},
     currentIndex = 1,
+    paused = false,
 }
 
 function Layer:baseFree()
@@ -18,6 +19,7 @@ function Layer:baseFree()
 end
 
 function Layer:baseUpdate(dt)
+    if self.paused then return end
     for k,v in pairs(self.scripts) do
         v.update(self, dt);
     end
@@ -58,6 +60,10 @@ function Layer:new(object)
     setmetatable(object, self);
     self.__index = self;
     return object;
+end
+
+function Layer:pause(doPause)
+    self.paused = doPause;
 end
 
 function Layer:pick()

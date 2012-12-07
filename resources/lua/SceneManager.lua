@@ -61,7 +61,8 @@ function SceneManager.onCheckPoint(pos)
 end
 
 function SceneManager.onClickedPauseButton(payload)
-    print("Clicked pause button")
+    LayerManager:pauseAllLayers(true);
+    LayerManager:createLayerFromFile("pause.lua");
 end
 
 function SceneManager.onClickedPlayButton(payload)
@@ -79,7 +80,7 @@ end
 function SceneManager.onGameInitialized(payload)
     LayerManager:createLayerFromFile("skyBox.lua");
 	LayerManager:createLayerFromFile("starfield.lua");
-	LayerManager:createLayerFromFile("pause.lua");
+	LayerManager:createLayerFromFile("mainMenu.lua");
 end
 
 function SceneManager.onLayerFinishedTransition(layerName)
@@ -92,7 +93,6 @@ function SceneManager.onLayerFinishedTransition(layerName)
 	
     if layerName == "mainMenu.lua" then
         LayerManager:removeAllLayers();
-
         MessageManager:send("START_GAME");    
     end
 
@@ -112,6 +112,14 @@ function SceneManager.onLayerFinishedTransition(layerName)
 
         MessageManager:send("START_GAME");    
     end
+
+    if layerName == "pause.lua" then
+        MessageManager:send("PAUSE_LAYER_FINISHED_TRANSITION");
+    end
+end
+
+function SceneManager.onPauseLayerFinishedTransition(payload)
+    LayerManager:pauseAllLayers(false);
 end
 
 function SceneManager:onRanOutOfTime(payload)
@@ -179,6 +187,7 @@ MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
 MessageManager:listen("CLICKED_PAUSE_BUTTON", SceneManager.onClickedPauseButton);
 MessageManager:listen("CLICKED_RETRY_BUTTON", SceneManager.onClickedRetryButton);
 MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedTransition);
+MessageManager:listen("PAUSE_LAYER_FINISHED_TRANSITION", SceneManager.onPauseLayerFinishedTransition)
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);
 MessageManager:listen("ADD_TIMER", SceneManager.onAddTimer);
 MessageManager:listen("SUB_TIMER", SceneManager.onSubTimer);
