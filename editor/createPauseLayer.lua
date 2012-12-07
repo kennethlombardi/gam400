@@ -12,17 +12,66 @@ layer1 = {
 width = 1280;
 height = 720;
 
+-- Paused title
+position = {x = 0, y = 200, z = 0};
+scale = {x = .5, y = .5, z = .5};
+rotation = {x = 0, y = 0, z = 0};
+prop = {
+	type = "Prop",
+	name = "pausedTitle",
+	position = position,
+	scale = scale,
+	scripts = {},
+	shaderName = "basic2d",
+	textureName = "pausedTitle.png",
+	rotation = rotation,
+}
+table.insert(layer1.propContainer, prop);
+
+-- Resume button
+position = {x = 0, y = 100, z = 0};
+scale = {x = .5, y = .5, z = .5};
+rotation = {x = 0, y = 0, z = 0};
+prop = {
+	type = "Prop",
+	name = "resumeButton",
+	position = position,
+	scale = scale,
+	scripts = {},
+	shaderName = "basic2d",
+	textureName = "resumeOn.png",
+	rotation = rotation,
+}
+table.insert(layer1.propContainer, prop);
+
+-- Quit button
 position = {x = 0, y = 0, z = 0};
 scale = {x = .5, y = .5, z = .5};
 rotation = {x = 0, y = 0, z = 0};
 prop = {
 	type = "Prop",
-	name = "playButton",
+	name = "quitButton",
 	position = position,
 	scale = scale,
-	scripts = {"pauseButtonUpdate.lua"},
+	scripts = {},
 	shaderName = "basic2d",
-	textureName = "pausedTitle.png",
+	textureName = "quitOn.png",
+	rotation = rotation,
+}
+table.insert(layer1.propContainer, prop);
+
+-- Credits button
+position = {x = 0, y = -100, z = 0};
+scale = {x = .5, y = .5, z = .5};
+rotation = {x = 0, y = 0, z = 0};
+prop = {
+	type = "Prop",
+	name = "creditsButton",
+	position = position,
+	scale = scale,
+	scripts = {},
+	shaderName = "basic2d",
+	textureName = "creditsOn.png",
 	rotation = rotation,
 }
 table.insert(layer1.propContainer, prop);
