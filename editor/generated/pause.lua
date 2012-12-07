@@ -31,7 +31,7 @@ deserialize ("Layer",
 		["scale"]={8},
 		["shaderName"]="basic2d",
 		["scripts"]={9},
-		["textureName"]="startOn.png",
+		["textureName"]="pausedTitle.png",
 	},
 
 	{--Entry Number: {6}
@@ -47,12 +47,13 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {8}
-		["y"]=1,
-		["x"]=1,
-		["z"]=1,
+		["y"]=0.5,
+		["x"]=0.5,
+		["z"]=0.5,
 	},
 
 	{--Entry Number: {9}
+		[1]="pauseButtonUpdate.lua",
 	},
 })
 

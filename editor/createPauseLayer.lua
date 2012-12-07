@@ -13,7 +13,7 @@ width = 1280;
 height = 720;
 
 position = {x = 0, y = 0, z = 0};
-scale = {x = 1, y = 1, z = 1};
+scale = {x = .5, y = .5, z = .5};
 rotation = {x = 0, y = 0, z = 0};
 prop = {
 	type = "Prop",
@@ -22,7 +22,7 @@ prop = {
 	scale = scale,
 	scripts = {"pauseButtonUpdate.lua"},
 	shaderName = "basic2d",
-	textureName = "startOff.png",
+	textureName = "pausedTitle.png",
 	rotation = rotation,
 }
 table.insert(layer1.propContainer, prop);
