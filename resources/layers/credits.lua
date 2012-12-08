@@ -17,6 +17,7 @@ deserialize ("Layer",
 		[5]={9},
 		[6]={10},
 		[7]={11},
+		[8]={12},
 	},
 
 	{--Entry Number: {3}
@@ -30,135 +31,143 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {5}
-		["rotation"]={12},
+		["rotation"]={13},
 		["type"]="Prop",
 		["name"]="creditsTitle",
-		["position"]={13},
-		["scale"]={14},
+		["position"]={14},
+		["scale"]={15},
 		["shaderName"]="basic2d",
-		["scripts"]={15},
+		["scripts"]={16},
 		["textureName"]="creditsOn.png",
 	},
 
 	{--Entry Number: {6}
 		["type"]="TextBox",
-		["scale"]={16},
+		["scale"]={17},
 		["shaderName"]="none",
-		["rectangle"]={17},
-		["rotation"]={18},
+		["rectangle"]={18},
+		["rotation"]={19},
 		["name"]="claudeText",
-		["position"]={19},
+		["position"]={20},
 		["string"]="Claude Comair: President",
 		["justification"]="center_justify",
 		["textSize"]=24,
-		["scripts"]={20},
+		["scripts"]={21},
 	},
 
 	{--Entry Number: {7}
 		["type"]="TextBox",
-		["scale"]={21},
+		["scale"]={22},
 		["shaderName"]="none",
-		["rectangle"]={22},
-		["rotation"]={23},
+		["rectangle"]={23},
+		["rotation"]={24},
 		["name"]="jamesText",
-		["position"]={24},
+		["position"]={25},
 		["string"]="James Barnard: Instructor",
 		["justification"]="center_justify",
 		["textSize"]=24,
-		["scripts"]={25},
+		["scripts"]={26},
 	},
 
 	{--Entry Number: {8}
 		["type"]="TextBox",
-		["scale"]={26},
+		["scale"]={27},
 		["shaderName"]="none",
-		["rectangle"]={27},
-		["rotation"]={28},
+		["rectangle"]={28},
+		["rotation"]={29},
 		["name"]="vivekText",
-		["position"]={29},
+		["position"]={30},
 		["string"]="Vivek Melwani: Instructor",
 		["justification"]="center_justify",
 		["textSize"]=24,
-		["scripts"]={30},
+		["scripts"]={31},
 	},
 
 	{--Entry Number: {9}
 		["type"]="TextBox",
-		["scale"]={31},
+		["scale"]={32},
 		["shaderName"]="none",
-		["rectangle"]={32},
-		["rotation"]={33},
+		["rectangle"]={33},
+		["rotation"]={34},
 		["name"]="kennethText",
-		["position"]={34},
+		["position"]={35},
 		["string"]="Kenneth Lombardi: Programmer",
 		["justification"]="center_justify",
 		["textSize"]=24,
-		["scripts"]={35},
+		["scripts"]={36},
 	},
 
 	{--Entry Number: {10}
 		["type"]="TextBox",
-		["scale"]={36},
+		["scale"]={37},
 		["shaderName"]="none",
-		["rectangle"]={37},
-		["rotation"]={38},
+		["rectangle"]={38},
+		["rotation"]={39},
 		["name"]="stevenText",
-		["position"]={39},
+		["position"]={40},
 		["string"]="Steven Peng: Programmer",
 		["justification"]="center_justify",
 		["textSize"]=24,
-		["scripts"]={40},
+		["scripts"]={41},
 	},
 
 	{--Entry Number: {11}
-		["rotation"]={41},
-		["type"]="Prop",
-		["name"]="backButton",
-		["position"]={42},
-		["scale"]={43},
-		["shaderName"]="basic2d",
-		["scripts"]={44},
-		["textureName"]="startOn.png",
+		["type"]="TextBox",
+		["scale"]={42},
+		["shaderName"]="none",
+		["rectangle"]={43},
+		["rotation"]={44},
+		["name"]="copyrightText",
+		["position"]={45},
+		["string"]="All content © 2012 DigiPen Institute of Technology Singapore, all rights reserved.",
+		["justification"]="center_justify",
+		["textSize"]=24,
+		["scripts"]={46},
 	},
 
 	{--Entry Number: {12}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
+		["rotation"]={47},
+		["type"]="Prop",
+		["name"]="backButton",
+		["position"]={48},
+		["scale"]={49},
+		["shaderName"]="basic2d",
+		["scripts"]={50},
+		["textureName"]="backOnPoorQuality.png",
 	},
 
 	{--Entry Number: {13}
-		["y"]=200,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {14}
+		["y"]=200,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {15}
 		["y"]=0.75,
 		["x"]=0.75,
 		["z"]=1,
 	},
 
-	{--Entry Number: {15}
+	{--Entry Number: {16}
 	},
 
-	{--Entry Number: {16}
+	{--Entry Number: {17}
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
 	},
 
-	{--Entry Number: {17}
+	{--Entry Number: {18}
 		["x2"]=1000,
 		["y2"]=100,
 		["y1"]=-100,
 		["x1"]=-1000,
-	},
-
-	{--Entry Number: {18}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
 	},
 
 	{--Entry Number: {19}
@@ -168,139 +177,173 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {20}
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
 	},
 
 	{--Entry Number: {21}
+	},
+
+	{--Entry Number: {22}
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
 	},
 
-	{--Entry Number: {22}
+	{--Entry Number: {23}
 		["x2"]=1000,
 		["y2"]=100,
 		["y1"]=-100,
 		["x1"]=-1000,
 	},
 
-	{--Entry Number: {23}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
-	},
-
 	{--Entry Number: {24}
-		["y"]=-50,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {25}
+		["y"]=-50,
+		["x"]=0,
+		["z"]=0,
 	},
 
 	{--Entry Number: {26}
+	},
+
+	{--Entry Number: {27}
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
 	},
 
-	{--Entry Number: {27}
+	{--Entry Number: {28}
 		["x2"]=1000,
 		["y2"]=100,
 		["y1"]=-100,
 		["x1"]=-1000,
 	},
 
-	{--Entry Number: {28}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
-	},
-
 	{--Entry Number: {29}
-		["y"]=-100,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {30}
+		["y"]=-100,
+		["x"]=0,
+		["z"]=0,
 	},
 
 	{--Entry Number: {31}
+	},
+
+	{--Entry Number: {32}
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
 	},
 
-	{--Entry Number: {32}
+	{--Entry Number: {33}
 		["x2"]=1000,
 		["y2"]=100,
 		["y1"]=-100,
 		["x1"]=-1000,
 	},
 
-	{--Entry Number: {33}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
-	},
-
 	{--Entry Number: {34}
-		["y"]=-150,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {35}
+		["y"]=-150,
+		["x"]=0,
+		["z"]=0,
 	},
 
 	{--Entry Number: {36}
+	},
+
+	{--Entry Number: {37}
 		["y"]=1,
 		["x"]=1,
 		["z"]=1,
 	},
 
-	{--Entry Number: {37}
+	{--Entry Number: {38}
 		["x2"]=1000,
 		["y2"]=100,
 		["y1"]=-100,
 		["x1"]=-1000,
 	},
 
-	{--Entry Number: {38}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
-	},
-
 	{--Entry Number: {39}
-		["y"]=-200,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {40}
-	},
-
-	{--Entry Number: {41}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
-	},
-
-	{--Entry Number: {42}
 		["y"]=-200,
 		["x"]=0,
 		["z"]=0,
 	},
 
+	{--Entry Number: {41}
+	},
+
+	{--Entry Number: {42}
+		["y"]=1,
+		["x"]=1,
+		["z"]=1,
+	},
+
 	{--Entry Number: {43}
+		["x2"]=1000,
+		["y2"]=100,
+		["y1"]=-100,
+		["x1"]=-1000,
+	},
+
+	{--Entry Number: {44}
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {45}
+		["y"]=-250,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {46}
+	},
+
+	{--Entry Number: {47}
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {48}
+		["y"]=-250,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {49}
 		["y"]=0.5,
 		["x"]=0.5,
 		["z"]=1,
 	},
 
-	{--Entry Number: {44}
+	{--Entry Number: {50}
 	},
 })
 

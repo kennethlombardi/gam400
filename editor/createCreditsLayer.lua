@@ -31,6 +31,7 @@ table.insert(creditsList, 2, {propName = "jamesText", string = "James Barnard: I
 table.insert(creditsList, 3, {propName = "vivekText", string = "Vivek Melwani: Instructor"})
 table.insert(creditsList, 4, {propName = "kennethText", string = "Kenneth Lombardi: Programmer"})
 table.insert(creditsList, 5, {propName = "stevenText", string = "Steven Peng: Programmer"})
+table.insert(creditsList, 6, {propName = "copyrightText", string = "All content © 2012 DigiPen Institute of Technology Singapore, all rights reserved."})
 
 local y = 0;
 for i,v in ipairs(creditsList) do
@@ -50,11 +51,10 @@ for i,v in ipairs(creditsList) do
 	    string = creditsList[i].string,
 	}
 	y = y - verticalSpacing;
-	
 	table.insert(layer1.propContainer, highScoreText);
 end
 
-position = {x = 0, y = -200, z = 0};
+position = {x = 0, y = -250, z = 0};
 scale = {x = .5, y = .5, z = 1};
 rotation = {x = 0, y = 0, z = 0};
 prop = {
@@ -64,7 +64,7 @@ prop = {
 	scale = scale,
 	scripts = {},
 	shaderName = "basic2d",
-	textureName = "startOn.png",
+	textureName = "backOnPoorQuality.png",
 	rotation = rotation,
 }
 table.insert(layer1.propContainer, prop);
