@@ -72,6 +72,10 @@ function SceneManager.onClickedPlayButton(payload)
 	LayerManager:getLayerByName("starfield.lua"):replaceAllScripts(Factory:createFromFile("Script", "starfieldLayerTransitionOut.lua"));
 end
 
+function SceneManager.onClickedResumeButton(payload)
+    print("Clicked resume button");
+end
+
 function SceneManager.onClickedRetryButton(payload)
 	print("Clicked retry button");	
     LayerManager:getLayerByName("results.lua"):replaceAllScripts(require("Factory"):createFromFile("Script", "resultsLayerTransitionOut.lua"));
@@ -89,14 +93,10 @@ function SceneManager.onLayerFinishedTransition(layerName)
 	if layerName == "splashScreen.lua" then
 		LayerManager:removeAllLayers();
 		MessageManager:send("GAME_INITIALIZED");
-	end
-	
-    if layerName == "mainMenu.lua" then
+	elseif layerName == "mainMenu.lua" then
         LayerManager:removeAllLayers();
         MessageManager:send("START_GAME");    
-    end
-
-    if layerName == "outOfTime.lua" then 	
+    elseif layerName == "outOfTime.lua" then 	
         LayerManager:removeAllLayers();
         LayerManager:createLayerFromFile("results.lua");
         local currentScore = require("GameVariables"):get("Score");
@@ -105,21 +105,12 @@ function SceneManager.onLayerFinishedTransition(layerName)
             UserDataManager:set("highScore", currentScore);
 			UserDataManager:flush();
         end
-    end
-
-    if layerName == "results.lua" then
+    elseif layerName == "results.lua" then
         LayerManager:removeAllLayers();
-
         MessageManager:send("START_GAME");    
+    elseif layerName == "pause.lua" then
+        LayerManager:pauseAllLayers(false);
     end
-
-    if layerName == "pause.lua" then
-        MessageManager:send("PAUSE_LAYER_FINISHED_TRANSITION");
-    end
-end
-
-function SceneManager.onPauseLayerFinishedTransition(payload)
-    LayerManager:pauseAllLayers(false);
 end
 
 function SceneManager:onRanOutOfTime(payload)
@@ -187,7 +178,6 @@ MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
 MessageManager:listen("CLICKED_PAUSE_BUTTON", SceneManager.onClickedPauseButton);
 MessageManager:listen("CLICKED_RETRY_BUTTON", SceneManager.onClickedRetryButton);
 MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedTransition);
-MessageManager:listen("PAUSE_LAYER_FINISHED_TRANSITION", SceneManager.onPauseLayerFinishedTransition)
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);
 MessageManager:listen("ADD_TIMER", SceneManager.onAddTimer);
 MessageManager:listen("SUB_TIMER", SceneManager.onSubTimer);
