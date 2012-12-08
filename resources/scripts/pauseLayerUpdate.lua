@@ -14,7 +14,10 @@ function Script.update(layer, dt)
                     layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut.lua"));
                 elseif v:getName() == "quitButton" then
                     require("MessageManager"):send("CLICKED_QUIT_BUTTON");
-                    layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut"));
+                    --layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut"));
+                elseif v:getName() == "creditsButton" then
+                    require("MessageManager"):send("CLICKED_CREDITS_BUTTON");
+                    --layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut"));
                 end
             end
         end

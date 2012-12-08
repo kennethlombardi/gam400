@@ -10,6 +10,7 @@ function SceneManager:shutdown()
 	MessageManager = nil;
 	LayerManager = nil;
 	Factory = nil;
+    GameVariables = nil;
 end
 
 function SceneManager:update(dt)
@@ -37,7 +38,7 @@ function SceneManager.onAddTimer(pos)
 end
 
 function SceneManager.onCheckPoint(pos)
-	properties = {};
+	local properties = {};
 	properties.scale = {x = 3000, y = 3000, z = 3000};
 	properties.position = {};
 	properties.position.x = pos.x;
@@ -47,8 +48,8 @@ function SceneManager.onCheckPoint(pos)
 	properties.type = "TextBox";
 	properties.name = "TextBox";    
 	--checkpoint = "<c:FF0000>C<c:FF00DD>H<c:CC00FF>E<c:5500FF>C<c:00A0FF>K<c:00FFFF>P<c:00FF00>O<c:A0FF00>I<c:FFFF00>N<c:FFA000>T";  
-	checkpoint = "CHECKPOINT";
-	distance = string.format('<c:FFFFFF>%d km traveled!', -pos.z);
+	local checkpoint = "CHECKPOINT";
+	local distance = string.format('<c:FFFFFF>%d km traveled!', -pos.z);
 	properties.string = string.format('%s\n%s',checkpoint, distance);
 	properties.textSize = 56;
 	properties.shaderName = "none";
@@ -58,6 +59,19 @@ function SceneManager.onCheckPoint(pos)
 
 	LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
 	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
+end
+
+function SceneManager.onClickedCreditsButton(payload)
+    local pauseLayer = LayerManager:getLayerByName("pause.lua");
+    if pauseLayer ~= nil then
+        pauseLayer:setVisible(false);
+        pauseLayer:pause();
+    end
+    LayerManager:createLayerFromFile("credits.lua");
+end
+
+function SceneManager.onClickedCreditsBackButton(payload)
+    print("Clicked credits layer back button")
 end
 
 function SceneManager.onClickedPauseButton(payload)
@@ -79,6 +93,7 @@ end
 
 function SceneManager.onClickedResumeButton(payload)
     print("Clicked resume button");
+    LayerManager:pauseAllLayers(false);
 end
 
 function SceneManager.onClickedRetryButton(payload)
@@ -114,6 +129,13 @@ function SceneManager.onLayerFinishedTransition(layerName)
         MessageManager:send("START_GAME");    
     elseif layerName == "pause.lua" then
         LayerManager:pauseAllLayers(false);
+    elseif layerName == "credits.lua" then
+        local pauseLayer = LayerManager:getLayerByName("pause.lua");
+        if pauseLayer ~= nil then
+            pauseLayer:setVisible(true);
+            pauseLayer:pause(false);
+            print("Unpaused pause layer")
+        end
     end
 end
 
@@ -178,6 +200,8 @@ end
 MessageManager:listen("SPLASH_SCREEN", SceneManager.onSplashStart);
 MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);
 MessageManager:listen("START_GAME", SceneManager.onStartGame);
+MessageManager:listen("CLICKED_CREDITS_BUTTON", SceneManager.onClickedCreditsButton);
+MessageManager:listen("CLICKED_CREDITS_BACK_BUTTON", SceneManager.onClickedCreditsBackButton);
 MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
 MessageManager:listen("CLICKED_PAUSE_BUTTON", SceneManager.onClickedPauseButton);
 MessageManager:listen("CLICKED_QUIT_BUTTON", SceneManager.onClickedQuitButton);

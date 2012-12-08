@@ -14,7 +14,7 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {3}
-		[1]="creditsUpdate.lua",
+		[1]="creditsLayerUpdate.lua",
 	},
 
 	{--Entry Number: {4}
@@ -26,7 +26,7 @@ deserialize ("Layer",
 	{--Entry Number: {5}
 		["rotation"]={6},
 		["type"]="Prop",
-		["name"]="playButton",
+		["name"]="backButton",
 		["position"]={7},
 		["scale"]={8},
 		["shaderName"]="basic2d",

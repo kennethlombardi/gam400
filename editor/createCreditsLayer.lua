@@ -17,7 +17,7 @@ scale = {x = 1, y = 1, z = 1};
 rotation = {x = 0, y = 0, z = 0};
 prop = {
 	type = "Prop",
-	name = "playButton",
+	name = "backButton",
 	position = position,
 	scale = scale,
 	scripts = {},
@@ -26,7 +26,6 @@ prop = {
 	rotation = rotation,
 }
 table.insert(layer1.propContainer, prop);
-
 
 layers = {};
 table.insert(layers, layer1);

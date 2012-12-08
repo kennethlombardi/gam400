@@ -45,6 +45,8 @@ end
 
 MessageManager:register("ADD_TIMER");
 MessageManager:register("CHECKPOINT");
+MessageManager:register("CLICKED_CREDITS_BUTTON");
+MessageManager:register("CLICKED_CREDITS_LAYER_BACK_BUTTON");
 MessageManager:register("CLICKED_PAUSE_BUTTON");
 MessageManager:register("CLICKED_PLAY_BUTTON");
 MessageManager:register("CLICKED_QUIT_BUTTON");

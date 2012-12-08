@@ -63,7 +63,8 @@ function Layer:new(object)
 end
 
 function Layer:pause(doPause)
-    self.paused = doPause;
+    if doPause == nil then self.paused = true
+    else self.paused = doPause end
 end
 
 function Layer:pick()
