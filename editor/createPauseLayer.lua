@@ -76,6 +76,21 @@ prop = {
 }
 table.insert(layer1.propContainer, prop);
 
+-- Restart button
+position = {x = 0, y = -200, z = 0};
+scale = {x = .5, y = .5, z = .5};
+rotation = {x = 0, y = 0, z = 0};
+prop = {
+	type = "Prop",
+	name = "resetLevelButton",
+	position = position,
+	scale = scale,
+	scripts = {},
+	shaderName = "basic2d",
+	textureName = "resetlevelOn.png",
+	rotation = rotation,
+}
+table.insert(layer1.propContainer, prop);
 
 layers = {};
 table.insert(layers, layer1);

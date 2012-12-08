@@ -1,78 +1,81 @@
 local function preInitialize()
-  -- require managers to perform singleton initialization
-  require("ConfigurationManager");
-  require("UserDataManager");
-  require("MessageManager");
-  require("SimulationManager");
-  require("WindowManager");
-  require("ResourceManager");
-  require("LayerManager");
-  require("SceneManager");
-  require("SoundManager");
-  require("InputManager");
-  print("PreInitialized");
+    -- require managers to perform singleton initialization
+    require("ConfigurationManager");
+    require("UserDataManager");
+    require("MessageManager");
+    require("SimulationManager");
+    require("WindowManager");
+    require("ResourceManager");
+    require("LayerManager");
+    require("SceneManager");
+    require("SoundManager");
+    require("InputManager");
+    print("PreInitialized");
+end
+
+local done = false;
+local function onQuit(payload)
+        done = true;
+        print("On quit function")
 end
 
 local function initialize()
-  require("SimulationManager"):setLeakTrackingEnabled(true);
-  require("SimulationManager"):setHistogramEnabled(true);
+    require("SimulationManager"):setLeakTrackingEnabled(true);
+    require("SimulationManager"):setHistogramEnabled(true);
 
-  -- simulation state
-  MOAIGfxDevice.setClearDepth(true);
+    -- simulation state
+    MOAIGfxDevice.setClearDepth(true);
 
+    require("MessageManager"):listen("QUIT", onQuit);
+    require("MessageManager"):send("SPLASH_SCREEN");
 
-  require("MessageManager"):send("SPLASH_SCREEN");
-
-  print("Initialized");
+    print("Initialized");
 end
 
 local function preShutdown()
-  --require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
-  --require("LayerManager"):serializeLayerToFile(require("LayerManager"):getLayerIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
+    --require("LayerManager"):getLayerByName("pickleFile0.lua"):serializeToFile("pickleFileDiff0.lua");
+    --require("LayerManager"):serializeLayerToFile(require("LayerManager"):getLayerIndexByName("pickleFile1.lua"), "pickleFileDiff1.lua");
 end
 
 local function shutdown()
-  require("LayerManager"):shutdown();
-  require("ResourceManager"):shutdown();
-  require("WindowManager"):shutdown();
-  require("SoundManager"):shutdown();
-  require("SceneManager"):shutdown();
-  require("ShapesLibrary"):shutdown();  
-  require("GameVariables"):shutdown();  
-  require("ConfigurationManager"):shutdown();
-  require("UserDataManager"):shutdown();
+    require("LayerManager"):shutdown();
+    require("ResourceManager"):shutdown();
+    require("WindowManager"):shutdown();
+    require("SoundManager"):shutdown();
+    require("SceneManager"):shutdown();
+    require("ShapesLibrary"):shutdown();  
+    require("GameVariables"):shutdown();  
+    require("ConfigurationManager"):shutdown();
+    require("UserDataManager"):shutdown();
 
-  require("SimulationManager"):forceGarbageCollection();
-  require("SimulationManager"):reportLeaks();
-  require("SimulationManager"):forceGarbageCollection();
-  require("SimulationManager"):reportHistogram();
-  
-  require("SimulationManager"):shutdown();
+    require("SimulationManager"):forceGarbageCollection();
+    require("SimulationManager"):reportLeaks();
+    require("SimulationManager"):forceGarbageCollection();
+    require("SimulationManager"):reportHistogram();
+
+    require("SimulationManager"):shutdown();
 end
 
 local function update(dt)
-  require("MessageManager"):update(dt);
-  require("InputManager"):update(dt);
-  require("LayerManager"):update(dt);
-  require("SceneManager"):update(dt);
-  require("SoundManager"):update(dt);
+    require("MessageManager"):update(dt);
+    require("InputManager"):update(dt);
+    require("LayerManager"):update(dt);
+    require("SceneManager"):update(dt);
+    require("SoundManager"):update(dt);
 end
 
-
-local done = false;
 function gamesLoop ()
-  preInitialize();
-  initialize();
+    preInitialize();
+    initialize();
+
+    while not done do
+        update(require("SimulationManager"):getStep());     	
+        coroutine.yield()
+    end
   
-  while not done do
-    update(require("SimulationManager"):getStep());
-    done = require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]);      	
-    coroutine.yield()
-  end
-  
-  preShutdown();
-  shutdown();
-  os.exit();
+    preShutdown();
+    shutdown();
+    os.exit();
 end
 
 return gamesLoop;

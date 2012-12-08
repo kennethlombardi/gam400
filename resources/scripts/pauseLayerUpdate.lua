@@ -3,6 +3,13 @@ local Script = {
 };
 
 function Script.update(layer, dt)
+
+    if require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]) then
+        require("MessageManager"):send("CLICKED_RESUME_BUTTON");
+        layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut.lua"));
+        return
+    end
+
     local Input = require("InputManager"); 
     if Input:isReleased() then
         local pos = Input:getWindowPos();  
@@ -13,11 +20,11 @@ function Script.update(layer, dt)
                     require("MessageManager"):send("CLICKED_RESUME_BUTTON");
                     layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut.lua"));
                 elseif v:getName() == "quitButton" then
-                    require("MessageManager"):send("CLICKED_QUIT_BUTTON");
-                    --layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut"));
+                    require("MessageManager"):send("QUIT");
                 elseif v:getName() == "creditsButton" then
                     require("MessageManager"):send("CLICKED_CREDITS_BUTTON");
-                    --layer:replaceAllScripts(require("Factory"):createFromFile("Script", "pauseLayerTransitionOut"));
+                elseif v:getName() == "resetLevelButton" then
+                    require("MessageManager"):send("GAME_INITIALIZED")
                 end
             end
         end

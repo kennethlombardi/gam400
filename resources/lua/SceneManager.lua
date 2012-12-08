@@ -14,7 +14,9 @@ function SceneManager:shutdown()
 end
 
 function SceneManager:update(dt)
-
+    if require("InputManager"):isKeyTriggered(require("InputManager").Key["esc"]) then
+        MessageManager:send("QUIT");
+    end
 end
 
 function SceneManager.onAddTimer(pos)
@@ -88,7 +90,7 @@ end
 
 function SceneManager.onClickedQuitButton(payload)
     print("Clicked quit button");
-    os.exit()
+    MessageManager:send("QUIT");
 end
 
 function SceneManager.onClickedResumeButton(payload)
@@ -101,6 +103,7 @@ function SceneManager.onClickedRetryButton(payload)
 end
 
 function SceneManager.onGameInitialized(payload)
+    LayerManager:removeAllLayers();
     LayerManager:createLayerFromFile("skyBox.lua");
 	LayerManager:createLayerFromFile("starfield.lua");
 	LayerManager:createLayerFromFile("mainMenu.lua");

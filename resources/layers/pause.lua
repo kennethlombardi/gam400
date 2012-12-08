@@ -14,6 +14,7 @@ deserialize ("Layer",
 		[2]={6},
 		[3]={7},
 		[4]={8},
+		[5]={9},
 	},
 
 	{--Entry Number: {3}
@@ -27,95 +28,100 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {5}
-		["rotation"]={9},
+		["rotation"]={10},
 		["type"]="Prop",
 		["name"]="pausedTitle",
-		["position"]={10},
-		["scale"]={11},
+		["position"]={11},
+		["scale"]={12},
 		["shaderName"]="basic2d",
-		["scripts"]={12},
+		["scripts"]={13},
 		["textureName"]="pausedTitle.png",
 	},
 
 	{--Entry Number: {6}
-		["rotation"]={13},
+		["rotation"]={14},
 		["type"]="Prop",
 		["name"]="resumeButton",
-		["position"]={14},
-		["scale"]={15},
+		["position"]={15},
+		["scale"]={16},
 		["shaderName"]="basic2d",
-		["scripts"]={16},
+		["scripts"]={17},
 		["textureName"]="resumeOn.png",
 	},
 
 	{--Entry Number: {7}
-		["rotation"]={17},
+		["rotation"]={18},
 		["type"]="Prop",
 		["name"]="quitButton",
-		["position"]={18},
-		["scale"]={19},
+		["position"]={19},
+		["scale"]={20},
 		["shaderName"]="basic2d",
-		["scripts"]={20},
+		["scripts"]={21},
 		["textureName"]="quitOn.png",
 	},
 
 	{--Entry Number: {8}
-		["rotation"]={21},
+		["rotation"]={22},
 		["type"]="Prop",
 		["name"]="creditsButton",
-		["position"]={22},
-		["scale"]={23},
+		["position"]={23},
+		["scale"]={24},
 		["shaderName"]="basic2d",
-		["scripts"]={24},
+		["scripts"]={25},
 		["textureName"]="creditsOn.png",
 	},
 
 	{--Entry Number: {9}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
+		["rotation"]={26},
+		["type"]="Prop",
+		["name"]="resetLevelButton",
+		["position"]={27},
+		["scale"]={28},
+		["shaderName"]="basic2d",
+		["scripts"]={29},
+		["textureName"]="resetlevelOn.png",
 	},
 
 	{--Entry Number: {10}
-		["y"]=200,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {11}
+		["y"]=200,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {12}
 		["y"]=0.5,
 		["x"]=0.5,
 		["z"]=0.5,
 	},
 
-	{--Entry Number: {12}
-	},
-
 	{--Entry Number: {13}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
 	},
 
 	{--Entry Number: {14}
-		["y"]=100,
+		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
 	{--Entry Number: {15}
+		["y"]=100,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {16}
 		["y"]=0.5,
 		["x"]=0.5,
 		["z"]=0.5,
 	},
 
-	{--Entry Number: {16}
-	},
-
 	{--Entry Number: {17}
-		["y"]=0,
-		["x"]=0,
-		["z"]=0,
 	},
 
 	{--Entry Number: {18}
@@ -125,33 +131,60 @@ deserialize ("Layer",
 	},
 
 	{--Entry Number: {19}
-		["y"]=0.5,
-		["x"]=0.5,
-		["z"]=0.5,
-	},
-
-	{--Entry Number: {20}
-	},
-
-	{--Entry Number: {21}
 		["y"]=0,
 		["x"]=0,
 		["z"]=0,
 	},
 
-	{--Entry Number: {22}
-		["y"]=-100,
-		["x"]=0,
-		["z"]=0,
-	},
-
-	{--Entry Number: {23}
+	{--Entry Number: {20}
 		["y"]=0.5,
 		["x"]=0.5,
 		["z"]=0.5,
 	},
 
+	{--Entry Number: {21}
+	},
+
+	{--Entry Number: {22}
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {23}
+		["y"]=-100,
+		["x"]=0,
+		["z"]=0,
+	},
+
 	{--Entry Number: {24}
+		["y"]=0.5,
+		["x"]=0.5,
+		["z"]=0.5,
+	},
+
+	{--Entry Number: {25}
+	},
+
+	{--Entry Number: {26}
+		["y"]=0,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {27}
+		["y"]=-200,
+		["x"]=0,
+		["z"]=0,
+	},
+
+	{--Entry Number: {28}
+		["y"]=0.5,
+		["x"]=0.5,
+		["z"]=0.5,
+	},
+
+	{--Entry Number: {29}
 	},
 })
 

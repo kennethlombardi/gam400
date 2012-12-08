@@ -54,6 +54,7 @@ MessageManager:register("CLICKED_RETRY_BUTTON");
 MessageManager:register("CLICKED_RESUME_BUTTON");
 MessageManager:register("GAME_INITIALIZED");
 MessageManager:register("LAYER_FINISHED_TRANSITION");
+MessageManager:register("QUIT");
 MessageManager:register("RAN_OUT_OF_TIME");
 MessageManager:register("SPLASH_SCREEN");
 MessageManager:register("START_GAME");
