@@ -9,11 +9,53 @@ layer1 = {
 	scripts = {"creditsLayerUpdate.lua"}
 };
 
-width = 1280;
-height = 720;
+-- Credits title
+position = {x = 0, y = 200, z = 0};
+scale = {x = .75, y = .75, z = 1};
+rotation = {x = 0, y = 0, z = 0};
+prop = {
+	type = "Prop",
+	name = "creditsTitle",
+	position = position,
+	scale = scale,
+	scripts = {},
+	shaderName = "basic2d",
+	textureName = "creditsOn.png",
+	rotation = rotation,
+}
+table.insert(layer1.propContainer, prop);
 
-position = {x = 0, y = 0, z = 0};
-scale = {x = 1, y = 1, z = 1};
+local creditsList = {};
+table.insert(creditsList, 1, {propName = "claudeText", string = "Claude Comair: President"})
+table.insert(creditsList, 2, {propName = "jamesText", string = "James Barnard: Instructor"})
+table.insert(creditsList, 3, {propName = "vivekText", string = "Vivek Melwani: Instructor"})
+table.insert(creditsList, 4, {propName = "kennethText", string = "Kenneth Lombardi: Programmer"})
+table.insert(creditsList, 5, {propName = "stevenText", string = "Steven Peng: Programmer"})
+
+local y = 0;
+for i,v in ipairs(creditsList) do
+	local verticalSpacing = 50;
+	print(i,v,y)
+	highScoreText = {
+	    type = "TextBox",
+	    name = creditsList[i].propName,
+	    position = {x = 0, y = y, z = 0};
+	    scale = {x = 1, y = 1, z = 1};
+	    rotation = {x = 0, y = 0, z = 0};
+	    rectangle = {x1 = -1000, x2 = 1000, y1 = -100, y2 = 100},
+	    scripts = {},
+	    shaderName = "none",
+	    textSize = 24,
+	    justification = "center_justify",
+	    string = creditsList[i].string,
+	}
+	y = y - verticalSpacing;
+	
+	table.insert(layer1.propContainer, highScoreText);
+end
+
+position = {x = 0, y = -200, z = 0};
+scale = {x = .5, y = .5, z = 1};
 rotation = {x = 0, y = 0, z = 0};
 prop = {
 	type = "Prop",
