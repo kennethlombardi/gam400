@@ -72,13 +72,17 @@ function SceneManager.onClickedPlayButton(payload)
 	LayerManager:getLayerByName("starfield.lua"):replaceAllScripts(Factory:createFromFile("Script", "starfieldLayerTransitionOut.lua"));
 end
 
+function SceneManager.onClickedQuitButton(payload)
+    print("Clicked quit button");
+    os.exit()
+end
+
 function SceneManager.onClickedResumeButton(payload)
     print("Clicked resume button");
 end
 
 function SceneManager.onClickedRetryButton(payload)
 	print("Clicked retry button");	
-    LayerManager:getLayerByName("results.lua"):replaceAllScripts(require("Factory"):createFromFile("Script", "resultsLayerTransitionOut.lua"));
 end
 
 function SceneManager.onGameInitialized(payload)
@@ -176,6 +180,7 @@ MessageManager:listen("GAME_INITIALIZED", SceneManager.onGameInitialized);
 MessageManager:listen("START_GAME", SceneManager.onStartGame);
 MessageManager:listen("CLICKED_PLAY_BUTTON", SceneManager.onClickedPlayButton);
 MessageManager:listen("CLICKED_PAUSE_BUTTON", SceneManager.onClickedPauseButton);
+MessageManager:listen("CLICKED_QUIT_BUTTON", SceneManager.onClickedQuitButton);
 MessageManager:listen("CLICKED_RETRY_BUTTON", SceneManager.onClickedRetryButton);
 MessageManager:listen("LAYER_FINISHED_TRANSITION", SceneManager.onLayerFinishedTransition);
 MessageManager:listen("RAN_OUT_OF_TIME", SceneManager.onRanOutOfTime);

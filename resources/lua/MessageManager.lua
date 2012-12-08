@@ -47,6 +47,7 @@ MessageManager:register("ADD_TIMER");
 MessageManager:register("CHECKPOINT");
 MessageManager:register("CLICKED_PAUSE_BUTTON");
 MessageManager:register("CLICKED_PLAY_BUTTON");
+MessageManager:register("CLICKED_QUIT_BUTTON");
 MessageManager:register("CLICKED_RETRY_BUTTON");
 MessageManager:register("CLICKED_RESUME_BUTTON");
 MessageManager:register("GAME_INITIALIZED");
