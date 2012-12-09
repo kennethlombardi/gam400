@@ -21,8 +21,8 @@ function Script.update(object, dt)
   if diff.z > -20 then --getting closer to object, let's go ahead and start checking collision
     --!!!!!!!!!!!!!!!!!!!!!!ONCE POSITION IS FIXED WITH MOVELOC, PUT THIS BACK IN----------------------------------
      if diff.z > 30 then --past object
-      object:destroy();
       object:clearAllScripts();
+      object:destroy();
       -- require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removeProp(object);
       -- require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removePropPersistent(object);		         
       return;
