@@ -46,7 +46,13 @@ end
 
 function MOAILayerPrototype:setOnDestroyCallback(prop)
 	local this = self;
-	local callback = function() this:removeProp(prop) end
+	local callback = function() 
+		this:removeProp(prop); 
+		prop.destroy = nil;
+		this = nil; 
+		prop = nil;
+
+	end
 	prop.destroy = callback;
 	return callback;
 end
