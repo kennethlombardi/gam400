@@ -11,9 +11,9 @@ function Script.update(object, dt)
 	object:setLoc(position.x, position.y, position.z - dt * 300);
     if spawnTimer > .1 then    
       spawnTimer = 0;
-      local newprop = require("Generator"):spawnCube(position.z - 3000);  
-      object:insertPropPersistent(newprop);
-      object:insertProp(newprop);
+      local newProp = require("Generator"):spawnCube(position.z - 3000);  
+      object:insertProp(newProp);
+      --newProp:destroy();
     end
 end
 

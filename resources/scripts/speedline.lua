@@ -24,6 +24,14 @@ function Script.update(object, dt)
   
   diff.z = objectPos.z - playerPosition.z;
     
+
+  -- Ken hack to destroy the speedline immediately until fix is found for the diff.z all being negative
+  --object:clearAllScripts();
+  --object:destroy();
+  --if 1 then return end
+
+  -- Stephen: Something is wrong here. All diff.z are negative
+  --          Also don't call methods on an object after you destroy it. Bad mojo.
   if diff.z > 30 then  --past object
     object:destroy();
     object:clearAllScripts();    

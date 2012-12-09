@@ -1,7 +1,10 @@
 gen = {};
 gen.spawned = 1;
 
+local function returnEarly() return false end
+
 function gen:spawnObject(x, y, z)
+  if returnEarly() then return nil end
   local obj = math.random(0, 10);
   obj = obj - 3;
   properties = {};
@@ -21,6 +24,7 @@ function gen:spawnObject(x, y, z)
 end
 
 function gen:spawnCube(z) --speed lines
+  if returnEarly() then return nil end
   properties = {};
   properties.scale = {x = 3, y = 3, z = 3};
   properties.position = {};
@@ -43,6 +47,7 @@ function gen:spawnCube(z) --speed lines
 end
 
 function gen:spawnTorus(properties)  
+  if returnEarly() then return nil end
   properties.type = "Torus";
   properties.name = "Torus"..(gen.spawned);    
   properties.scale.y = 3;  
@@ -55,6 +60,7 @@ function gen:spawnTorus(properties)
 end
 
 function gen:spawnSphere(properties)
+  if returnEarly() then return nil end
   properties.type = "Sphere";
   properties.name = "Sphere"..(gen.spawned);
   table.insert(properties.scripts,"obstacle.lua");
@@ -78,7 +84,7 @@ end;
 function gen:spawnPattern(x, y, z)
   local pattern = math.random(1, 3);
   
-  properties = {};
+  local properties = {};
   properties.scale = {x = 15, y = 15, z = 15};
   properties.position = {};
   properties.position.x = x or NormalRnd(- 300, 300);

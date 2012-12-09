@@ -11,11 +11,21 @@ function Script.update(object, dt)
   diff.x = objectPos.x - playerPosition.x;
   diff.y = objectPos.y - playerPosition.y;
     
+
+  -- ken hack to destroy all objects
+  if 1 then 
+    --object:clearAllScripts();
+    --object:destroy();
+    --return
+  end
+
+
   if diff.z > -20 then --getting closer to object, let's go ahead and start checking collision
     --!!!!!!!!!!!!!!!!!!!!!!ONCE POSITION IS FIXED WITH MOVELOC, PUT THIS BACK IN----------------------------------
      if diff.z > 30 then --past object
-      object:destroy(); 
       object:clearAllScripts();
+      object:destroy(); 
+      
       return;
      end
     local distSqrd = diff.x * diff.x + diff.y * diff.y + diff.z * diff.z;

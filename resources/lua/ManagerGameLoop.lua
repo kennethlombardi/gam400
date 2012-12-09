@@ -15,8 +15,7 @@ end
 
 local done = false;
 local function onQuit(payload)
-        done = true;
-        print("On quit function")
+    done = true;
 end
 
 local function initialize()
@@ -62,6 +61,7 @@ local function update(dt)
     require("LayerManager"):update(dt);
     require("SceneManager"):update(dt);
     require("SoundManager"):update(dt);
+    require("SimulationManager"):update(dt);
 end
 
 function gamesLoop ()
@@ -69,7 +69,7 @@ function gamesLoop ()
     initialize();
 
     while not done do
-        update(require("SimulationManager"):getStep());     	
+        update(require("SimulationManager"):getStep());
         coroutine.yield()
     end
   

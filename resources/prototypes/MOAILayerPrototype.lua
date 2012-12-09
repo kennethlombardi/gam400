@@ -46,29 +46,16 @@ end
 
 function MOAILayerPrototype:setOnDestroyCallback(prop)
 	local this = self;
-	local callback = function()
-						this:removeProp(prop);
-						print("Prop destroyed itself from layer", this:getName())
-					 end
+	local callback = function() this:removeProp(prop) end
 	prop.destroy = callback;
 	return callback;
 end
 
 function MOAILayerPrototype:insertProp(prop)
+	if prop == nil then return end
 	self:setOnDestroyCallback(prop);
 	self:addToPartition(prop);
 	self.propContainer:insertProp(prop);
-end
-
-function MOAILayerPrototype:insertPropPersistent(prop)
-	self:setOnDestroyCallback(prop);
-	self:addToPartition(prop);
-	self.propContainer:insertPropPersistent(prop);
-end
-
-function MOAILayerPrototype:pick(windowX, windowY, props)
-	print("MOAILayerPrototype:pick has been deprecated. Use pickForRay");
-	return self:pickForRay(windowX, windowY, props);
 end
 
 function MOAILayerPrototype:pickForRay(windowX, windowY, props)
@@ -97,10 +84,6 @@ end
 function MOAILayerPrototype:removeProp(prop)
 	local partition = self.underlyingType:getPartition();
 	partition:removeProp(prop:getUnderlyingType());
-end
-
-function MOAILayerPrototype:removePropPersistent(prop)
-	self:removeProp(prop);
 	self.propContainer:removeProp(prop);
 end
 

@@ -101,15 +101,19 @@ end
 
 -- MOAIFontCreator
 function MOAIFontCreator:createFromFile(fileName)
-	properties = {
-		name = "arial-rounded.ttf",
-		--name = "horrendo.ttf",
-		characterSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!",
-		points = 12,
-		dpi = 144,
-	}
-	local font = MOAIFont.new();
-	font:loadFromTTF(properties.name, properties.characterSet, properties.points, properties.dpi);
+	local font = ResourceManager:getFromCache(fileName);
+	if font == nil then
+		properties = {
+			name = "arial-rounded.ttf",
+			--name = "horrendo.ttf",
+			characterSet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.?!",
+			points = 12,
+			dpi = 144,
+		}
+		font = MOAIFont.new();
+		font:loadFromTTF(properties.name, properties.characterSet, properties.points, properties.dpi);
+		ResourceManager:addToCache(fileName, font);
+	end
 	return font;
 end
 

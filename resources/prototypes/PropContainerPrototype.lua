@@ -6,9 +6,9 @@ local PropContainerPrototype = {
 function PropContainerPrototype:allocate()
 	object = PropContainerPrototype:new {
 		props = {},
-		propsByIndex = {},
 		currentIndex = 1,
 		propsByName = {},
+		freedCount = 0,
 	}
 	return object;
 end
@@ -20,9 +20,9 @@ end
 
 function PropContainerPrototype:free()
 	for k,v in pairs(self.props) do 
-		v:free();
-		self.props[k] = nil;
+		self:removeProp(v);
 	end
+	print("Prop container inserted:freed", (self.currentIndex - 1)..":"..self.freedCount);
 	self.props = nil;
 end
 
@@ -51,14 +51,10 @@ function PropContainerPrototype:registerPropByName(prop, name)
 end
 
 function PropContainerPrototype:insertProp(prop)
-	self:registerPropByName(prop, prop:getName());
-end
-
-function PropContainerPrototype:insertPropPersistent(prop)
 	local index = self:nextIndex();
     self:decorateProp(prop, "index", index);
 	table.insert(self.props, index, prop);
-	self:registerPropByName(prop, prop:getName());	
+	self:registerPropByName(prop, prop:getName());
 end
 
 function PropContainerPrototype:getAllProps()
@@ -85,8 +81,10 @@ end
 
 function PropContainerPrototype:removeProp(prop)
 	local index = self:getPropDecoration(prop, "index");
-	prop:free();
+	self.propsByName[prop:getName()] = nil;
+	self.props[index]:free();
 	self.props[index] = nil;
+	self.freedCount = self.freedCount + 1;
 end
 
 function PropContainerPrototype:serialize(properties)

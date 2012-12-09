@@ -39,7 +39,16 @@ function SimulationCore:setLeakTrackingEnabled(bool)
 	print("SimulationCore:setLeakTrackingEnabled is UNIMPLEMENTED");
 end
 
+function SimulationCore:setLuaAllocLogEnabled(bool)
+	print("SimulationCore:setLuaAllocLogEnabled is UNIMPLEMENTED");
+end
+
 function SimulationCore:shutdown() 
+	print("SimulationCore:shutdown is UNIMPLEMENTED");
+end
+
+function SimulationCore:update(dt)
+	print("SimulationCore:update is UNIMPLEMENTED");
 end
 --
 
@@ -76,9 +85,17 @@ function SimulationManager:setLeakTrackingEnabled(bool)
 	self.core:setLeakTrackingEnabled(bool);
 end
 
+function SimulationManager:setLuaAllocLogEnabled(bool)
+	self.core:setLuaAllocLogEnabled(bool);
+end
+
 function SimulationManager:shutdown()
 	self.core:shutdown();
 	self.core = nil;
+end
+
+function SimulationManager:update(dt)
+	self.core:update(dt);
 end
 
 --
@@ -113,7 +130,15 @@ function MOAISimulationCore:setLeakTrackingEnabled(bool)
 	MOAISim.setLeakTrackingEnabled(bool);
 end
 
+function MOAISimulationCore:setLuaAllocLogEnabled(bool)
+	MOAISim.setLuaAllocLogEnabled(bool);
+end
+
 function MOAISimulationCore:shutdown()
+end
+
+function MOAISimulationCore:update(dt)
+	collectgarbage();
 end
 --
 

@@ -35,7 +35,6 @@ function SceneManager.onAddTimer(pos)
 	properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
 	local newprop = require("Factory"):create("TextBox", properties); 
 
-	LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
 	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 
@@ -59,7 +58,6 @@ function SceneManager.onCheckPoint(pos)
 	properties.rectangle = {x2 = 500, y2 = 0, x1 = -500, y1 = -300};
 	local newprop = require("Factory"):create("TextBox", properties); 
 
-	LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
 	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 
@@ -171,8 +169,7 @@ function SceneManager.onSubTimer(pos)
 	properties.shaderName = "none";
 	properties.rectangle = {x2 = 500, y2 = 0, x1 = 0, y1 = 100};
 	local newprop = require("Factory"):create("TextBox", properties); 
-
-	LayerManager:getLayerByName("gameLayer.lua"):insertPropPersistent(newprop);
+    
 	LayerManager:getLayerByName("gameLayer.lua"):insertProp(newprop);
 end
 

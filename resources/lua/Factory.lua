@@ -57,7 +57,7 @@ function MOAILayerCreator:create(properties)
 	for k,v in pairs(properties.propContainer) do 
 		local newProp = Factory:create(v.type, v);
 		--propContainer:insertPropPersistent(newProp);
-		newLayer:insertPropPersistent(newProp);
+		newLayer:insertProp(newProp);
 	end
 	
 

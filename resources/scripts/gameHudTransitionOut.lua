@@ -3,7 +3,6 @@ local Script = {
 };
 
 function Script.update(layer, dt)
-    print("I am gameHudTransitionOut updating myself");
 	local allProps = layer:getAllProps();
     local allFinished = true;
     for k,v in pairs(allProps) do

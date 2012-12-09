@@ -9,8 +9,43 @@ local LayerManager = require("LayerManager");
 local lastZSpawn = 0;
 local spawnTimer2 = 0;
 local shakeTimer = 0;
+
+local function kenHack(object, dt) 
+spawnTimer2 = spawnTimer2 + dt;
+  local position = object:getLoc();
+  
+  
+  
+  
+  
+
+  
+  local InputManager = require("InputManager");
+  local gameVariables = require("GameVariables");    
+  
+  local move = InputManager:getMove();
+  local scale = 10; 
+  
+  local newPos = {x = position.x + scale*move.x, y =  position.y + scale*move.y, z = position.z};
+
+      zPressed = 10000;
+
+  newPos.z = newPos.z - scale*zPressed;
+  object:setRot(0, 0, zRot);
+  object:setLoc(newPos.x, newPos.y, newPos.z);
+  gameVariables:set("Position", newPos);
+  gameVariables:set("Distance", -newPos.z);  
+  local newProps = require("Generator"):spawnPattern(nil, nil, position.z - 3500);
+  for k,v in pairs(newProps) do
+    object:insertProp(v);
+  end
+
+end
+
 function Script.update(object, dt)
-    
+  --kenHack(object, dt);
+  --if 1 then return end
+
   spawnTimer2 = spawnTimer2 + dt;
   local position = object:getLoc();
   
@@ -23,14 +58,14 @@ function Script.update(object, dt)
     if math.random(0, 10) > 1 then
       lastZSpawn = position.z -2000;
       local newprops = require("Generator"):spawnPattern(nil, nil, position.z - 3500);  
-      for i = 1, #newprops do
-        object:insertPropPersistent(newprops[i]);
-        object:insertProp(newprops[i]);
+      if newprops ~= nil then
+        for i = 1, #newprops do
+          object:insertProp(newprops[i]);
+        end
       end
     else     
       lastZSpawn = position.z - 1000;
       local newprop = require("Generator"):spawnObject(nil, nil, position.z - 3500);  
-      object:insertPropPersistent(newprop);
       object:insertProp(newprop);
     end
   end
@@ -38,7 +73,6 @@ function Script.update(object, dt)
   if spawnTimer2 > .2 then
     spawnTimer2 = 0;    
     local newprop = require("Generator"):spawnCube(position.z - 5000);  
-    object:insertPropPersistent(newprop);
     object:insertProp(newprop);
   end
   
