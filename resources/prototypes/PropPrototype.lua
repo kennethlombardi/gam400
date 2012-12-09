@@ -35,6 +35,15 @@ end
 
 function PropPrototype:baseFree()
 	self.underlyingType = nil;
+	self.name = nil;
+	self.type = nil;
+	self.scale = nil
+	self.position = nil;
+	self.size = nil;
+	self.shaderName = nil;
+	self.textureName = nil;
+	self.rotation = nil;
+	self.scripts = nil;
 end
 
 function PropPrototype:baseSerialize(properties)
