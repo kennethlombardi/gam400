@@ -1,6 +1,6 @@
 deserialize ({
 	{--Entry Number: {1}
-		["highScore"]=180100000,
+		["highScore"]=0,
 	},
 })
 
