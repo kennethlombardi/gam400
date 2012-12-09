@@ -33,8 +33,8 @@ function Script.update(object, dt)
   -- Stephen: Something is wrong here. All diff.z are negative
   --          Also don't call methods on an object after you destroy it. Bad mojo.
   if diff.z > 30 then  --past object
-    object:destroy();
-    object:clearAllScripts();    
+    object:clearAllScripts();
+    object:destroy();       
     --need to register message with layer to delete object, would be better
     --require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removeProp(object);
     --require("LayerManager"):getLayerByIndex(require("GameVariables"):GetLayer()):removePropPersistent(object);		         

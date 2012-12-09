@@ -237,7 +237,7 @@ end
 
 function Input:isScreenReleased(s)
 	if Input.Android then
-		return Input.Android:isScreenReleased(s);
+		return Input.Android:isKeyReleased(s);
 	end
 	return false;
 end

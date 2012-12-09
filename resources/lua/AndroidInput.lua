@@ -95,12 +95,13 @@ MOAIInputMgr.device.touch:setCallback (
 			Android.window.y = y;	
 			if x < 100 and y < 100 then
 				PressKey(1);
-			elseif x > 1180 and y > 620 then
+			elseif x > 1000 and y > 550 then
 				PressKey(2);
 			else
 				PressKey(0);		
 			end
 		else			
+      RaiseKey(2);
 			RaiseKey(1);			
 			RaiseKey(0);			
 		end
