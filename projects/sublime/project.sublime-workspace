@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"selec",
+				"selectedIndex"
+			],
+			[
+				"img",
+				"imghtml"
+			],
+			[
 				"remove",
 				"removeCount"
 			],
@@ -367,6 +375,31 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/cygwin/home/Kenneth/sandbox/Engine/Build/ManVsWorld/Production/types.txt",
+			"settings":
+			{
+				"buffer_size": 9786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/cygwin/home/Kenneth/sandbox/Engine/Build/ManVsWorld/Production/Worlds/Splash/mark",
+			"settings":
+			{
+				"buffer_size": 1266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "8 Stamp {\n    6 AnimationGroup_ {Mark}\n    7 Animation_ {Mark/Default}\n    10 SpriteModifier_ { }\n    5 SpriteScale_ {(1.150000, 1.150000)}\n    31 Frame_ {0}\n    0 AABB2_ {\n        position = (0.000000, 0.000000)\n        radii = (0.317500, 0.228125)\n    }\ndynamic\n2 EntitySelfReference_ {22}\n}\n\nGoomba {\n    \"LifeComponent\" = 1,\n}\n\n",
+			"settings":
+			{
+				"buffer_size": 332,
+				"line_ending": "Windows",
+				"name": "8 Stamp {"
+			}
+		}
 	],
 	"build_system": "Packages/User/Moai-Windows.sublime-build",
 	"command_palette":
@@ -400,25 +433,97 @@
 	},
 	"file_history":
 	[
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/ring.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Pickle.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SimulationManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ManagerGameLoop.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/configurations/config_user.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/LayerMovement.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/mainMenu.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayerPrototype.lua",
+		"/C/Users/Kenneth/Desktop/kittyCode.lua",
+		"/C/cygwin/home/Kenneth/sandbox/main.cpp",
+		"/C/cygwin/home/Kenneth/github/moai-dev-copy/samples/anim/anim-basic/run.bat",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Win/Hidden/HiddenJournal.txt",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment4/controllers/user.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment4/facebook.js",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Win/Munged/Rooms/Dungeon/KeyRoom.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Win/Munged/Rooms/Dungeon/PassCodeRoom.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Data/Scripts/Equipment/Cable.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Data/Common/DFMoai/Tools/ScaleGizmo.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Data/Common/DFCommon/Achievement.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Data/Scripts/Triggers/SpawnTrigger.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Data/Scripts/Class.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/MessageManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameLayer.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/mainMenu.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/splashScreen.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/splashScreen.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/skybox.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/skyBox.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/UserDataManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SceneManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Data/Scripts/Equipment.lua",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Run.bat",
+		"/C/cygwin/home/Kenneth/amnesia/amnesia_fortnight-hack_n_slash-594352/AfHack/Data/Scripts/main.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/mainMenuDiff.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Layer.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/TextBoxPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MoaiTextBoxPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropContainerPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
+		"/C/cygwin/home/Kenneth/sandbox/Classes/class_example.lua",
+		"/C/cygwin/home/Kenneth/sandbox/Classes/class.lua",
+		"/C/cygwin/home/Kenneth/sandbox/Classes/class2.lua",
+		"/C/cygwin/home/Kenneth/sandbox/Classes/example2.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/FileSystem.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/editor/template.bat",
+		"/C/cygwin/home/Kenneth/github/gam400/.gitignore",
+		"/C/cygwin/home/Kenneth/github/gam400/editor/template.lua",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/DeploymentPlan.txt",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/editor/login.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/editor/layout.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/editor/header.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/app.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/login.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/authentication.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/editor.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/layout.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/assets.js",
+		"/C/cygwin/home/Kenneth/github/express/examples/auth/app.js",
+		"/C/cygwin/home/Kenneth/github/express/examples/auth/pass.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment4/static/index.html",
+		"/C/cygwin/home/Kenneth/assignments/cs399/Demo/MVC_app.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment2/app/index.html",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment2/app/client.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment2/app/server.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/Demo/MVC.jmx",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/header.jade",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/static/index.html",
+		"/C/cygwin/home/Kenneth/sandbox/comet/comet/data.txt",
+		"/C/cygwin/home/Kenneth/sandbox/comet/comet/write.php",
+		"/C/cygwin/home/Kenneth/sandbox/comet/comet/read.php",
+		"/C/cygwin/home/Kenneth/sandbox/comet/comet/index.html",
+		"/C/cygwin/home/Kenneth/assignments/cs399/Demo/Comet_app.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/pass.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/npm-debug.log",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/app.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/post.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/ecomapi/kitty.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/Demo/tcp_echo.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignment3/app/app.js",
+		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/mongodb/README",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/configurations/config_user.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/InputManager.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/TestGameLoop.lua",
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/LayerMovement.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/starfield.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Generator.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/speedline.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/obstacle.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/ring.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Factory.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ResourceManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAIPropPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/PropPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/MOAILayerPrototype.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/LayerManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Layer.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/resultsLayerTransitionOut.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/resultsLayerUpdate.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/gameLayer.lua",
@@ -428,9 +533,7 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameScore.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/timeToLive.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/flyForwardExplodeP.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SimulationManager.lua",
 		"/C/cygwin/home/Kenneth/github/moai-dev-copy/samples/flash/flash-tween/flash-tween.fla.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/MessageManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameHudTransitionOut.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/starfield.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/editor/createPauseLayer.lua",
@@ -443,21 +546,12 @@
 		"/C/cygwin/home/Kenneth/github/gam400/editor/createResultsLayer.bat",
 		"/C/cygwin/home/Kenneth/.bash_history",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/pause.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/InputManager.lua",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/header.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/login.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/authentication.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/authentication/layout.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/app.js",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/configurations/config_global.lua",
 		"/C/cygwin/home/Kenneth/sandbox/Engine/Build/ManVsWorld/Intermediate/atlas",
 		"/C/cygwin/home/Kenneth/sandbox/Engine/Build/ManVsWorld/Production/Worlds/Levels/level_1",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/ConfigurationManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/WindowManager.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/userData/userData.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/UserDataManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Pickle.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/FileSystem.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/gameVariables.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/Prototype.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/KeyboardInput.lua",
@@ -466,68 +560,7 @@
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/pauseButtonUpdate.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/outOfTimeLayerUpdate.lua",
 		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/mainMenuTransitionOut.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/Hud.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameLayerTransitionOut.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/SoundManager.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/splashScreen.lua",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/public/stylesheets/style.css",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment4/controllers/user.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignment4/facebook.js",
-		"/C/Users/Kenneth/Desktop/May push back reddit to work on video",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/views/404.html",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/views/5xx.html",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/db.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/lib/boot.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/controllers/pet/index.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/controllers/main/index.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/index.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/mvc/public/style.css",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/public/javascripts/jquery.min.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/node_modules/jquery/lib/node-jquery.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/auth/app.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/index.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/routes/user.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/start.sh",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/user.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/header.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/layout.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/login.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/public/lib/bootstrap/js/tests/server.js",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/views/index.jade",
-		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/layout.jade",
-		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/users/user.jade",
-		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/users/index.jade",
-		"/C/cygwin/home/Kenneth/github/express/examples/jade/views/header.jade",
-		"/C/cygwin/home/Kenneth/github/express/examples/jade/public/stylesheets/style.css",
-		"/C/cygwin/home/Kenneth/github/express/examples/jade/index.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/auth/views/foot.ejs",
-		"/C/cygwin/home/Kenneth/github/express/examples/auth/pass.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/auth/views/head.ejs",
-		"/C/cygwin/home/Kenneth/github/express/examples/auth/views/login.ejs",
-		"/C/cygwin/home/Kenneth/github/express/examples/view-locals/index.js",
-		"/C/cygwin/home/Kenneth/github/express/examples/view-locals/user.jade",
-		"/C/cygwin/home/Kenneth/github/nodeblox/app.js",
-		"/C/cygwin/home/Kenneth/github/nodeblox/views/index.jade",
-		"/C/cygwin/home/Kenneth/github/bootstrap/docs/examples/starter-template.html",
-		"/C/cygwin/home/Kenneth/github/nodeblox/public/js/login.js",
-		"/C/cygwin/home/Kenneth/github/nodeblox/node_modules/bcrypt/node_modules/bindings/bindings.js",
-		"/C/cygwin/home/Kenneth/github/nodeblox/node_modules/bindings/bindings.js",
-		"/C/cygwin/home/Kenneth/github/nodeblox/public/js/index.js",
-		"/C/cygwin/home/Kenneth/github/nodeblox/views/topbar.jade",
-		"/C/cygwin/home/Kenneth/github/nodeblox/views/signupErrorModal.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/package.json",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/editor/public/stylesheets/custom.css",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/test.jade",
-		"/C/cygwin/home/Kenneth/assignments/cs399/assignmentfinal/static/index.html",
-		"/C/cygwin/home/Kenneth/sandbox/webglsample.html",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/skyBox.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/skybox.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/layers/mainMenu.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/gameLayer.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/lua/main.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/prototypes/Texture.lua",
-		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/outOfTimeLayerTransitionOut.lua",
-		"/C/Users/Kenneth/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
+		"/C/cygwin/home/Kenneth/github/gam400/resources/scripts/Hud.lua"
 	],
 	"find":
 	{
@@ -545,6 +578,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"onStartGame",
+			"maybe",
+			"serialize",
+			"deserialize",
+			"moailayercreator",
+			"moailayerprototype",
+			"origin",
+			"\");\n",
+			"27017",
 			"free",
 			"MOAIModelCreator",
 			"Model",
@@ -654,8 +696,93 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/cygwin/home/Kenneth/sandbox/Engine/Build/ManVsWorld/Production/types.txt",
+					"settings":
+					{
+						"buffer_size": 9786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6732.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/cygwin/home/Kenneth/sandbox/Engine/Build/ManVsWorld/Production/Worlds/Splash/mark",
+					"settings":
+					{
+						"buffer_size": 1266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								976,
+								682
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1248.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"auto_name": "8 Stamp {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -701,6 +828,110 @@
 		"selected_items":
 		[
 			[
+				"scri",
+				"scripts/ring.lua"
+			],
+			[
+				"pickl",
+				"lua/Pickle.lua"
+			],
+			[
+				"simula",
+				"lua/SimulationManager.lua"
+			],
+			[
+				"manager",
+				"lua/ManagerGameLoop.lua"
+			],
+			[
+				"factor",
+				"lua/Factory.lua"
+			],
+			[
+				"fac",
+				"lua/Factory.lua"
+			],
+			[
+				"message",
+				"lua/MessageManager.lua"
+			],
+			[
+				"gamelayer",
+				"scripts/gameLayer.lua"
+			],
+			[
+				"mainmen",
+				"scripts/mainMenu.lua"
+			],
+			[
+				"splas",
+				"scripts/splashScreen.lua"
+			],
+			[
+				"skyb",
+				"scripts/skybox.lua"
+			],
+			[
+				"skybox",
+				"layers/skyBox.lua"
+			],
+			[
+				"userdataman",
+				"lua/UserDataManager.lua"
+			],
+			[
+				"scene",
+				"lua/SceneManager.lua"
+			],
+			[
+				"main.lu",
+				"lua/main.lua"
+			],
+			[
+				"factory",
+				"lua/Factory.lua"
+			],
+			[
+				"propr",
+				"prototypes/PropPrototype.lua"
+			],
+			[
+				"layer",
+				"prototypes/Layer.lua"
+			],
+			[
+				"propcon",
+				"prototypes/PropContainerPrototype.lua"
+			],
+			[
+				"prop",
+				"prototypes/PropPrototype.lua"
+			],
+			[
+				"moaiprop",
+				"prototypes/MOAIPropPrototype.lua"
+			],
+			[
+				"layerman",
+				"lua/LayerManager.lua"
+			],
+			[
+				"sce",
+				"lua/SceneManager.lua"
+			],
+			[
+				"moaila",
+				"prototypes/MOAILayerPrototype.lua"
+			],
+			[
+				"inputman",
+				"lua/InputManager.lua"
+			],
+			[
+				"",
+				"configurations/config_user.lua"
+			],
+			[
 				"layermana",
 				"lua/LayerManager.lua"
 			],
@@ -713,24 +944,8 @@
 				"prototypes/PropPrototype.lua"
 			],
 			[
-				"moaiprop",
-				"prototypes/MOAIPropPrototype.lua"
-			],
-			[
-				"propcon",
-				"prototypes/PropContainerPrototype.lua"
-			],
-			[
 				"resource",
 				"lua/ResourceManager.lua"
-			],
-			[
-				"fac",
-				"lua/Factory.lua"
-			],
-			[
-				"",
-				"configurations/config_user.lua"
 			],
 			[
 				"ring.lu",
@@ -785,14 +1000,6 @@
 				"scripts/earthSpinning.lua"
 			],
 			[
-				"gamelayer",
-				"layers/gameLayer.lua"
-			],
-			[
-				"scene",
-				"lua/SceneManager.lua"
-			],
-			[
 				"o",
 				"scripts/obstacle.lua"
 			],
@@ -809,28 +1016,12 @@
 				"scripts/timeToLive.lua"
 			],
 			[
-				"moaila",
-				"prototypes/MOAILayerPrototype.lua"
-			],
-			[
-				"layer",
-				"prototypes/Layer.lua"
-			],
-			[
 				"layermanag",
 				"lua/LayerManager.lua"
 			],
 			[
 				"simulation",
 				"lua/SimulationManager.lua"
-			],
-			[
-				"manager",
-				"lua/ManagerGameLoop.lua"
-			],
-			[
-				"message",
-				"lua/MessageManager.lua"
 			],
 			[
 				"testgame",
@@ -894,7 +1085,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 242.0,
+	"side_bar_visible": false,
+	"side_bar_width": 210.0,
 	"status_bar_visible": true
 }

@@ -1,6 +1,5 @@
 local SimulationManager = { core = nil };
 
-
 -- SimulationCore
 local SimulationCore = {};
 
@@ -77,7 +76,7 @@ function SimulationManager:registerCore(core)
 	self.core = core;
 end
 
-function SimulationManager:setHistogramEnabled(bool) 
+function SimulationManager:setHistogramEnabled(bool)
 	self.core:setHistogramEnabled(bool);
 end
 
